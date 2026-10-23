@@ -41,10 +41,12 @@ Keep replies short and in Hungarian. Put the proposal and the question at the en
 
 ## State (2026-10-23)
 
-Next item: **H-52** (Harcmodorok: felvétel, költség, időtartam; Kétfegyveres harcmodor). Proposal waiting for Zoz:
+Next item: **H-53** (three empty combat sections). Proposal waiting for Zoz:
 
-- A harcmodort a köröd elején választod, 0AP, és a következő köröd kezdetéig tart. Egyszerre egy harcmodor.
-- Kétfegyveres harcmodor: a második fegyvered hárítófegyverként használható, és a forduló első Hárítása 0AP.
-  Cserébe minden támadásod egyes hátránnyal teszed.
+- Fegyvert nem igénylő cselekvések: the heading goes; the unarmed actions are already in the Általános cselekvéslista.
+- Harc nagyobb méretű ellenféllel szemben: Ellökés, Megragadás, Elrángatás, Feldöntés, Lefegyverzés: egy mérettel
+  nagyobb célpont ellen egyes hátránnyal, két mérettel nagyobb ellen nem hajtható végre.
+- Harc repülő ellenféllel szemben: a levegőben lévő ellenfelet a földről csak reach fegyverrel, távolsági
+  fegyverrel vagy varázslattal éred el; Ellökés, Megragadás, Feldöntés nem hajtható végre ellene.
 
-Still NYITOTT after H-52: H-53 to H-55, H-57 to H-63. See the worklist for FOLYAMATBAN and DÖNTÉSRE VÁR items.
+Still NYITOTT after H-53: H-54, H-55, H-57 to H-63. See the worklist for FOLYAMATBAN and DÖNTÉSRE VÁR items.

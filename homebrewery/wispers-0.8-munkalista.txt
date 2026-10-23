@@ -23,7 +23,7 @@ Jelölések: BLOKKOLÓ – enélkül nem játszható; ELLENTMONDÁS – két sza
 hivatkozik; KISEBB – szerkesztési hiba, elnevezés.
 
 ÖSSZESÍTŐ (frissítsd menet közben)
-  NYITOTT: 11   FOLYAMATBAN: 13   DÖNTÉSRE VÁR: 6   JAVÍTVA: 32   ELVETVE: 2
+  NYITOTT: 10   FOLYAMATBAN: 13   DÖNTÉSRE VÁR: 6   JAVÍTVA: 33   ELVETVE: 2
 
 
 ================================================================
@@ -1247,9 +1247,14 @@ Probléma: Nincs leírva, mikor és mennyiért veszed fel, és meddig tart. A
   Kétfegyveres harcmodornál a szerzői jegyzet áll: „Ide ki kellene találni
   valami izgalmas szabályt”.
 Teendő: Felvétel, költség, időtartam; a kétfegyveres harc szabálya.
-Állapot: NYITOTT
-Döntés:
-Javítás:
+Állapot: JAVÍTVA (2026.10.23.)
+Döntés: A harcmodort a köröd elején választod, 0AP, és a következő köröd
+  kezdetéig tart; egyszerre egy harcmodor. Kétfegyveres harcmodor: a második
+  fegyvered hárítófegyverként használható, és a forduló első Hárítása 0AP;
+  cserébe minden támadásod egyes hátránnyal teszed.
+Javítás: wispers-0.8-javitott.txt › II. rész › 4. Harc › Harcmodorok – új
+  bevezető bekezdés (felvétel, költség, időtartam); Kétfegyveres harcmodor –
+  a szerzői jegyzet helyett a szabály.
 Megjegyzés:
 
 ----------------------------------------------------------------
@@ -1600,3 +1605,5 @@ NAPLÓ – mi történt, mikor
              Féktelen harcmodor túlütését is kivédi.
 2026.10.23.  H-51 JAVÍTVA – Rohamozás 2–3AP, Közelharci távon nem; AP-nyi Seb,
              túlütésnél csak a Túlütés szabálya.
+2026.10.23.  H-52 JAVÍTVA – harcmodor a kör elején, 0AP, következő körig; Kétfegyveres:
+             0AP-s első Hárítás, egyes hátrány a támadásra.

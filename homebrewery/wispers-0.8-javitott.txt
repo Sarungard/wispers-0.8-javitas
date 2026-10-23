@@ -1409,13 +1409,15 @@ Fegyverenként eltérő, általában egyszer használható, használat után id�
 
 ### Harcmodorok
 
+A harcmodort a köröd elején választod 0AP-ért, és a következő köröd kezdetéig tart. Egyszerre csak egy harcmodorban harcolhatsz.
+
 #### Terelő harcmodor
 
 Terelő harcmodor során minden támadásod egyes hátránnyal teszed és túlütés esetén sem okozol sebesülést, de minden sikeres találattal Közelharci távnyira kényszerítheted a célpontot, pozícionálva titeket a zónában.
 
 #### Kétfegyveres harcmodor
 
-Ide ki kellene találni valami izgalmas szabályt, mert ha dupla AP költsége van, akkor semmivel sem másabb, mintha kétszer támadna egy fegyverrel.
+Kétfegyveres harcmodor során a második fegyvered hárítófegyverként használható, és a forduló során az első Hárításod 0AP-be kerül. Cserébe minden támadásod egyes hátránnyal teszed.
 
 #### Védekező harcmodor
 
