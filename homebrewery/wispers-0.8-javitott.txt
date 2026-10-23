@@ -197,6 +197,31 @@ A játék során a történetet követve, bizonyos mérföldkövekhez érve a ka
 
 Hogyha nem első szinten szeretnétek kezdeni a játékot, arra is van lehetőség, ilyenkor végezzétek el az összes szintlépést ameddig a kívánt szintre nem juttok a karakteretekkel.
 
+### Karakterfejlődés szintenként
+
+| Szint | Elosztható pontok | Faji talent | Általános talent | Kaszt | Kezdő talent |
+|:--:|:--:|:--:|:--:|:--:|:--:|
+| 0 | ? | 1 | 1 | | 2 |
+| 1 | 8 | | | 1 | |
+| 2 | 8 | | 1 | | |
+| 3 | 8 | 1 | | | |
+| 4 | 8 | | 1 | | |
+| 5 | 8 | | | 1 | |
+| 6 | 8 | 1 | 1 | | |
+| 7 | 8 | | | | |
+| 8 | 8 | | 1 | | |
+| 9 | 8 | 1 | | 1 | |
+| 10 | 8 | | 1 | | |
+| 11 | 8 | | | | |
+| 12 | 8 | 1 | 1 | | |
+| 13 | 8 | | | 1 | |
+
+### Tulajdonságok fejlesztése
+
+Egy tulajdonság egy ponttal való emelése 1 + az elérni kívánt érték pontba kerül: 1-re emelni 2 pont, 5-re emelni 6 pont.
+
+[Szerkesztői megjegyzés: kidolgozandó (H-62): a 0. szint pontjai; hogy szintenként 8 pont jár-e, vagy 8 + Tudás + egyéb bónusz (a karakterlap Fejlődéspontok blokkja szerint); a jártasságok fejlesztésének költsége; talentek és kasztok: pontköltség vagy garantált; a varázslatok tanulása fóliánsokból vagy mesterektől, a mágiaosztály-jártasság mögé zárva.]
+
 # II. rész
 ## Szabályok
 

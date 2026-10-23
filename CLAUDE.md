@@ -43,24 +43,22 @@ Keep replies short and in Hungarian. Put the proposal and the question at the en
 
 ## State (2026-10-23)
 
-Next item: **H-62** (pontbefektetés). Source: Zoz's unfinished OneNote page „Playtest › Karakterfejlődés”
-(uploaded as a PDF image, not in the repo). It has:
+Next item: **H-63** (DDD open questions, the last NYITOTT item). Proposal waiting for Zoz:
 
-- „Karakterfejlődés szintenként” table, szint 0–13: Elosztható pontok 8 per szint, 0. szint „T”; Faji talent at
-  0, 3, 6, 9, 12; Általános talent at 0, 2, 4, 6, 8, 10, 12; Kaszt at 1, 5, 9, 13; Kezdő talent at 0.
-- Tulajdonság +1 costs 1 + the value to reach (1: 2 pont, 5: 6 pont).
-- Jártasság costs „változó”; talent and kaszt locked behind jártasság, tulajdonság, szint; „Pontköltség vagy
-  garantált?” is open. Varázslat from fóliánsok or mesterek, locked behind the mágiaosztály jártasság.
-- Footer, cut off: „Fejlődéspontok blokk: 8 + (Tudás Tulajdonság) + (Egyéb bónusz, ha van) / szint”.
-
-Clashes with the book: the note orders Kezdő, Haladó, Képzett (book: Kezdő, Képzett, Haladó); one Kezdő talent at
-0. szint (book: two, kulturális + társadalmi); „mágiaiskola” (now mágiaosztály, H-55). Proposal waiting for Zoz:
-write the table and the tulajdonság cost into Játék magasabb szinten, the open points as a Szerkesztői megjegyzés,
-item FOLYAMATBAN.
+1. Every karakter gets a Discipline (the Suttogó of birth), whatever égisz they pick; the égisz is the mechanic
+   package, the Discipline feeds Devotion and Divinity.
+2. No kritikus siker in the book: Abszolút siker on a listed képzettség, Túlütés on a listed creature type gives
+   1 Divinity.
+3. Divinity max: karakterszint or karakterszint × 3 is Zoz's call (both give 0 at 0. szint).
+4. Devotion scale and 6. names: ⚠ DIVERGENCIA (the 0.6 karakterlap uses ÁHÍTAT, FEGYELEM, DISZCIPLÍNA and a
+   HATED → … → CHAMPION scale); Zoz decides.
+5. Feat → talent, class feature → kasztképesség.
+7. The per-Suttogó lists are lore: Zoz gives them.
 
 H-53 is FOLYAMATBAN: Fegyvert nem igénylő cselekvések stays a placeholder for now.
 H-55 is FOLYAMATBAN: Zoz gives the seven Mágiaosztály descriptions; Entrópia stays „Rend- és rendbontó mágia.”
 H-58 is FOLYAMATBAN: the Sebgyógyítás rule (cap, above the cap) comes later.
 H-59 is FOLYAMATBAN: Sebzéstípusok stays a placeholder for now.
 H-60 is FOLYAMATBAN: the származási helyek reference waits for a chapter.
-Still NYITOTT after H-62: H-63. See the worklist for FOLYAMATBAN and DÖNTÉSRE VÁR items.
+H-62 is FOLYAMATBAN: Karakterfejlődés table and tulajdonság cost are in; 0. szint math, jártasság costs, talent/kaszt cost, varázslattanulás are open (Zoz's OneNote note).
+No other NYITOTT item after H-63. See the worklist for FOLYAMATBAN and DÖNTÉSRE VÁR items.

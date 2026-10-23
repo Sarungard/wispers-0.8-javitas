@@ -23,7 +23,7 @@ Jelölések: BLOKKOLÓ – enélkül nem játszható; ELLENTMONDÁS – két sza
 hivatkozik; KISEBB – szerkesztési hiba, elnevezés.
 
 ÖSSZESÍTŐ (frissítsd menet közben)
-  NYITOTT: 2   FOLYAMATBAN: 18   DÖNTÉSRE VÁR: 6   JAVÍTVA: 36   ELVETVE: 2
+  NYITOTT: 1   FOLYAMATBAN: 19   DÖNTÉSRE VÁR: 6   JAVÍTVA: 36   ELVETVE: 2
 
 
 ================================================================
@@ -1500,10 +1500,22 @@ Probléma: A Világstandard leírása szerint kisebb standardnál „annál töb
   befektetni őket. (A H-04 / D-3 döntéséből, 2026.10.22.)
 Teendő: A pontbefektetés szabálya – karakteralkotáskor, szintlépéskor vagy
   mindkettőnél (kapcsolódik: H-03).
-Állapot: NYITOTT
-Döntés:
-Javítás:
-Megjegyzés:
+Állapot: FOLYAMATBAN (2026.10.23.)
+Döntés: Zoz Karakterfejlődés-jegyzete (OneNote, Playtest › Karakterfejlődés,
+  még nincs kész) az alap. A szintenkénti táblázat és a tulajdonságemelés
+  költsége (1 + az elérni kívánt érték) bekerül. A 0. szint matekja
+  kidolgozandó. A jártassági sorrend a könyvé marad: Kezdő, Képzett, Haladó.
+  Kezdő talentből kettő jár (kulturális és társadalmi), mint az új
+  rendszerben.
+Javítás: wispers-0.8-javitott.txt › I. rész › II. fejezet › Játék magasabb
+  szinten: új „Karakterfejlődés szintenként” táblázat (0–13. szint) és
+  „Tulajdonságok fejlesztése” alszakasz, a nyitott pontok szerkesztői
+  megjegyzésben.
+Megjegyzés: Hátravan: a 0. szint pontjai; szintenként 8, vagy 8 + Tudás +
+  egyéb bónusz (a jegyzet alján levágott sor); a jártasságfejlesztés
+  költségei; talent és kaszt: pontköltség vagy garantált; varázslattanulás.
+  A jegyzet „mágiaiskolát” ír, a könyvben ma mágiaosztály (H-55), és
+  harcmodoroknak, nyelveknek is jártasságot ad, ami a könyvben nincs.
 
 
 ----------------------------------------------------------------
@@ -1714,3 +1726,5 @@ NAPLÓ – mi történt, mikor
 2026.10.23.  H-61 FOLYAMATBAN – egyes/kettős/hármas, célérték, képzettségpróba, próba,
              kétkezes; a Glaive neve nyitott.
 2026.10.23.  H-61 JAVÍTVA – a Glaive egyelőre angolul marad.
+2026.10.23.  H-62 FOLYAMATBAN – Karakterfejlődés-táblázat és tulajdonságemelési
+             költség Zoz jegyzetéből; a 0. szint matekja kidolgozandó.
