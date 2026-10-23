@@ -41,12 +41,14 @@ Keep replies short and in Hungarian. Put the proposal and the question at the en
 
 ## State (2026-10-23)
 
-Next item: **H-58** (Sebgyógyítás cap; allúr Sújtás). Proposal waiting for Zoz:
+Next item: **H-58** (Sebgyógyítás cap; allúr Sújtás). Zoz: wounds must be hard to heal, and he wants a „Blood on the
+water” mechanic that turns many Könnyű sebek into something worse. Revised proposal waiting for Zoz:
 
-- The cap stays the Állóképesség (with D-3 it starts around 3). Above it, Orvoslás and spells no longer heal; each
-  pihentető táborozási szegmens heals one Seb until the count drops below the cap.
-- Sújtás: instead of „az allúr szintjével megegyező sebet”, the target takes one Mély seb; „Szívósság próba” becomes
-  „Szívósság mentődobás”.
+- Healing: only during a pihentető táborozási szegmens, Orvoslás or spell, once per Seb. A success lowers it one fok:
+  Súlyos → Mély → Könnyű → healed. At or above the cap (Állóképesség): one Seb per szegmens.
+- Blood on the water: when a new Könnyű seb brings the Könnyű count up to the Állóképesség, that seb becomes Mély
+  (Mély table, +1 Kimerültség). Name pending in an ÚJ KIFEJEZÉS block: „Vér a vízben”.
+- Sújtás: one Mély seb instead of „az allúr szintjével megegyező sebet”; „Szívósság próba” → „Szívósság mentődobás”.
 
 H-53 is FOLYAMATBAN: Fegyvert nem igénylő cselekvések stays a placeholder for now.
 H-55 is FOLYAMATBAN: Zoz gives the seven Mágiaosztály descriptions; Entrópia stays „Rend- és rendbontó mágia.”
