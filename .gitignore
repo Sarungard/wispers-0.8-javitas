@@ -8,3 +8,6 @@
 !/homebrewery/wispers-0.8.md
 !/homebrewery/wispers-0.8-javitott.txt
 !/homebrewery/wispers-0.8-munkalista.txt
+!/.claude/
+/.claude/*
+!/.claude/skills/
