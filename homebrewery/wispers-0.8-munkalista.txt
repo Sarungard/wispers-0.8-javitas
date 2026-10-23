@@ -23,7 +23,7 @@ Jelölések: BLOKKOLÓ – enélkül nem játszható; ELLENTMONDÁS – két sza
 hivatkozik; KISEBB – szerkesztési hiba, elnevezés.
 
 ÖSSZESÍTŐ (frissítsd menet közben)
-  NYITOTT: 4   FOLYAMATBAN: 17   DÖNTÉSRE VÁR: 6   JAVÍTVA: 35   ELVETVE: 2
+  NYITOTT: 3   FOLYAMATBAN: 18   DÖNTÉSRE VÁR: 6   JAVÍTVA: 35   ELVETVE: 2
 
 
 ================================================================
@@ -1430,10 +1430,17 @@ Probléma: 12 helyen „x. oldal”, egy helyen „(. oldal)” (I. rész › II
   oldalszámok még nem az új tördelésre mutatnak. A két <redacted> hely
   szándékos, azokat nem érintem.
 Teendő: A hivatkozások cseréje fejezetnévre, amikor a szerkezet végleges.
-Állapot: NYITOTT
-Döntés:
-Javítás:
-Megjegyzés:
+Állapot: FOLYAMATBAN (2026.10.23.)
+Döntés: Oldalszám helyett fejezetnév. Faj kiválasztása: „(lásd: III. rész ›
+  1. Fajok)”; Tulajdonságok meghatározása: „a II. rész › 1. A rendszer
+  alapjai › Tulajdonságok szakaszban”. A származási helyek, királyságok,
+  városállamok hivatkozása marad, mert a könyvben nincs ilyen fejezet.
+Javítás: wispers-0.8-javitott.txt › I. rész › II. fejezet › Faj kiválasztása;
+  Tulajdonságok meghatározása – a két hivatkozás cserélve.
+Megjegyzés: Hátravan: tíz „x. oldal” (Bevezetés › Előny és hátrány;
+  Hátterek, Szokások, Furcsaságok, Apróságok, Sötét titkok, Kapcsolatok,
+  Suttogók, Kasztok, Felszerelés) – Zoz döntésére vár. A hét „Utazásaim
+  Allúvyanon … oldal” sor világon belüli idézet, nem hivatkozás.
 
 ----------------------------------------------------------------
 [H-61] KISEBB – Párhuzamos elnevezések
@@ -1672,3 +1679,5 @@ NAPLÓ – mi történt, mikor
              Szívósság mentődobás; a gyógyítás később.
 2026.10.23.  H-59 FOLYAMATBAN – Állapotok hat alcímmel (Félelem: páros harc, páratlan
              menekülés); a Sebzéstípusok egyelőre placeholder.
+2026.10.23.  H-60 FOLYAMATBAN – két hivatkozás fejezetnévre; tíz „x. oldal” még
+             döntésre vár, a származási helyeké marad.

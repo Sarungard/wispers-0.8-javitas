@@ -43,16 +43,20 @@ Keep replies short and in Hungarian. Put the proposal and the question at the en
 
 ## State (2026-10-23)
 
-Next item: **H-60** (page references). Only three are left; the seven „Utazásaim Allúvyanon … oldal” lines are
-in-world citations and stay. Proposal waiting for Zoz:
+Next item: **H-60**, second half. Done: Faj kiválasztása and Tulajdonságok meghatározása; the származási helyek
+reference stays. Ten „x. oldal” are left (Claude first missed them). Proposal waiting for Zoz, same pattern
+„bővebben a … szakaszban olvashatsz”:
 
-- „(. oldal)” in Faj kiválasztása → „(lásd: III. rész › 1. Fajok)”.
-- „a x. oldalon” in Tulajdonságok meghatározása → „a II. rész › 1. A rendszer alapjai › Tulajdonságok szakaszban”.
-- „az x. oldalon” for származási helyek, királyságok, városállamok: no such chapter in the book (lore), so it stays;
-  the item stays FOLYAMATBAN.
+- Bevezetés › Előny és hátrány → II. rész › 1. A rendszer alapjai › Tulajdonságok › Előny és hátrány.
+- Hátterek → III. rész › 2. Személyiség és háttér › Kulturális hátterek és Társadalmi hátterek.
+- Szokások, Furcsaságok, Apróságok, Sötét titkok, Kapcsolatok → III. rész › 2. Személyiség és háttér › the section
+  of the same name.
+- Suttogók → III. rész › 3. Kegy és égiszek › Nyolcak. Kasztok → III. rész › 4. Kasztok. Felszerelés → III. rész ›
+  5. Felszerelés és vagyontárgyak.
 
 H-53 is FOLYAMATBAN: Fegyvert nem igénylő cselekvések stays a placeholder for now.
 H-55 is FOLYAMATBAN: Zoz gives the seven Mágiaosztály descriptions; Entrópia stays „Rend- és rendbontó mágia.”
 H-58 is FOLYAMATBAN: the Sebgyógyítás rule (cap, above the cap) comes later.
 H-59 is FOLYAMATBAN: Sebzéstípusok stays a placeholder for now.
-Still NYITOTT after H-60: H-61 to H-63. See the worklist for FOLYAMATBAN and DÖNTÉSRE VÁR items.
+H-60 is FOLYAMATBAN until the ten references are done.
+Still NYITOTT: H-61 to H-63. See the worklist for FOLYAMATBAN and DÖNTÉSRE VÁR items.

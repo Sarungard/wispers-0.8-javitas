@@ -94,7 +94,7 @@ Alapvetően a karakteralkotás első lépése egy karakterkoncepció megfogalmaz
 
 ## Faj kiválasztása
 
-Kiválasztod a fajokat az elérhető fajok listájáról (. oldal). A kiválasztott faj és a hozzátartozó alfaj együtteséből állnak össze a karaktered induló tulajdonságai, kezdőképességei, jártasságai.
+Kiválasztod a fajokat az elérhető fajok listájáról (lásd: III. rész › 1. Fajok). A kiválasztott faj és a hozzátartozó alfaj együtteséből állnak össze a karaktered induló tulajdonságai, kezdőképességei, jártasságai.
 
 ## Előtörténet és személyiség kialakítása
 
@@ -179,7 +179,7 @@ A kasztod leírásánál található táblázat mutatja majd, milyen jártasság
 
 ## Tulajdonságok meghatározása
 
-A karaktered lehetőségei a játékban nagyrészt a következő hat, három fizikai és három mentális tulajdonság valamelyikére korlátozódnak: Erő, Ügyesség, Állóképesség, Tudás, Jelenlét, Szellem. Ezekről bővebben a x. oldalon olvashatsz.
+A karaktered lehetőségei a játékban nagyrészt a következő hat, három fizikai és három mentális tulajdonság valamelyikére korlátozódnak: Erő, Ügyesség, Állóképesség, Tudás, Jelenlét, Szellem. Ezekről bővebben a II. rész › 1. A rendszer alapjai › Tulajdonságok szakaszban olvashatsz.
 
 Minden tulajdonságod a Világstandardról indul, ezeken fognak majd változtani a fajodból és alfajodból származó módosítók.
 
