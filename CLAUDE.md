@@ -41,13 +41,13 @@ Keep replies short and in Hungarian. Put the proposal and the question at the en
 
 ## State (2026-10-23)
 
-Next item: **H-57** (the Reflex section left over from 0.5.5). Proposal waiting for Zoz:
+Next item: **H-58** (Sebgyógyítás cap; allúr Sújtás). Proposal waiting for Zoz:
 
-- Reflex, third paragraph: „Ha egy karaktert támadás ér, a Kitérés reakcióval {2AP} megpróbálhat kitérni előle:
-  Reflex mentődobást tesz, amelynek célértéke a támadás értéke. Siker esetén nem szenved Sebet, bukás esetén
-  elszenvedi.”
-- Kitérés gets the same célérték: „a támadás értéke”.
+- The cap stays the Állóképesség (with D-3 it starts around 3). Above it, Orvoslás and spells no longer heal; each
+  pihentető táborozási szegmens heals one Seb until the count drops below the cap.
+- Sújtás: instead of „az allúr szintjével megegyező sebet”, the target takes one Mély seb; „Szívósság próba” becomes
+  „Szívósság mentődobás”.
 
 H-53 is FOLYAMATBAN: Fegyvert nem igénylő cselekvések stays a placeholder for now.
 H-55 is FOLYAMATBAN: Zoz gives the seven Mágiaosztály descriptions; Entrópia stays „Rend- és rendbontó mágia.”
-Still NYITOTT after H-57: H-58 to H-63. See the worklist for FOLYAMATBAN and DÖNTÉSRE VÁR items.
+Still NYITOTT after H-58: H-59 to H-63. See the worklist for FOLYAMATBAN and DÖNTÉSRE VÁR items.

@@ -1349,7 +1349,7 @@ Segíts egy társadnak, aki megpróbál végrehajtani valamit, amiben te is jár
 
 #### Kitérés {2AP}
 
-Amikor megtámadnak, reflex mentődobás segítségével megpróbálod elkerülni a téged ért ütést.
+Amikor megtámadnak, reflex mentődobás segítségével megpróbálod elkerülni a téged ért ütést. A mentődobás célértéke a támadás értéke.
 
 **Siker:** nem szenvedsz Sebet, és azonnal kihátrálsz.
 
@@ -1531,7 +1531,7 @@ A karakter elsődleges védekezése az elkerülhető fizikai terheléssel szembe
 
 A karakter Reflex értéke az Ügyesség értékének és Reflex jártasságából származó passzív bónuszának az összessége.
 
-Hogyha egy karaktert támadás ér, dönthet úgy, hogy egy akciópontért cserébe megpróbál kitérni előle. Ebben az esetben a karakternek Reflex próbát kell tennie amelynek célszáma a támadó által dobott sebzésérték. Siker esetén a támadást kikerülte, kudarc esetén a teljes sebzést elszenvedi.
+Ha egy karaktert támadás ér, a Kitérés reakcióval {2AP} megpróbálhat kitérni előle: Reflex mentődobást tesz, amelynek célértéke a támadás értéke. Siker esetén nem szenved Sebet, bukás esetén elszenvedi.
 
 ### Szívósság
 

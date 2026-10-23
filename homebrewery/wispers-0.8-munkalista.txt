@@ -23,7 +23,7 @@ Jelölések: BLOKKOLÓ – enélkül nem játszható; ELLENTMONDÁS – két sza
 hivatkozik; KISEBB – szerkesztési hiba, elnevezés.
 
 ÖSSZESÍTŐ (frissítsd menet közben)
-  NYITOTT: 7   FOLYAMATBAN: 15   DÖNTÉSRE VÁR: 6   JAVÍTVA: 34   ELVETVE: 2
+  NYITOTT: 6   FOLYAMATBAN: 15   DÖNTÉSRE VÁR: 6   JAVÍTVA: 35   ELVETVE: 2
 
 
 ================================================================
@@ -1359,10 +1359,15 @@ Probléma: A harmadik bekezdés szó szerint a 0.5.5-ből maradt: a kitérés �
   dobott sebzésérték”, kitérés nélkül „a páncél sebzésfelfogó értéke lép
   életbe”.
 Teendő: Átírás a mai harcrendszerre (D-1, D-2, D-4).
-Állapot: NYITOTT
-Döntés:
-Javítás:
-Megjegyzés:
+Állapot: JAVÍTVA (2026.10.23.)
+Döntés: A kitérés a Kitérés reakció {2AP}: Reflex mentődobás, célértéke a
+  támadás értéke; siker esetén nincs Seb, bukás esetén a karakter elszenvedi.
+  A Kitérés leírása is megkapja a célértéket.
+Javítás: wispers-0.8-javitott.txt
+  – II. rész › 6. › Mentődobások › Reflex: a harmadik bekezdés cserélve;
+  – II. rész › 4. Harc › Általános reakciólista › Kitérés: „A mentődobás
+    célértéke a támadás értéke.” hozzáadva.
+Megjegyzés: A „páncél sebzésfelfogó értéke” mondat már a H-32-ben kikerült.
 
 ----------------------------------------------------------------
 [H-58] ELLENTMONDÁS – Sebgyógyítási plafon
@@ -1638,3 +1643,5 @@ NAPLÓ – mi történt, mikor
              Jelenlétkocka + Jártasságkocka; erőltetésnél Kimerültség.
 2026.10.23.  H-55 FOLYAMATBAN – „mágiaosztály” a Jártassági szintekben is; az Entrópia
              marad; a hét leírás Zoztól jön.
+2026.10.23.  H-57 JAVÍTVA – Reflex: Kitérés {2AP}, célérték a támadás értéke; a
+             Kitérés leírása is megkapta.
