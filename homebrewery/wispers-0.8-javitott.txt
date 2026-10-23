@@ -271,7 +271,7 @@ A fénynek és a sötétségnek hat fokozata van: erős fény, gyenge fény, vak
 
 ## Jártassági szintek
 
-A karakterek rendelkeznek mentődobásokban, különféle Képzettségekben, mágiaiskolákban, páncélokkal és fegyverekkel, valamint pusztakezes harcban szerzett jártassággal. Ezeket eltérő jártassági szintek jelölik. Az egyes jártassági szintek befolyásolják, hogy mekkora bónuszt kap az érintett dobáshoz, valamint, hogy egy adott szituációban mire tudja a karakter a tudását felhasználni. A jártasságok szintje a következő táblázatban látható.
+A karakterek rendelkeznek mentődobásokban, különféle Képzettségekben, mágiaosztályokban, páncélokkal és fegyverekkel, valamint pusztakezes harcban szerzett jártassággal. Ezeket eltérő jártassági szintek jelölik. Az egyes jártassági szintek befolyásolják, hogy mekkora bónuszt kap az érintett dobáshoz, valamint, hogy egy adott szituációban mire tudja a karakter a tudását felhasználni. A jártasságok szintje a következő táblázatban látható.
 
 | Jártassági szintek | Bónuszok |
 |:--|:--|

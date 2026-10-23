@@ -23,7 +23,7 @@ Jelölések: BLOKKOLÓ – enélkül nem játszható; ELLENTMONDÁS – két sza
 hivatkozik; KISEBB – szerkesztési hiba, elnevezés.
 
 ÖSSZESÍTŐ (frissítsd menet közben)
-  NYITOTT: 8   FOLYAMATBAN: 14   DÖNTÉSRE VÁR: 6   JAVÍTVA: 34   ELVETVE: 2
+  NYITOTT: 7   FOLYAMATBAN: 15   DÖNTÉSRE VÁR: 6   JAVÍTVA: 34   ELVETVE: 2
 
 
 ================================================================
@@ -1324,10 +1324,14 @@ Probléma: Nyolcból hét mágiaosztálynak egysoros leírása van („Elemi má
   mint a Szinisztrópiából („Gonosz mágia.”). A Jártassági szintek
   „mágiaiskolákban” szerzett jártasságról beszél.
 Teendő: Leírások; az Entrópia meghatározása; egy elnevezés.
-Állapot: NYITOTT
-Döntés:
-Javítás:
-Megjegyzés:
+Állapot: FOLYAMATBAN (2026.10.23.)
+Döntés: Elnevezés: „mágiaosztály”, a Jártassági szintekben is. Az Entrópia
+  meghatározása marad: „Rend- és rendbontó mágia.” A hét leírást Zoz adja
+  meg (lore, vault).
+Javítás: wispers-0.8-javitott.txt › II. rész › 1. A rendszer alapjai ›
+  Jártassági szintek: „mágiaiskolákban” → „mágiaosztályokban”.
+Megjegyzés: Hátravan: Elementurgia, Entrópia, Szakratrópia, Szinisztrópia,
+  Asztrál, Szkriptomancia, Rúnamágia leírása.
 
 ----------------------------------------------------------------
 [H-56] BLOKKOLÓ – Mentődobás: érték vagy dobás?
@@ -1632,3 +1636,5 @@ NAPLÓ – mi történt, mikor
              nem igénylő cselekvések egyelőre placeholder.
 2026.10.23.  H-54 JAVÍTVA – HEAD iránya: nincs napi korlát és célpont-fajta;
              Jelenlétkocka + Jártasságkocka; erőltetésnél Kimerültség.
+2026.10.23.  H-55 FOLYAMATBAN – „mágiaosztály” a Jártassági szintekben is; az Entrópia
+             marad; a hét leírás Zoztól jön.

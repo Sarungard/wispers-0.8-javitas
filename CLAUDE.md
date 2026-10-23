@@ -41,11 +41,13 @@ Keep replies short and in Hungarian. Put the proposal and the question at the en
 
 ## State (2026-10-23)
 
-Next item: **H-55** (Mágiaosztályok). Proposal waiting for Zoz:
+Next item: **H-57** (the Reflex section left over from 0.5.5). Proposal waiting for Zoz:
 
-- Jártassági szintek: „mágiaiskolákban” → „mágiaosztályokban”.
-- The seven one-line descriptions and the meaning of Entrópia are lore (vault): Claude does not write them. Zoz gives
-  them; until then the item stays FOLYAMATBAN. Open question: Entrópia „Rend- és rendbontó”, or only rendbontó?
+- Reflex, third paragraph: „Ha egy karaktert támadás ér, a Kitérés reakcióval {2AP} megpróbálhat kitérni előle:
+  Reflex mentődobást tesz, amelynek célértéke a támadás értéke. Siker esetén nem szenved Sebet, bukás esetén
+  elszenvedi.”
+- Kitérés gets the same célérték: „a támadás értéke”.
 
 H-53 is FOLYAMATBAN: Fegyvert nem igénylő cselekvések stays a placeholder for now.
-Still NYITOTT after H-55: H-57 to H-63. See the worklist for FOLYAMATBAN and DÖNTÉSRE VÁR items.
+H-55 is FOLYAMATBAN: Zoz gives the seven Mágiaosztály descriptions; Entrópia stays „Rend- és rendbontó mágia.”
+Still NYITOTT after H-57: H-58 to H-63. See the worklist for FOLYAMATBAN and DÖNTÉSRE VÁR items.
