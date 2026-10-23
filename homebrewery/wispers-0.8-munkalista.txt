@@ -23,7 +23,7 @@ Jelölések: BLOKKOLÓ – enélkül nem játszható; ELLENTMONDÁS – két sza
 hivatkozik; KISEBB – szerkesztési hiba, elnevezés.
 
 ÖSSZESÍTŐ (frissítsd menet közben)
-  NYITOTT: 13   FOLYAMATBAN: 13   DÖNTÉSRE VÁR: 6   JAVÍTVA: 30   ELVETVE: 2
+  NYITOTT: 12   FOLYAMATBAN: 13   DÖNTÉSRE VÁR: 6   JAVÍTVA: 31   ELVETVE: 2
 
 
 ================================================================
@@ -1208,10 +1208,16 @@ Eredet: 2025.10.22-én a találat még „a dobásod értékével megegyező Sta
 Kapcsolódó kérdés: mi történik, ha egy Féktelen harcmodorban (garantált
   túlütés) támadó ellen sikeres a Hárítás?
 Teendő: A három reakció átírása Seb-alapra (D-2).
-Állapot: NYITOTT
-Döntés:
-Javítás:
-Megjegyzés:
+Állapot: JAVÍTVA (2026.10.23.)
+Döntés: Kitérés – siker: nem szenvedsz Sebet, és azonnal kihátrálsz; bukás:
+  elszenveded a Sebet. Hárítás – siker: nem szenvedsz Sebet, és az ellenfeled
+  köre véget ér; a bukás marad. Féktelen harcmodor ellen a sikeres reakció a
+  garantált túlütést is kivédi.
+Javítás: wispers-0.8-javitott.txt › II. rész › 4. Harc › Általános
+  reakciólista › Kitérés (Siker, Bukás); Hárítás (Siker) – a mondatok
+  cserélve; Harcmodorok › Féktelen harcmodor – egy mondat hozzáadva.
+Megjegyzés: A Beleállás már a H-32-ben Seb-alapra került, itt nem kellett
+  hozzányúlni.
 
 ----------------------------------------------------------------
 [H-51] ELLENTMONDÁS – Rohamozás
@@ -1584,3 +1590,5 @@ NAPLÓ – mi történt, mikor
 2026.10.23.  H-48 JAVÍTVA – hatótávok magyarul: Közelharci, Rövid, Közepes, Nagy
              táv; a reach marad.
 2026.10.23.  H-49 JAVÍTVA – Kúszás, Terelő harcmodor, Letaglózó lövés zónákra.
+2026.10.23.  H-50 JAVÍTVA – Kitérés, Hárítás Seb-alapon; sikeres reakció a
+             Féktelen harcmodor túlütését is kivédi.

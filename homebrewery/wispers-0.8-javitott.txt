@@ -1351,15 +1351,15 @@ Segíts egy társadnak, aki megpróbál végrehajtani valamit, amiben te is jár
 
 Amikor megtámadnak, reflex mentődobás segítségével megpróbálod elkerülni a téged ért ütést.
 
-**Siker:** a téged ért sebzés nullára csökken és azonnal kihátrálsz.
+**Siker:** nem szenvedsz Sebet, és azonnal kihátrálsz.
 
-**Bukás:** a teljes sebzést elszenveded.
+**Bukás:** elszenveded a Sebet.
 
 #### Hárítás {1AP}
 
 Amikor megtámadnak, erre alkalmas pajzs vagy hárítófegyver segítségével megpróbálod csökkenteni a károkat.
 
-**Siker:** a téged ért sebzés nullára csökken és az ellenfeled köre véget ér.
+**Siker:** nem szenvedsz Sebet, és az ellenfeled köre véget ér.
 
 **Bukás:** az ellenfeled garantáltan túlütéssel talál el téged.
 
@@ -1427,7 +1427,7 @@ Színlelt harcmodor nem okozol sebesülést, de minden sikeres találat után a 
 
 #### Féktelen harcmodor
 
-Féktelen harcmodor során minden támadásod kettős előnnyel teszed és garantált a túlütés, de minden téged ért támadásra is garantált a kettes előny és a túlütés.
+Féktelen harcmodor során minden támadásod kettős előnnyel teszed és garantált a túlütés, de minden téged ért támadásra is garantált a kettes előny és a túlütés. A sikeres reakció a garantált túlütést is kivédi.
 
 #### Halált nem okozó harcmodor
 

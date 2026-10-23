@@ -17,7 +17,7 @@ Item-by-item fix of the Wispers 0.8 rulebook (Hungarian TTRPG by Sorbán Zoltán
 3. Update the item block, the ÖSSZESÍTŐ counts and add one NAPLÓ line. Check that the counts match the Állapot lines.
 4. Commit and push after each item.
 
-Keep replies short. Put the proposal and the question at the end of the reply.
+Keep replies short and in Hungarian. Put the proposal and the question at the end of the reply.
 
 ## Hard rules
 
@@ -41,10 +41,10 @@ Keep replies short. Put the proposal and the question at the end of the reply.
 
 ## State (2026-10-23)
 
-Next item: **H-50** (numeric damage in the defence reactions). Proposal waiting for Zoz:
+Next item: **H-51** (Rohamozás: táv–költség, two sources of Seb). Proposal waiting for Zoz:
 
-- Kitérés, siker: nem szenvedsz Sebet, és azonnal kihátrálsz. Bukás: elszenveded a Sebet.
-- Hárítás, siker: nem szenvedsz Sebet, és az ellenfeled köre véget ér.
-- Féktelen harcmodor ellen: a sikeres reakció a garantált túlütést is kivédi.
+- 1AP: Közelharci távon lévő ellenfél (nincs mozgás). 2AP: a zónádon belül (egy mozgás). 3AP: szomszédos
+  zónában (két mozgás).
+- A két sebforrás nem adódik össze: találatnál AP-nyi Seb, túlütésnél helyette a Túlütés szabálya.
 
-Still NYITOTT after H-50: H-51 to H-55, H-57 to H-63. See the worklist for FOLYAMATBAN and DÖNTÉSRE VÁR items.
+Still NYITOTT after H-51: H-52 to H-55, H-57 to H-63. See the worklist for FOLYAMATBAN and DÖNTÉSRE VÁR items.
