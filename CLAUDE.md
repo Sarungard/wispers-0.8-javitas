@@ -48,8 +48,9 @@ Next item: **H-59** (Állapotok and Sebzéstípusok). Proposal waiting for Zoz:
 - The two headings come back after Sebgyógyítás, as in the HEAD.
 - Állapotok, only those the book already uses: Megragadott (no Elmozdulás, no Kihátrálás); Földön fekvő (attacks
   with egyes hátrány; attacks against it from Közelharci táv get egyes előny); Öntudatlan (cannot act or react; anyone
-  can kill it; „elájul” means this state); Vakság (rolls as in teljes sötétség, Látási viszonyok table); Félelem
-  (egyes hátrány on attacks against the source, cannot move closer to it); Kimerültség (pointer to its rule).
+  can kill it; „elájul” means this state); Vakság (rolls as in teljes sötétség, Látási viszonyok table); Kimerültség (pointer to its rule).
+- Félelem, Zoz's rule: dobj egy kockával; páros: addig harcolsz, amíg a félelmed forrását meg nem ölöd vagy bele nem
+  halsz; páratlan: mindent eldobva menekülsz, amíg biztos távra nem kerülsz tőle. Waiting for Zoz to confirm the rest.
 - Sebzéstípusok: placeholder for now.
 
 H-53 is FOLYAMATBAN: Fegyvert nem igénylő cselekvések stays a placeholder for now.
