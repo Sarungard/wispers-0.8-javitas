@@ -39,23 +39,28 @@ Keep replies short and in Hungarian. Put the proposal and the question at the en
 - Wounds: Könnyű / Mély / Súlyos seb by sebhatár (reaching it counts), plus Kimerültség. Sebdobás: 1d8 + the number
   of Sebek of the same severity (not all Sebek) + the weapon's találati mátrix; 21+ is one fok worse. Wounds must be
   hard to heal; the healing rule comes later.
-- Harci távok are abstract: Közelharci táv, Rövid táv, Közepes táv, Nagy táv, Értelmezhetetlen. „reach” stays English.
+- Harci távok are abstract: Közelharci táv, Rövid táv, Közepes táv, Nagy táv, Értelmezhetetlen. „reach” and (for now) „Glaive” stay English.
 
 ## State (2026-10-23)
 
-Next item: **H-62** (pontbefektetés). Proposal waiting for Zoz:
+Next item: **H-62** (pontbefektetés). Source: Zoz's unfinished OneNote page „Playtest › Karakterfejlődés”
+(uploaded as a PDF image, not in the repo). It has:
 
-- Karakteralkotáskor 6 pontot osztasz el a tulajdonságaid között, egy tulajdonságba legfeljebb 3-at. The pool does
-  not depend on the Világstandard, so a lower standard means more points go to patching weak attributes.
-- Szintlépés: the points come from the kaszt táblázata (H-03); until then the item stays FOLYAMATBAN.
+- „Karakterfejlődés szintenként” table, szint 0–13: Elosztható pontok 8 per szint, 0. szint „T”; Faji talent at
+  0, 3, 6, 9, 12; Általános talent at 0, 2, 4, 6, 8, 10, 12; Kaszt at 1, 5, 9, 13; Kezdő talent at 0.
+- Tulajdonság +1 costs 1 + the value to reach (1: 2 pont, 5: 6 pont).
+- Jártasság costs „változó”; talent and kaszt locked behind jártasság, tulajdonság, szint; „Pontköltség vagy
+  garantált?” is open. Varázslat from fóliánsok or mesterek, locked behind the mágiaosztály jártasság.
+- Footer, cut off: „Fejlődéspontok blokk: 8 + (Tudás Tulajdonság) + (Egyéb bónusz, ha van) / szint”.
 
-Also open: the Glaive name (H-61). Zoz rejected „Glévia”; offered: ÚJ KIFEJEZÉS „Csatakasza”, or keep „Glaive”
-like „reach”.
+Clashes with the book: the note orders Kezdő, Haladó, Képzett (book: Kezdő, Képzett, Haladó); one Kezdő talent at
+0. szint (book: two, kulturális + társadalmi); „mágiaiskola” (now mágiaosztály, H-55). Proposal waiting for Zoz:
+write the table and the tulajdonság cost into Játék magasabb szinten, the open points as a Szerkesztői megjegyzés,
+item FOLYAMATBAN.
 
 H-53 is FOLYAMATBAN: Fegyvert nem igénylő cselekvések stays a placeholder for now.
 H-55 is FOLYAMATBAN: Zoz gives the seven Mágiaosztály descriptions; Entrópia stays „Rend- és rendbontó mágia.”
 H-58 is FOLYAMATBAN: the Sebgyógyítás rule (cap, above the cap) comes later.
 H-59 is FOLYAMATBAN: Sebzéstípusok stays a placeholder for now.
 H-60 is FOLYAMATBAN: the származási helyek reference waits for a chapter.
-H-61 is FOLYAMATBAN: only the Glaive name is left.
 Still NYITOTT after H-62: H-63. See the worklist for FOLYAMATBAN and DÖNTÉSRE VÁR items.

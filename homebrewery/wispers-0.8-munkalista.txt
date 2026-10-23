@@ -23,7 +23,7 @@ Jelölések: BLOKKOLÓ – enélkül nem játszható; ELLENTMONDÁS – két sza
 hivatkozik; KISEBB – szerkesztési hiba, elnevezés.
 
 ÖSSZESÍTŐ (frissítsd menet közben)
-  NYITOTT: 2   FOLYAMATBAN: 19   DÖNTÉSRE VÁR: 6   JAVÍTVA: 35   ELVETVE: 2
+  NYITOTT: 2   FOLYAMATBAN: 18   DÖNTÉSRE VÁR: 6   JAVÍTVA: 36   ELVETVE: 2
 
 
 ================================================================
@@ -1465,13 +1465,14 @@ Probléma:
   angol kifejezések      : Melee / Short / Mid / Far Range, reach, 2h, Glaive,
                            angol páncélnevek
 Teendő: Soronként egy választott alak.
-Állapot: FOLYAMATBAN (2026.10.23.)
+Állapot: JAVÍTVA (2026.10.23.)
 Döntés: Előny/hátrány: egyes, kettős, hármas. Célérték (a „célszám” és a
   „nehézségérték” helyett); a „Célérték: a próba nehézségértéke fölé” sorok
   helyett „a mesélő határozza meg”, más ellen a mesélő értéke vagy a másik
   résztvevő eredménye, amelyik nagyobb. Képzettségpróba (a „jártasságpróba”
   helyett), próba (a „próbatétel” helyett). „2h” → „kétkezes”; a „reach”
-  marad. A „Glévia” nem tetszik, a Glaive neve még nyitott. Nincs teendő: a
+  marad. A „Glaive” egyelőre angolul marad (a „Glévia” nem tetszett).
+  Nincs teendő: a
   Védőérték és a Keménység két érték (H-32); a sebzésfelfogó, sérülésküszöb,
   Akaraterő, mágiaiskola és az angol távnevek már nincsenek a szövegben.
 Javítás: wispers-0.8-javitott.txt
@@ -1484,8 +1485,9 @@ Javítás: wispers-0.8-javitott.txt
   – „jártasságpróbát” → „képzettségpróbát” (Orkok, 2 hely); „próbatételekre”
     → „próbákra” (Tündék, 2 hely);
   – Fegyvertáblázat: „2h” → „kétkezes” (3 sor).
-Megjegyzés: Hátravan: a Glaive magyar neve. A Célérték-sorok „fölé” (>)
-  feltétele helyett most a négy kimenetel „eléred” (≥) feltétele érvényes.
+Megjegyzés: A Célérték-sorok „fölé” (>) feltétele helyett most a négy
+  kimenetel „eléred” (≥) feltétele érvényes. A Glaive magyar nevére később
+  vissza lehet térni.
 
 
 ----------------------------------------------------------------
@@ -1711,3 +1713,4 @@ NAPLÓ – mi történt, mikor
              helyeké marad.
 2026.10.23.  H-61 FOLYAMATBAN – egyes/kettős/hármas, célérték, képzettségpróba, próba,
              kétkezes; a Glaive neve nyitott.
+2026.10.23.  H-61 JAVÍTVA – a Glaive egyelőre angolul marad.
