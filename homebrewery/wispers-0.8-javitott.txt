@@ -1561,7 +1561,7 @@ A mentális könnyű sebhatár a fajod leírásában megadott mentális alap, a 
 
 #### Sebdobás
 
-Mindig, amikor sebet szerzel, dobj a seb súlyosságának megfelelő táblázaton (Mély és Súlyos sebnél adj hozzá egyet a Kimerültségedhez is): 1d8 + az összes sebed száma (a mostanit is beleértve) + a támadó fegyver találati mátrixának értéke az adott súlyosságra (lásd a fegyverek táblázatát; fegyver nélkül 0). A 21 vagy annál nagyobb eredmény egy fokkal súlyosabb sebet jelent, Súlyos sebnél halált.
+Mindig, amikor sebet szerzel, dobj a seb súlyosságának megfelelő táblázaton (Mély és Súlyos sebnél adj hozzá egyet a Kimerültségedhez is): 1d8 + az azonos súlyosságú sebeid száma (a mostanit is beleértve: Könnyű sebnél a Könnyű sebeid, Mély sebnél a Mély sebeid, Súlyos sebnél a Súlyos sebeid száma) + a támadó fegyver találati mátrixának értéke az adott súlyosságra (lásd a fegyverek táblázatát; fegyver nélkül 0). A 21 vagy annál nagyobb eredmény egy fokkal súlyosabb sebet jelent, Súlyos sebnél halált.
 
 [Szerkesztői megjegyzés: a három táblázat tartalma javaslat (2026.10.22.), átdolgozásra vár (D-2).]
 
@@ -2266,7 +2266,7 @@ Az allúrok enyhe sötétségben és vakító fényben is a normál látási vis
 
 Az archonokhoz köthető származásuk hozadéka.
 
-Naponta Jelenlét tulajdonságuknak megfelelő alkalommal Szívósság próbára kényszeríthetnek egy általuk megragadott halandót. Ha a próba sikertelen, a célpont az allúr szintjével megegyező sebet szenved el.
+Naponta Jelenlét tulajdonságuknak megfelelő alkalommal Szívósság mentődobásra kényszeríthetnek egy általuk megragadott halandót. Ha a mentődobás sikertelen, a célpont az allúr szintjével megegyező sebet szenved el.
 
 #### Dicsfény
 

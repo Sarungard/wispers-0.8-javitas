@@ -36,20 +36,23 @@ Keep replies short and in Hungarian. Put the proposal and the question at the en
   decide the mode: jártasság ≥ tulajdonság is szakértelem, otherwise erőltetés. Four outcomes: Abszolút siker,
   Részleges siker, Bukás, Kritikus bukás.
 - Attacks: weapon die + proficiency die, no attribute. Unarmed: 1d2 (1d4/2) with the Pusztakezes harc proficiency.
-- Wounds: Könnyű / Mély / Súlyos seb by sebhatár (reaching it counts), plus Kimerültség.
+- Wounds: Könnyű / Mély / Súlyos seb by sebhatár (reaching it counts), plus Kimerültség. Sebdobás: 1d8 + the number
+  of Sebek of the same severity (not all Sebek) + the weapon's találati mátrix; 21+ is one fok worse. Wounds must be
+  hard to heal; the healing rule comes later.
 - Harci távok are abstract: Közelharci táv, Rövid táv, Közepes táv, Nagy táv, Értelmezhetetlen. „reach” stays English.
 
 ## State (2026-10-23)
 
-Next item: **H-58** (Sebgyógyítás cap; allúr Sújtás). Zoz: wounds must be hard to heal, and he wants a „Blood on the
-water” mechanic that turns many Könnyű sebek into something worse. Revised proposal waiting for Zoz:
+Next item: **H-59** (Állapotok and Sebzéstípusok). Proposal waiting for Zoz:
 
-- Healing: only during a pihentető táborozási szegmens, Orvoslás or spell, once per Seb. A success lowers it one fok:
-  Súlyos → Mély → Könnyű → healed. At or above the cap (Állóképesség): one Seb per szegmens.
-- Blood on the water: when a new Könnyű seb brings the Könnyű count up to the Állóképesség, that seb becomes Mély
-  (Mély table, +1 Kimerültség). Name pending in an ÚJ KIFEJEZÉS block: „Vér a vízben”.
-- Sújtás: one Mély seb instead of „az allúr szintjével megegyező sebet”; „Szívósság próba” → „Szívósság mentődobás”.
+- The two headings come back after Sebgyógyítás, as in the HEAD.
+- Állapotok, only those the book already uses: Megragadott (no Elmozdulás, no Kihátrálás); Földön fekvő (attacks
+  with egyes hátrány; attacks against it from Közelharci táv get egyes előny); Öntudatlan (cannot act or react; anyone
+  can kill it; „elájul” means this state); Vakság (rolls as in teljes sötétség, Látási viszonyok table); Félelem
+  (egyes hátrány on attacks against the source, cannot move closer to it); Kimerültség (pointer to its rule).
+- Sebzéstípusok: placeholder for now.
 
 H-53 is FOLYAMATBAN: Fegyvert nem igénylő cselekvések stays a placeholder for now.
 H-55 is FOLYAMATBAN: Zoz gives the seven Mágiaosztály descriptions; Entrópia stays „Rend- és rendbontó mágia.”
-Still NYITOTT after H-58: H-59 to H-63. See the worklist for FOLYAMATBAN and DÖNTÉSRE VÁR items.
+H-58 is FOLYAMATBAN: the Sebgyógyítás rule (cap, above the cap) comes later.
+Still NYITOTT after H-59: H-60 to H-63. See the worklist for FOLYAMATBAN and DÖNTÉSRE VÁR items.

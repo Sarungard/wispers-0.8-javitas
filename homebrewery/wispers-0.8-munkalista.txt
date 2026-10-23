@@ -23,7 +23,7 @@ Jelölések: BLOKKOLÓ – enélkül nem játszható; ELLENTMONDÁS – két sza
 hivatkozik; KISEBB – szerkesztési hiba, elnevezés.
 
 ÖSSZESÍTŐ (frissítsd menet közben)
-  NYITOTT: 6   FOLYAMATBAN: 15   DÖNTÉSRE VÁR: 6   JAVÍTVA: 35   ELVETVE: 2
+  NYITOTT: 5   FOLYAMATBAN: 16   DÖNTÉSRE VÁR: 6   JAVÍTVA: 35   ELVETVE: 2
 
 
 ================================================================
@@ -91,6 +91,8 @@ ALAPDÖNTÉSEK – ezeken sok tétel múlik
         21+ egy fokkal súlyosabb seb, Súlyosnál halál.
         Eltérések a CRPG-től: ott a sebhatár Szívósság + páncél, a súlyos a
         kétszerese, és „nagyobb mint” (>) a feltétel.
+        A sebdobást a H-58 módosította (2026.10.23.): az összes seb helyett
+        az azonos súlyosságú sebek száma adódik hozzá.
       Javítás: wispers-0.8-javitott.txt
         – II. rész › 6. › Sebesülés és halálozás › Seb: a régi egytáblás
           sebesüléstáblázat helyett „A seb súlyossága”, „Sebdobás” és három
@@ -1379,12 +1381,22 @@ Probléma: „Ameddig egy karakter sebeinek száma nem éri el Állóképesség
   fölött, nincs leírva. Az allúr Sújtás sikertelen Szívósság-próba esetén
   szintnyi sebet okoz, naponta Jelenlétnyi alkalommal.
 Teendő: Mi történik a plafon fölött; a plafon a D-3 skálájához igazítva.
-Állapot: NYITOTT
-Döntés:
-Javítás:
-Megjegyzés: A D-3 döntés (2026.10.22.) után a tünde Állóképessége a
-  Világstandard (ajánlottan 3), így az első seb már nem gyógyíthatatlan; a
-  plafon fölötti eset és a Sújtás kérdése továbbra is nyitott.
+Állapot: FOLYAMATBAN (2026.10.23.)
+Döntés: A sebek nehezen gyógyuljanak; a gyógyítás szabálya később. A
+  sebdobásnál nem az összes seb, csak az azonos súlyosságú sebek száma adódik
+  hozzá (Könnyű a Könnyűhöz, Mély a Mélyhez, Súlyos a Súlyoshoz), így a sok
+  Könnyű seb is súlyosabbá válhat. Sújtás: a szintnyi seb marad, a „Szívósság
+  próba” Szívósság mentődobás lesz.
+Javítás: wispers-0.8-javitott.txt
+  – II. rész › 6. › Sebesülés és halálozás › Seb › Sebdobás: „az összes sebed
+    száma” helyett az azonos súlyosságú sebek száma;
+  – III. rész › 1. Fajok › Allúrok › Sújtás: „Szívósság próbára” →
+    „Szívósság mentődobásra”, „Ha a próba” → „Ha a mentődobás”.
+Megjegyzés: Hátravan: a Sebgyógyítás (plafon, a plafon fölötti eset). Eltérés
+  a CRPG-től: a WoundTrack.cs az összes sebet adja a sebdobáshoz. A D-3 óta a
+  tünde Állóképessége a Világstandard (ajánlottan 3), így az első seb már nem
+  gyógyíthatatlan. A „Blood on the water” név nem kell, a szabály a
+  sebdobásban van.
 
 ----------------------------------------------------------------
 [H-59] HIÁNY – Állapotok és sebzéstípusok
@@ -1645,3 +1657,5 @@ NAPLÓ – mi történt, mikor
              marad; a hét leírás Zoztól jön.
 2026.10.23.  H-57 JAVÍTVA – Reflex: Kitérés {2AP}, célérték a támadás értéke; a
              Kitérés leírása is megkapta.
+2026.10.23.  H-58 FOLYAMATBAN – sebdobás: csak az azonos súlyosságú sebek; Sújtás:
+             Szívósság mentődobás; a gyógyítás később.
