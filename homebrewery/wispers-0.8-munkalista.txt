@@ -23,7 +23,7 @@ Jelölések: BLOKKOLÓ – enélkül nem játszható; ELLENTMONDÁS – két sza
 hivatkozik; KISEBB – szerkesztési hiba, elnevezés.
 
 ÖSSZESÍTŐ (frissítsd menet közben)
-  NYITOTT: 5   FOLYAMATBAN: 16   DÖNTÉSRE VÁR: 6   JAVÍTVA: 35   ELVETVE: 2
+  NYITOTT: 4   FOLYAMATBAN: 17   DÖNTÉSRE VÁR: 6   JAVÍTVA: 35   ELVETVE: 2
 
 
 ================================================================
@@ -1406,10 +1406,21 @@ Probléma: A HEAD-ben a Sebzéstípusok és az Állapotok üres címsor, a 0.8-b
   fekvő, öntudatlan, elájul, kimerültség, félelem, vakság) és sebzéstípusokat
   (tűzsebzés, mentális sebzés) használ.
 Teendő: A két lista megírása.
-Állapot: NYITOTT
-Döntés:
-Javítás:
-Megjegyzés:
+Állapot: FOLYAMATBAN (2026.10.23.)
+Döntés: A két címsor a Sebgyógyítás után áll, mint a HEAD-ben. Állapotok
+  (csak a könyvben már használtak): Megragadott – nincs Elmozdulás és
+  Kihátrálás; Földön fekvő – egyes hátránnyal támad, Közelharci távról ellene
+  egyes előny; Öntudatlan – nem cselekedhet, nem reagálhat, bárki kivégezheti,
+  az „elájul” ezt jelenti; Vakság – mint teljes sötétségben; Félelem (Zoz
+  szabálya) – dobás egy kockával: páros, harcol, amíg a forrást meg nem öli
+  vagy bele nem hal; páratlan, mindent eldobva menekül, amíg Értelmezhetetlen
+  távra nem kerül; Kimerültség – hivatkozás. Sebzéstípusok: egyelőre
+  placeholder.
+Javítás: wispers-0.8-javitott.txt › II. rész › 6. Mentődobások, sebesülés és
+  halálozás: új „Sebzéstípusok” (üres) és „Állapotok” szakasz hat
+  alcímmel.
+Megjegyzés: Hátravan: a Sebzéstípusok. A „Fight or flight” név nem került a
+  szövegbe; a „biztos táv” az Értelmezhetetlen táv lett.
 
 ----------------------------------------------------------------
 [H-60] KISEBB – Hivatkozások
@@ -1659,3 +1670,5 @@ NAPLÓ – mi történt, mikor
              Kitérés leírása is megkapta.
 2026.10.23.  H-58 FOLYAMATBAN – sebdobás: csak az azonos súlyosságú sebek; Sújtás:
              Szívósság mentődobás; a gyógyítás később.
+2026.10.23.  H-59 FOLYAMATBAN – Állapotok hat alcímmel (Félelem: páros harc, páratlan
+             menekülés); a Sebzéstípusok egyelőre placeholder.

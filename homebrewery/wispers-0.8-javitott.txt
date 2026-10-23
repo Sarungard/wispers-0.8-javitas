@@ -1672,6 +1672,34 @@ A karakter halott. Ez egy viszonylag permanens, ritkán visszafordítható álla
 
 Ameddig egy karakter sebeinek száma nem éri el Állóképesség tulajdonságának értékét, addig a sebek gyógyíthatóak akár Orvoslás próba, vagy varázslatok segítségével.
 
+## Sebzéstípusok
+
+## Állapotok
+
+### Megragadott
+
+Nem hajthatsz végre Elmozdulást és Kihátrálást.
+
+### Földön fekvő
+
+Egyes hátránnyal támadsz, a Közelharci távról ellened indított támadások pedig egyes előnnyel mennek.
+
+### Öntudatlan
+
+Nem cselekedhetsz és nem reagálhatsz, bárki kivégezhet. Ha egy szabály szerint valaki elájul, Öntudatlan állapotba kerül.
+
+### Vakság
+
+Úgy dobsz, mintha teljes sötétségben lennél (lásd: Tulajdonságok › Látási viszonyok).
+
+### Félelem
+
+Dobj egy kockával. Ha páros, addig harcolsz, amíg a félelmed forrását meg nem ölöd, vagy bele nem halsz. Ha páratlan, mindent eldobva addig menekülsz az életedért, amíg Értelmezhetetlen távra nem kerülsz a félelmed forrásától.
+
+### Kimerültség
+
+Lásd: Tulajdonságok › Kimerültség.
+
 # III. rész
 ## Karakteropciók
 
