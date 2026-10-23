@@ -41,10 +41,10 @@ Keep replies short and in Hungarian. Put the proposal and the question at the en
 
 ## State (2026-10-23)
 
-Next item: **H-51** (Rohamozás: táv–költség, two sources of Seb). Proposal waiting for Zoz:
+Next item: **H-52** (Harcmodorok: felvétel, költség, időtartam; Kétfegyveres harcmodor). Proposal waiting for Zoz:
 
-- 1AP: Közelharci távon lévő ellenfél (nincs mozgás). 2AP: a zónádon belül (egy mozgás). 3AP: szomszédos
-  zónában (két mozgás).
-- A két sebforrás nem adódik össze: találatnál AP-nyi Seb, túlütésnél helyette a Túlütés szabálya.
+- A harcmodort a köröd elején választod, 0AP, és a következő köröd kezdetéig tart. Egyszerre egy harcmodor.
+- Kétfegyveres harcmodor: a második fegyvered hárítófegyverként használható, és a forduló első Hárítása 0AP.
+  Cserébe minden támadásod egyes hátránnyal teszed.
 
-Still NYITOTT after H-51: H-52 to H-55, H-57 to H-63. See the worklist for FOLYAMATBAN and DÖNTÉSRE VÁR items.
+Still NYITOTT after H-52: H-53 to H-55, H-57 to H-63. See the worklist for FOLYAMATBAN and DÖNTÉSRE VÁR items.

@@ -23,7 +23,7 @@ Jelölések: BLOKKOLÓ – enélkül nem játszható; ELLENTMONDÁS – két sza
 hivatkozik; KISEBB – szerkesztési hiba, elnevezés.
 
 ÖSSZESÍTŐ (frissítsd menet közben)
-  NYITOTT: 12   FOLYAMATBAN: 13   DÖNTÉSRE VÁR: 6   JAVÍTVA: 31   ELVETVE: 2
+  NYITOTT: 11   FOLYAMATBAN: 13   DÖNTÉSRE VÁR: 6   JAVÍTVA: 32   ELVETVE: 2
 
 
 ================================================================
@@ -1229,10 +1229,16 @@ Probléma: Olyan ellenfélre megy, „akit maximum két mozgással elérnél”,
   AP-nyi sebet ad, a Túlütés előnyönként még egy sebet: egy 3AP-s roham
   túlütéssel akár 7 seb.
 Teendő: Táv–költség táblázat; összeadódik-e a két sebforrás.
-Állapot: NYITOTT
-Döntés:
-Javítás:
-Megjegyzés:
+Állapot: JAVÍTVA (2026.10.23.)
+Döntés: Közelharci távon lévő ellenfelet nem lehet megrohamozni (ahhoz
+  lendület kell). 2AP: az ellenfél a zónádon belül (egy mozgás); 3AP:
+  szomszédos zónában (két mozgás). A két sebforrás nem adódik össze:
+  találatnál AP-nyi Seb, túlütésnél helyette a Túlütés szabálya (3AP-nél
+  legfeljebb 4 Seb).
+Javítás: wispers-0.8-javitott.txt › II. rész › 4. Harc › Közelharci
+  fegyverrel végrehajtott cselekvések › Rohamozás – címke {2-3AP}; a
+  Közelharci táv kizárása, a költség és a sebszabály beírva.
+Megjegyzés: A két sor miatt a táblázat helyett egy mondat áll.
 
 ----------------------------------------------------------------
 [H-52] HIÁNY – Harcmodorok
@@ -1592,3 +1598,5 @@ NAPLÓ – mi történt, mikor
 2026.10.23.  H-49 JAVÍTVA – Kúszás, Terelő harcmodor, Letaglózó lövés zónákra.
 2026.10.23.  H-50 JAVÍTVA – Kitérés, Hárítás Seb-alapon; sikeres reakció a
              Féktelen harcmodor túlütését is kivédi.
+2026.10.23.  H-51 JAVÍTVA – Rohamozás 2–3AP, Közelharci távon nem; AP-nyi Seb,
+             túlütésnél csak a Túlütés szabálya.

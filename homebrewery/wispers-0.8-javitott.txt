@@ -1371,13 +1371,13 @@ Amikor megtámadnak, a páncélod Keménységére hagyatkozol: a páncél a tal�
 
 ### Közelharci fegyverrel végrehajtott cselekvések
 
-#### Rohamozás {1-3AP}
+#### Rohamozás {2-3AP}
 
-A testi erődet és a lendületeted összehangolva, minden erődet latba vetve megrohamozol egy olyan ellenfelet, akit maximum két mozgással elérnél a körödben.
+A testi erődet és a lendületeted összehangolva, minden erődet latba vetve megrohamozol egy olyan ellenfelet, akit maximum két mozgással elérnél a körödben. Közelharci távon lévő ellenfelet nem rohamozhatsz meg.
 
-A rohamozás AP költsége függ a távolságtól.
+A rohamozás AP költsége függ a távolságtól: 2AP, ha az ellenfél a zónádon belül van (egy mozgás), és 3AP, ha szomszédos zónában van (két mozgás).
 
-A támadást az elköltött AP-val megegyező előnnyel teszed és találat esetén ugyanannyi sebet is okozol.
+A támadást az elköltött AP-val megegyező előnnyel teszed, és találat esetén ugyanannyi Sebet okozol. Túlütésnél ehelyett a Túlütés szabálya érvényes, a két sebforrás nem adódik össze.
 
 A következő köröd kezdetéig nem mozoghatsz többet és minden támadást ellened egyes előnnyel dobnak, minden védekezést egyes hátránnyal dobsz.
 
