@@ -1434,13 +1434,22 @@ Teendő: A hivatkozások cseréje fejezetnévre, amikor a szerkezet végleges.
 Döntés: Oldalszám helyett fejezetnév. Faj kiválasztása: „(lásd: III. rész ›
   1. Fajok)”; Tulajdonságok meghatározása: „a II. rész › 1. A rendszer
   alapjai › Tulajdonságok szakaszban”. A származási helyek, királyságok,
-  városállamok hivatkozása marad, mert a könyvben nincs ilyen fejezet.
-Javítás: wispers-0.8-javitott.txt › I. rész › II. fejezet › Faj kiválasztása;
-  Tulajdonságok meghatározása – a két hivatkozás cserélve.
-Megjegyzés: Hátravan: tíz „x. oldal” (Bevezetés › Előny és hátrány;
-  Hátterek, Szokások, Furcsaságok, Apróságok, Sötét titkok, Kapcsolatok,
-  Suttogók, Kasztok, Felszerelés) – Zoz döntésére vár. A hét „Utazásaim
-  Allúvyanon … oldal” sor világon belüli idézet, nem hivatkozás.
+  városállamok hivatkozása marad, mert a könyvben nincs ilyen fejezet. A
+  többi tíz „x. oldal” ugyanígy, „bővebben a … szakaszban olvashatsz”
+  alakban (2026.10.23.).
+Javítás: wispers-0.8-javitott.txt
+  – I. rész › II. fejezet › Faj kiválasztása; Tulajdonságok meghatározása:
+    a két hivatkozás cserélve;
+  – Bevezetés › Előny és hátrány → II. rész › 1. › Tulajdonságok › Előny és
+    hátrány; I. rész › II. fejezet › Kulturális és társadalmi háttér, Szokások,
+    Furcsaság, Apróság, Sötét titok, Kapcsolatok → III. rész › 2.
+    Személyiség és háttér megfelelő szakaszai; Égisz (Suttogók) → III. rész ›
+    3. Kegy és égiszek › Nyolcak; Kaszt kiválasztása → III. rész › 4.
+    Kasztok; Kezdőfelszerelés → III. rész › 5. Felszerelés és
+    vagyontárgyak.
+Megjegyzés: Hátravan: a származási helyek hivatkozása, ha lesz ilyen fejezet.
+  A hét „Utazásaim Allúvyanon … oldal” sor világon belüli idézet, nem
+  hivatkozás.
 
 ----------------------------------------------------------------
 [H-61] KISEBB – Párhuzamos elnevezések
@@ -1681,3 +1690,5 @@ NAPLÓ – mi történt, mikor
              menekülés); a Sebzéstípusok egyelőre placeholder.
 2026.10.23.  H-60 FOLYAMATBAN – két hivatkozás fejezetnévre; tíz „x. oldal” még
              döntésre vár, a származási helyeké marad.
+2026.10.23.  H-60 – a maradék tíz „x. oldal” fejezetnévre cserélve; a származási
+             helyeké marad.

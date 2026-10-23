@@ -57,7 +57,7 @@ A kettő közti különbség általában az, hogy a karaktered jártassága foly
 
 Előfordulhat, hogy a játék során bizonyos behatások okán vagy épp valamilyen cselekvés következményeként a karakter helyzeti előnyhöz vagy hátrányhoz jut, ilyenkor a cselekvését képes előnnyel vagy hátránnyal végezni. Az előny azt jelenti, hogy a próbához használt két kockája közül a kisebbet (alacsonyabb oldalszámút) egy mérettel nagyobbra cseréli. Például, ha 1d4 és 1d8 a két kocka amivel dobnál, de előnyhöz jutsz, az 1d4 helyett 1d6-ot használhatsz. Hasonlóan a hátrány azt jelenti, hogy a két kockád közül a nagyobbat (magasabb oldalszámút) egy mérettel kisebbre cseréled. Ugyanebben a példában az 1d8 helyett fogsz 1d6-ot használni.
 
-Bővebben az x. oldalon olvashatsz az ehhez tartozó szabályokról.
+Bővebben a II. rész › 1. A rendszer alapjai › Tulajdonságok › Előny és hátrány szakaszban olvashatsz az ehhez tartozó szabályokról.
 
 ### Konkrét kontra általános szabályok
 
@@ -114,37 +114,37 @@ Mi voltál, mielőtt kalandozónak álltál? Mivel tengetted a mindennapjaid, mi
 
 Miután eldöntötted a származási helyed, válassz egy kulturális és egy társadalmi hátteret. Ez utóbbi azt mutatja meg, hogyan nőttél fel: milyen viszonyban álltál a renddel, a hatalommal és a védelemmel. A kettő együtt segít elmélyíteni a karaktered motivációit, tapasztalatait, élményeit az életben, és mindkettő ad egy kezdő talentet.
 
-Hátterekről bővebben az x. oldalon olvashatsz.
+Hátterekről bővebben a III. rész › 2. Személyiség és háttér › Kulturális hátterek és Társadalmi hátterek szakaszban olvashatsz.
 
 ### Szokások
 
 Mindenkinek vannak szokásai, olyan apró cselekvései, amelyek olyannyira a jellemükké váltak, hogy pusztán már ezáltal kitűnhetnek a tömegből. Az ilyen szokások azok, amik megmutatják egy kalandor valódi arcát, amivel szívesen töltik az idejüket, ha épp nem az események sűrűjében tengődnek.
 
-Szokásokról bővebben az x. oldalon olvashatsz.
+Szokásokról bővebben a III. rész › 2. Személyiség és háttér › Szokások szakaszban olvashatsz.
 
 ### Furcsaság
 
 Ahogy vannak kedvtelésből felvett szokások, úgy bizony vannak a karakterek életében rájuk ragadt, furcsa viselkedések is. Ezek ösztönös, olykor kényszeres cselekvések, amelyeket nem tudnak kontrollálni, így csak megtanultak együttélni velük.
 
-Furcsaságokról bővebben az x. oldalon olvashatsz.
+Furcsaságokról bővebben a III. rész › 2. Személyiség és háttér › Furcsaságok szakaszban olvashatsz.
 
 ### Apróság
 
 Minden kalandor hátizsákjában megbújik egy apróság, egy mütyűr, ami emlékezteti valamire. Mementója annak az életnek, amit hátrahagyott, hogy életét kockáztatva bejárja Allúvyan kontinenseit. Egy ilyen apróság sokat jelent a nehéz időkben, amikor úgy érzi, az út nem tart semerre.
 
-Apróságokról bővebben az x. oldalon olvashatsz.
+Apróságokról bővebben a III. rész › 2. Személyiség és háttér › Apróságok szakaszban olvashatsz.
 
 ### Sötét titok
 
 Minden kalandor hátizsákjában megbújik egy olyan titok is, amit senki sem tudhat, ha mégis rájönnek, az vízválasztóként szolgál az életükben. Ezen titkok birtoklása veszélyt hordoz a tulajdonosukra, ha pedig kiderülnek, az súlyos következményekkel járhat akár a birtokosukra, akár másokra nézve.
 
-Sötét titkokról bővebben az x. oldalon olvashatsz.
+Sötét titkokról bővebben a III. rész › 2. Személyiség és háttér › Sötét titkok szakaszban olvashatsz.
 
 ### Kapcsolatok
 
 Ritka az a kalandor, aki minden képességét latba vetve egyedül helyt tud állni az élet minden területén. Élelem, bájitalok, ráolvasás, fegyverek karbantartása, csempészáru, ezek mind olyan szolgáltatások, amik nélkül nehéz boldogulni a világban. Ilyenkor jönnek képbe a kapcsolatok, vagyis azok az ismertségek a karakterek életében, akiktől szívességet kérhet, vagy épp tartozik nekik eggyel.
 
-Kapcsolatokról bővebben az x. oldalon olvashatsz.
+Kapcsolatokról bővebben a III. rész › 2. Személyiség és háttér › Kapcsolatok szakaszban olvashatsz.
 
 ### Égisz
 
@@ -160,13 +160,13 @@ Az égiszhez a Discipline, Devotion, Divinity (DDD) alrendszer kapcsolódik, lá
 
 [Szerkesztői megjegyzés: az egyes égiszek mechanikái és a Suttogók képességrendszerei még nincsenek kidolgozva (H-05).]
 
-A Suttogókról bővebben az x. oldalon olvashatsz.
+A Suttogókról bővebben a III. rész › 3. Kegy és égiszek › Nyolcak szakaszban olvashatsz.
 
 ## Kaszt kiválasztása
 
 A kasztod azon képességek összesítése, amelyet a karaktered 1. szinten, vagyis kalandozó élete első pár évében tapasztal meg és ez határozza meg a jövőjét a történetben.
 
-A kasztokról bővebben az x. oldalon olvashatsz.
+A kasztokról bővebben a III. rész › 4. Kasztok szakaszban olvashatsz.
 
 ## Jártasságok
 
@@ -189,7 +189,7 @@ A Világstandard egy szám, amely az adott világhoz tartozik: minden tulajdons�
 
 A karaktered kezdőfelszerelését a kasztja, a háttere és a mesélővel egyeztetett előtörténetének együttese határozza meg.
 
-A felszerelésről bővebben az x. oldalon olvashatsz.
+A felszerelésről bővebben a III. rész › 5. Felszerelés és vagyontárgyak szakaszban olvashatsz.
 
 ## Játék magasabb szinten
 
