@@ -43,20 +43,19 @@ Keep replies short and in Hungarian. Put the proposal and the question at the en
 
 ## State (2026-10-23)
 
-Next item: **H-61** (parallel names). Proposal waiting for Zoz, one form per row:
+Next item: **H-62** (pontbefektetés). Proposal waiting for Zoz:
 
-- Előny/hátrány: egyes, kettős, hármas. „kettes” → „kettős”, „I-es” → „egyes”, „II-es” → „kettős”.
-- Célérték: „célszám” and „nehézségérték” → „célérték”. The „Célérték: a próba nehézségértéke fölé” lines clash
-  with „eléred a célértéket” (≥): they become „a mesélő határozza meg”; against someone else, the higher of that and
-  the other's result.
-- Próba: „jártasságpróba” → „képzettségpróba”, „próbatétel” → „próba”.
-- No action: Védőérték and Keménység are two values (H-32); sebzésfelfogó, sérülésküszöb, Akaraterő, mágiaiskola and
-  the English range names are already gone.
-- English: „2h” → „kétkezes”; „Glaive” needs a name: ÚJ KIFEJEZÉS „Glévia”.
+- Karakteralkotáskor 6 pontot osztasz el a tulajdonságaid között, egy tulajdonságba legfeljebb 3-at. The pool does
+  not depend on the Világstandard, so a lower standard means more points go to patching weak attributes.
+- Szintlépés: the points come from the kaszt táblázata (H-03); until then the item stays FOLYAMATBAN.
+
+Also open: the Glaive name (H-61). Zoz rejected „Glévia”; offered: ÚJ KIFEJEZÉS „Csatakasza”, or keep „Glaive”
+like „reach”.
 
 H-53 is FOLYAMATBAN: Fegyvert nem igénylő cselekvések stays a placeholder for now.
 H-55 is FOLYAMATBAN: Zoz gives the seven Mágiaosztály descriptions; Entrópia stays „Rend- és rendbontó mágia.”
 H-58 is FOLYAMATBAN: the Sebgyógyítás rule (cap, above the cap) comes later.
 H-59 is FOLYAMATBAN: Sebzéstípusok stays a placeholder for now.
 H-60 is FOLYAMATBAN: the származási helyek reference waits for a chapter.
-Still NYITOTT after H-61: H-62, H-63. See the worklist for FOLYAMATBAN and DÖNTÉSRE VÁR items.
+H-61 is FOLYAMATBAN: only the Glaive name is left.
+Still NYITOTT after H-62: H-63. See the worklist for FOLYAMATBAN and DÖNTÉSRE VÁR items.

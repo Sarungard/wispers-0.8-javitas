@@ -250,7 +250,7 @@ A karakter a kalandozás során kimerülhet. A Kimerültség szintekben gyűlik,
 
 Előfordulhat, hogy a játék során bizonyos behatások okán vagy épp valamilyen cselekvés következményeként a karakter helyzeti előnyhöz vagy hátrányhoz jut, ilyenkor a cselekvését képes előnnyel vagy hátránnyal végezni. Az előny azt jelenti, hogy a cselekvéshez használt két kockád közül a kisebbet (alacsonyabb oldalszámút) egy mérettel nagyobbra cseréled. Például, ha 1d4 és 1d8 a két kocka amivel dobnál, de előnyhöz jutsz, az 1d4 helyett 1d6-ot használhatsz. Hasonlóan a hátrány azt jelenti, hogy a két kockád közül a nagyobbat (magasabb oldalszámút) egy mérettel kisebbre cseréled. Ugyanebben a példában az 1d8 helyett fogsz 1d6-ot használni.
 
-Ha egy cselekvést több tényező is befolyásol ugyanabba az irányba, akkor mind az előny, mind a hátrány halmozható. Ezeket úgy hívjuk, hogy egyes előny, kettős előny, hármas előny, (vagy hátrány) stb., ilyenkor az előnyök (vagy hátrányok) összeadódva fejtik ki a hatásukat. Például a fenti helyzet során egy kettes előny azt jelenti, hogy 1d4 és 1d8 helyett 2d8-at fogsz dobni.
+Ha egy cselekvést több tényező is befolyásol ugyanabba az irányba, akkor mind az előny, mind a hátrány halmozható. Ezeket úgy hívjuk, hogy egyes előny, kettős előny, hármas előny, (vagy hátrány) stb., ilyenkor az előnyök (vagy hátrányok) összeadódva fejtik ki a hatásukat. Például a fenti helyzet során egy kettős előny azt jelenti, hogy 1d4 és 1d8 helyett 2d8-at fogsz dobni.
 
 Előfordulhat, hogy ugyanarra a cselekvésre egyszerre hat több dolog, és egyik oldalról előnyhöz juttatna, másik oldalról hátrányba kerülnél, a kettő kioltja egymást mielőtt meghatároznád, milyen kockákkal is dobsz pontosan.
 
@@ -931,7 +931,7 @@ Képzettségpróbára akkor kerül sor, amikor a karakternek olyan szituációba
 
 #### Próba önmagad / szituáció ellen
 
-**Célérték:** a próba nehézségértéke fölé.
+**Célérték:** a mesélő határozza meg.
 
 **Abszolút siker:** eléred a célértéket, szakértelemmel. A próba sikeres, tisztán és maradéktalanul.
 
@@ -945,7 +945,7 @@ Képzettségpróbára akkor kerül sor, amikor a karakternek olyan szituációba
 
 A rizikós próba ugyanúgy működik, mint a sima próba, ám ezt akkor használjuk, hogyha olyan dolgot próbálsz megkísérelni, aminek súlyos következménye lehet rád nézve a kimeneteltől függően. Pl. Egy felétek zúgó szikla ellökése vagy egy mágiavihar csillapítása.
 
-**Célérték:** a próba nehézségértéke fölé.
+**Célérték:** a mesélő határozza meg.
 
 A Seb súlyosságát (Könnyű, Mély vagy Súlyos) a mesélő rendeli a próbához.
 
@@ -961,7 +961,7 @@ A Seb súlyosságát (Könnyű, Mély vagy Súlyos) a mesélő rendeli a próbá
 
 Próbára másvalaki ellen akkor kerül sor, hogyha olyan dolgot akarsz megkísérelni, aminek az eredményére valaki más is hatással van, pl. Szkandereztek vagy egyszerre vetődtök egy leeső erszény után. Mindketten tegyetek egy próbát a szituáció ellen (ez helyzettől függően lehet rizikós próba is!) és amelyikőtök magasabb értékkel ér el sikert, ő nyeri a próbát.
 
-**Célérték:** a próba nehézségértéke és a másik résztvevő eredménye fölé.
+**Célérték:** a mesélő által meghatározott érték vagy a másik résztvevő eredménye, amelyik nagyobb.
 
 **Siker:** a próba sikeres.
 
@@ -973,7 +973,7 @@ Rizikós próba esetén az arra vonatkozó szabályokat használd!
 
 ### Konfliktus
 
-A játék során a karakterek olyan szituációba keveredhetnek, ahol a hatalmi dinamizmus érezhető és szükséges a konfliktus feloldásához. Ekkor a mesélő meghatároz egy célszámot, amit a csapatnak el kell érnie sikeres próbák segítségével. Ez jelenti a fordulópontot a szituációban, akinek sikerül, egyúttal annak sikerül érvényesítenie is az érdekeit. Ehhez a játékosok három megközelítés felhasználásával felváltva megpróbálnak hatni a velük szembenálló személy(ek)re.
+A játék során a karakterek olyan szituációba keveredhetnek, ahol a hatalmi dinamizmus érezhető és szükséges a konfliktus feloldásához. Ekkor a mesélő meghatároz egy célértéket, amit a csapatnak el kell érnie sikeres próbák segítségével. Ez jelenti a fordulópontot a szituációban, akinek sikerül, egyúttal annak sikerül érvényesítenie is az érdekeit. Ehhez a játékosok három megközelítés felhasználásával felváltva megpróbálnak hatni a velük szembenálló személy(ek)re.
 
 A szociális konfrontáció három alappillére az empátia, az érvelés és a megfélemlítés, minden NPC rendelkezik majd egy ezekhez rendelt értékkel, ami azt jelképezi, mennyire lehet rájuk hatni az egyes módszerekkel. Amikor a játékosok konfrontálódnak egy (vagy több) NPC-vel, akkor az általuk választott megközelítés értéke ellen egy képzettségpróbát tesznek. Ha sikeres, a számláló a játékosoknak kedvező irányba mozdul el a siker mértékével. Ha sikertelen, akkor az ellentétes oldal irányába mozdul a bukás mértékével.
 
@@ -1101,7 +1101,7 @@ A táborozási szegmens kihagyásával a csapat minden tagja 2 szintnyi kimerül
 
 ### Cselekvések
 
-A cselekvések próbáinak nehézségértékét a mesélő határozza meg.
+A cselekvések próbáinak célértékét a mesélő határozza meg.
 
 #### Tájékozódás
 
@@ -1389,7 +1389,7 @@ Fegyverenként eltérő, általában egyszer használható, használat után id�
 
 #### Célzott lövés
 
-A célpont bizonyos testrészét támadod kettes hátránnyal.
+A célpont bizonyos testrészét támadod kettős hátránnyal.
 
 **Siker:** a sebzés elszenvedése mellett a mesélő által szituációfüggő hatása is lesz a támadásnak.
 
@@ -1429,7 +1429,7 @@ Színlelt harcmodor nem okozol sebesülést, de minden sikeres találat után a 
 
 #### Féktelen harcmodor
 
-Féktelen harcmodor során minden támadásod kettős előnnyel teszed és garantált a túlütés, de minden téged ért támadásra is garantált a kettes előny és a túlütés. A sikeres reakció a garantált túlütést is kivédi.
+Féktelen harcmodor során minden támadásod kettős előnnyel teszed és garantált a túlütés, de minden téged ért támadásra is garantált a kettős előny és a túlütés. A sikeres reakció a garantált túlütést is kivédi.
 
 #### Halált nem okozó harcmodor
 
@@ -1632,13 +1632,13 @@ Komoly esztétikai jellegű egy nagyobb karcolás, horzsolás, égésnyom vagy h
 
 #### Csonttörés
 
-A csonttörést elszenvedett karakter a harcot bár folytatni képes, minden támadásához és próbájához I-es hátrány jár. A csonttörés gyógyulási ideje több hét megfelelő ellátás mellett.
+A csonttörést elszenvedett karakter a harcot bár folytatni képes, minden támadásához és próbájához egyes hátrány jár. A csonttörés gyógyulási ideje több hét megfelelő ellátás mellett.
 
 #### Csonkolás
 
-A csonkolást elszenvedett karakter a harcot bár folytatni képes, a sebeit sürgősen el kell látni. Minden támadásához és próbájához II-es hátrány jár. Ha nem kap ellátást 1d4 körön belül, akkor a sebesülés súlyos vérzéssé válik.
+A csonkolást elszenvedett karakter a harcot bár folytatni képes, a sebeit sürgősen el kell látni. Minden támadásához és próbájához kettős hátrány jár. Ha nem kap ellátást 1d4 körön belül, akkor a sebesülés súlyos vérzéssé válik.
 
-Csonkolás nem gyógyítható. Az elvesztett végtag pótolható, ekkor a sebesülésből fakadó büntetés I-es hátránnyá enyhül.
+Csonkolás nem gyógyítható. Az elvesztett végtag pótolható, ekkor a sebesülésből fakadó büntetés egyes hátránnyá enyhül.
 
 #### Maradandó károsodás
 
@@ -1650,7 +1650,7 @@ A karakter sebesülése vénát vagy artériát ért, amennyiben nem jut megfele
 
 A vérzés elállításához Haladó Orvoslás próbát kell tenni.
 
-**Célszám:** a karakter sebeinek, és a vérzéssel töltött körök számának összege.
+**Célérték:** a karakter sebeinek, és a vérzéssel töltött körök számának összege.
 
 #### Belső vérzés
 
@@ -1658,7 +1658,7 @@ A karakter sebesülése belsőszervet ért, amennyiben nem jut megfelelő ellát
 
 A vérzés elállításához Mester Orvoslás próbát kell tenni.
 
-**Célszám:** a karakter sebeinek, és a vérzéssel töltött körök duplájának összege.
+**Célérték:** a karakter sebeinek, és a vérzéssel töltött körök duplájának összege.
 
 #### Bénulás
 
@@ -1913,7 +1913,7 @@ Emellett -1 hátrányt kapnak Erőre.
 
 #### Megtagadott örökség
 
-A nemestündékre a vér méregként hat. Ha vért isznak, akkor elgyengülnek, mert a szervezetük megpróbálja kilökni, ennek következtében a nap hátralévő részében egyes hátrányt kapnak támadásra, mentődobásokra és próbatételekre.
+A nemestündékre a vér méregként hat. Ha vért isznak, akkor elgyengülnek, mert a szervezetük megpróbálja kilökni, ennek következtében a nap hátralévő részében egyes hátrányt kapnak támadásra, mentődobásokra és próbákra.
 
 Ez a hatás nem halmozható.
 
@@ -1929,7 +1929,7 @@ Emellett -1 hátrányt kapnak Tudásra.
 
 #### Elfogadott örökség
 
-Hogyha egy óelf vért iszik, a nap hátralévő részében egyes előnyt kap támadásra, mentődobásokra és próbatételekre.
+Hogyha egy óelf vért iszik, a nap hátralévő részében egyes előnyt kap támadásra, mentődobásokra és próbákra.
 
 Ez a hatás nem halmozható.
 
@@ -2384,7 +2384,7 @@ A fosztogató orkok megtanultak együttélni a fülükben szűnni nem akaró agr
 
 Ameddig vérszomjuk magasabb, mint a mentális könnyű sebhatáruk, akkor minden támadást egyes előnnyel dobnak.
 
-Ameddig vérszomjuk alacsonyabb, mint a mentális könnyű sebhatáruk, minden jártasságpróbát egyes előnnyel dobnak.
+Ameddig vérszomjuk alacsonyabb, mint a mentális könnyű sebhatáruk, minden képzettségpróbát egyes előnnyel dobnak.
 
 ### Nomádok
 
@@ -2404,7 +2404,7 @@ Amikor egy nomád ork sebet gyógyít, a meggyógyított sebek számával megegy
 
 A nomád orkok mindent megtesznek, hogy a vérdal torz hangjait elnyomják magukban.
 
-Ameddig vérszomjuk alacsonyabb, mint a mentális könnyű sebhatáruk, minden jártasságpróbát és mentődobást egyes előnnyel dobnak. Ha előző este megdobták a Vérszomjukhoz köthető próbát, ez kettes előnyre nő.
+Ameddig vérszomjuk alacsonyabb, mint a mentális könnyű sebhatáruk, minden képzettségpróbát és mentődobást egyes előnnyel dobnak. Ha előző este megdobták a Vérszomjukhoz köthető próbát, ez kettős előnyre nő.
 
 # 2. Személyiség és háttér
 
@@ -2902,11 +2902,11 @@ Olyan fegyvercsoport fegyverével, amelyben a karakter Képzetlen, nem támadhat
 | Sétabot | 1d6 | | | 1 | 2 | 3 | Szálfegyverek | - | | | | | |
 | Lándzsa | 1d6 | | reach | 1 | 2 | 3 | Szálfegyverek | - | | | | | |
 | Szigony | 1d6 | | reach | 1 | 2 | 3 | Szálfegyverek | - | | | | | |
-| Glaive | 1d10 | | 2h, reach | 2 | 3 | 4 | Szálfegyverek | - | | | | | |
+| Glaive | 1d10 | | kétkezes, reach | 2 | 3 | 4 | Szálfegyverek | - | | | | | |
 | Szekerce | 1d4 | | | 1 | 3 | 2 | Fejszék | - | | | | | |
 | Harci-fejsze | 1d6 | | | 1 | 3 | 2 | Fejszék | - | | | | | |
 | Csatabárd | 1d8 | | | 1 | 4 | 2 | Fejszék | - | | | | | |
-| Kétkezes-csatabárd | 1d10 | | 2h | 2 | 4 | 3 | Fejszék | - | | | | | |
+| Kétkezes-csatabárd | 1d10 | | kétkezes | 2 | 4 | 3 | Fejszék | - | | | | | |
 | Rövidkard | 1d4 | | | 2 | 2 | 3 | Kardok | - | | | | | |
 | Hosszúkard | 1d6 | | | 2 | 2 | 3 | Kardok | - | | | | | |
 | Szablya | 1d6 | | | 2 | 2 | 3 | Kardok | - | | | | | |
@@ -2918,7 +2918,7 @@ Olyan fegyvercsoport fegyverével, amelyben a karakter Képzetlen, nem támadhat
 | Kézipöröly | 1d6 | | | 2 | 3 | 2 | Pörölyök | - | | | | | |
 | Csatacsákány | 1d6 | | | 2 | 3 | 2 | Pörölyök | - | | | | | |
 | Harcipöröly | 1d8 | | | 2 | 4 | 2 | Pörölyök | - | | | | | |
-| Nagykalapács | 1d10 | | 2h | 3 | 4 | 3 | Pörölyök | - | | | | | |
+| Nagykalapács | 1d10 | | kétkezes | 3 | 4 | 3 | Pörölyök | - | | | | | |
 | Rövidíj | 1d6 | | Közepes táv | 1 | 1 | 3 | Íjak | - | | | | | |
 | Hosszúíj | 1d8 | | Nagy táv | 1 | 1 | 4 | Íjak | - | | | | | |
 | Visszacsapóíj | 1d10 | | Nagy táv | 2 | 2 | 4 | Íjak | - | | | | | |

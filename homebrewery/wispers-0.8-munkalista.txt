@@ -23,7 +23,7 @@ Jelölések: BLOKKOLÓ – enélkül nem játszható; ELLENTMONDÁS – két sza
 hivatkozik; KISEBB – szerkesztési hiba, elnevezés.
 
 ÖSSZESÍTŐ (frissítsd menet közben)
-  NYITOTT: 3   FOLYAMATBAN: 18   DÖNTÉSRE VÁR: 6   JAVÍTVA: 35   ELVETVE: 2
+  NYITOTT: 2   FOLYAMATBAN: 19   DÖNTÉSRE VÁR: 6   JAVÍTVA: 35   ELVETVE: 2
 
 
 ================================================================
@@ -1465,10 +1465,27 @@ Probléma:
   angol kifejezések      : Melee / Short / Mid / Far Range, reach, 2h, Glaive,
                            angol páncélnevek
 Teendő: Soronként egy választott alak.
-Állapot: NYITOTT
-Döntés:
-Javítás:
-Megjegyzés:
+Állapot: FOLYAMATBAN (2026.10.23.)
+Döntés: Előny/hátrány: egyes, kettős, hármas. Célérték (a „célszám” és a
+  „nehézségérték” helyett); a „Célérték: a próba nehézségértéke fölé” sorok
+  helyett „a mesélő határozza meg”, más ellen a mesélő értéke vagy a másik
+  résztvevő eredménye, amelyik nagyobb. Képzettségpróba (a „jártasságpróba”
+  helyett), próba (a „próbatétel” helyett). „2h” → „kétkezes”; a „reach”
+  marad. A „Glévia” nem tetszik, a Glaive neve még nyitott. Nincs teendő: a
+  Védőérték és a Keménység két érték (H-32); a sebzésfelfogó, sérülésküszöb,
+  Akaraterő, mágiaiskola és az angol távnevek már nincsenek a szövegben.
+Javítás: wispers-0.8-javitott.txt
+  – „kettes” → „kettős” (Előny és hátrány, Célzott lövés, Féktelen
+    harcmodor, Orkok); „I-es”/„II-es” → „egyes”/„kettős” (Csonttörés,
+    Csonkolás);
+  – „célszámot” → „célértéket” (Konfliktus); „Célszám:” → „Célérték:”
+    (Súlyos vérzés, Belső vérzés); Képzettségpróbák: három Célérték-sor;
+    Cselekvések: „nehézségértékét” → „célértékét”;
+  – „jártasságpróbát” → „képzettségpróbát” (Orkok, 2 hely); „próbatételekre”
+    → „próbákra” (Tündék, 2 hely);
+  – Fegyvertáblázat: „2h” → „kétkezes” (3 sor).
+Megjegyzés: Hátravan: a Glaive magyar neve. A Célérték-sorok „fölé” (>)
+  feltétele helyett most a négy kimenetel „eléred” (≥) feltétele érvényes.
 
 
 ----------------------------------------------------------------
@@ -1692,3 +1709,5 @@ NAPLÓ – mi történt, mikor
              döntésre vár, a származási helyeké marad.
 2026.10.23.  H-60 – a maradék tíz „x. oldal” fejezetnévre cserélve; a származási
              helyeké marad.
+2026.10.23.  H-61 FOLYAMATBAN – egyes/kettős/hármas, célérték, képzettségpróba, próba,
+             kétkezes; a Glaive neve nyitott.
