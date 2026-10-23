@@ -23,7 +23,7 @@ Jelölések: BLOKKOLÓ – enélkül nem játszható; ELLENTMONDÁS – két sza
 hivatkozik; KISEBB – szerkesztési hiba, elnevezés.
 
 ÖSSZESÍTŐ (frissítsd menet közben)
-  NYITOTT: 10   FOLYAMATBAN: 13   DÖNTÉSRE VÁR: 6   JAVÍTVA: 33   ELVETVE: 2
+  NYITOTT: 9   FOLYAMATBAN: 14   DÖNTÉSRE VÁR: 6   JAVÍTVA: 33   ELVETVE: 2
 
 
 ================================================================
@@ -1264,10 +1264,19 @@ Hol: II. rész › 4. Harc › Fegyvert nem igénylő cselekvések; Harc nagyobb
 Probléma: Mindhárom üres, holott az Általános cselekvéslista ide utal: „Harc
   nagyobb méretű lények ellen részt lásd a fejezet végén.”
 Teendő: A szakaszok megírása, vagy a hivatkozás törlése.
-Állapot: NYITOTT
-Döntés:
-Javítás:
-Megjegyzés:
+Állapot: FOLYAMATBAN (2026.10.23.)
+Döntés: Fegyvert nem igénylő cselekvések: egyelőre placeholder marad. Harc
+  nagyobb méretű ellenféllel szemben: Ellökés, Megragadás, Elrángatás,
+  Feldöntés, Lefegyverzés egy mérettel nagyobb célpont ellen kettős
+  hátránnyal, két mérettel nagyobb ellen nem hajtható végre. Harc repülő
+  ellenféllel szemben: a levegőben lévő ellenfelet a földről csak távolsági
+  fegyverrel vagy varázslattal éred el (a reach fegyver is csak meghosszabbított
+  közelharc); Ellökés, Megragadás, Feldöntés nem hajtható végre ellene.
+Javítás: wispers-0.8-javitott.txt › II. rész › 4. Harc › Harc nagyobb méretű
+  ellenféllel szemben; Harc repülő ellenféllel szemben – egy-egy bekezdés.
+Megjegyzés: Hátravan: a Fegyvert nem igénylő cselekvések szakasz. Nyitott
+  kérdés: a közelharcban lecsapó repülő ellenfél visszatámadható-e közelharci
+  fegyverrel.
 
 ----------------------------------------------------------------
 [H-54] BLOKKOLÓ – Varázslás: a 0.8 és a HEAD más irányba ment
@@ -1607,3 +1616,5 @@ NAPLÓ – mi történt, mikor
              túlütésnél csak a Túlütés szabálya.
 2026.10.23.  H-52 JAVÍTVA – harcmodor a kör elején, 0AP, következő körig; Kétfegyveres:
              0AP-s első Hárítás, egyes hátrány a támadásra.
+2026.10.23.  H-53 FOLYAMATBAN – nagyobb méretű és repülő ellenfél leírva; a Fegyvert
+             nem igénylő cselekvések egyelőre placeholder.

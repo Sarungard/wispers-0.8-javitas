@@ -41,12 +41,13 @@ Keep replies short and in Hungarian. Put the proposal and the question at the en
 
 ## State (2026-10-23)
 
-Next item: **H-53** (three empty combat sections). Proposal waiting for Zoz:
+Next item: **H-54** (Varázslás: the 0.8 and the HEAD went different ways). Proposal waiting for Zoz:
 
-- Fegyvert nem igénylő cselekvések: the heading goes; the unarmed actions are already in the Általános cselekvéslista.
-- Harc nagyobb méretű ellenféllel szemben: Ellökés, Megragadás, Elrángatás, Feldöntés, Lefegyverzés: egy mérettel
-  nagyobb célpont ellen egyes hátránnyal, két mérettel nagyobb ellen nem hajtható végre.
-- Harc repülő ellenféllel szemben: a levegőben lévő ellenfelet a földről csak reach fegyverrel, távolsági
-  fegyverrel vagy varázslattal éred el; Ellökés, Megragadás, Feldöntés nem hajtható végre ellene.
+- Follow the HEAD: the napi korlát and Varázslatok fajtái célpontok szerint go;
+  Varázserő = Jelenlétkocka + Jártasságkocka.
+- Tudás: „Varázsláshoz is használható” comes out of its description.
+- Mentális kimerülés: the varázserő roll is szakértelem or erőltetés like a képzettségpróba; on erőltetés the spell
+  still happens, but you take one level of Kimerültség.
 
-Still NYITOTT after H-53: H-54, H-55, H-57 to H-63. See the worklist for FOLYAMATBAN and DÖNTÉSRE VÁR items.
+H-53 is FOLYAMATBAN: Fegyvert nem igénylő cselekvések stays a placeholder for now.
+Still NYITOTT after H-54: H-55, H-57 to H-63. See the worklist for FOLYAMATBAN and DÖNTÉSRE VÁR items.

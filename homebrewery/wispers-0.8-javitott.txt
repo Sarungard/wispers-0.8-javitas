@@ -1439,7 +1439,11 @@ Nem használható, ha a karakter rohamozik.
 
 ### Harc nagyobb méretű ellenféllel szemben
 
+Az Ellökést, a Megragadást, az Elrángatást, a Feldöntést és a Lefegyverzést egy mérettel nagyobb célpont ellen kettős hátránnyal teszed. Két mérettel nagyobb célpont ellen nem hajthatod végre őket.
+
 ### Harc repülő ellenféllel szemben
+
+A levegőben lévő ellenfelet a földről csak távolsági fegyverrel vagy varázslattal éred el. Ellene nem hajthatsz végre Ellökést, Megragadást és Feldöntést.
 
 # 5. Varázslás és pszionika
 
