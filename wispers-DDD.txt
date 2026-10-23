@@ -1,0 +1,23 @@
+[Discipline]
+Akikkel régebb óta beszélgetek Wispersről vagy épp játszott az eredeti ötletemmel D&D Wispers-t, az tudja, hogy úgy terveztem, hogy mind a 8 Suttogó egy-egy background lenne, kicsit, mint a Ravnicas guildek, reput tudsz farmolni, hogy unlockolj képességeket. Ez most is megvan, csak streamlineoltam a mechanikát. Ez lesz a Discipline.
+
+Minden karakter a szokásos backgroundja mellé kap egy Discipline-t is, ami azt jelenti, hogy "melyik Suttogó égisze alatt született", ez D&D-ben úgy működött, hogy voltak szintén karakterisztikák, amik a viselkedésed határozták meg, etc illetve kaptál "questeket" a mesélőtől, amivel gyűjthetted a Devotion-t.
+Nos, itt ez egy kicsit streamlineoltabb, hogy a játékosok maguk is trackelhessék.
+Minden Suttogónak lesz egy diszciplinája, ami alá tartoznak skillek, creature typeok, anathema és benediction viselkedések.
+
+A felsorolt skillek azt jelentik, hogyha a karakter, aki az adott Suttogó égisze alatt született (kritikus ?? needs clarification, hogy balansz szempontjából mennyire fontos) sikert ér el a felsorolt skillek valamelyikén, akkor kap egy pont Divinity-t.
+
+A felsorolt creature typeok azt jelentik, hogyha a karakter, aki az adott Suttogó égisze alatt született (kritikus ?? needs clarification, hogy balansz szempontjából mennyire fontos) találatot ejt egy felsorolt típusú creature valamelyikén, akkor kap egy pont Divinity-t.
+
+Az Anathema azt írja le, hogy milyen cselekvésekkel vesztesz Devotiont.
+
+A Benediction pedig azt, hogy milyen cselekvésekkel nyerhetsz Devotiont.
+
+[Devotion]
+A Devotion jelzi, hogy milyen szinten férkőztél a Suttogód kegyeibe.
+Ez azért fontos, mert bizonyos, Suttogókhoz köthető Feateknek lesz Devotion szint megkötése.
+Ha a Devotionöd túl alacsony, akkor pedig Hated / Hunted státuszba kerülsz, ahol az adott Suttogó bíztatja a diszciplinájába tartozókat, hogy vadásszanak le téged.
+
+[Divinity]
+A Divinity pontok egy minden karakter számára elérhető erőforrások lesznek és lesznek Featek és class featureök, amik alternatív felhasználási módként szolgálnak majd.
+Egy karakter egyszerre maximum karakter szint (* 3 ?? needs clarification balance szempontból) mennyiségű divinityvel rendelkezhet.

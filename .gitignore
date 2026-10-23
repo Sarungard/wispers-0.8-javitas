@@ -1,0 +1,10 @@
+/*
+!/.gitignore
+!/README.md
+!/CLAUDE.md
+!/wispers-DDD.txt
+!/homebrewery/
+/homebrewery/*
+!/homebrewery/wispers-0.8.md
+!/homebrewery/wispers-0.8-javitott.txt
+!/homebrewery/wispers-0.8-munkalista.txt

@@ -1,0 +1,1586 @@
+WISPERS 0.8 – JAVÍTÁSI MUNKALISTA
+================================================================
+
+Alapszöveg:   homebrewery/wispers-0.8.md (2026.10.03.) – a 0.7.0c PDF átrendezett,
+              elírásjavított változata
+Munkaszöveg:  homebrewery/wispers-0.8-javitott.txt – ebbe kerülnek a javítások
+Összevetve:   a HEAD-del (Játékok/Rpg/wispers-0.7.0b.docx, 2026.08.11.)
+Sorszámok:    H-01–H-61 azonos a wispers-0.7.0b-hibalista.pdf sorszámaival;
+              a H-62-től kezdődő tételek menet közben kerültek be
+Frissítve:    2026.10.23.
+
+HOGYAN HASZNÁLJUK
+Sorban végigmegyünk a tételeken. Minden tételnél négy sort töltünk ki:
+  Állapot:   NYITOTT / FOLYAMATBAN / DÖNTÉSRE VÁR / JAVÍTVA / ELVETVE
+  Döntés:    amit eldöntöttél
+  Javítás:   mi változott a wispers-0.8-javitott.txt-ben (vagy: nem kell)
+  Megjegyzés: bármi más
+A „Hol” sor a 0.8 szerkezetét követi (rész › fejezet › szakasz).
+Idézőjelben („…”) mindig szó szerinti idézet áll.
+
+Jelölések: BLOKKOLÓ – enélkül nem játszható; ELLENTMONDÁS – két szabály
+ütközik; MARADVÁNY – régi verzióból maradt; HIÁNY – nem létező tartalomra
+hivatkozik; KISEBB – szerkesztési hiba, elnevezés.
+
+ÖSSZESÍTŐ (frissítsd menet közben)
+  NYITOTT: 13   FOLYAMATBAN: 13   DÖNTÉSRE VÁR: 6   JAVÍTVA: 30   ELVETVE: 2
+
+
+================================================================
+A 0.8 ÉS A HEAD KÖZÖTTI ELTÉRÉSEK
+================================================================
+
+A 0.8 tartalma szóról szóra megegyezik a HEAD-del, kivéve az alábbiakat.
+
+E-1  Varázslás. A 0.8 még a 0.7.0c varázslási szakaszait tartalmazza, a
+     HEAD-ben ezeket átírtad. Részletek és döntés: H-54.
+E-2  „Biróg, a Fényes Penge”. A forrásban két külön címsor áll („Biróg” és
+     „, a Fényes Penge”); a 0.8 összevonta őket. Ez az átrendezés
+     feltételezése volt, nem a te döntésed. Részletek: H-27.
+E-3  Sebzéstípusok és Állapotok. A HEAD-ben üres címsorként megvannak, a 0.8-ból
+     kimaradtak. Részletek: H-59.
+E-4  Elírások. A 0.8 már javított 35 elírást és 12 PDF-kinyerési hibát
+     (lásd wispers-0.8-changes.json), pl. „karakterAkaraterő” →
+     „karakter Akaraterő”. Ezek a HEAD docx-ban még benne vannak.
+
+
+================================================================
+ALAPDÖNTÉSEK – ezeken sok tétel múlik
+================================================================
+
+[D-1] Harci időegység: akciópont vagy szegmens?
+      A kör szegmens-licittel megy, a cselekvések ára akciópontban van, és
+      sehol nincs leírva, hány akciópontja van egy karakternek.
+      Fő tétel: H-45. Függ tőle: H-14, H-17, H-30, H-51, H-57.
+      Állapot: FOLYAMATBAN (2026.10.22.)
+      Döntés: AP = szegmens. Az AP az erőforrás, a szegmens a kezdeményezés,
+        amit tétként bemondasz („ennyi időt szánsz a körödre”); ennyi AP-t
+        költhetsz el. Egyenlőségnél a játékosok lépnek előbb. Reakció a CRPG
+        szerint: a soron következő körre bemondott számból fizeted, a
+        kezdeményezés nem változik.
+        Nyitott: felső határ a bemondott számra, vagy az ismételt cselekvések
+        növekvő költsége („ne 1 millió támadás, aki utolsóként jön”). Előzmény:
+        a 0.5.5-ben „Egy korábban már végrehajtott akció másodjára kettő,
+        harmadjára három pontba kerül.”
+      Javítás: wispers-0.8-javitott.txt › II. rész › 4. Harc › Fogalmak a harc
+        során: Kezdeményezés (új szabály + szerkesztői megjegyzés a nyitott
+        kérdésről), A karakter köre (a példa AP-ban), Reakciók (CRPG-szabály);
+        Általános reakciólista első bekezdése ehhez igazítva.
+
+[D-2] Erőforrás-modell
+      Az MP, a Stamina és az EP nincs definiálva, mégis 20 helyen épül rájuk
+      szabály; a rizikós próba „pontértéke” is ezekből jött. Mi váltja ki
+      őket: Seb, Kimerültség, Kegy, vagy egy visszahozott pontkészlet?
+      Függ tőle: H-11, H-12, H-13, H-14, H-20, H-34, H-39, H-40, H-47, H-50, H-57.
+      Állapot: FOLYAMATBAN (2026.10.22.)
+      Döntés: Az MP-t, a Staminát és az EP-t a Seb és a Kimerültség váltja ki.
+        A Sebnek három súlyossága lesz: Könnyű seb, Mély seb, Súlyos seb
+        (új kifejezések, 2026.10.22.). A súlyosságot a sebhatár dönti el
+        (végleges képlet, 2026.10.22.):
+          testi könnyű sebhatár = a faj testi alapja + páncél keménysége;
+          mentális könnyű sebhatár = a faj mentális alapja;
+          súlyos sebhatár = könnyű + 5 (mindkettőnél);
+          a határ elérése számít (≥): a könnyű elérése Mély, a súlyosé
+          Súlyos seb; túlütés = Súlyos.
+        Tulajdonság nincs a képletben (a dobások 2d4–2d12 között mozognak, a
+        sebhatár ne skálázódjon magától); a tulajdonság hozzáadása az alaphoz
+        később magasabb szinten feloldható talent lehet. Mentális seb
+        alapesetben nincs, csak varázslat célozhatja. A sebdobás 1d8 + összes
+        seb + a fegyver találati mátrixa – a CRPG (wispers-crpg,
+        WoundTrack.cs) szerint. Súlyosságonként egy táblázat 2-től 21+-ig; a
+        21+ egy fokkal súlyosabb seb, Súlyosnál halál.
+        Eltérések a CRPG-től: ott a sebhatár Szívósság + páncél, a súlyos a
+        kétszerese, és „nagyobb mint” (>) a feltétel.
+      Javítás: wispers-0.8-javitott.txt
+        – II. rész › 6. › Sebesülés és halálozás › Seb: a régi egytáblás
+          sebesüléstáblázat helyett „A seb súlyossága”, „Sebdobás” és három
+          16 soros táblázat (tartalmuk javaslat, szerkesztői megjegyzéssel);
+          a régi hatásleírások (Csonttörés … Halál) maradtak, a táblák ezekre
+          hivatkoznak;
+        – III. rész › 5. Felszerelés › Általános és Különleges fegyverek: új
+          oszlopok Könnyű / Mély / Súlyos (találati mátrix) a CRPG
+          data/weapons.json értékeivel; a Tőr és a Rövidkard kivételével ezek
+          a CRPG-ben is vázlatok.
+        – Seb › A seb súlyossága (később): a sebhatár-képlet a fenti végleges
+          alakra átírva; Faji jellemzők: új „Sebhatár” pont; Sziklatest +2,
+          Rettenthetetlenek +1 a testi alaphoz.
+      Hiányzik még: a Kimerültség definíciója (H-34), a függő tételek
+        átírása egyenként, a páncél keménysége a páncéltáblában (ott
+        Védőérték az oszlop neve, H-32).
+
+[D-3] Tulajdonságskála
+      1. szinten szinte minden tulajdonságkocka d4, és nincs növekedési szabály.
+      Függ tőle: H-04, H-08, H-18, H-46, H-58.
+      Állapot: JAVÍTVA (2026.10.22.)
+      Döntés: A tulajdonságkocka-táblázat sávjai maradnak. Minden tulajdonság
+        kezdőértéke a Világstandard (világonként egy szám; minél kisebb, annál
+        zordabb a világ; ajánlott: 3). Ha egy tulajdonság 0-ra vagy az alá
+        csökken: karakterhalál. Nyitott maradt: a pontbefektetés (H-62).
+
+[D-4] Mentődobás: érték vagy dobás?
+      A könyv mindkettőként használja, a dobás kockái nincsenek megadva.
+      Függ tőle: H-56, H-16, H-20, H-33, H-57.
+      Állapot: JAVÍTVA (2026.10.22.)
+      Döntés: Mentődobás = a hozzá tartozó tulajdonság + jártasság a
+        mentődobásban. Értelmezés (a CRPG Saves/Defences szerint): dobásnál
+        tulajdonságkocka + jártasságkocka; ahol érték kell (célérték), ott
+        tulajdonságérték + passzív bónusz. Tulajdonságok: Reflex – Ügyesség,
+        Szívósság – Állóképesség, Eltökéltség – Szellem.
+      Javítás: wispers-0.8-javitott.txt › II. rész › 6. › Mentődobások: új
+        bekezdés a fenti szabállyal.
+
+
+================================================================
+TÉTELEK
+================================================================
+
+----------------------------------------------------------------
+[H-01] ELLENTMONDÁS – Tiltószabály kontra kivételek
+Hol: Bevezetés › I. fejezet: Bevezető › Hogyan játszd a játékot ›
+     Konkrét kontra általános szabályok; Tiltószabály
+Probléma: A „Konkrét kontra általános szabályok” szerint a faji, kaszt- és
+  varázslatbeli kivételek szándékosan felülírják az alapszabályokat. A
+  Tiltószabály szerint viszont „hogyha egyvalami megtilt egy bizonyos dolgot,
+  egy másik pedig megengedi ugyanazt, ugyanazon szituációban, akkor a tiltás
+  mindig erősebb”. Ha egy kivétel engedélyt ad arra, amit egy általános
+  szabály tilt, a tiltás nyer, és éppen a védett kivétel vész el.
+Teendő: Rögzítsd, hogy a konkrét engedély felülírja-e az általános tiltást.
+Állapot: JAVÍTVA (2026.10.22.)
+Döntés: A konkrét szabály felülírja az általánost; a Tiltószabály csak két
+  egyenrangú szabály ütközésére vonatkozik.
+Javítás: wispers-0.8-javitott.txt › Bevezetés › I. fejezet › Hogyan játszd a
+  játékot › Tiltószabály: a második mondat helyére két mondat került –
+  (1) konkrét és általános szabály ütközésekor a konkrét érvényes (utalással
+  az előző pontra); (2) két egyenrangú szabály ütközésekor a tiltás az
+  erősebb. A „Konkrét kontra általános szabályok” szakasz nem változott.
+Megjegyzés: A HEAD docx-ban (0.7.0b) még a régi szöveg áll.
+
+----------------------------------------------------------------
+[H-02] KISEBB – Felesleges d20
+Hol: Bevezetés › I. fejezet: Bevezető › Hogyan játszd a játékot ›
+     Játékhoz használt kockák; Összefoglaló: Mi kell a játékhoz?
+Probléma: Mindkét lista kéri a d20-at, de egyetlen szabály sem használja; a
+  kockák mérete „a négyoldalútól a tizenkétoldalúig terjedhet”.
+Teendő: Töröld, vagy adj neki szerepet.
+Állapot: JAVÍTVA (2026.10.22.)
+Döntés: A d20 kikerül a játékból.
+Javítás: wispers-0.8-javitott.txt › Bevezetés › I. fejezet › Hogyan játszd a
+  játékot › Játékhoz használt kockák: a felsorolásból törölve a d20, „Ebből a
+  hat kockából” → „Ebből az öt kockából”; Összefoglaló: Mi kell a játékhoz?:
+  „d4, d6, d8, d10 és d12 kockák”.
+Megjegyzés: A HEAD docx-ban (0.7.0b) még a régi szöveg áll.
+
+----------------------------------------------------------------
+[H-03] BLOKKOLÓ – A karakteralkotás a hiányzó kasztokra épül
+Hol: I. rész › II. fejezet: Karakterek lépésről lépésre › Kaszt kiválasztása;
+     Jártasságok; Kezdőfelszerelés; Játék magasabb szinten – és
+     III. rész › 4. Kasztok
+Probléma: A jártasságokat „A kasztod leírásánál található táblázat mutatja
+  majd”, a szintlépést „a kasztjánál található táblázatban” kell nézni, a
+  kezdőfelszerelés is részben a kaszttól függ. A 4. Kasztok fejezetben csak
+  „WIP” és egy 9 soros szerepkörlista áll.
+Teendő: A kasztok megírása, vagy ideiglenes jártassági, felszerelési és
+  szintlépési szabály.
+Állapot: DÖNTÉSRE VÁR (2026.10.22.)
+Döntés: A kasztok külön munka; a D-1 és a D-3 alapdöntés után kerül sorra.
+Javítás: nem kell (most)
+Megjegyzés: Addig a H-04 és a szintlépés is ettől függ.
+
+----------------------------------------------------------------
+[H-04] BLOKKOLÓ – Tulajdonságkockák 1. szinten
+Hol: I. rész › II. fejezet › Tulajdonságok meghatározása;
+     II. rész › 1. A rendszer alapjai › Tulajdonságok (táblázat)
+Probléma: „Minden tulajdonságod 1-ről indul”, erre jönnek a faji és alfaji
+  módosítók, más növelés nincs. Minden fajjal végigszámolva minden érték a
+  0–4 sávba esik (d4); egyetlen kivétel a hadviselő ork Ereje (1 + 3 + 1 = 5,
+  d6). A mnemór Ereje 1 − 2 = −1, a táblázat 0-nál kezdődik. Az alfaji −1-ek
+  sosem változtatnak kockaméreten, a magasabb sávok elérhetetlenek.
+Teendő: Kezdőérték-elosztás vagy növekedési szabály; a negatív érték
+  kezelése (D-3).
+Állapot: JAVÍTVA (2026.10.22.)
+Döntés: lásd D-3. A táblázat marad, a kezdőérték a Világstandard (ajánlott
+  3), a 0 vagy negatív tulajdonság karakterhalál.
+Javítás: wispers-0.8-javitott.txt
+  – I. rész › II. fejezet › Tulajdonságok meghatározása: „1-ről indul” →
+    „a Világstandardról indul”, utána új bekezdés a Világstandardról;
+  – II. rész › 1. A rendszer alapjai › Tulajdonságok: a táblázat után új
+    mondat: „Ha egy tulajdonság értéke 0-ra vagy az alá csökken, a karakter
+    meghal.”
+Megjegyzés: Világstandard 3 mellett karakteralkotáskor az értékek 1 és 7
+  közé esnek: elsődleges tulajdonság 5–6 (d6), hadviselő ork Erő 7 (d8),
+  mnemór Erő 1 (d4). A faji módosítók így már kockaméretet változtatnak.
+  Következmények:
+  – 2-es vagy kisebb Világstandardnál a mnemór Ereje (−2) 0 alá esik, vagyis
+    a karakter már létrehozáskor meghal → a mnemór miatt a legkisebb
+    használható standard 3, hacsak a mnemór büntetése nem változik;
+  – a táblázat „0-4” sorának 0-ját élő karakter már nem éri el;
+  – a Bénulás tulajdonságcsökkentése („annyi negatív módosítót kap, ahány
+    hétig volt bénult”) most már ölhet;
+  – a pontbefektetés szabálya még nincs meg: H-62.
+
+----------------------------------------------------------------
+[H-05] HIÁNY – Az Égisz lépésnek nincs mechanikája
+Hol: I. rész › II. fejezet › Előtörténet és személyiség kialakítása › Égisz;
+     III. rész › 3. Kegy és égiszek
+Probléma: A lépés csak ennyit mond: „Allúvyan tájait átszövi a mágia, ami a
+  nyolc Suttogótól eredeztethető.” Nincs leírva, mit választ a játékos, és mit
+  ad a választás. Az alacsony és a magas égiszek csak címsorok.
+Teendő: Döntsd el, mit jelent az Égisz a karakterlapon.
+Állapot: FOLYAMATBAN (2026.10.22.)
+Döntés: A játékos egyet választ a háromból:
+  – Alacsony égisz: két kisebb (minor) pozitív mechanika;
+  – Magas égisz: egy kisebb negatív, egy kisebb pozitív és egy nagyobb
+    (major) pozitív mechanika;
+  – Suttogó: teljes skill tree, mechanikákkal.
+  Az égiszhez a DDD alrendszer (Discipline, Devotion, Divinity) jár (H-63).
+Javítás: wispers-0.8-javitott.txt › I. rész › II. fejezet › Előtörténet és
+  személyiség kialakítása › Égisz: a választás szabálya, a három lehetőség,
+  utalás a DDD-re és szerkesztői megjegyzés a hiányzó tartalomról. A „skill
+  tree” helyett a szövegben „teljes, mechanikákkal kidolgozott
+  képességrendszere” áll (új szót nem alkottam rá).
+Megjegyzés: Még hiányzik: a 10 alacsony és a magas égiszek mechanikái, a
+  nyolc Suttogó képességrendszere.
+
+----------------------------------------------------------------
+[H-06] ELLENTMONDÁS – Két háttérmodell
+Hol: I. rész › II. fejezet › Származási hely; Kulturális és társadalmi háttér
+     – és III. rész › 2. Személyiség és háttér › Társadalmi hátterek;
+     Kulturális hátterek; Kezdő talentek; Nyelvek
+Probléma: A II. fejezet szerint a háttér foglalkozás („Molnár? Zsebtolvaj,
+  netán verőember vagy orvgyilkos?”), amely jártasságot ad („Még néhány
+  jártasságra szert tehetsz általuk.”), a nyelvet pedig a származás adja („A
+  származási helyed határozza meg mely ország nyelvét beszéled a közös nyelven
+  túl”). A Személyiség és háttér fejezetben egy társadalmi és egy kulturális
+  háttér együtt egy kezdő talentet ad, a nyelvek számát pedig „a Tudás
+  tulajdonságod határozza meg, összesen mennyi nyelvet ismersz és milyen jól”.
+Teendő: Igazítsd egymáshoz a két fejezetet.
+Állapot: JAVÍTVA (2026.10.22.)
+Döntés: A III. rész › 2. Személyiség és háttér fejezet a mérvadó; a II.
+  fejezet hozzá igazodik.
+Javítás: wispers-0.8-javitott.txt › I. rész › II. fejezet
+  – Származási hely: a „nyelvét beszéled … készségkészlettel” mondat helyett:
+    a származási hely a kulturális háttér alapja (közösségi normák, mit
+    tartott magától értetődőnek), a nyelvek számát és szintjét a Tudás adja.
+  – Kulturális és társadalmi háttér: a „Még néhány jártasságra szert tehetsz
+    általuk.” mondat kikerült; helyette: válassz egy kulturális és egy
+    társadalmi hátteret, a kettő együtt adja a kezdő talentet.
+  A bevezető kérdések („Molnár? Zsebtolvaj…”) maradtak, mert a Személyiség és
+  háttér fejezet is kérdez a korábbi foglalkozásra.
+Megjegyzés: Nyitott maradt, hogy melyik nyelveket beszéli a karakter (H-26),
+  és a kezdő talentek maguk (H-24).
+
+----------------------------------------------------------------
+[H-07] ELLENTMONDÁS – Méretkategóriák
+Hol: III. rész › 1. Fajok › Egy faj kiválasztása › Faji jellemzők › Méret;
+     Félszerzetek › Méret
+Probléma: A közepes fajoknál „nagyjából 4 és 8 láb közé tehető a
+  magasságuk”, a kis fajoknál „az ő magasságuk 8 és 16 láb közé esik” – a kis
+  nagyobb a közepesnél. A félszerzet kis méretű, de 2 láb 6 hüvelyktől 4 láb 7
+  hüvelykig terjed, belelóg a közepes sávba. Ugyanez a bekezdés szerint a kis
+  és nagy fajokkal „de ebben a könyvben ilyennel nem találkozol”.
+Teendő: Javítsd a sávokat, pontosítsd az utolsó mondatot.
+Állapot: JAVÍTVA (2026.10.22.)
+Döntés: kis 2–4½ láb, közepes 4½–8 láb, nagy 8–16 láb. A félszerzet kis
+  méretű; nagy méretű játszható faj nincs a könyvben.
+Javítás: wispers-0.8-javitott.txt › III. rész › 1. Fajok › Egy faj
+  kiválasztása › Faji jellemzők › Méret: a közepes sáv „4 és 8” → „4½ és 8”;
+  a kis fajok zárójele „2 és 4½ láb”; a nagy fajok kapták a „8 és 16 láb”
+  zárójelet; az utolsó tagmondat helyett: „A félszerzet kis méretű; nagy
+  méretű játszható fajjal ebben a könyvben nem találkozol.”
+Megjegyzés: A félszerzet (2'6"–4'7") és a törp (4'10"-től) így egyértelműen
+  a saját sávjába esik.
+
+----------------------------------------------------------------
+[H-08] ELLENTMONDÁS – A faji módosítók általános szabálya
+Hol: III. rész › 1. Fajok › Faji jellemzők › Tulajdonságmódosítók; az egyes
+     fajok Tulajdonságmódosítók pontja
+Probléma: Az általános szabály: „Minden faj rendelkezik egy kijelölt
+  elsődleges tulajdonsággal, amit kettővel, és két kisebb másodlagos
+  tulajdonsággal, amik közül egyet választva eggyel növelj majd meg.” Egyik faj
+  sem így működik: a tünde, a törp és a félszerzet fix +1-et kap; az ember +1-e
+  „szabadon választható”; az ork egyetlen +3-at kap (alfajból még +1, így
+  Erő 5); a mnemór és az allúr egy további választható +1-et és −2/−1
+  büntetést kap; az alfajok −1-ét az általános szabály nem említi.
+Teendő: Írd át az általános szabályt a tényleges mintára, vagy igazítsd a
+  fajokat.
+Állapot: JAVÍTVA (2026.10.22.)
+Döntés: Az általános szabály a tényleges mintát írja le: főfaj +2/+1 (ork
+  +3); alfaj választható +1 és kijelölt −1; az alfaj nélküli fajoknál ez a
+  faji leírásban van. A fajok nem változnak.
+Javítás: wispers-0.8-javitott.txt › III. rész › 1. Fajok › Egy faj
+  kiválasztása › Faji jellemzők › Tulajdonságmódosítók: a régi egymondatos
+  szabály helyett két bekezdés – (1) elsődleges +2, másodlagos +1 (a leírás
+  jelöli ki, vagy szabadon választható), kivétel az ork egyetlen +3-mal;
+  (2) alfaj: választható +1 a leírásban megadott két tulajdonság közül és
+  kijelölt −1; alfaj nélküli fajoknál a faji leírásban, a mnemóroknál −2.
+Megjegyzés: Világstandard 3 mellett karakteralkotáskor a hadviselő ork Ereje
+  7 (d8) lehet (lásd H-04).
+
+----------------------------------------------------------------
+[H-09] HIÁNY – Ember: Adaptívak
+Hol: III. rész › 1. Fajok › Emberek › Adaptívak
+Probléma: „Az emberek faji jellemzőiket három kategóriából választhatnak
+  kettő helyett. (Továbbra is két jellemzőt választhatnak és eltérő oszlopból
+  kell válasszanak!)” Egyetlen fajnál sincsenek kategóriák vagy oszlopok, és a
+  képesség alatti 8 soros táblázat üres. A 0.6.0-ban kezdett, be nem fejezett
+  rendszer.
+Teendő: A választható faji jellemzők rendszerének megírása, vagy a képesség
+  cseréje.
+Állapot: FOLYAMATBAN (2026.10.22.)
+Döntés: Minden fajnak két oszlopa van tematikus bónuszokkal, az embereknek
+  három. A tartalmat később dolgozzuk ki.
+Javítás: wispers-0.8-javitott.txt › III. rész › 1. Fajok › Egy faj
+  kiválasztása › Faji jellemzők: új pont „Faji jellemzők választása” címmel
+  (két oszlop, két jellemző eltérő oszlopból; az embereknek három oszlop),
+  alatta szerkesztői megjegyzés a hiányzó tartalomról. Az Adaptívak szövege
+  változatlan, mert már ehhez a szabályhoz illeszkedik.
+Megjegyzés:
+  – Nyitott: a mostani fix faji jellemzők (pl. Sötétlátás, Mélységi gyomor)
+    fixek maradnak, vagy átkerülnek az oszlopokba?
+  – A HEAD-ben az Adaptívak alatt egy üres, 8 soros táblázat állt (valószínűleg
+    az oszlopok helye); a 0.8-ból kimaradt.
+  – AJÁNLÁS a témákra, a meglévő leírásokból (nem végleges):
+    Emberek:      (1) város és társadalom (Városorzók); (2) zord vidék és
+                  túlélés (Fagymarták, Napszítták, Vadszívélyűek);
+                  (3) alkalmazkodás („a jég hátán is megélnek”).
+    Tündék:       (1) a Velarnok öröksége, vér és emlékek (Pokoli örökség);
+                  (2) kard és mágia („affinitással bírtak mind kardhoz és
+                  mágiához”).
+    Törpök:       (1) kő, érc és mélység (Bányamérnökök, Sziklaaffinitás,
+                  Mélységi gyomor); (2) kovácsok, mesterek, védművek
+                  („Kiváló kovácsok, ékszerészek”; vastag falak és páncélok).
+    Félszerzetek: (1) beilleszkedés és alakváltás (Részleges alakváltás);
+                  (2) közösség (Szimbiotikus jelenlét).
+    Mnemórok:     (1) emlékezet és tudás (a kolóniák közös emlékei);
+                  (2) elme (Fürkésző tekintet, Elmerekesz, pszionika).
+    Allúrok:      (1) fény (Fénylátás, Dicsfény); (2) lovagrend és
+                  dicsőség („lovagrendekbe szerveződve”).
+    Orkok:        (1) a Vérdal és a vérontás; (2) puszta, vándorlás,
+                  farkasok (az ősorkok nomád öröksége).
+
+----------------------------------------------------------------
+[H-10] HIÁNY – Fényviszonyok
+Hol: III. rész › 1. Fajok › Tündék › Sötétlátás; Óelfek › Fokozott
+     sötétlátás; Fényérzékenység; Allúrok › Fénylátás
+Probléma: A képességek hat fényfokozattal számolnak (gyenge, erős, vakító
+  fény; enyhe, részleges, teljes sötétség), de egyiknek sincs leírt hatása. A
+  Fénylátás „enyhe és vakító fényben” működik, holott enyhe fény nevű fokozat
+  nincs.
+Megjegyzés a CRPG-ből: a 2024.11.18-i playtest szabálykivonatban (OneNote) van
+  módosító-táblázat; 2026.10.18-án úgy döntöttél, hogy a Fénylátásban az
+  „enyhe” enyhe sötétséget jelent.
+Teendő: Fényviszonyok táblázata a szabálykönyvbe; a Fénylátás javítása.
+Állapot: JAVÍTVA (2026.10.22.)
+Döntés: A playtest-táblázat hátrányfokozatokra fordítva: minden felezés egy
+  fokozat (−1 → nincs, −2 → egyes, −4 → kettős, −9 → hármas, −18 → négyes); a
+  vakító fény úgy számít, mint a gyenge fény. A Fénylátás enyhe sötétségben és
+  vakító fényben működik.
+Javítás: wispers-0.8-javitott.txt
+  – II. rész › 1. A rendszer alapjai: az Előny és hátrány után új szakasz,
+    „Látási viszonyok” (hat fokozat; hátránytáblázat közelharcra, illetve
+    távolsági támadásra, látást igénylő próbára és Reflex mentődobásra);
+  – III. rész › 1. Fajok › Allúrok › Fénylátás: „enyhe és vakító fényben” →
+    „enyhe sötétségben és vakító fényben”.
+Megjegyzés:
+  – A táblázatban a fokozatokat az Előny és hátrány szakasz alakjával írtam
+    (egyes, kettős, hármas); a kettes/kettős egységesítése: H-61.
+  – Nyitott: a sima Sötétlátás és az Infralátás hány fokozattal javít? A
+    CRPG-ben a teljes sötétség részlegesnek számít számukra (2026.10.18.); a
+    szabálykönyvben ez még nincs leírva.
+
+----------------------------------------------------------------
+[H-11] MARADVÁNY – MP-re épülő képességek
+Hol: III. rész › 1. Fajok › Félszerzetek › Szimbiotikus jelenlét;
+     Rejtélylelkűek › Kifürkészhetetlenek; Mnemórok › Elmerekesz; Hadviselők ›
+     Vérláz; Fosztogatók › Kényes egyensúly; Nomádok › Vérzaj;
+     II. rész › 6. Mentődobások, sebesülés és halálozás › Eltökéltség
+Probléma: Az MP 15 helyen szerepel, de sehol nincs definiálva. A 0.5.5-ben a
+  Mentálpontok (MP) a kasztból jöttek, és nullánál minden további veszteség
+  Sebet okozott; azóta ez kikerült. A három ork alfaj képessége a vérszomjat
+  veti össze azzal, ami „mint az MP értékük”, így most nem játszható.
+Teendő: D-2.
+Állapot: FOLYAMATBAN (2026.10.22.)
+Döntés: Szimbiotikus jelenlét – a társak Kimerültsége pihentető alváskor
+  eggyel jobban csökken. Kifürkészhetetlenek – +1 Eltökéltség érték.
+  Elmerekesz – MP helyett esszencia. Eltökéltség – mentális seb alapesetben
+  nincs, a mentális sebhatárt (Szellem) varázslatok célozzák. Ork alfajok –
+  alfajtól függően a könnyű vagy a súlyos sebhatár alá kell dobni (a
+  részletek még tisztázás alatt).
+Javítás: wispers-0.8-javitott.txt
+  – III. rész › 1. Fajok › Félszerzetek › Szimbiotikus jelenlét;
+    Rejtélylelkűek › Kifürkészhetetlenek: az MP-s mondatok cseréje;
+  – Mnemórok › Elmerekesz: MP → esszencia (tárolás és a hat varázslat ára);
+  – II. rész › 6. › Mentődobások › Eltökéltség: az MP-veszteséges mondat
+    helyett utalás a mentális sebhatárra (ezzel innen az „Akaraterő” is
+    kikerült, vö. H-33).
+  – Hadviselők › Vérláz; Fosztogatók › Kényes egyensúly; Nomádok › Vérzaj:
+    „az MP értékük” → „a mentális könnyű sebhatáruk” (mindhárom alfaj a
+    könnyű határt használja).
+  Hátravan: az esti Vérdal-dobás pontos szabálya (Eltökéltség, a mentális
+  könnyű sebhatár alá). Két olvasat vár döntésre (2026.10.22., „később”):
+    A) ha a vérszomj a mentális könnyű sebhatár fölött van, esti
+       Eltökéltség-mentődobás a vérszomj ellen; bukás: nem pihentető alvás,
+       +1 Kimerültség (a vérszomj nem csökken – a H-20 marad);
+    B) az esti Eltökéltség-mentődobás eredménye levonódik a vérszomjból; ha
+       így a mentális könnyű sebhatár alá kerül, pihentető az alvás, ha nem:
+       +1 Kimerültség (a H-20-at is kezelné).
+  Számítás: Szellem 3 mellett a vérszomj az első reggel után 94%-ban, Szellem
+  4 mellett 81%-ban a határ fölött van.
+Megjegyzés:
+
+----------------------------------------------------------------
+[H-12] MARADVÁNY – EP-re épülő képességek (!REWORK!)
+Hol: III. rész › 1. Fajok › Fagymarták › Győzelmi lakoma (!REWORK!);
+     Parázsszívűek › Rettenthetetlenek (!REWORK!)
+Probléma: Mindkettő EP-t ad („Pihenés végén visszanyernek 1d10+szint EP-t”,
+  „1 extra EP-vel kezd”). Az EP a 0.5.5 egészségpontja volt, 2025-ben Stamina
+  lett belőle, 2026 januárjára az is megszűnt. Mindkettőt te jelölted meg.
+Teendő: D-2.
+Állapot: JAVÍTVA (2026.10.22.)
+Döntés: Győzelmi lakoma – kiadós vacsora után pihenéskor a Kimerültség
+  eggyel jobban csökken. Rettenthetetlenek – +1 testi könnyű sebhatár; a
+  félelem elleni újradobás marad.
+Javítás: wispers-0.8-javitott.txt › III. rész › 1. Fajok › Fagymarták ›
+  Győzelmi lakoma; Parázsszívűek › Rettenthetetlenek: az EP-s mondatok
+  cseréje, a „(!REWORK!)” jelölés levéve mindkét címből.
+Megjegyzés: A két megoldás a H-11 Szimbiotikus jelenlét, illetve
+  Kifürkészhetetlenek tükörképe. A sebhatár végleges számítása után
+  (D-2) a Rettenthetetlenek szövege: „testi sebhatárának alapja eggyel
+  magasabb”.
+
+----------------------------------------------------------------
+[H-13] MARADVÁNY – Stamina
+Hol: III. rész › 1. Fajok › Magmavérűek › Nemesek vérvonala; II. rész › 6. ›
+     Mentődobások › Szívósság; III. rész › 8. Varázstárgyak › Szusztörő
+Probléma: Három mondat maradt belőle: „Staminát vagy MP-t visszanyerhet”,
+  „csak abban az esetben történik Stamina veszteség”, „lenullázza a
+  Stamináját”. A Stamina 2025.10.22-én váltotta az EP-t, 2026.01.18-ra kikerült.
+Teendő: D-2.
+Állapot: FOLYAMATBAN (2026.10.22.)
+Döntés: Nemesek vérvonala – a visszanyerés törlődik, a képesség hatásköre
+  szűkül. Szívósság – a Stamina-mondat törlődik (a sebhatár kezeli).
+  Szusztörő – később; a Kimerültséget ne lehessen ilyen könnyen halmozni.
+Javítás: wispers-0.8-javitott.txt
+  – III. rész › 1. Fajok › Magmavérűek › Nemesek vérvonala: a második mondat
+    törölve, csak a „jótékony hatással vannak” mondat maradt;
+  – II. rész › 6. › Mentődobások › Szívósság: a Stamina-mondat törölve.
+Megjegyzés: A Nemesek vérvonalának így most nincs gépi hatása, csak a
+  leírása; ha kap egy kisebb hatást, az később jön. Hátravan: Szusztörő.
+
+----------------------------------------------------------------
+[H-14] MARADVÁNY – Magmavér: szegmens és számszerű sebzés
+Hol: III. rész › 1. Fajok › Magmavérűek › Magmavér
+Probléma: A törp „reakcióból 2 Szegmens felhasználásával” jelöl ki célpontot,
+  holott a reakciók máshol akciópontba kerülnek. A célpont „a törp
+  Állóképesség tulajdonságának megfelelő tűzsebzést” szenved el, holott a
+  sérülést ma Sebben mérjük (H-50). Sebzéstípusok szakasz nincs (H-59).
+Teendő: D-1 és D-2 után átírni.
+Állapot: FOLYAMATBAN (2026.10.22.)
+Döntés: A fröccsenő vér mindig Könnyű sebet okoz; a sebdobás 1d8 +
+  Állóképesség.
+Javítás: wispers-0.8-javitott.txt › III. rész › 1. Fajok › Magmavérűek ›
+  Magmavér: a tűzsebzés-mondat helyett „Az a karakter Könnyű sebet szenved el,
+  a sebdobása pedig 1d8 + a törp Állóképessége.”
+Megjegyzés: Értelmezés: a törp Állóképességét írtam (az eredeti szöveg is
+  azét használta); ha az elszenvedőét akartad, szólj. A reakció ára
+  („2 Szegmens”) a D-1-re vár.
+
+----------------------------------------------------------------
+[H-15] HIÁNY – Sérülésküszöb
+Hol: III. rész › 1. Fajok › Törpök › Sziklatest
+Probléma: „Minden törp állóképessége mellett hozzáadhatja erejét is a
+  sérülésküszöbéhez.” Sérülésküszöb nevű érték nincs; valószínűleg a Szívósság
+  érték (Állóképesség + passzív bónusz).
+Teendő: Nevezd meg, melyik értékről van szó.
+Állapot: JAVÍTVA (2026.10.22.)
+Döntés: A sebhatár végleges (D-2): faji alap + páncél, a súlyos +5. A
+  Sziklatest Erő helyett +2-t ad a törp testi alapjához. (Előtte: döntésre
+  várt, mert duplázásnál a sorrend felborulhatott volna.)
+Javítás: wispers-0.8-javitott.txt › III. rész › 1. Fajok › Törpök ›
+  Sziklatest: „Minden törp testi sebhatárának alapja 2-vel magasabb.”
+Megjegyzés: A D-2 óta a Seb szakaszban „sebhatár” áll (Szívósság + páncél
+  keménysége); a CRPG-ben a Sziklatest ehhez adja az Erőt. Javaslat: a
+  „sérülésküszöb” helyett „sebhatár”.
+
+----------------------------------------------------------------
+[H-16] KISEBB – Vasvér: hányszor számít az Állóképesség?
+Hol: III. rész › 1. Fajok › Vasvérűek › Vasvér
+Probléma: „(Szívósságpróba esetén így kétszer adják hozzá.)” A mentődobás
+  definíciójától függ, hogy kétszer vagy háromszor számít-e.
+Teendő: D-4 után pontosítsd a zárójeles mondatot.
+Állapot: JAVÍTVA (2026.10.22.)
+Döntés: A D-4 szerint a Szívósság-mentődobás Állóképesség-kockával megy,
+  a Vasvér az értéket is hozzáadja – így pontosan kétszer számít.
+Javítás: wispers-0.8-javitott.txt › III. rész › 1. Fajok › Vasvérűek ›
+  Vasvér: a zárójeles mondat: „(Szívósság mentődobásnál így az Állóképesség
+  kétszer számít: a kockájával és az értékével.)”
+Megjegyzés:
+
+----------------------------------------------------------------
+[H-17] HIÁNY – Mnemór: Pszionika és Elmerekesz
+Hol: III. rész › 1. Fajok › Mnemórok › Pszionika; Elmerekesz –
+     II. rész › 5. Varázslás és pszionika › Pszionika; III. rész › 6. Varázslatok
+Probléma: „Minden mnemór kezdő pszionikával rendelkezik.” – a Pszionika
+  szakasz üres. Az Elmerekesz hat varázslatot hoz létre (Csettintés, Üzenet,
+  Jártasságszerzés, Jártasságfokozás, Nyelvek, Telepátia), a Varázslatok
+  fejezet üres. Hogy ezek „mindig 1 AP költségűek”, a D-1-től függ.
+Teendő: A Pszionika és a hat varázslat leírása.
+Állapot: DÖNTÉSRE VÁR (2026.10.22.)
+Döntés: Tartalomírás, később; a varázslatok fejezetével együtt.
+Javítás:
+Megjegyzés:
+
+----------------------------------------------------------------
+[H-18] KISEBB – Fürkésző tekintet: duplikált táblázat
+Hol: III. rész › 1. Fajok › Mnemórok › Fürkésző tekintet
+Probléma: A „Fürkésző tekintet támadási táblázata” sávjai azonosak a
+  tulajdonságkocka-táblázattal, vagyis a fegyverkocka a mnemór Tudásához
+  tartozó tulajdonságkocka. Ha a skála változik (H-04), két helyen kell javítani.
+Teendő: A táblázat helyett hivatkozz a tulajdonságkockára.
+Állapot: JAVÍTVA (2026.10.22.)
+Döntés: A táblázat helyett hivatkozás a tulajdonságkockára.
+Javítás: wispers-0.8-javitott.txt › III. rész › 1. Fajok › Mnemórok ›
+  Fürkésző tekintet: a „Fürkésző tekintet támadási táblázata” törölve; a
+  mondat vége: „a kockája pedig mindig a mnemór Tudásához tartozó
+  tulajdonságkocka.”
+Megjegyzés:
+
+----------------------------------------------------------------
+[H-19] HIÁNY – Dicsfény: nem létező varázslat
+Hol: III. rész › 1. Fajok › Allúrok › Dicsfény
+Probléma: „Ekkor a fénybe borult területet úgy kell kezelni, mintha
+  Fényvarázs hatása alatt állna. A varázslat ereje az Allúr szintjével
+  megegyező.” Fényvarázs nincs, és itt a varázslat ereje egy szám, míg a
+  Varázserő kockadobás (H-54).
+Teendő: A Fényvarázs leírása; a fix erő összhangba hozása a Varázserővel.
+Állapot: DÖNTÉSRE VÁR (2026.10.22.)
+Döntés: A varázslatfejezettel együtt.
+Javítás:
+Megjegyzés:
+
+----------------------------------------------------------------
+[H-20] ELLENTMONDÁS – Vérdal: a vérszomj elszabadul
+Hol: III. rész › 1. Fajok › Orkok › Vérdal; Hadviselők › Vérláz; Nomádok ›
+     Lélekszinkron
+Probléma: A vérszomj 1-ről indul, „Minden reggel dobj 2d4-et” (hadviselőknél
+  3d4), csökkenni csak „Minden nap, amikor először sebet okozol …
+  ugyanannyival” csökken – a nap első sebokozásakor annyival, ahány sebet
+  okoztál (jellemzően 1). Napi átlag +5 a kb. −1-gyel szemben, így hamar
+  meghaladja, amit egy alacsony szintű karakter esti Eltökéltség mentődobása
+  elér, és minden éjjel kimerültséget hoz. A Vérláz ezt a korlát nélkül növő
+  értéket a támadáshoz adja.
+Eredet: a 0.5.5-ben „Mindig, amikor EP sebzést okozol egy karakternek,
+  csökkentsd a vérszomjad ugyanannyival” – ott az „ugyanannyi” sebzéspont volt.
+Teendő: Felső korlát vagy erősebb csökkentés, Seb-alapon.
+Állapot: DÖNTÉSRE VÁR (2026.10.22.)
+Döntés: Az esti Vérdal-dobás A/B döntésével együtt (H-11); a B olvasat ezt
+  is kezelné.
+Javítás:
+Megjegyzés:
+
+----------------------------------------------------------------
+[H-21] KISEBB – Vérzaj: „megdobták”
+Hol: III. rész › 1. Fajok › Nomádok › Vérzaj
+Probléma: „Ha előző este megdobták a Vérszomjukhoz köthető próbát, ez kettes
+  előnyre nő.” A „megdobták” jelentheti, hogy dobtak, és azt is, hogy sikerült.
+Teendő: Pontosítsd a feltételt.
+Állapot: DÖNTÉSRE VÁR (2026.10.22.)
+Döntés: Az esti Vérdal-dobás A/B döntésével együtt (H-11).
+Javítás:
+Megjegyzés:
+
+----------------------------------------------------------------
+[H-22] KISEBB – Másolt háttérleírások
+Hol: III. rész › 2. Személyiség és háttér › Társadalmi hátterek ›
+     Kiszolgáltatottan; Alávetetve; Beavatottként
+Probléma: Az Alávetetve és a Beavatottként leírása azonos („A karakter egy
+  rend, személy vagy intézmény fennhatósága alatt nőtt fel.” …), az Alávetetve
+  példái a Kiszolgáltatottan példáinak másolatai („utcagyerek, árva, menekült,
+  rabszolga, fedélzeti patkány”).
+Teendő: Az Alávetetve saját leírása és példái.
+Állapot: JAVÍTVA (2026.10.22.)
+Döntés: Az Alávetetve leírása marad, új példákkal; a Beavatottként saját
+  leírást kap.
+Javítás: wispers-0.8-javitott.txt › III. rész › 2. Személyiség és háttér ›
+  Társadalmi hátterek – Alávetetve: „Például: szolga, jobbágy, besorozott
+  katona, inas, cseléd.”; Beavatottként: „A karakter egy rend, iskola vagy
+  mester tanítványaként nőtt fel. Tudáshoz és titkokhoz jutott, cserébe
+  hűséggel és engedelmességgel tartozott.”
+Megjegyzés:
+
+----------------------------------------------------------------
+[H-23] KISEBB – Csonka mondat
+Hol: III. rész › 2. Személyiség és háttér › Kulturális hátterek › Több
+     kultúra metszetében
+Probléma: A leírás kisbetűs mellékmondattal kezdődik: „ahol eltérő normák
+  éltek egymás mellett.” A főmondat hiányzik.
+Teendő: A mondat kiegészítése.
+Állapot: JAVÍTVA (2026.10.22.)
+Döntés: A mondat eleje: „Olyan közösségben nőtt fel, …”
+Javítás: wispers-0.8-javitott.txt › III. rész › 2. Személyiség és háttér ›
+  Kulturális hátterek › Több kultúra metszetében: „Olyan közösségben nőtt
+  fel, ahol eltérő normák éltek egymás mellett.”
+Megjegyzés:
+
+----------------------------------------------------------------
+[H-24] BLOKKOLÓ – Kezdő talentek
+Hol: III. rész › 2. Személyiség és háttér › Kezdő talentek
+Probléma: „Az alapján, hogy hol és hogyan nőtt fel, minden karakter indul egy
+  egyedi bónusszal.” A szöveg szerint „itt ebben a listában megtalálod a
+  hozzátartozó talentet”, de lista nincs, és a táblázat mind a 60 cellája üres.
+Teendő: A 60 talent (vagy egy egyszerűbb rendszer) megírása.
+Állapot: FOLYAMATBAN (2026.10.22.)
+Döntés: Egyszerűbb rendszer: egy talent a kulturális háttérből (10 db), egy a
+  társadalmiból (6 db), összesen 16 a 60 helyett.
+Javítás: wispers-0.8-javitott.txt
+  – III. rész › 2. Személyiség és háttér › Kezdő talentek: a 60 cellás
+    táblázat törölve; új szabály (két kezdő talent) és két lista a 16
+    háttérrel, „[kidolgozás alatt]” helyőrzőkkel;
+  – I. rész › II. fejezet › Kulturális és társadalmi háttér: „megadja a kezdő
+    talentjét” → „mindkettő ad egy kezdő talentet”.
+  Hátravan: a 16 talent tartalma.
+Megjegyzés:
+
+----------------------------------------------------------------
+[H-25] HIÁNY – Névadás
+Hol: III. rész › 2. Személyiség és háttér › Alapadatok › Név
+Probléma: „A karaktered nevéhez találsz ötleteket és nevezéktant az általad
+  választott faj leírásánál.” A fajleírásokban nincs névlista.
+Teendő: Névlisták a fajokhoz, vagy a mondat törlése.
+Állapot: FOLYAMATBAN (2026.10.22.)
+Döntés: Fajonként névlista-helyőrző; az emberek névlistája a OneNote-ban van.
+Javítás: wispers-0.8-javitott.txt › III. rész › 1. Fajok: mind a hét faj
+  leírásában a Sebhatár után új „Nevek” pont „[kidolgozás alatt]”
+  helyőrzővel (az embereknél utalás a OneNote-ra).
+  Hátravan: a névlisták tartalma.
+Megjegyzés:
+
+----------------------------------------------------------------
+[H-26] HIÁNY – Nyelvek
+Hol: III. rész › 2. Személyiség és háttér › Nyelvek
+Probléma: A Tudás határozza meg, hány nyelvet és milyen jól ismer a karakter,
+  de képlet nincs. „A nyelvek és a nyelvcsaládok a következőek:” után nem jön
+  semmi; a táblázat félkész (írásmód csak négy nyelvnél, nyelvcsalád nélkül az
+  Óriás, az Ork, a Félszerzet és az Allúr). Benne maradt: „Este 10 van és
+  elfáradtam a rizsázásban”.
+Teendő: Képlet a Tudásból, a táblázat kitöltése, a helyőrző szöveg cseréje.
+Állapot: FOLYAMATBAN (2026.10.22.)
+Döntés: Tudásnyi elosztható nyelvismeret. Értelmezés: egy nyelvismeret = egy
+  jártassági szint egy nyelvben; a Közös nem ingyenes.
+Javítás: wispers-0.8-javitott.txt › III. rész › 2. Személyiség és háttér ›
+  Nyelvek: az „Este 10 van…” mondat helyett a fenti szabály. A táblázatban
+  a mnemór „Arhaikus” bejegyzése visszakerült a Nyelvcsalád oszlopba (a
+  0.8 átrendezés tévesen az Írásmódhoz tette; a HEAD-ben nyelvcsalád).
+  Hátravan: a táblázat hiányzó nyelvcsaládjai és írásmódjai – később, a
+  szerző kreatívabb megoldást akar (a meglévő szavakból összerakott
+  javaslatot 2026.10.22-én elvetette). Az „Arhaikus” áthelyezése a 0.8-ban
+  PDF-kinyerési hiba volt (a struktúra-txt-ben az üres cellák elvesztek).
+Megjegyzés:
+
+----------------------------------------------------------------
+[H-27] KISEBB – Félkész Égisz-bejegyzések
+Hol: III. rész › 3. Kegy és égiszek › Magas égiszek
+Probléma: A forrásban az egyik bejegyzésnek nincs neve („, a Fényes Penge”),
+  Biróg nem kapott melléknevet, Nikka szövege egyetlen szó („Nikka”). A tíz
+  alacsony és a többi magas égisz csak címsor.
+0.8: Az átrendezés a két címsort „Biróg, a Fényes Penge” néven összevonta.
+  Ez feltételezés volt – döntsd el, hogy így helyes-e (E-2).
+Teendő: A nevek és a bejegyzések pótlása.
+Állapot: FOLYAMATBAN (2026.10.22.)
+Döntés: Biróg és a Fényes Penge két külön égisz; a Fényes Penge nevét még
+  nem találtad ki, csak a titulusát. A 0.8 összevonása (E-2) hibás volt.
+Javítás: wispers-0.8-javitott.txt › III. rész › 3. Kegy és égiszek › Magas
+  égiszek: „Biróg, a Fényes Penge” helyett két címsor: „Biróg” és
+  „[név később], a Fényes Penge”.
+  Hátravan: a Fényes Penge neve, Biróg titulusa, a bejegyzések szövege.
+Megjegyzés:
+
+----------------------------------------------------------------
+[H-28] KISEBB – Kilenc trón
+Hol: III. rész › 3. Kegy és égiszek › Nyolcak › Ordreia, a Föld és
+     Megtévesztés Suttogója
+Probléma: „Hortha mellett foglal helyet a Kilenc trónon” – a Suttogók nyolcan
+  vannak. Van kilencedik hely, vagy elírás?
+Teendő: Döntés.
+Állapot: ELVETVE (2026.10.22.)
+Döntés: Szándékos, narratív elem – nem hiba, a szöveg marad.
+Javítás:
+Megjegyzés:
+
+----------------------------------------------------------------
+[H-29] HIÁNY – Pénz
+Hol: III. rész › 5. Felszerelés és vagyontárgyak › Pénz; III. rész › 1. Fajok ›
+     Magmavérűek › Nemesek vérvonala
+Probléma: Négy fém (Vas, Réz, Ezüst, Arany), de váltási arány és ár nincs. A
+  Nemesek vérvonala „aranyban mért értékével” számol, ami így nem számolható.
+Teendő: Váltási arányok és egy alap árlista.
+Állapot: FOLYAMATBAN (2026.10.22.)
+Döntés: Az Open Legend-féle arányok (2020-as házi szabály) kiegészítve:
+  20 Vas = 1 Réz, 800 Réz = 1 Ezüst, 25 Ezüst = 1 Arany. A vault
+  Peták-rendszere (1 : 100 : 10 000 : 100 000) a szabálykönyvbe nem kerül.
+Javítás: wispers-0.8-javitott.txt › III. rész › 5. Felszerelés › Pénz: új
+  váltótáblázat és szerkesztői megjegyzés a hiányzó árlistáról; az
+  RTFC/DIVERGENCIA.md Peták-sorába bekerült a döntés.
+  Hátravan: alap árlista. (A Nemesek vérvonala már nem számol aranyértékkel.)
+Megjegyzés:
+
+----------------------------------------------------------------
+[H-30] HIÁNY – Fegyvertábla
+Hol: III. rész › 5. Felszerelés és vagyontárgyak › Fegyverek › Általános
+     fegyverek; Különleges fegyverek
+Probléma: Az SZ oszlop üres, pedig „Egy támadás AP költsége a támadáshoz
+  használt fegyvertől függ.” (a 0.5.5-ben az oszlop még „AP” volt). A
+  Jellemzők oszlopban csak a Glaive „2h”-ja áll, így nincs kijelölve, mely
+  fegyverek „reach tulajdonságú” fegyverek, és melyik „lefegyverző fegyver”. A
+  Manőverezés leírását „az adott fegyvernél” kellene megtalálni, de egyik
+  fegyvernek sincs manővere. A Különleges fegyverek közt egy sor van
+  (Emberfogó), a jártassági oszlopok üresek.
+Teendő: Az oszlopok kitöltése D-1 után.
+Állapot: FOLYAMATBAN (2026.10.22.)
+Döntés: SZ (a támadás AP-ja) fegyverenként, egyedi elbírálással, balansz
+  szerint – nem a kocka alapján. Lőfegyverek hatótávja a CRPG szerint;
+  Kétkezes-csatabárd és Nagykalapács is 2h. Reach: Lándzsa, Glaive, Szigony;
+  lefegyverző: Fegyvertörő. Fegyvermanőverek később.
+Javítás: wispers-0.8-javitott.txt › III. rész › 5. Felszerelés › Általános
+  fegyverek: Jellemzők oszlop kitöltve (2h, reach, lefegyverző, Mid Range /
+  Far Range).
+Megjegyzés: Hátravan: az SZ oszlop, a manőverek, a jártassági oszlopok. A
+  CRPG data/weapons.json-ban a Kétkezes-csatabárd és a Nagykalapács még nem
+  2h, és reach/lefegyverző adat sincs – ott is igazítani kell. A „Mid Range /
+  Far Range” angol címke a H-48-cal együtt cserélhető.
+
+----------------------------------------------------------------
+[H-31] ELLENTMONDÁS – A jártassági szintek nevei a táblákban
+Hol: III. rész › 5. Felszerelés › Fegyverek › Jártasságok fegyverekkel;
+     Általános fegyverek; Páncélok – II. rész › 1. A rendszer alapjai ›
+     Jártassági szintek
+Probléma: A szinttábla: Képzetlen – Kezdő – Képzett – Tapasztalt – Gyakorlott
+  – Mester. A fegyver- és páncéltáblák: Képzetlen – Kezdő – Képzett – Haladó –
+  Tapasztalt – Mester. A nevek és a sorrend is eltér.
+Teendő: Egy névsor mindenhol.
+Állapot: JAVÍTVA (2026.10.22.)
+Döntés: A fegyvertábla nevei az érvényesek: Képzetlen – Kezdő – Képzett –
+  Haladó – Tapasztalt – Mester.
+Javítás: wispers-0.8-javitott.txt
+  – II. rész › 1. A rendszer alapjai › Jártassági szintek: a d8-as szint
+    „Tapasztalt” → „Haladó”, a d10-es „Gyakorlott” → „Tapasztalt”; a
+    próbaplafonok szövege is (Képzett: „maximum Haladó”, Haladó: „maximum
+    Tapasztalt”);
+  – Sebesülés és halálozás › Súlyos vérzés: „Tapasztalt Orvoslás” →
+    „Haladó Orvoslás” (ugyanaz a d8-as szint, csak új néven).
+Megjegyzés: A „Tapasztalt” jelentése így eggyel feljebb került (d8 → d10).
+  A CRPG ProficiencyLevel-nevei a régi sort követhetik – ott ellenőrizni.
+Megjegyzés:
+
+----------------------------------------------------------------
+[H-32] HIÁNY – Páncélok
+Hol: III. rész › 5. Felszerelés › Páncélok › Jártasságok páncélokkal
+Probléma: Minden érték (Védőérték, SZ, Reflexgátlás, jártasságok) üres. A
+  páncélnevek angolok (Ailette … Viking armor), a Hauberk és a Ring armor
+  egyaránt „Páncéling”. A páncél értékének három neve van: Védőérték
+  (táblázat), „a páncélod keménysége” (Beleállás), „a páncél sebzésfelfogó
+  értéke” (Reflex).
+Teendő: Értékek, magyar nevek, egy elnevezés.
+Állapot: FOLYAMATBAN (2026.10.22.)
+Döntés: Két külön érték. Védőérték: ennyivel növeli a sebhatárokat.
+  Keménység: a páncéllal csökkenthető a karaktert ért találat a saját
+  értékével; ekkor a páncél annyi Keménységet veszít, ahány sebet így
+  felfogott; 0-s Keménységnél a páncél eltörik. Sebzésfelfogó érték (SFÉ)
+  egyelőre nincs. Az angol nevek maradványok, magyar nevek kellenek.
+Javítás: wispers-0.8-javitott.txt
+  – Seb › A seb súlyossága: „páncél keménységének” → „páncél
+    Védőértékének”;
+  – Általános reakciólista › Beleállás: a Keménység-szabály szerint átírva;
+  – Mentődobások › Reflex: a „páncél sebzésfelfogó értéke” mondat törölve;
+  – Páncéltáblázat: új „Keménység” oszlop (üres).
+  Felfogás (2026.10.22.): a támadó X-et dob, a páncél Z = min(X, Y)-t fog
+  fel (Y a Keménység), és Z Keménységet veszít; a célpont X − Z-t méri a
+  sebhatárához. A Beleállás szövege ennek megfelelően pontosítva.
+  Teljes felfogás (X − Z = 0) esetén is Könnyű seb jár (2026.10.22.).
+  Magyar nevek elfogadva (2026.10.22.): Vállvért, Pántos láncvért,
+  Keményített bőrvért, Brigantin, Mellvért, Steppelt zeke, Láncing, Lemezes
+  zeke, Jazeránvért, Ládamellű vért, Lamellás vért, Sávos lemezvért,
+  Láncvért, Teljes lemezvért, Gyűrűs vért, Pikkelyvért, Sínvért, Vasalt
+  bőrvért (új kifejezések). A táblázat első oszlopába kerültek; a második
+  névoszlop (a régi részleges fordításokkal) „Páncélcsoport” lett, üresen –
+  a 2025.10.22-i verzióban ez volt a neve (Könnyű-/Közepes-/Nehézpáncél).
+Megjegyzés: Hátravan: Védőérték, Keménység, SZ, Reflexgátlás és
+  Páncélcsoport értékei.
+
+----------------------------------------------------------------
+[H-33] KISEBB – Akaraterő és „módosító”
+Hol: II. rész › 1. A rendszer alapjai › Tulajdonságok › Szellem;
+     II. rész › 6. › Mentődobások › Eltökéltség
+Probléma: A Szellemnek „az Akaraterő mentődobás kiszámításában lesz
+  szerepe”, az Eltökéltség utolsó mondata „a karakter Akaraterő értékét” írja;
+  a mentődobás neve máshol Eltökéltség. Az Eltökéltség értéke „a Szellem
+  módosítójának” és a passzív bónusznak az összege, holott máshol a
+  tulajdonság értékével számolsz.
+Teendő: Akaraterő → Eltökéltség; módosító → érték.
+Állapot: JAVÍTVA (2026.10.22.)
+Döntés: Akaraterő → Eltökéltség; „a Szellem módosítójának” → „a Szellem
+  értékének”.
+Javítás: wispers-0.8-javitott.txt › II. rész › 1. › Tulajdonságok › Szellem;
+  II. rész › 6. › Mentődobások › Eltökéltség. (Az Eltökéltség „karakter
+  Akaraterő” mondata már a H-11-nél kikerült.) A szövegben nincs több
+  „Akaraterő”.
+Megjegyzés:
+
+----------------------------------------------------------------
+[H-34] HIÁNY – Kimerültség
+Hol: II. rész › 1. A rendszer alapjai › Tulajdonságok › Kimerültség
+Probléma: A szakasz csonk: „A karakter a kalandozás során” – a
+  kimerültségnek nincs hatása. Két skálán gyűlik: szintekben (pihenő kihagyása
+  +1, táborozás kihagyása +2, pihentető táborozás −1, a Vérdal „egy szintnyi
+  kimerültséget” ad) és pontokban (minden Seb +1, a rizikós próba sikere és a
+  másvalaki elleni próba mindkét kimenetele a teljes nehézségértéket adja).
+Teendő: Egy skála, és mit okoz (D-2).
+Állapot: JAVÍTVA (2026.10.22.)
+Döntés: A Kimerültség szintekben gyűlik; minden szint −1 módosító minden
+  dobásra; ha meghaladja az Állóképesség értékét: halál. Források: csak a
+  Mély és a Súlyos seb ad +1-et (a Könnyű nem); a próbák „+nehézségérték”
+  költsége megszűnt (H-40); a többi (pihenő/tábor, Vérdal) marad.
+Javítás: wispers-0.8-javitott.txt › II. rész › 1. A rendszer alapjai ›
+  Tulajdonságok › Kimerültség: a csonk helyett a fenti szabály.
+  Seb › Sebdobás: „Mély és Súlyos sebnél adj hozzá egyet a Kimerültségedhez
+  is”. (A sebtáblák egyes sorai saját Kimerültséget adnak – ezek hatások.)
+Megjegyzés: Tervezési elv (2026.10.22., a Szusztörőnél): a Kimerültséget ne
+  lehessen könnyen halmozni.
+
+----------------------------------------------------------------
+[H-35] ELLENTMONDÁS – Mivel dob a képzetlen karakter?
+Hol: II. rész › 1. A rendszer alapjai › Jártassági szintek (táblázat);
+     Bevezetés › I. fejezet › Tandemkockák; II. rész › 1. › Előny és hátrány
+Probléma: Képzetlen szinten „Nincs jártasságkocka.”, a Tandemkockák szerint
+  viszont „A játék során a karakterek mindig két kockát gurítanak”, és az
+  előny/hátrány is két kockára van megírva.
+Teendő: A képzetlen dobás szabálya.
+Állapot: JAVÍTVA (2026.10.22.)
+Döntés: Képzetlen karakter próbát nem tehet.
+Javítás: wispers-0.8-javitott.txt › II. rész › 1. A rendszer alapjai ›
+  Jártassági szintek: a Képzetlen sorba: „Ezzel a jártassággal próbát nem
+  tehet.” (Ez a H-36 „mit próbálhat meg a Képzetlen” kérdését is lezárja.)
+Megjegyzés: Mentődobás és fegyver (2026.10.22.): mentődobása minden
+  karakternek van – a szövegben „mindhárom mentődobásban legalább Kezdő”,
+  a CRPG FreeSaveLevel-je szerint (értelmezés). Fegyvernél érvényes:
+  Képzetlen fegyvercsoport fegyverével nem támadhat (Fegyverek ›
+  Jártasságok fegyverekkel, új mondat).
+Megjegyzés:
+
+----------------------------------------------------------------
+[H-36] ELLENTMONDÁS – A jártassági szintek próbaplafonjai
+Hol: II. rész › 1. A rendszer alapjai › Jártassági szintek (táblázat)
+Probléma: A Kezdő sora „Megpróbálhat Képzett szintet igénylő próbákat” (a
+  többi „maximum …” formájú). A Gyakorlott és a Mester sora egyaránt
+  „Megpróbálhat maximum Mester szintet igénylő próbákat”, így a Mester egyetlen
+  többlete az automatikus siker. A Képzetlen sorból hiányzik, mit próbálhat meg.
+Teendő: A plafonok egységesítése.
+Állapot: JAVÍTVA (2026.10.22.)
+Döntés: Kezdő: „maximum Képzett”; a Mester többlete az automatikus siker
+  marad (a Tapasztalt és a Mester plafonja azonos).
+Javítás: wispers-0.8-javitott.txt › II. rész › 1. › Jártassági szintek: a
+  Kezdő sora „Megpróbálhat maximum Képzett szintet igénylő próbákat.”; a
+  Képzetlen sor a H-35 óta „próbát nem tehet”.
+Megjegyzés:
+
+----------------------------------------------------------------
+[H-37] HIÁNY – Képzettségek
+Hol: II. rész › 1. A rendszer alapjai › Képzettségek
+Probléma: 42 képzettség csak névvel, leírás nélkül. A szociális konfrontáció
+  két megközelítése (Empátia, Érvelés) nincs köztük (H-41).
+Teendő: Rövid leírás képzettségenként.
+Állapot: JAVÍTVA (2026.10.23.) – 42/42 kész
+Döntés: Nem egysoros leírás, hanem jártasságtól függően fejlődő tudás, a
+  M.A.G.U.S. képzettségleírásainak mintájára, öt szinttel: alapleírás (kik
+  űzik, mire jó), majd prózában, mit tud a karakter Kezdő, Képzett, Haladó,
+  Tapasztalt és Mester szinten. Nem tisztán mechanika (nincs AP, százalék,
+  előny szintenként). A szakasz egy közös mondatot kap: „A magasabb szint az
+  alacsonyabbak tudását is magában foglalja.”
+Javítás: wispers-0.8-javitott.txt › II. rész › 1. A rendszer alapjai ›
+  Képzettségek: a névlista és a lábjegyzetek maradnak; utánuk a közös mondat
+  és képzettségenként egy #### alszakasz. Kész (1. adag): Álcázás, Alkímia,
+  Állatismeret, Csábítás, Csapdaállítás/hatástalanítás, Csapdakeresés,
+  Diplomácia, Értékbecslés, Észlelés, Főzés, Geológia. Kész (2. adag):
+  Gyűjtögetés, Hadvezetés, Hajózás, Heraldika, Herbalizmus, Időjóslás,
+  Idomítás, Intrika, Kocsihajtás, Legendaismeret, Logisztika. Kész (3. adag):
+  Lovaglás, Mászás, Megfélemlítés, Megtévesztés, Méregkeverés/hatástalanítás,
+  Művészet, Nyomolvasás/eltüntetés, Orvoslás, Osonás, Rejtőzés. Kész (4. adag):
+  Szakma, Személyismeret, Szereplés, Szexuálkultúra, Térképészet,
+  Történészet, Vadászat, Vadonjárás, Zárnyitás, Zsebmetszés.
+Megjegyzés: Az Orvoslásnál a
+  zárójeles próbák a vérzésszabályokból jönnek (Súlyos vérzés: Haladó,
+  Belső vérzés: Mester Orvoslás próba); a táblázat szerint egy szinttel
+  lejjebb kísérelhetők meg először, ezért Képzett, ill. Tapasztalt szinten
+  szerepelnek. Az Alkímia leírása receptekre és
+  alapanyagokra épít, ezek még nincsenek kidolgozva. A korábban javasolt
+  mechanikus közös szabályok (passzív érték, az alkotó szintjéhez kötött
+  ellenpróba) nem kerültek be; ha kellenek, a Képzettségpróbákhoz valók.
+
+----------------------------------------------------------------
+[H-38] HIÁNY – Szakértelem és erőltetés
+Hol: II. rész › 2. Próbák és konfliktusok › Képzettségpróbák
+Probléma: „a próbád szakértelemmel vagy erőltetéssel kísérled meg. Ettől
+  függhet egy próba kimenetele is.” Hogy mitől és hogyan, az nincs leírva.
+Teendő: A két mód hatása, vagy a mondat törlése.
+Állapot: JAVÍTVA (2026.10.23.)
+Döntés: Négy ágú próba két kockával (2026.10.23.). A tulajdonságkocka +
+  jártasságkocka összege dönti el, megvan-e a célérték; a két dobott érték
+  összevetése a módot: ha a jártasságkocka legalább annyit dob, mint a
+  tulajdonságkocka, szakértelem, ha kevesebbet, erőltetés.
+    siker + szakértelem = Abszolút siker
+    siker + erőltetés   = Részleges siker (mellékhatás, a mesélő választja)
+    bukás + szakértelem = Bukás
+    bukás + erőltetés   = Kritikus bukás (következmény, a mesélő rendeli)
+  A kimenetelek nevét Zoz adta. Elvetett változat: jártasságkocka +
+  nehézségkocka (nagyobb kocka = könnyebb feladat); ott a nehézségkocka az
+  összegben segít, az összevetésben akadály, így könnyű feladaton ritkább
+  a kritikus siker, mint nehezen (6-os célértéknél Mester: d12-es feladaton
+  43%, d4-esen 71%), és a tulajdonság kiesik a próbákból.
+Javítás: wispers-0.8-javitott.txt › II. rész › 2. Próbák és konfliktusok ›
+  Képzettségpróbák: a bevezető utolsó két mondata helyett a két szempont
+  leírása; Próba önmagad / szituáció ellen: Siker/Bukás helyett a négy
+  kimenetel.
+Megjegyzés: Az Abszolút siker és a Kritikus bukás leírása Claude
+  megfogalmazása. Nyitott még: a Rizikós próba (H-39) és a Próba másvalaki
+  ellen illesztése a négy ághoz; az automatikus siker melyik ágnak számít;
+  mi a mód, ha hátrány miatt csak egy kocka marad (két d4), vagy előny miatt
+  egy harmadik d4 kerül a dobásba. Az esélyeket „eléri” (≥) feltevéssel
+  számoltam, a szöveg „a próba nehézségértéke fölé” célértéket ír.
+  CRPG-eltérés: a CRPG sima próbája kétágú, a rizikós próbája külön
+  nehézségkockát dob (README, 2026.10.17.).
+
+----------------------------------------------------------------
+[H-39] MARADVÁNY – Rizikós próba
+Hol: II. rész › 2. Próbák és konfliktusok › Képzettségpróbák › Rizikós próba
+     önmagad / szituáció ellen
+Probléma: A bukási ágak („Bukás nehézségkocka aládobással”, „Bukás pontérték
+  fölédobással”, „Dupla bukás: ha a próba mindkét ágon bukás”) egy kétirányú
+  célértékre épülnek, amely már nincs: a 0.5.5-ben „a próba nehézségértéke
+  fölé, de a saját EP vagy MP értéked alá” kellett dobni, 2025 októberében a
+  Stamina vagy az MP alá. A „pontérték” ez a megszűnt pontkészlet, a
+  „nehézségkocka” sehol nincs definiálva. A „Vond le a próbához használt
+  pontértékedből a próba nehézségértékét.” így nem hajtható végre.
+Megjegyzés a CRPG-ből: 2026.10.17-én a Cheatsheet modelljét választottad
+  (jártasságkocka a nehézségkocka fölé; négy kimenet; kimerültség-költség és
+  pontérték-levonás nélkül).
+Teendő: A rizikós próba újraírása (D-2).
+Állapot: JAVÍTVA (2026.10.23.)
+Döntés: A rizikós próba a H-38 négy ágát használja, magasabb téttel:
+  Abszolút siker – sikeres; Részleges siker – sikeres, de a mellékhatás egy
+  Seb, és ha nem vállalod, sikertelen; Bukás – sikertelen; Kritikus bukás –
+  sikertelen és Seb. A Seb súlyosságát (Könnyű, Mély, Súlyos) a mesélő
+  rendeli a próbához. Nehézségkocka és pontérték nincs.
+Javítás: wispers-0.8-javitott.txt › II. rész › 2. Próbák és konfliktusok ›
+  Képzettségpróbák › Rizikós próba önmagad / szituáció ellen: a „Siker”, a
+  „Bukás nehézségkocka aládobással”, a „Bukás pontérték fölédobással” és a
+  „Dupla bukás” helyett a súlyosság mondata és a négy kimenetel.
+Megjegyzés: A régi szándék megmaradt: a Seb árán sikerre fordítás (most:
+  Részleges siker) és a Dupla bukás (most: Kritikus bukás). CRPG-eltérés: a
+  CRPG rizikós próbája továbbra is külön nehézségkockát dob a
+  jártasságkocka ellen (README, 2026.10.17.).
+
+----------------------------------------------------------------
+[H-40] ELLENTMONDÁS – A próbák költsége fordított
+Hol: II. rész › 2. Próbák és konfliktusok › Képzettségpróbák › Próba önmagad /
+     szituáció ellen; Rizikós próba; Próba másvalaki ellen
+Probléma: A sima próba ingyenes. A rizikós próbánál már a siker is a
+  nehézségértéket adja a kimerültséghez, a másvalaki elleni próbánál siker és
+  bukás is: „Add hozzá a kimerültségedhez a próba nehézségértékét.” Egy
+  szkanderezés drágább egy sima próbánál, akár nyersz, akár vesztesz.
+Teendő: A költségek összehangolása (D-2).
+Állapot: JAVÍTVA (2026.10.22.)
+Döntés: A próbák nem adnak Kimerültséget (a „+nehézségérték” költség
+  megszűnt).
+Javítás: wispers-0.8-javitott.txt › II. rész › 2. Próbák és konfliktusok ›
+  Képzettségpróbák: az „Add hozzá a kimerültségedhez a próba
+  nehézségértékét.” mondat mind az öt helyről törölve (sima próba siker és
+  bukás, rizikós siker, másvalaki elleni siker és bukás). Megjegyzés: a
+  0.8-ban (0.7.0c) a sima próbán is volt ilyen költség, a HEAD-ben nem.
+Megjegyzés:
+
+----------------------------------------------------------------
+[H-41] ELLENTMONDÁS – Megközelítések és képzettségek
+Hol: II. rész › 2. Próbák és konfliktusok › Szociális konfrontáció ›
+     Konfliktus; III. rész › 1. Fajok › Városorzók › Diplomaták
+Probléma: A három megközelítésből csak a Megfélemlítés képzettség, a próbát
+  „a szituációban felhasználható képzettség segítségével” kell tenni. A
+  Diplomaták viszont mindhármat jártasságként kezeli: „Válassz, hogy Empátia,
+  Érvelés vagy Megfélemlítés közül melyikben jártasabb a karaktered.”
+Teendő: Döntsd el, mihez kötődik a Diplomaták.
+Állapot: JAVÍTVA (2026.10.23.)
+Döntés: A Diplomaták megközelítést választ, nem jártasságot; csak a szó
+  változik. A képzettségek és a megközelítések kapcsolatát a H-37 leírásai
+  adják meg (Csábítás: Empátia, Diplomácia: Érvelés, Megfélemlítés:
+  Megfélemlítés).
+Javítás: wispers-0.8-javitott.txt › III. rész › 1. Fajok › Városorzók ›
+  Diplomaták: „melyikben jártasabb a karaktered” helyett „melyik
+  megközelítésben erősebb a karaktered”.
+Megjegyzés:
+
+----------------------------------------------------------------
+[H-42] HIÁNY – Reputáció, a konfliktus vége, hazugság
+Hol: II. rész › 2. Próbák és konfliktusok › Szociális konfrontáció › A
+     konfliktus hossza; Kivívott tisztelet felhasználása
+Probléma: „fel kell használnod a reputációd” – reputáció nincs a könyvben. A
+  konfliktus addig tart, „ameddig valamelyik fél el nem éri a mesélő által
+  kijelölt értéket”, de csak a játékosok célszáma van megadva. A hazugságnak
+  nincs helye a rendszerben; a 0.5.5-ben még volt „Meggyőzés hazugsággal”.
+Teendő: Reputáció, kétoldali határ, hazugság szabálya.
+Állapot: JAVÍTVA (2026.10.23.)
+Döntés: (1) Reputáció helyett kivívott tisztelet vagy egy kapcsolat
+  szívessége (mindkettő létezik). (2) A számláló nulláról indul, és mindkét
+  irányba ugyanakkora értékig mehet; a kijelölt érték elérése a játékosok,
+  a másik irányban az ellenfeleik győzelme. (3) Hazugság: bármelyik
+  megközelítésnél Megtévesztés próba; Részleges sikernél a hazugság később
+  kiderül.
+Javítás: wispers-0.8-javitott.txt › II. rész › 2. Próbák és konfliktusok ›
+  Szociális konfrontáció: Kivívott tisztelet felhasználása – „fel kell
+  használnod a reputációd” helyett „el kell használnod egy kivívott
+  tiszteletet vagy egy kapcsolatod szívességét”; A konfliktus hossza – új
+  mondat a kétoldali határról; új #### Hazugság alszakasz az Elemzés előtt.
+Megjegyzés: A konfrontációs próbák még a kétágú siker/bukás mértékével
+  mozdítják a számlálót; a négy ág itt csak a hazugságnál számít.
+
+----------------------------------------------------------------
+[H-43] HIÁNY – Utazási cselekvések
+Hol: II. rész › 3. Utazás és felfedezés › Szegmensek; Cselekvések
+Probléma: Mind a tíz cselekvés csak címsor, csak az utolsónak van egysoros
+  leírása. A Nyomok elrejtése, a Csapdaállítás és a Csapdakeresés egyik szegmens
+  listájában sem szerepel. A Képzettségek kamatoztatása: „Pihenő alatt.”, de
+  csak a táborozási szegmens listájában van. A csapat „megválasztja a tempót és
+  annak vonzatait”, de tempók nincsenek.
+Teendő: Leírások, a listák egyeztetése, tempótáblázat.
+Állapot: JAVÍTVA (2026.10.23.)
+Döntés: A CRPG-ben 2026.10.18-án jóváhagyott utazási szabályok kerülnek a
+  könyvbe; a nehézségértéket a mesélő adja (a CRPG vázlatértéke 4). Tempó:
+  komótos ¾ táv és egyes előny a cselekvésekre, normál teljes táv, gyors
+  1½ táv és egyes hátrány. Nyomok elrejtése és Csapdakeresés: utazási
+  szegmens; Csapdaállítás: táborozási szegmens. Képzettségek kamatoztatása:
+  táborozás alatt; Szakmával 1 Keménység vissza egy páncélnak.
+Javítás: wispers-0.8-javitott.txt › II. rész › 3. Utazás és felfedezés:
+  tempótáblázat az Utazási szegmensekben; az utazási és a táborozási lista
+  kiegészítve; mind a tíz cselekvés leírást kapott; „Pihenő alatt” helyett
+  „Táborozás alatt”.
+Megjegyzés: Claude választása: a Nyomok elrejtése és a Csapdaállítás
+  Ügyességgel, a Csapdakeresés Szellemmel megy; a Nyomok elrejtése ellen
+  Nyomkövetéssel lehet próbát tenni; a tábor körüli csapdába az első
+  támadó lép bele. CRPG-eltérés: a CRPG-ben a kamatoztatás Marást javít,
+  nem Keménységet; a Nyomok elrejtése, a Csapdaállítás és a Csapdakeresés
+  ott még nincs.
+
+----------------------------------------------------------------
+[H-44] KISEBB – A szegmens két jelentése
+Hol: II. rész › 3. Utazás és felfedezés › Szegmensek; II. rész › 4. Harc ›
+     Fogalmak a harc során › Szegmensek
+Probléma: „Egy utazási szegmens maximum 6 óráig tart”, a harcban egy szegmens
+  „hozzávetőlegesen 3 eltelt másodpercnek felel meg”.
+Teendő: Az egyik egység átnevezése.
+Állapot: ELVETVE (2026.10.23.)
+Döntés: Nincs átnevezés. Az utazásban marad az „utazási szegmens” (és a
+  pihenő, táborozási szegmens), a harcban a Szegmens a kezdeményezés tétje
+  (D-1). A kettőt a jelző különbözteti meg.
+Javítás: nem kell.
+Megjegyzés: A javasolt „napszak” elvetve. A CRPG felülete is „utazási
+  szegmens”.
+
+----------------------------------------------------------------
+[H-45] BLOKKOLÓ – Két harci időrendszer
+Hol: II. rész › 4. Harc › Fogalmak a harc során (Szegmensek, Kezdeményezés,
+     A karakter köre, Reakciók); Általános cselekvéslista; Általános reakciólista
+Probléma: A kör szegmens-licittel megy, minden cselekvés ára akciópontban
+  van, és sehol nincs leírva, hány AP-ja van egy karakternek.
+  – zónán belüli mozgás „egy szegmens” ↔ Elmozdulás {2AP}
+  – „egy komolyabb varázslat akár tíz is lehet” ↔ Varázslás {1-6AP}
+  – Reakciók: „a reakció szegmensértékével nő a kezdeményezése (de a körében
+    majd elhasználható szegmensek száma már nem” ↔ Általános reakciólista: „A
+    reakciók akciópontköltsége osztozik a körödben használható akciók
+    költségével.” Nem derül ki, hogy a reakció a köröd keretéből fogy-e, vagy
+    csak későbbre tolja a körödet.
+  – a bemondható szegmensszámnak nincs felső határa
+  – a Célzott lövésnek és a Letaglózó lövésnek nincs ára
+Eredet: a 0.5.5-ben „Egy karakter a köre kezdetén 6 akcióponthoz jut”. A
+  2025.10.22-i verzió bevezette a szegmens-licitet, a 6 AP-s mondat kikerült, a
+  fegyvertábla „AP” oszlopa „SZ” lett, a {xAP} címkék maradtak.
+Máshol is érinti: Kitartó harcosok (0 AP), Rövid távú harcosok (3AP),
+  Sötétlátás és Infralátás (1AP), Magmavér (H-14), Elmerekesz (H-17), Vérláz
+  (0 AP), varázslati komponensek (1/2/3 AP), SZ oszlop (H-30), Rohamozás
+  (H-51), Reflex (H-57).
+Teendő: D-1.
+Állapot: FOLYAMATBAN (2026.10.22.)
+Döntés: lásd D-1 (AP = szegmens; reakció a következő körre bemondott számból).
+Javítás: lásd D-1.
+Megjegyzés: Hátravan: a bemondott szám felső határa vagy az ismétlés
+  költsége; a Célzott lövés és a Letaglózó lövés ára.
+
+----------------------------------------------------------------
+[H-46] ELLENTMONDÁS – A támadásba nem számít tulajdonság
+Hol: II. rész › 4. Harc › Fogalmak a harc során › A harc tényezői;
+     Általános cselekvéslista › Támadás; II. rész › 1. › Tulajdonságok › Erő;
+     Ügyesség
+Probléma: „Támadáshoz dobj a fegyvered kockájával és a hozzátartozó
+  jártasságkockával.” Közben az Erő szerint „A közelharci fegyverek
+  elsődlegesen erőt használnak majd a támadáshoz.”, az Ügyesség a távolsági és
+  a gyengébb kézben tartott fegyverhez tartozik. A harc tényezői szerint az Erő
+  és az Ügyesség „befolyásolják az illető harcértékét”, és a „Tapasztalati
+  Szintje” is számít – egyik sem Wispers-fogalom.
+Teendő: Számít-e a tulajdonság a támadásba; a bekezdés átírása.
+Állapot: JAVÍTVA (2026.10.23.)
+Döntés: A támadásba nem számít tulajdonság (fegyverkocka + jártasságkocka,
+  ahogy a CRPG-ben). Pusztakezes támadásnál a fegyverkocka fixen 1d2.
+Javítás: wispers-0.8-javitott.txt › II. rész › 4. Harc › A harc tényezői:
+  az első bekezdés átírva, a „harcérték” és a „Tapasztalati Szint” kikerült;
+  Általános cselekvéslista › Támadás: két új mondat (nincs tulajdonság,
+  pusztakézzel 1d2); II. rész › 1. › Tulajdonságok › Erő, Ügyesség: a
+  támadásra vonatkozó mondatok törölve.
+Megjegyzés: A d2 = 1d4/2, a kockalistába nem kerül. A pusztakezes
+  támadás jártassága a Pusztakezes harc (új sor a Jártassági szintek
+  bevezetőjében és a Karakteralkotás › Jártasságok listájában). Nyitott:
+  hogyan hat az előny és a hátrány a d2-re. CRPG-eltérés: ott a pusztakezes támadás Pusztakezes harc
+  jártasságkocka + Erő vagy Ügyesség kockája.
+
+----------------------------------------------------------------
+[H-47] HIÁNY – Kegy
+Hol: II. rész › 4. Harc › Fogalmak a harc során › Kegy; Túlütés;
+     III. rész › 3. Kegy és égiszek (cím)
+Probléma: A Túlütés szerint a találatot „nem negálhatja kegy elköltésével”,
+  a fejezetcím is a Kegyről szól, de a Kegy szakasz egyetlen csonka mondat:
+  „Amikor a karaktered sebesülést kapna, ignorálhatod”. Nincs forrása, kerete,
+  visszatöltése.
+Teendő: A Kegy megírása (D-2).
+Állapot: DÖNTÉSRE VÁR (2026.10.22.)
+Döntés: A Kegy átdolgozásra kerül; az Égiszhez és a DDD-hez kapcsolódik. A
+  csonk nem marad ki.
+Javítás: wispers-0.8-javitott.txt › II. rész › 4. Harc › Fogalmak a harc
+  során › Kegy: a csonka mondat megmaradt, alá szerkesztői megjegyzés került
+  az átdolgozásról.
+Megjegyzés: A Túlütés hivatkozása („nem negálhatja kegy elköltésével”) is
+  ehhez igazodik majd.
+
+----------------------------------------------------------------
+[H-48] HIÁNY – Zónák és hatótávok
+Hol: II. rész › 4. Harc › Fogalmak a harc során › Zónák és hatótávok
+Probléma: A Mid Range és a Far Range üres. A címsorok angolok (Melee, Short
+  Range, Mid Range, Far Range; reach). Az „Értelmezhetetlen” címsor alatt a
+  zónák közti mozgás szabálya áll.
+Teendő: A két hatótáv leírása, magyar címsorok, a címsor javítása.
+Állapot: JAVÍTVA (2026.10.23.)
+Döntés: A harci távolságok absztraktak (nincs méter, láb). Az
+  Értelmezhetetlen a Far Range utáni kategória. A reach annyit jelent, hogy
+  az ilyen fegyver a Short Range-en is elér. Távolsági fegyver a saját
+  hatótávjáig hátrány nélkül, eggyel távolabbra egyes hátránnyal lő (CRPG).
+Javítás: wispers-0.8-javitott.txt › II. rész › 4. Harc › Fogalmak a harc
+  során › Zónák és hatótávok: Mid Range és Far Range leírása; az
+  Értelmezhetetlen saját leírást kapott; a zónák közti mozgás új
+  „Zónák közti mozgás” címsor alá került.
+Megjegyzés: Magyar nevek (új kifejezések, jóváhagyva 2026.10.23.):
+  Melee = Közelharci táv, Short Range = Rövid táv, Mid Range = Közepes táv,
+  Far Range = Nagy táv; címsorokban, leírásokban és a fegyvertábla
+  Jellemzők oszlopában is cserélve. A reach egyelőre angolul marad. A
+  varázslás Mid és Far Range-en a H-54-ben dől el. A CRPG
+  méterben számol (1,5 / 3 / 18 / 36 m), a könyv nem.
+
+----------------------------------------------------------------
+[H-49] ELLENTMONDÁS – Lábban mért távok a zóna-rendszerben
+Hol: II. rész › 4. Harc › Általános cselekvéslista › Kúszás; Harcmodorok ›
+     Terelő harcmodor; Távharci fegyverrel végrehajtott cselekvések ›
+     Letaglózó lövés
+Probléma: A zónákkal „megspóroljuk a távolságok felesleges méricskélését”,
+  mégis: „Kússz 10 lábnyit.”; „néhány lábnyi távolságra kényszerítheted”; „a
+  célpont sebessége felére csökken” – a sebesség csak utazási mérföld/óra.
+Teendő: A három szabály átírása zónákra.
+Állapot: JAVÍTVA (2026.10.23.)
+Döntés: Kúszás: annyit kúszol, hogy megszakítsd a közelharcot. Terelő
+  harcmodor: Közelharci távnyira kényszerítheted a célpontot. Letaglózó
+  lövés: a célpont következő körében az Elmozdulás 4AP-be kerül.
+Javítás: wispers-0.8-javitott.txt › II. rész › 4. Harc › Általános
+  cselekvéslista › Kúszás; Távharci fegyverrel végrehajtott cselekvések ›
+  Letaglózó lövés; Harcmodorok › Terelő harcmodor – a három mondat cserélve.
+Megjegyzés:
+
+----------------------------------------------------------------
+[H-50] MARADVÁNY – Számszerű sebzés a védekezésekben
+Hol: II. rész › 4. Harc › Általános reakciólista › Kitérés; Hárítás; Beleállás
+Probléma: Ma egy találat 1 Seb, mégis: „a téged ért sebzés nullára csökken”
+  (Kitérés, Hárítás); Beleállás: „Ha a sebzés értéke nem nagyobb, mint a
+  páncélod keménysége”. Sebzésérték nincs, a Beleállás nem dönthető el.
+Eredet: 2025.10.22-én a találat még „a dobásod értékével megegyező Stamina
+  csökkenést” okozott.
+Kapcsolódó kérdés: mi történik, ha egy Féktelen harcmodorban (garantált
+  túlütés) támadó ellen sikeres a Hárítás?
+Teendő: A három reakció átírása Seb-alapra (D-2).
+Állapot: NYITOTT
+Döntés:
+Javítás:
+Megjegyzés:
+
+----------------------------------------------------------------
+[H-51] ELLENTMONDÁS – Rohamozás
+Hol: II. rész › 4. Harc › Közelharci fegyverrel végrehajtott cselekvések ›
+     Rohamozás; Fogalmak a harc során › Túlütés
+Probléma: Olyan ellenfélre megy, „akit maximum két mozgással elérnél”, de egy
+  Elmozdulás 2AP, a Rohamozás legfeljebb 3AP, és nincs megadva, melyik táv
+  mennyi („A rohamozás AP költsége függ a távolságtól.”). AP-nyi előnyt és
+  AP-nyi sebet ad, a Túlütés előnyönként még egy sebet: egy 3AP-s roham
+  túlütéssel akár 7 seb.
+Teendő: Táv–költség táblázat; összeadódik-e a két sebforrás.
+Állapot: NYITOTT
+Döntés:
+Javítás:
+Megjegyzés:
+
+----------------------------------------------------------------
+[H-52] HIÁNY – Harcmodorok
+Hol: II. rész › 4. Harc › Harcmodorok
+Probléma: Nincs leírva, mikor és mennyiért veszed fel, és meddig tart. A
+  Kétfegyveres harcmodornál a szerzői jegyzet áll: „Ide ki kellene találni
+  valami izgalmas szabályt”.
+Teendő: Felvétel, költség, időtartam; a kétfegyveres harc szabálya.
+Állapot: NYITOTT
+Döntés:
+Javítás:
+Megjegyzés:
+
+----------------------------------------------------------------
+[H-53] HIÁNY – Üres harci szakaszok
+Hol: II. rész › 4. Harc › Fegyvert nem igénylő cselekvések; Harc nagyobb
+     méretű ellenféllel szemben; Harc repülő ellenféllel szemben
+Probléma: Mindhárom üres, holott az Általános cselekvéslista ide utal: „Harc
+  nagyobb méretű lények ellen részt lásd a fejezet végén.”
+Teendő: A szakaszok megírása, vagy a hivatkozás törlése.
+Állapot: NYITOTT
+Döntés:
+Javítás:
+Megjegyzés:
+
+----------------------------------------------------------------
+[H-54] BLOKKOLÓ – Varázslás: a 0.8 és a HEAD más irányba ment
+Hol: II. rész › 5. Varázslás és pszionika › Használható varázslatok száma;
+     Varázserő; Mentális kimerülés; Varázslatok fajtái célpontok szerint
+A 0.8-ban (0.7.0c szerint):
+  – van napi korlát: a karakter egy ismert varázslatát „napi szinten maximum
+    Tudás tulajdonsága értékével megegyező alkalommal használhat”;
+  – „Varázserő = Jelenlét + Jártasságkocka.” – egy érték és egy kocka keveréke;
+  – a Mentális kimerülés csonka: „Ha nem sikerül a varázslathoz” – itt véget ér,
+    a sikertelen varázslásnak nincs szabálya;
+  – megvan a Varázslatok fajtái célpontok szerint.
+A HEAD-ben (2026.08.11.) ehhez képest:
+  – a napi korlátot és a célpont-fajtákat törölted;
+  – a képlet „Varázserő = Jelenlétkocka + Jártasságkocka.” lett;
+  – a csonk a Varázserő elejére került: „Hogy egy varázslat sikeres-e”.
+Közös gond: a Tudás és a Jelenlét leírása is „Varázsláshoz is használható”; a
+  0.5.5-ben a Hármasság szabálya döntötte el, melyik kell.
+Teendő: Melyik irány marad (korlát igen/nem, képlet), és a sikertelenség
+  szabálya.
+Állapot: NYITOTT
+Döntés:
+Javítás:
+Megjegyzés:
+
+----------------------------------------------------------------
+[H-55] KISEBB – Mágiaosztályok
+Hol: II. rész › 5. Varázslás és pszionika › Mágiaosztályok;
+     III. rész › 1. Fajok › Allúrok › Fényszülött
+Probléma: Nyolcból hét mágiaosztálynak egysoros leírása van („Elemi mágia.”,
+  „Tekercsek készítése.” …). Az Entrópia „Rend- és rendbontó mágia.”, a név
+  csak a rendbontásra utal, és az allúrok ugyanúgy ki vannak tiltva belőle,
+  mint a Szinisztrópiából („Gonosz mágia.”). A Jártassági szintek
+  „mágiaiskolákban” szerzett jártasságról beszél.
+Teendő: Leírások; az Entrópia meghatározása; egy elnevezés.
+Állapot: NYITOTT
+Döntés:
+Javítás:
+Megjegyzés:
+
+----------------------------------------------------------------
+[H-56] BLOKKOLÓ – Mentődobás: érték vagy dobás?
+Hol: II. rész › 6. Mentődobások, sebesülés és halálozás › Mentődobások;
+     II. rész › 4. Harc › Általános cselekvéslista › Elrángatás; Megzavarás;
+     Mentődobás varázslat ellen; Általános reakciólista › Kitérés;
+     III. rész › 1. Fajok › Orkok › Vérdal; Allúrok › Sújtás
+Probléma: A Reflex, a Szívósság és az Eltökéltség „értéke” tulajdonság +
+  passzív bónusz, és fix célértékként szerepel („Célérték: a célpont Szívósság
+  értéke.”, „Célérték: a célpont Eltökéltség értéke.”). Máshol dobni kell:
+  „reflex mentődobás segítségével”, „Dobj Szívósság vagy Eltökéltség próbát”,
+  és dobást kér a Vérdal és a Sújtás is. A dobás kockái nincsenek megadva.
+Teendő: D-4.
+Állapot: JAVÍTVA (2026.10.22.)
+Döntés: lásd D-4 – dobásnál tulajdonságkocka + jártasságkocka, célértékként
+  tulajdonságérték + passzív bónusz.
+Javítás: wispers-0.8-javitott.txt › II. rész › 6. › Mentődobások (D-4).
+Megjegyzés: A Kitérés és a Reflex szakasz többi gondja a H-57-nél marad.
+
+----------------------------------------------------------------
+[H-57] MARADVÁNY – A Reflex szakasz a 0.5.5-ből
+Hol: II. rész › 6. Mentődobások, sebesülés és halálozás › Mentődobások › Reflex
+Probléma: A harmadik bekezdés szó szerint a 0.5.5-ből maradt: a kitérés „egy
+  akciópontért cserébe” jár (a Kitérés {2AP}), a célszám „a támadó által
+  dobott sebzésérték”, kitérés nélkül „a páncél sebzésfelfogó értéke lép
+  életbe”.
+Teendő: Átírás a mai harcrendszerre (D-1, D-2, D-4).
+Állapot: NYITOTT
+Döntés:
+Javítás:
+Megjegyzés:
+
+----------------------------------------------------------------
+[H-58] ELLENTMONDÁS – Sebgyógyítási plafon
+Hol: II. rész › 6. Mentődobások, sebesülés és halálozás › Sebesülés és
+     halálozás › Sebgyógyítás; III. rész › 1. Fajok › Allúrok › Sújtás
+Probléma: „Ameddig egy karakter sebeinek száma nem éri el Állóképesség
+  tulajdonságának értékét, addig a sebek gyógyíthatóak”. A tündék
+  Állóképessége 1, így az első seb után gyógyíthatatlanok; hogy mi van a plafon
+  fölött, nincs leírva. Az allúr Sújtás sikertelen Szívósság-próba esetén
+  szintnyi sebet okoz, naponta Jelenlétnyi alkalommal.
+Teendő: Mi történik a plafon fölött; a plafon a D-3 skálájához igazítva.
+Állapot: NYITOTT
+Döntés:
+Javítás:
+Megjegyzés: A D-3 döntés (2026.10.22.) után a tünde Állóképessége a
+  Világstandard (ajánlottan 3), így az első seb már nem gyógyíthatatlan; a
+  plafon fölötti eset és a Sújtás kérdése továbbra is nyitott.
+
+----------------------------------------------------------------
+[H-59] HIÁNY – Állapotok és sebzéstípusok
+Hol: II. rész › 6. Mentődobások, sebesülés és halálozás (a Sebgyógyítás után)
+Probléma: A HEAD-ben a Sebzéstípusok és az Állapotok üres címsor, a 0.8-ból a
+  címsor is kimaradt (E-3). A könyv közben állapotokat (megragadott, földön
+  fekvő, öntudatlan, elájul, kimerültség, félelem, vakság) és sebzéstípusokat
+  (tűzsebzés, mentális sebzés) használ.
+Teendő: A két lista megírása.
+Állapot: NYITOTT
+Döntés:
+Javítás:
+Megjegyzés:
+
+----------------------------------------------------------------
+[H-60] KISEBB – Hivatkozások
+Hol: az egész könyv
+Probléma: 12 helyen „x. oldal”, egy helyen „(. oldal)” (I. rész › II. fejezet ›
+  Faj kiválasztása). A 0.8 saját megjegyzése szerint a PDF-ből átvett
+  oldalszámok még nem az új tördelésre mutatnak. A két <redacted> hely
+  szándékos, azokat nem érintem.
+Teendő: A hivatkozások cseréje fejezetnévre, amikor a szerkezet végleges.
+Állapot: NYITOTT
+Döntés:
+Javítás:
+Megjegyzés:
+
+----------------------------------------------------------------
+[H-61] KISEBB – Párhuzamos elnevezések
+Hol: az egész könyv
+Probléma:
+  előny/hátrány fokozata : egyes, kettes, kettős, I-es, II-es
+  a próba célja          : célérték, célszám, nehézségérték, nehézség
+  próba                  : képzettségpróba, jártasságpróba, próbatétel
+  a páncél értéke        : Védőérték, keménység, sebzésfelfogó érték
+  sérülési küszöb        : Szívósság érték, sérülésküszöb
+  mentődobás             : Eltökéltség, Akaraterő
+  varázslás              : mágiaosztály, mágiaiskola
+  angol kifejezések      : Melee / Short / Mid / Far Range, reach, 2h, Glaive,
+                           angol páncélnevek
+Teendő: Soronként egy választott alak.
+Állapot: NYITOTT
+Döntés:
+Javítás:
+Megjegyzés:
+
+
+----------------------------------------------------------------
+[H-62] HIÁNY – Pontbefektetés a tulajdonságokba (új tétel, a PDF-ben nincs)
+Hol: I. rész › II. fejezet: Karakterek lépésről lépésre › Tulajdonságok
+     meghatározása
+Probléma: A Világstandard leírása szerint kisebb standardnál „annál több
+  pontot kell a karaktereknek a gyenge tulajdonságaikba fektetniük”, de nincs
+  leírva, honnan jönnek ezek a pontok, mennyi van belőlük, és mikor lehet
+  befektetni őket. (A H-04 / D-3 döntéséből, 2026.10.22.)
+Teendő: A pontbefektetés szabálya – karakteralkotáskor, szintlépéskor vagy
+  mindkettőnél (kapcsolódik: H-03).
+Állapot: NYITOTT
+Döntés:
+Javítás:
+Megjegyzés:
+
+
+----------------------------------------------------------------
+[H-63] HIÁNY – A DDD alrendszer nyitott kérdései (új tétel, a PDF-ben nincs)
+Hol: III. rész › 3. Kegy és égiszek › Discipline, Devotion, Divinity (új
+     szakasz, vázlat a Játékok/Rpg/wispers-DDD.txt alapján)
+Probléma: A vázlat beépült, de ezek nincsenek eldöntve:
+  1. Minden karakter kap-e Discipline-t? A DDD.txt szerint „Minden karakter a
+     szokásos backgroundja mellé kap egy Discipline-t is”, az Égisznél (H-05)
+     viszont a Suttogó csak egy a három választás közül. Mi a Discipline-ja
+     annak, aki alacsony vagy magas égiszt választ?
+  2. Kell-e kritikus siker, illetve kritikus találat a Divinity ponthoz? A
+     szabálykönyvben nincs kritikus siker; a harcban a Túlütés áll hozzá a
+     legközelebb.
+  3. Divinity-maximum: karakterszint vagy karakterszint × 3?
+  4. A Devotion skálája, és hol kezdődik a Hated / Hunted státusz.
+  5. Feat és class feature: a könyvben ilyen fogalom nincs (van talent és
+     kasztképesség). Mihez kötődjenek?
+  6. Elnevezések: a DDD nevei angolok (Discipline, Devotion, Divinity,
+     Anathema, Benediction, Hated / Hunted, creature type, Feat). A
+     DIVERGENCIA.md szerint a 0.6-os karakterlap VALLÁS blokkja már használ
+     ÁHÍTAT, FEGYELEM, DISZCIPLÍNA neveket és egy HATED → … → CHAMPION
+     skálát; a DDD.txt maga is „diszciplinája” szót ír. Maradnak az angol
+     nevek, vagy ezek a magyar nevek?
+  7. Suttogónként a képzettség-, creature type-, Anathema- és
+     Benediction-listák.
+Teendő: A kérdések eldöntése, utána a vázlat véglegesítése.
+Állapot: NYITOTT
+Döntés:
+Javítás:
+Megjegyzés:
+
+
+----------------------------------------------------------------
+[H-64] HIÁNY – Fajonkénti sebhatár-alapok (új tétel, a PDF-ben nincs)
+Hol: III. rész › 1. Fajok › Faji jellemzők › Sebhatár, és az egyes fajok
+     leírása
+Probléma: A D-2 szerint a testi és a mentális sebhatár alapját a faj adja
+  meg, de egyik faj leírásában sincs még érték. (A Sziklatest +2 és a
+  Rettenthetetlenek +1 ezekhez adódik.)
+Teendő: Fajonként egy testi és egy mentális alap.
+Állapot: JAVÍTVA (2026.10.22.)
+Döntés: testi / mentális alap – Ember 4/4, Tünde 4/5, Törp 4/4 (Sziklatesttel
+  testi 6), Félszerzet 3/4 (parázsszívűnél testi 4), Mnemór 4/5, Allúr 5/4,
+  Ork 5/3.
+Javítás: wispers-0.8-javitott.txt › III. rész › 1. Fajok: mind a hét faj
+  leírásában a Sebesség után új „Sebhatár” pont az értékekkel; a Faji
+  jellemzők › Sebhatár alól a „még hiányoznak” megjegyzés levéve.
+Megjegyzés: A tulajdonság hozzáadása az alaphoz később magasabb szinten
+  feloldható talent lehet (vö. H-03, H-62).
+
+
+================================================================
+FÜGGELÉK – FÉLKÉSZ RÉSZEK (nem hibák, csak üresek)
+================================================================
+[ ] Bevezetés › I. fejezet: Bevezető, A könyvről, Játékmenet ismertető:
+    helyőrző szöveg
+[ ] III. rész › 2. Személyiség és háttér, a fejezet eleje (a HEAD-ben
+    „Placeholder”)
+[ ] Szokások: 5 bejegyzés az 50-ből
+[ ] Sötét titkok: 0 bejegyzés az 50-ből
+[ ] Magasság és súly: „Majd jön ide egy táblázat.”
+[ ] Életkor: „Majd jön.”
+[ ] Jellem: a három alpont (Meghatározó, Nagyobb, Kisebb személyiségjegyek) üres
+[ ] Kapcsolatok: nincs mechanika
+[ ] 3. Kegy és égiszek, a fejezet eleje: „Bla bla bla bla bla bla bla bla bla
+    LORE”
+[ ] Alacsony égiszek (10) és Magas égiszek: csak címsorok
+[ ] 4. Kasztok (H-03)
+[ ] Különleges fegyverek: 1 sor
+[ ] Mágiaosztályok: 7 egysoros leírás; Pszionika üres
+[ ] 6. Varázslatok és 7. Létsíkok: üres
+[ ] 8. Varázstárgyak: 2 tétel
+
+
+================================================================
+NAPLÓ – mi történt, mikor
+================================================================
+2026.10.22.  Munkalista létrehozva a 0.8 md alapján. Minden tétel NYITOTT.
+2026.10.22.  H-01 JAVÍTVA – Tiltószabály: a konkrét szabály felülírja az
+             általánost; a tiltás csak egyenrangú szabályok között erősebb.
+2026.10.22.  H-02 JAVÍTVA – a d20 kikerült mindkét kockalistából.
+2026.10.22.  H-03 DÖNTÉSRE VÁR – a kasztok külön munka, a D-1 és a D-3 után.
+2026.10.22.  D-3 és H-04 JAVÍTVA – táblázat marad; kezdőérték = Világstandard
+             (ajánlott 3); 0 vagy negatív tulajdonság = karakterhalál.
+             Új tétel: H-62 (pontbefektetés).
+2026.10.22.  H-05 FOLYAMATBAN – Égisz: egy a háromból (alacsony / magas /
+             Suttogó), DDD jár hozzá. H-47 DÖNTÉSRE VÁR – a Kegy átdolgozás
+             alatt, a csonk megjelölve. Új tétel: H-63 (DDD nyitott kérdései);
+             a DDD-vázlat bekerült a Kegy és égiszek fejezetbe.
+2026.10.22.  H-06 JAVÍTVA – a II. fejezet háttérszakaszai a Személyiség és
+             háttér fejezethez igazodnak (kezdő talent, nyelvek a Tudásból).
+2026.10.22.  H-07 JAVÍTVA – méretsávok: kis 2–4½, közepes 4½–8, nagy 8–16 láb.
+2026.10.22.  H-08 JAVÍTVA – a faji módosítók általános szabálya a tényleges
+             mintát írja le; a fajok nem változtak.
+2026.10.22.  H-09 FOLYAMATBAN – minden fajnak két oszlop tematikus bónusz, az
+             embereknek három; a tartalom később (témaajánlás a tételnél).
+2026.10.22.  H-10 JAVÍTVA – Látási viszonyok hátránytáblázat (felezésenként
+             egy fokozat); Fénylátás: enyhe sötétség és vakító fény.
+2026.10.22.  D-2 FOLYAMATBAN – az MP, a Stamina és az EP helyett Seb (Könnyű /
+             Mély / Súlyos) és Kimerültség.
+2026.10.22.  D-2 – sebhatár, sebdobás (1d8) és három sebtáblázat (javaslat) a
+             Seb szakaszban; találati mátrix a fegyvertáblákban (CRPG szerint).
+2026.10.22.  H-11 FOLYAMATBAN – Szimbiotikus jelenlét és Kifürkészhetetlenek
+             átírva; a többi a mentális sebhatárokra vár.
+2026.10.22.  D-2 – a testi sebhatár alapja az Állóképesség, a mentálisé a
+             Szellem; mentális seb csak varázslatból. H-11 – Elmerekesz
+             (esszencia) és Eltökéltség átírva; az ork alfajok hátravannak.
+2026.10.22.  H-11 – a három ork képesség feltétele a mentális könnyű
+             sebhatár; az esti Vérdal-dobás még tisztázás alatt.
+2026.10.22.  H-11 – a Vérdal esti dobásáról későbbi döntés (A/B olvasat a
+             tételnél).
+2026.10.22.  H-12 JAVÍTVA – Győzelmi lakoma (Kimerültség) és Rettenthetetlenek
+             (+1 testi könnyű sebhatár); a (!REWORK!) jelölések levéve.
+2026.10.22.  H-13 FOLYAMATBAN – Nemesek vérvonala és Szívósság: Stamina-mondat
+             törölve; Szusztörő később (Kimerültség ne halmozódjon könnyen).
+2026.10.22.  H-14 FOLYAMATBAN – Magmavér: Könnyű seb, sebdobás 1d8 + a törp
+             Állóképessége; a reakció ára a D-1-re vár.
+2026.10.22.  H-15 DÖNTÉSRE VÁR – a sebhatárok számításáig; a Rettenthetetlenek
+             bónusza is ehhez igazítandó (D-2).
+2026.10.22.  D-2 – sebhatár végleges: faji alap (+ páncél), súlyos = könnyű + 5,
+             elérésre (≥); mentális ugyanígy, faji mentális alappal. H-15
+             JAVÍTVA (Sziklatest +2), Rettenthetetlenek +1 az alaphoz. Új
+             tétel: H-64 (fajonkénti alapok).
+2026.10.22.  H-64 JAVÍTVA – sebhatár-alapok a hét faj leírásában.
+2026.10.22.  D-4 JAVÍTVA – mentődobás: tulajdonságkocka + jártasságkocka,
+             célértékként érték + passzív bónusz. H-16 és H-56 JAVÍTVA.
+2026.10.22.  H-17 DÖNTÉSRE VÁR – Pszionika és az Elmerekesz varázslatai később.
+2026.10.22.  H-18 JAVÍTVA – Fürkésző tekintet: táblázat helyett tulajdonságkocka.
+2026.10.22.  H-19 DÖNTÉSRE VÁR – Dicsfény a varázslatfejezettel együtt.
+2026.10.22.  H-20, H-21 DÖNTÉSRE VÁR – a Vérdal A/B döntésével együtt.
+             H-22 JAVÍTVA – Alávetetve új példák, Beavatottként saját leírás.
+2026.10.22.  H-23 JAVÍTVA – Több kultúra metszetében: a mondat kiegészítve.
+2026.10.22.  H-24 FOLYAMATBAN – két kezdő talent (10 kulturális + 6
+             társadalmi); a 16 talent tartalma még hiányzik.
+2026.10.22.  H-25 FOLYAMATBAN – névlista-helyőrzők a hét fajnál (ember: OneNote).
+2026.10.22.  H-26 FOLYAMATBAN – Tudásnyi elosztható nyelvismeret; mnemór
+             nyelvcsalád-hiba javítva; a táblázat kitöltése hátravan.
+2026.10.22.  H-26 – a nyelvtábla kitöltése később, kreatívabb megoldással.
+2026.10.22.  H-27 FOLYAMATBAN – Biróg és a Fényes Penge szétválasztva (E-2).
+2026.10.22.  H-28 ELVETVE – a Kilenc trón szándékos, narratív.
+2026.10.22.  H-29 FOLYAMATBAN – váltás: 20 Vas = 1 Réz, 800 Réz = 1 Ezüst,
+             25 Ezüst = 1 Arany; árlista hátravan.
+2026.10.22.  D-1 FOLYAMATBAN – AP = szegmens (tét = kezdeményezés = AP-keret),
+             reakció a következő körre bemondott számból; a felső határ /
+             ismétlési költség még nyitott. H-45 és H-30 FOLYAMATBAN (Jellemzők
+             kitöltve).
+2026.10.22.  H-31 JAVÍTVA – jártassági szintek a fegyvertábla neveivel
+             (Haladó = d8, Tapasztalt = d10).
+2026.10.22.  H-32 FOLYAMATBAN – Védőérték (sebhatárt növel) és Keménység
+             (találatot csökkent, kopik, 0-nál törik); Beleállás átírva, SFÉ
+             kivezetve, Keménység oszlop a táblában. Magyar nevek: javaslat.
+2026.10.22.  H-32 – felfogás: Z = min(X, Keménység), teljes felfogásnál is
+             Könnyű seb; 18 magyar páncélnév a táblában, Páncélcsoport oszlop.
+2026.10.22.  H-33 JAVÍTVA – Akaraterő → Eltökéltség, módosító → érték.
+2026.10.22.  H-34 FOLYAMATBAN – Kimerültség: szintenként −1 mindenre,
+             Állóképesség fölött halál; a források még egyeztetendők.
+2026.10.22.  H-34 és H-40 JAVÍTVA – Kimerültség csak Mély/Súlyos sebtől (+1),
+             a próbák „+nehézségérték” költsége törölve.
+2026.10.22.  H-35 JAVÍTVA – Képzetlen jártassággal próbát nem tehet.
+2026.10.22.  H-36 JAVÍTVA – Kezdő: „maximum Képzett”.
+2026.10.22.  H-35 – mentődobásban mindenki legalább Kezdő; Képzetlen
+             fegyverrel nem támadhat.
+2026.10.23.  H-37 FOLYAMATBAN – képzettségleírások M.A.G.U.S.-mintára (alap +
+             öt szint); 1. adag (Álcázás–Geológia, 11/42) beírva.
+2026.10.23.  H-37 – 2. adag (Gyűjtögetés–Logisztika, 22/42) beírva.
+2026.10.23.  H-37 – 3. adag (Lovaglás–Rejtőzés, 32/42) beírva.
+2026.10.23.  H-37 JAVÍTVA – 4. adag (Szakma–Zsebmetszés) beírva, 42/42.
+2026.10.23.  H-38 JAVÍTVA – négy ágú próba: összeg a célértékhez, jártasság-
+             vs. tulajdonságkocka a módhoz (szakértelem/erőltetés).
+2026.10.23.  H-39 JAVÍTVA – rizikós próba a négy ágon: Részleges siker = Seb
+             vagy sikertelen, Kritikus bukás = sikertelen + Seb.
+2026.10.23.  H-41 JAVÍTVA – Diplomaták: megközelítést választ, nem jártasságot.
+2026.10.23.  H-42 JAVÍTVA – reputáció helyett kivívott tisztelet/szívesség,
+             kétoldali határ, Hazugság alszakasz.
+2026.10.23.  H-43 JAVÍTVA – utazási cselekvések a CRPG szabályai szerint,
+             tempótáblázat, listák egyeztetve.
+2026.10.23.  H-44 ELVETVE – marad az „utazási szegmens”, a jelző különböztet.
+2026.10.23.  H-46 JAVÍTVA – a támadásba nem számít tulajdonság; pusztakézzel 1d2.
+2026.10.23.  H-46 – 1d2 = 1d4/2; pusztakezes támadás: Pusztakezes harc jártasság.
+2026.10.23.  H-48 FOLYAMATBAN – Mid/Far Range és Értelmezhetetlen leírva, külön
+             mozgás-címsor; a magyar nevek nyitottak.
+2026.10.23.  H-48 JAVÍTVA – hatótávok magyarul: Közelharci, Rövid, Közepes, Nagy
+             táv; a reach marad.
+2026.10.23.  H-49 JAVÍTVA – Kúszás, Terelő harcmodor, Letaglózó lövés zónákra.
