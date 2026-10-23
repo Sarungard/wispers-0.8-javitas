@@ -41,13 +41,11 @@ Keep replies short and in Hungarian. Put the proposal and the question at the en
 
 ## State (2026-10-23)
 
-Next item: **H-54** (Varázslás: the 0.8 and the HEAD went different ways). Proposal waiting for Zoz:
+Next item: **H-55** (Mágiaosztályok). Proposal waiting for Zoz:
 
-- Follow the HEAD: the napi korlát and Varázslatok fajtái célpontok szerint go;
-  Varázserő = Jelenlétkocka + Jártasságkocka.
-- Tudás: „Varázsláshoz is használható” comes out of its description.
-- Mentális kimerülés: the varázserő roll is szakértelem or erőltetés like a képzettségpróba; on erőltetés the spell
-  still happens, but you take one level of Kimerültség.
+- Jártassági szintek: „mágiaiskolákban” → „mágiaosztályokban”.
+- The seven one-line descriptions and the meaning of Entrópia are lore (vault): Claude does not write them. Zoz gives
+  them; until then the item stays FOLYAMATBAN. Open question: Entrópia „Rend- és rendbontó”, or only rendbontó?
 
 H-53 is FOLYAMATBAN: Fegyvert nem igénylő cselekvések stays a placeholder for now.
-Still NYITOTT after H-54: H-55, H-57 to H-63. See the worklist for FOLYAMATBAN and DÖNTÉSRE VÁR items.
+Still NYITOTT after H-55: H-57 to H-63. See the worklist for FOLYAMATBAN and DÖNTÉSRE VÁR items.

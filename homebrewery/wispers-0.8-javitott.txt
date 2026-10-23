@@ -232,7 +232,7 @@ A karakter fizikai fittségét jelenti, a Szívósság mentődobás kiszámítá
 
 #### Tudás
 
-A karakter olvasott-tanultságát jelenti, a különféle varázstudományokban és tudományos ismeretekben szerzett tapasztalatát. Varázsláshoz is használható.
+A karakter olvasott-tanultságát jelenti, a különféle varázstudományokban és tudományos ismeretekben szerzett tapasztalatát.
 
 #### Jelenlét
 
@@ -1449,33 +1449,15 @@ A levegőben lévő ellenfelet a földről csak távolsági fegyverrel vagy var�
 
 ## Varázslás
 
-### Használható varázslatok száma
-
-A karakter által napi szinten használható varázslatok számát a Tudás tulajdonság értéke határozza meg. Egy általa ismert varázslatot napi szinten maximum Tudás tulajdonsága értékével megegyező alkalommal használhat.
-
 ### Varázserő
 
-A karakter által használt varázslatok erejét a Jelenlét tulajdonság értékének és a varázsolni kívánt varázslatban szerzett jártasság segítségével számítjuk. Ezt az értéket kell megdobnia a varázslat célpontjának a megfelelő mentődobás segítségével, ha szabadulni akar a varázslat hatása alól.
+A karakter által használt varázslatok erejét a Jelenlétkockájával és a varázsolni kívánt varázslatban szerzett jártasságkockájával dobja: a két kocka összege a Varázserő. Ezt az értéket kell megdobnia a varázslat célpontjának a megfelelő mentődobás segítségével, ha szabadulni akar a varázslat hatása alól.
 
-Varázserő = Jelenlét + Jártasságkocka.
+Varázserő = Jelenlétkocka + Jártasságkocka.
 
 ### Mentális kimerülés
 
-A varázsláshoz komoly mentális erő szükséges, ezért minden varázslás során van esély arra, hogy a varázslat besül. Ha nem sikerül a varázslathoz
-
-### Varázslatok fajtái célpontok szerint
-
-A mágia ezernyi alakot ölthet és ennek függvényében egészen eltérő mértékben képes a hatásának kifejtésére. A legtöbb esetben a varázslatoknak egyetlen célpontja van, legyen az személy vagy egy terület.
-
-- Egyetlen célszemély,
-- Síkbeli kör vagy Térbeli gömb vagy henger,
-- Síkbeli körcikk vagy Térbeli kúp,
-- Síkbeli egyenes vagy Térbeli hasáb,
-- Adott kiinduló ponttal,
-
-Ritkább esetben több, egymástól függetlenül elhelyezkedő személyt vagy térbeli pontot is érinthet.
-
-[Ábraaláírás: Különféle varázslatok célpontjai (sötétkék), a varázslat által lefedett terület (világoskék), a varázslóhoz (lila) mérten.]
+A varázsláshoz komoly mentális erő szükséges. A Varázserő dobása a képzettségpróbához hasonlóan szakértelem vagy erőltetés: ha a jártasságkockád legalább annyit dob, mint a Jelenlétkockád, szakértelemmel varázsolsz, ha kevesebbet, erőltetéssel. Erőltetésnél a varázslat létrejön, de elszenvedsz egy szint Kimerültséget.
 
 ### Varázslatok komponensei
 

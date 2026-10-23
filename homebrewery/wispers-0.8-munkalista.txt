@@ -23,7 +23,7 @@ Jelölések: BLOKKOLÓ – enélkül nem játszható; ELLENTMONDÁS – két sza
 hivatkozik; KISEBB – szerkesztési hiba, elnevezés.
 
 ÖSSZESÍTŐ (frissítsd menet közben)
-  NYITOTT: 9   FOLYAMATBAN: 14   DÖNTÉSRE VÁR: 6   JAVÍTVA: 33   ELVETVE: 2
+  NYITOTT: 8   FOLYAMATBAN: 14   DÖNTÉSRE VÁR: 6   JAVÍTVA: 34   ELVETVE: 2
 
 
 ================================================================
@@ -1297,10 +1297,22 @@ Közös gond: a Tudás és a Jelenlét leírása is „Varázsláshoz is haszná
   0.5.5-ben a Hármasság szabálya döntötte el, melyik kell.
 Teendő: Melyik irány marad (korlát igen/nem, képlet), és a sikertelenség
   szabálya.
-Állapot: NYITOTT
-Döntés:
-Javítás:
-Megjegyzés:
+Állapot: JAVÍTVA (2026.10.23.)
+Döntés: A HEAD iránya marad: nincs napi korlát, nincsenek célpont-fajták;
+  Varázserő = Jelenlétkocka + Jártasságkocka. A Tudás leírásából kikerül a
+  „Varázsláshoz is használható”. Mentális kimerülés: a Varázserő dobása
+  szakértelem vagy erőltetés, mint a képzettségpróba; erőltetésnél a
+  varázslat létrejön, de egy szint Kimerültség jár.
+Javítás: wispers-0.8-javitott.txt
+  – II. rész › 5. › Varázslás: a Használható varázslatok száma és a
+    Varázslatok fajtái célpontok szerint (az ábraaláírással együtt) törölve;
+    Varázserő: leírás és képlet a kockás alakra; Mentális kimerülés: a csonk
+    helyett a szakértelem/erőltetés szabálya;
+  – II. rész › 1. A rendszer alapjai › Tulajdonságok › Tudás: „Varázsláshoz
+    is használható” törölve.
+Megjegyzés: A régi csonk első mondatából a „van esély arra, hogy a varázslat
+  besül” kimaradt, mert a döntés szerint erőltetésnél is létrejön a varázslat.
+  A HEAD „Hogy egy varázslat sikeres-e” csonkja nem került át.
 
 ----------------------------------------------------------------
 [H-55] KISEBB – Mágiaosztályok
@@ -1618,3 +1630,5 @@ NAPLÓ – mi történt, mikor
              0AP-s első Hárítás, egyes hátrány a támadásra.
 2026.10.23.  H-53 FOLYAMATBAN – nagyobb méretű és repülő ellenfél leírva; a Fegyvert
              nem igénylő cselekvések egyelőre placeholder.
+2026.10.23.  H-54 JAVÍTVA – HEAD iránya: nincs napi korlát és célpont-fajta;
+             Jelenlétkocka + Jártasságkocka; erőltetésnél Kimerültség.
