@@ -47,10 +47,10 @@ No NYITOTT item is left. H-63 (DDD) is FOLYAMATBAN: decisions 1–5 are in the t
 égisz; Abszolút siker / Túlütés give Divinity; max karakterszint; Feat → talent, class feature → kasztképesség;
 Devotion scale from the 0.6 karakterlap, points later). Waiting for Zoz:
 
-- 6. Hungarian names, proposed in an ÚJ KIFEJEZÉS block: Diszciplína, Áhítat (karakterlap), Divinity → ?
-  (where does FEGYELEM go?), Tilalom (Anathema), Erény (Benediction), Gyűlölt / Üldözött (Hated / Hunted), Bajnok
-  (CHAMPION), lénytípus (creature type).
-- 4. The middle steps of the HATED → … → CHAMPION scale: only Zoz has them.
+- 6. Hungarian names: approved and in the text: Divinity → Áhítat, Devotion → Fegyelem. Still to approve
+  (ÚJ KIFEJEZÉS): Diszciplína (Discipline), Tilalom (Anathema), Erény (Benediction), Gyűlölt / Üldözött
+  (Hated / Hunted), Bajnok (CHAMPION), lénytípus (creature type), and what replaces the „DDD” abbreviation.
+- 4. The Fegyelem scale (HATED → … → CHAMPION): later, Zoz has it.
 - 7. Per-Suttogó lists: later.
 
 After that: the six DÖNTÉSRE VÁR items (H-03, H-17, H-19, H-20, H-21, H-47).

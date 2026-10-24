@@ -1555,7 +1555,10 @@ Döntés:
   4. A Devotion skálája a 0.6-os karakterlapé (HATED → … → CHAMPION); a
      pontértékek kidolgozás alatt.
   5. Feat → talent, class feature → kasztképesség.
-  6. Az elnevezések magyarul lesznek; a nevek ÚJ KIFEJEZÉS-javaslatra várnak.
+  6. Az elnevezések magyarul lesznek. Elfogadva (2026.10.24.): Divinity →
+     Áhítat, Devotion → Fegyelem. A többi név (Discipline, Anathema,
+     Benediction, Hated / Hunted, CHAMPION, creature type) és a „DDD”
+     rövidítés még jóváhagyásra vár.
   7. A Suttogónkénti listák később.
 Javítás: wispers-0.8-javitott.txt
   – I. rész › II. fejezet › Égisz: a DDD csak a Suttogó égiszhez kapcsolódik;
@@ -1563,10 +1566,12 @@ Javítás: wispers-0.8-javitott.txt
     égisszel; Abszolút siker és túlütés ad Divinityt; Featek → talentek,
     class featureök → kasztképességek; a Divinity a Suttogó égiszt választók
     erőforrása, maximuma karakterszint; a Devotion-skáláról szerkesztői
-    megjegyzés; a [Nyitott] jelölések törölve.
-Megjegyzés: Hátravan: a magyar nevek (6.), a Devotion-skála közbülső fokai és
-  pontértékei (4.), a Suttogónkénti listák (7.). A skála közbülső fokait a
-  repó nem ismeri, csak a két végét (DIVERGENCIA.md).
+    megjegyzés; a [Nyitott] jelölések törölve;
+  – Divinity → Áhítat, Devotion → Fegyelem (Égisz, Kegy-megjegyzés,
+    a DDD-szakasz címe, alcímei és szövege).
+Megjegyzés: Hátravan: a többi magyar név (6.), a Fegyelem-skála fokai és
+  pontértékei (4., később), a Suttogónkénti listák (7., később). A skála
+  közbülső fokait a repó nem ismeri, csak a két végét (DIVERGENCIA.md).
 
 
 ----------------------------------------------------------------
@@ -1750,3 +1755,5 @@ NAPLÓ – mi történt, mikor
              költség Zoz jegyzetéből; a 0. szint matekja kidolgozandó.
 2026.10.24.  H-63 FOLYAMATBAN – DDD csak a Suttogó égiszhez; Abszolút siker / Túlütés;
              max. karakterszint; talent, kasztképesség; nevek és listák később.
+2026.10.24.  H-63 – Divinity → Áhítat, Devotion → Fegyelem; a többi név és a skála
+             később.
