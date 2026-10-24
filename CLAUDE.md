@@ -41,19 +41,19 @@ Keep replies short and in Hungarian. Put the proposal and the question at the en
   hard to heal; the healing rule comes later.
 - Harci távok are abstract: Közelharci táv, Rövid táv, Közepes táv, Nagy táv, Értelmezhetetlen. „reach” and (for now) „Glaive” stay English.
 
-## State (2026-10-23)
+## State (2026-10-24)
 
-Next item: **H-63** (DDD open questions, the last NYITOTT item). Proposal waiting for Zoz:
+No NYITOTT item is left. H-63 (DDD) is FOLYAMATBAN: decisions 1–5 are in the text (DDD only for the Suttogó
+égisz; Abszolút siker / Túlütés give Divinity; max karakterszint; Feat → talent, class feature → kasztképesség;
+Devotion scale from the 0.6 karakterlap, points later). Waiting for Zoz:
 
-1. Every karakter gets a Discipline (the Suttogó of birth), whatever égisz they pick; the égisz is the mechanic
-   package, the Discipline feeds Devotion and Divinity.
-2. No kritikus siker in the book: Abszolút siker on a listed képzettség, Túlütés on a listed creature type gives
-   1 Divinity.
-3. Divinity max: karakterszint or karakterszint × 3 is Zoz's call (both give 0 at 0. szint).
-4. Devotion scale and 6. names: ⚠ DIVERGENCIA (the 0.6 karakterlap uses ÁHÍTAT, FEGYELEM, DISZCIPLÍNA and a
-   HATED → … → CHAMPION scale); Zoz decides.
-5. Feat → talent, class feature → kasztképesség.
-7. The per-Suttogó lists are lore: Zoz gives them.
+- 6. Hungarian names, proposed in an ÚJ KIFEJEZÉS block: Diszciplína, Áhítat (karakterlap), Divinity → ?
+  (where does FEGYELEM go?), Tilalom (Anathema), Erény (Benediction), Gyűlölt / Üldözött (Hated / Hunted), Bajnok
+  (CHAMPION), lénytípus (creature type).
+- 4. The middle steps of the HATED → … → CHAMPION scale: only Zoz has them.
+- 7. Per-Suttogó lists: later.
+
+After that: the six DÖNTÉSRE VÁR items (H-03, H-17, H-19, H-20, H-21, H-47).
 
 H-53 is FOLYAMATBAN: Fegyvert nem igénylő cselekvések stays a placeholder for now.
 H-55 is FOLYAMATBAN: Zoz gives the seven Mágiaosztály descriptions; Entrópia stays „Rend- és rendbontó mágia.”
@@ -61,4 +61,4 @@ H-58 is FOLYAMATBAN: the Sebgyógyítás rule (cap, above the cap) comes later.
 H-59 is FOLYAMATBAN: Sebzéstípusok stays a placeholder for now.
 H-60 is FOLYAMATBAN: the származási helyek reference waits for a chapter.
 H-62 is FOLYAMATBAN: Karakterfejlődés table and tulajdonság cost are in; 0. szint math, jártasság costs, talent/kaszt cost, varázslattanulás are open (Zoz's OneNote note).
-No other NYITOTT item after H-63. See the worklist for FOLYAMATBAN and DÖNTÉSRE VÁR items.
+See the worklist for FOLYAMATBAN and DÖNTÉSRE VÁR items.

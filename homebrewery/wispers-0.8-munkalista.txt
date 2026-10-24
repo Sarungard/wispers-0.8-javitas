@@ -23,7 +23,7 @@ Jelölések: BLOKKOLÓ – enélkül nem játszható; ELLENTMONDÁS – két sza
 hivatkozik; KISEBB – szerkesztési hiba, elnevezés.
 
 ÖSSZESÍTŐ (frissítsd menet közben)
-  NYITOTT: 1   FOLYAMATBAN: 19   DÖNTÉSRE VÁR: 6   JAVÍTVA: 36   ELVETVE: 2
+  NYITOTT: 0   FOLYAMATBAN: 20   DÖNTÉSRE VÁR: 6   JAVÍTVA: 36   ELVETVE: 2
 
 
 ================================================================
@@ -235,6 +235,8 @@ Döntés: A játékos egyet választ a háromból:
     (major) pozitív mechanika;
   – Suttogó: teljes skill tree, mechanikákkal.
   Az égiszhez a DDD alrendszer (Discipline, Devotion, Divinity) jár (H-63).
+  Pontosítva (H-63, 2026.10.24.): a DDD csak a Suttogó égiszhez tartozik,
+  az alacsony és a magas égisz ennél egyszerűbb.
 Javítás: wispers-0.8-javitott.txt › I. rész › II. fejezet › Előtörténet és
   személyiség kialakítása › Égisz: a választás szabálya, a három lehetőség,
   utalás a DDD-re és szerkesztői megjegyzés a hiányzó tartalomról. A „skill
@@ -1543,10 +1545,28 @@ Probléma: A vázlat beépült, de ezek nincsenek eldöntve:
   7. Suttogónként a képzettség-, creature type-, Anathema- és
      Benediction-listák.
 Teendő: A kérdések eldöntése, utána a vázlat véglegesítése.
-Állapot: NYITOTT
+Állapot: FOLYAMATBAN (2026.10.24.)
 Döntés:
-Javítás:
-Megjegyzés:
+  1. Nem kap minden karakter Discipline-t: a DDD csak a Suttogók
+     képességrendszeréhez tartozik, a többi égisz ennél egyszerűbb.
+  2. Divinity pont: a felsorolt képzettségnél Abszolút siker, a felsorolt
+     lénytípusnál Túlütés.
+  3. Divinity-maximum: karakterszint (a balansz alapján változhat).
+  4. A Devotion skálája a 0.6-os karakterlapé (HATED → … → CHAMPION); a
+     pontértékek kidolgozás alatt.
+  5. Feat → talent, class feature → kasztképesség.
+  6. Az elnevezések magyarul lesznek; a nevek ÚJ KIFEJEZÉS-javaslatra várnak.
+  7. A Suttogónkénti listák később.
+Javítás: wispers-0.8-javitott.txt
+  – I. rész › II. fejezet › Égisz: a DDD csak a Suttogó égiszhez kapcsolódik;
+  – III. rész › 3. › Discipline, Devotion, Divinity: Discipline csak Suttogó
+    égisszel; Abszolút siker és túlütés ad Divinityt; Featek → talentek,
+    class featureök → kasztképességek; a Divinity a Suttogó égiszt választók
+    erőforrása, maximuma karakterszint; a Devotion-skáláról szerkesztői
+    megjegyzés; a [Nyitott] jelölések törölve.
+Megjegyzés: Hátravan: a magyar nevek (6.), a Devotion-skála közbülső fokai és
+  pontértékei (4.), a Suttogónkénti listák (7.). A skála közbülső fokait a
+  repó nem ismeri, csak a két végét (DIVERGENCIA.md).
 
 
 ----------------------------------------------------------------
@@ -1728,3 +1748,5 @@ NAPLÓ – mi történt, mikor
 2026.10.23.  H-61 JAVÍTVA – a Glaive egyelőre angolul marad.
 2026.10.23.  H-62 FOLYAMATBAN – Karakterfejlődés-táblázat és tulajdonságemelési
              költség Zoz jegyzetéből; a 0. szint matekja kidolgozandó.
+2026.10.24.  H-63 FOLYAMATBAN – DDD csak a Suttogó égiszhez; Abszolút siker / Túlütés;
+             max. karakterszint; talent, kasztképesség; nevek és listák később.

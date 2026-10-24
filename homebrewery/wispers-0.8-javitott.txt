@@ -156,7 +156,7 @@ Karakteralkotáskor válaszd ki, melyik égisz alatt született a karaktered. A 
 - **Magas égisz:** egy kisebb negatív, egy kisebb pozitív és egy nagyobb pozitív mechanika.
 - **Suttogó (a Nyolcak egyike):** a Suttogó teljes, mechanikákkal kidolgozott képességrendszere.
 
-Az égiszhez a Discipline, Devotion, Divinity (DDD) alrendszer kapcsolódik, lásd a Kegy és égiszek fejezetben.
+A Discipline, Devotion, Divinity (DDD) alrendszer csak a Suttogó égiszhez kapcsolódik, lásd a Kegy és égiszek fejezetben. Az alacsony és a magas égisz ennél egyszerűbb.
 
 [Szerkesztői megjegyzés: az egyes égiszek mechanikái és a Suttogók képességrendszerei még nincsenek kidolgozva (H-05).]
 
@@ -2850,20 +2850,22 @@ Nikka
 
 ### Discipline
 
-Minden karakter a háttere mellé kap egy Discipline-t is: ez mutatja meg, melyik Suttogó égisze alatt született. Minden Suttogónak van egy diszciplínája, amely alá a következők tartoznak:
+A DDD csak a Suttogók képességrendszeréhez tartozik: Discipline-t az a karakter kap, aki Suttogó égiszt választott, és ez annak a Suttogónak a diszciplínája. Minden Suttogónak van egy diszciplínája, amely alá a következők tartoznak:
 
-- **Képzettségek:** ha a karakter a felsorolt képzettségek valamelyikén sikert ér el, kap 1 Divinity pontot. [Nyitott: kritikus siker kell-e hozzá.]
-- **Creature typeok:** ha a karakter egy felsorolt típusú lényen találatot ejt, kap 1 Divinity pontot. [Nyitott: kritikus találat kell-e hozzá.]
+- **Képzettségek:** ha a karakter a felsorolt képzettségek valamelyikén Abszolút sikert ér el, kap 1 Divinity pontot.
+- **Creature typeok:** ha a karakter egy felsorolt típusú lényt túlüt, kap 1 Divinity pontot.
 - **Anathema:** azok a cselekvések, amelyekkel a karakter Devotiont veszít.
 - **Benediction:** azok a cselekvések, amelyekkel a karakter Devotiont nyer.
 
 ### Devotion
 
-A Devotion jelzi, milyen szinten férkőzött a karakter a Suttogója kegyeibe. Bizonyos, Suttogókhoz köthető Featek Devotion-szinthez kötöttek. Ha a karakter Devotionje túl alacsony, Hated / Hunted státuszba kerül: a Suttogó arra biztatja a diszciplínájába tartozókat, hogy vadásszák le.
+A Devotion jelzi, milyen szinten férkőzött a karakter a Suttogója kegyeibe. Bizonyos, Suttogókhoz köthető talentek Devotion-szinthez kötöttek. Ha a karakter Devotionje túl alacsony, Hated / Hunted státuszba kerül: a Suttogó arra biztatja a diszciplínájába tartozókat, hogy vadásszák le.
+
+[Szerkesztői megjegyzés: a Devotion skálája a 0.6-os karakterlap skálája (HATED → … → CHAMPION); a pontértékek kidolgozás alatt (H-63).]
 
 ### Divinity
 
-A Divinity minden karakter számára elérhető erőforrás; egyes Featek és class featureök alternatív felhasználási módot adnak hozzá. Egy karakternek egyszerre legfeljebb karakterszintnyi Divinity pontja lehet. [Nyitott: karakterszint vagy karakterszint × 3.]
+A Divinity a Suttogó égiszt választó karakterek erőforrása; egyes talentek és kasztképességek alternatív felhasználási módot adnak hozzá. Egy karakternek egyszerre legfeljebb karakterszintnyi Divinity pontja lehet.
 
 # 4. Kasztok
 
