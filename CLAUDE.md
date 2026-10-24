@@ -43,17 +43,12 @@ Keep replies short and in Hungarian. Put the proposal and the question at the en
 
 ## State (2026-10-24)
 
-No NYITOTT item is left. H-63 (DDD) is FOLYAMATBAN: decisions 1–5 are in the text (DDD only for the Suttogó
-égisz; Abszolút siker / Túlütés give Divinity; max karakterszint; Feat → talent, class feature → kasztképesség;
-Devotion scale from the 0.6 karakterlap, points later). Waiting for Zoz:
+No NYITOTT item is left. H-63 is FOLYAMATBAN: everything is in the text except the Fegyelem scale
+(Gyűlölt → … → Bajnok, Zoz has the steps and points) and the per-Suttogó lists; both come later. DDD names in
+Hungarian: Diszciplína, Fegyelem (Devotion), Áhítat (Divinity), Tilalom, Erény, Gyűlölt / Üldözött, Bajnok,
+lénytípus; no „DDD” abbreviation in game text.
 
-- 6. Hungarian names: approved and in the text: Divinity → Áhítat, Devotion → Fegyelem. Still to approve
-  (ÚJ KIFEJEZÉS): Diszciplína (Discipline), Tilalom (Anathema), Erény (Benediction), Gyűlölt / Üldözött
-  (Hated / Hunted), Bajnok (CHAMPION), lénytípus (creature type), and what replaces the „DDD” abbreviation.
-- 4. The Fegyelem scale (HATED → … → CHAMPION): later, Zoz has it.
-- 7. Per-Suttogó lists: later.
-
-After that: the six DÖNTÉSRE VÁR items (H-03, H-17, H-19, H-20, H-21, H-47).
+Next: the six DÖNTÉSRE VÁR items (H-03, H-17, H-19, H-20, H-21, H-47).
 
 H-53 is FOLYAMATBAN: Fegyvert nem igénylő cselekvések stays a placeholder for now.
 H-55 is FOLYAMATBAN: Zoz gives the seven Mágiaosztály descriptions; Entrópia stays „Rend- és rendbontó mágia.”

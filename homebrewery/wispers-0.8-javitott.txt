@@ -156,7 +156,7 @@ Karakteralkotáskor válaszd ki, melyik égisz alatt született a karaktered. A 
 - **Magas égisz:** egy kisebb negatív, egy kisebb pozitív és egy nagyobb pozitív mechanika.
 - **Suttogó (a Nyolcak egyike):** a Suttogó teljes, mechanikákkal kidolgozott képességrendszere.
 
-A Discipline, Fegyelem, Áhítat (DDD) alrendszer csak a Suttogó égiszhez kapcsolódik, lásd a Kegy és égiszek fejezetben. Az alacsony és a magas égisz ennél egyszerűbb.
+A Diszciplína, Fegyelem, Áhítat alrendszer csak a Suttogó égiszhez kapcsolódik, lásd a Kegy és égiszek fejezetben. Az alacsony és a magas égisz ennél egyszerűbb.
 
 [Szerkesztői megjegyzés: az egyes égiszek mechanikái és a Suttogók képességrendszerei még nincsenek kidolgozva (H-05).]
 
@@ -1218,7 +1218,7 @@ Ha egy karakter úgy dönt, hogy reakciót hajt végre, a reakció AP-ját a sor
 
 Amikor a karaktered sebesülést kapna, ignorálhatod
 
-[Szerkesztői megjegyzés: a Kegy átdolgozás alatt áll; az Égiszhez és a Discipline, Fegyelem, Áhítat alrendszerhez kapcsolódik (H-47).]
+[Szerkesztői megjegyzés: a Kegy átdolgozás alatt áll; az Égiszhez és a Diszciplína, Fegyelem, Áhítat alrendszerhez kapcsolódik (H-47).]
 
 #### Túlütés
 
@@ -2844,24 +2844,24 @@ Nikka
 
 *A jó öreg Nephilea ellentéte és barátja. Az ő kettejük kapcsolata az egyetlen, amely nem negatív. Szintén a bölcs gondolkodó szerepét tölti be és alig hagyja el Nevratha termeit. Sokkal többet tölt ott Nephileával, mint mások. Nem akar keresztbe tenni neki, inkább fogadásokat kötnek, hogy bár kegyeltjeik megfontoltan döntenek, valóban a jó suttogó eszméi szerint-e. Ő maga saját követőiket az ármánykodás és az árnyékból irányítás hatalmával ruházza fel, aki pedig ellentmond neki, kirekeszti a világon kívülre, lassan emésztve fel testét és lelkét.*
 
-## Discipline, Fegyelem, Áhítat
+## Diszciplína, Fegyelem, Áhítat
 
 [Szerkesztői megjegyzés: vázlat a wispers-DDD.txt alapján (2026.10.22.); a nyitott kérdések a munkalista H-63-as tételében.]
 
-### Discipline
+### Diszciplína
 
-A DDD csak a Suttogók képességrendszeréhez tartozik: Discipline-t az a karakter kap, aki Suttogó égiszt választott, és ez annak a Suttogónak a diszciplínája. Minden Suttogónak van egy diszciplínája, amely alá a következők tartoznak:
+Az alrendszer csak a Suttogók képességrendszeréhez tartozik: Diszciplínát az a karakter kap, aki Suttogó égiszt választott, és ez annak a Suttogónak a diszciplínája. Minden Suttogónak van egy diszciplínája, amely alá a következők tartoznak:
 
 - **Képzettségek:** ha a karakter a felsorolt képzettségek valamelyikén Abszolút sikert ér el, kap 1 pont Áhítatot.
-- **Creature typeok:** ha a karakter egy felsorolt típusú lényt túlüt, kap 1 pont Áhítatot.
-- **Anathema:** azok a cselekvések, amelyekkel a karakter Fegyelmet veszít.
-- **Benediction:** azok a cselekvések, amelyekkel a karakter Fegyelmet nyer.
+- **Lénytípusok:** ha a karakter egy felsorolt típusú lényt túlüt, kap 1 pont Áhítatot.
+- **Tilalom:** azok a cselekvések, amelyekkel a karakter Fegyelmet veszít.
+- **Erény:** azok a cselekvések, amelyekkel a karakter Fegyelmet nyer.
 
 ### Fegyelem
 
-A Fegyelem jelzi, milyen szinten férkőzött a karakter a Suttogója kegyeibe. Bizonyos, Suttogókhoz köthető talentek Fegyelem-szinthez kötöttek. Ha a karakter Fegyelme túl alacsony, Hated / Hunted státuszba kerül: a Suttogó arra biztatja a diszciplínájába tartozókat, hogy vadásszák le.
+A Fegyelem jelzi, milyen szinten férkőzött a karakter a Suttogója kegyeibe. Bizonyos, Suttogókhoz köthető talentek Fegyelem-szinthez kötöttek. Ha a karakter Fegyelme túl alacsony, Gyűlölt / Üldözött státuszba kerül: a Suttogó arra biztatja a diszciplínájába tartozókat, hogy vadásszák le.
 
-[Szerkesztői megjegyzés: a Fegyelem skálája a 0.6-os karakterlap skálája (HATED → … → CHAMPION); a pontértékek kidolgozás alatt (H-63).]
+[Szerkesztői megjegyzés: a Fegyelem skálája a 0.6-os karakterlap skálája (Gyűlölt → … → Bajnok); a pontértékek kidolgozás alatt (H-63).]
 
 ### Áhítat
 

@@ -1556,9 +1556,10 @@ Döntés:
      pontértékek kidolgozás alatt.
   5. Feat → talent, class feature → kasztképesség.
   6. Az elnevezések magyarul lesznek. Elfogadva (2026.10.24.): Divinity →
-     Áhítat, Devotion → Fegyelem. A többi név (Discipline, Anathema,
-     Benediction, Hated / Hunted, CHAMPION, creature type) és a „DDD”
-     rövidítés még jóváhagyásra vár.
+     Áhítat, Devotion → Fegyelem. Új kifejezések, elfogadva (2026.10.24.):
+     Discipline → Diszciplína, Anathema → Tilalom, Benediction → Erény,
+     Hated / Hunted → Gyűlölt / Üldözött, CHAMPION → Bajnok, creature type
+     → lénytípus. A „DDD” rövidítés helyett a teljes név áll.
   7. A Suttogónkénti listák később.
 Javítás: wispers-0.8-javitott.txt
   – I. rész › II. fejezet › Égisz: a DDD csak a Suttogó égiszhez kapcsolódik;
@@ -1568,10 +1569,15 @@ Javítás: wispers-0.8-javitott.txt
     erőforrása, maximuma karakterszint; a Devotion-skáláról szerkesztői
     megjegyzés; a [Nyitott] jelölések törölve;
   – Divinity → Áhítat, Devotion → Fegyelem (Égisz, Kegy-megjegyzés,
-    a DDD-szakasz címe, alcímei és szövege).
-Megjegyzés: Hátravan: a többi magyar név (6.), a Fegyelem-skála fokai és
-  pontértékei (4., később), a Suttogónkénti listák (7., később). A skála
-  közbülső fokait a repó nem ismeri, csak a két végét (DIVERGENCIA.md).
+    a DDD-szakasz címe, alcímei és szövege);
+  – a többi név is magyarul: a szakasz címe „Diszciplína, Fegyelem,
+    Áhítat”, alcím Diszciplína; Lénytípusok, Tilalom, Erény, Gyűlölt /
+    Üldözött; a skála-megjegyzésben Gyűlölt → … → Bajnok; a „DDD”
+    rövidítés kikerült a szövegből.
+Megjegyzés: Hátravan: a Fegyelem-skála fokai és pontértékei (4., később), a
+  Suttogónkénti listák (7., később). A skála közbülső fokait a repó nem
+  ismeri, csak a két végét (DIVERGENCIA.md). A wispers-DDD.txt fájlnév és a
+  munkaszöveg fejlécének „DDD-vázlat” jelölése maradt.
 
 
 ----------------------------------------------------------------
@@ -1757,3 +1763,5 @@ NAPLÓ – mi történt, mikor
              max. karakterszint; talent, kasztképesség; nevek és listák később.
 2026.10.24.  H-63 – Divinity → Áhítat, Devotion → Fegyelem; a többi név és a skála
              később.
+2026.10.24.  H-63 – Diszciplína, Tilalom, Erény, Gyűlölt / Üldözött, Bajnok, lénytípus;
+             „DDD” helyett teljes név. A skála és a listák később.
