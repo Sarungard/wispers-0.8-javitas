@@ -7,7 +7,7 @@ Munkaszöveg:  homebrewery/wispers-0.8-javitott.txt – ebbe kerülnek a javít�
 Összevetve:   a HEAD-del (Játékok/Rpg/wispers-0.7.0b.docx, 2026.08.11.)
 Sorszámok:    H-01–H-61 azonos a wispers-0.7.0b-hibalista.pdf sorszámaival;
               a H-62-től kezdődő tételek menet közben kerültek be
-Frissítve:    2026.10.23.
+Frissítve:    2026.10.25.
 
 HOGYAN HASZNÁLJUK
 Sorban végigmegyünk a tételeken. Minden tételnél négy sort töltünk ki:
@@ -23,7 +23,7 @@ Jelölések: BLOKKOLÓ – enélkül nem játszható; ELLENTMONDÁS – két sza
 hivatkozik; KISEBB – szerkesztési hiba, elnevezés.
 
 ÖSSZESÍTŐ (frissítsd menet közben)
-  NYITOTT: 0   FOLYAMATBAN: 20   DÖNTÉSRE VÁR: 6   JAVÍTVA: 36   ELVETVE: 2
+  NYITOTT: 0   FOLYAMATBAN: 19   DÖNTÉSRE VÁR: 4   JAVÍTVA: 39   ELVETVE: 2
 
 
 ================================================================
@@ -403,7 +403,7 @@ Probléma: Az MP 15 helyen szerepel, de sehol nincs definiálva. A 0.5.5-ben a
   Sebet okozott; azóta ez kikerült. A három ork alfaj képessége a vérszomjat
   veti össze azzal, ami „mint az MP értékük”, így most nem játszható.
 Teendő: D-2.
-Állapot: FOLYAMATBAN (2026.10.22.)
+Állapot: JAVÍTVA (2026.10.25.)
 Döntés: Szimbiotikus jelenlét – a társak Kimerültsége pihentető alváskor
   eggyel jobban csökken. Kifürkészhetetlenek – +1 Eltökéltség érték.
   Elmerekesz – MP helyett esszencia. Eltökéltség – mentális seb alapesetben
@@ -430,7 +430,12 @@ Javítás: wispers-0.8-javitott.txt
        +1 Kimerültség (a H-20-at is kezelné).
   Számítás: Szellem 3 mellett a vérszomj az első reggel után 94%-ban, Szellem
   4 mellett 81%-ban a határ fölött van.
-Megjegyzés:
+  Eldöntve (2026.10.25.): a B olvasat. Orkok › Vérdal: „Minden este tégy egy
+  Eltökéltség mentődobást, és az eredményét vond le a Vérszomjadból. Ha így
+  a Vérszomjad a mentális könnyű sebhatárod alá kerül, az alvás pihentető.
+  Ha nem, az alvás nem pihentető, és az éjszaka során egy szintnyi
+  Kimerültséget szerzel.”
+Megjegyzés: A H-20 és a H-21 ezzel együtt lezárult.
 
 ----------------------------------------------------------------
 [H-12] MARADVÁNY – EP-re épülő képességek (!REWORK!)
@@ -576,11 +581,12 @@ Probléma: A vérszomj 1-ről indul, „Minden reggel dobj 2d4-et” (hadviselő
 Eredet: a 0.5.5-ben „Mindig, amikor EP sebzést okozol egy karakternek,
   csökkentsd a vérszomjad ugyanannyival” – ott az „ugyanannyi” sebzéspont volt.
 Teendő: Felső korlát vagy erősebb csökkentés, Seb-alapon.
-Állapot: DÖNTÉSRE VÁR (2026.10.22.)
-Döntés: Az esti Vérdal-dobás A/B döntésével együtt (H-11); a B olvasat ezt
-  is kezelné.
-Javítás:
-Megjegyzés:
+Állapot: JAVÍTVA (2026.10.25.)
+Döntés: A B olvasat (H-11): az esti Eltökéltség mentődobás eredménye
+  levonódik a vérszomjból, így a vérszomj minden este érdemben csökken.
+Javítás: wispers-0.8-javitott.txt › III. rész › 1. Fajok › Orkok › Vérdal: az
+  esti mentődobás mondata a B olvasat szerint (szövege a H-11-nél).
+Megjegyzés: Nyitott: mehet-e a vérszomj 0 alá, ha a mentődobás nagyobb nála.
 
 ----------------------------------------------------------------
 [H-21] KISEBB – Vérzaj: „megdobták”
@@ -588,9 +594,12 @@ Hol: III. rész › 1. Fajok › Nomádok › Vérzaj
 Probléma: „Ha előző este megdobták a Vérszomjukhoz köthető próbát, ez kettes
   előnyre nő.” A „megdobták” jelentheti, hogy dobtak, és azt is, hogy sikerült.
 Teendő: Pontosítsd a feltételt.
-Állapot: DÖNTÉSRE VÁR (2026.10.22.)
-Döntés: Az esti Vérdal-dobás A/B döntésével együtt (H-11).
-Javítás:
+Állapot: JAVÍTVA (2026.10.25.)
+Döntés: A B olvasat (H-11) szerint a feltétel: előző este a mentődobás a
+  mentális könnyű sebhatár alá vitte a vérszomjat.
+Javítás: wispers-0.8-javitott.txt › III. rész › 1. Fajok › Nomádok › Vérzaj:
+  „Ha előző este megdobták a Vérszomjukhoz köthető próbát” helyett „Ha előző
+  este a mentődobás a mentális könnyű sebhatáruk alá vitte a Vérszomjukat”.
 Megjegyzés:
 
 ----------------------------------------------------------------
@@ -1765,3 +1774,5 @@ NAPLÓ – mi történt, mikor
              később.
 2026.10.24.  H-63 – Diszciplína, Tilalom, Erény, Gyűlölt / Üldözött, Bajnok, lénytípus;
              „DDD” helyett teljes név. A skála és a listák később.
+2026.10.25.  H-11, H-20, H-21 JAVÍTVA – Vérdal: B olvasat (az esti mentődobás
+             levonódik a vérszomjból); Vérzaj feltétele ehhez igazítva.

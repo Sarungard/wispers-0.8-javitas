@@ -41,14 +41,19 @@ Keep replies short and in Hungarian. Put the proposal and the question at the en
   hard to heal; the healing rule comes later.
 - Harci távok are abstract: Közelharci táv, Rövid táv, Közepes táv, Nagy táv, Értelmezhetetlen. „reach” and (for now) „Glaive” stay English.
 
-## State (2026-10-24)
+## State (2026-10-25)
 
 No NYITOTT item is left. H-63 is FOLYAMATBAN: everything is in the text except the Fegyelem scale
 (Gyűlölt → … → Bajnok, Zoz has the steps and points) and the per-Suttogó lists; both come later. DDD names in
 Hungarian: Diszciplína, Fegyelem (Devotion), Áhítat (Divinity), Tilalom, Erény, Gyűlölt / Üldözött, Bajnok,
 lénytípus; no „DDD” abbreviation in game text.
 
-Next: the six DÖNTÉSRE VÁR items (H-03, H-17, H-19, H-20, H-21, H-47).
+Vérdal decided (2026-10-25): reading B, the evening Eltökéltség mentődobás is subtracted from the vérszomj; H-11, H-20,
+H-21 are JAVÍTVA. Open there: whether the vérszomj can go below 0.
+
+The four remaining DÖNTÉSRE VÁR items (H-03, H-17, H-19, H-47) all wait on content: kasztok, the varázslat chapter, the
+Kegy rework. Open decisions: the D-1 bid cap or repeat cost (H-45, H-14, H-30), Sebgyógyítás (H-58), Szusztörő (H-13).
+`wispers-0.8-nyitott-tetelek.pdf` (2026-10-25, local only) lists every unfinished item.
 
 H-53 is FOLYAMATBAN: Fegyvert nem igénylő cselekvések stays a placeholder for now.
 H-55 is FOLYAMATBAN: Zoz gives the seven Mágiaosztály descriptions; Entrópia stays „Rend- és rendbontó mágia.”

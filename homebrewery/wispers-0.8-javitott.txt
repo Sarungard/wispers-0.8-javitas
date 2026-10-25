@@ -2371,7 +2371,7 @@ Minden ork rendelkezik Vérszomj értékkel, amely eleinte 1.
 
 Minden reggel dobj 2d4-et és add hozzá az eredményt a Vérszomj értékedhez.
 
-Minden este tégy egy Eltökéltség mentődobást a Vérszomjad értéke ellen. Ha bukás, akkor az alvás nem pihentető és az éjszaka során egy szintnyi kimerültséget szerzel.
+Minden este tégy egy Eltökéltség mentődobást, és az eredményét vond le a Vérszomjadból. Ha így a Vérszomjad a mentális könnyű sebhatárod alá kerül, az alvás pihentető. Ha nem, az alvás nem pihentető, és az éjszaka során egy szintnyi Kimerültséget szerzel.
 
 Minden nap, amikor először sebet okozol egy karakternek, csökkentsd a vérszomjad ugyanannyival.
 
@@ -2429,7 +2429,7 @@ Amikor egy nomád ork sebet gyógyít, a meggyógyított sebek számával megegy
 
 A nomád orkok mindent megtesznek, hogy a vérdal torz hangjait elnyomják magukban.
 
-Ameddig vérszomjuk alacsonyabb, mint a mentális könnyű sebhatáruk, minden képzettségpróbát és mentődobást egyes előnnyel dobnak. Ha előző este megdobták a Vérszomjukhoz köthető próbát, ez kettős előnyre nő.
+Ameddig vérszomjuk alacsonyabb, mint a mentális könnyű sebhatáruk, minden képzettségpróbát és mentődobást egyes előnnyel dobnak. Ha előző este a mentődobás a mentális könnyű sebhatáruk alá vitte a Vérszomjukat, ez kettős előnyre nő.
 
 # 2. Személyiség és háttér
 
