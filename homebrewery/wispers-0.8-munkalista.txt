@@ -1632,11 +1632,18 @@ Döntés: Féktelen harcmodor – a garantált túlütés kikerül, a kettős el
   előbb). Hárítás (B változat, 2026.10.25.) – a siker elhárítja a Sebet, és
   ha a hárítás a támadás kétszeresét is eléri, a támadó köre véget ér.
   Felső határ (D-1) – később.
+  Pontosítás (2026.10.25.): a védekező a támadás értékének ismeretében
+  dönt a reakcióról; a Rohamozás 2–3 AP-jához hozzájön a fegyver
+  támadásának AP-ja.
 Javítás: wispers-0.8-javitott.txt › II. rész › 4. Harc › Harcmodorok ›
   Féktelen harcmodor: „és garantált a túlütés”, „és a túlütés” és a H-50-ben
   felvett „A sikeres reakció a garantált túlütést is kivédi.” mondat törölve;
   Általános reakciólista › Hárítás › Siker: „Ha a hárításod értéke a
-  támadás értékének legalább kétszerese, az ellenfeled köre is véget ér.”
+  támadás értékének legalább kétszerese, az ellenfeled köre is véget ér.”;
+  Fogalmak a harc során › Reakciók: új mondat („A reakcióról azután
+  döntesz, hogy a támadó dobott, vagyis a támadás értékének ismeretében.”);
+  Közelharci fegyverrel végrehajtott cselekvések › Rohamozás: „Ehhez jön a
+  fegyvered támadásának AP költsége.”
 Megjegyzés: Hátravan: a felső határ. A reakció nélküli
   automatikus találat (1) nem került döntésre. CRPG-eltérés: a
   CombatStances.cs-ben a Féktelen még minden találatot túlütéssé tesz.
@@ -1814,3 +1821,5 @@ NAPLÓ – mi történt, mikor
 2026.10.25.  H-65 FOLYAMATBAN (új tétel) – harcelemzés; Féktelen harcmodor: a
              garantált túlütés kikerült; a döntetlenszabály marad.
 2026.10.25.  H-65 – Hárítás: a kört csak a kétszeres hárítás zárja le.
+2026.10.25.  H-65 – reakció a támadás értékének ismeretében; a Rohamozáshoz
+             hozzájön a fegyver AP-ja.

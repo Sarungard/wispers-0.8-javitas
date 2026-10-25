@@ -1212,6 +1212,8 @@ Előfordulhat, hogy egy karaktert belekényszerítenek valamilyen szituációba 
 
 Ha egy cselekvés reakcióból (is) használható, a neve mellett {R} jelölés lesz.
 
+A reakcióról azután döntesz, hogy a támadó dobott, vagyis a támadás értékének ismeretében.
+
 Ha egy karakter úgy dönt, hogy reakciót hajt végre, a reakció AP-ját a soron következő körére bemondott számból fizeti: abban a körében ennyivel kevesebb AP-t költhet el, a kezdeményezése viszont nem változik. Legfeljebb annyi AP-nyi reakciót vállalhat, amennyit ez a szám fedez.
 
 #### Kegy
@@ -1400,7 +1402,7 @@ Amikor megtámadnak, a páncélod Keménységére hagyatkozol: a páncél a tal�
 
 A testi erődet és a lendületeted összehangolva, minden erődet latba vetve megrohamozol egy olyan ellenfelet, akit maximum két mozgással elérnél a körödben. Közelharci távon lévő ellenfelet nem rohamozhatsz meg.
 
-A rohamozás AP költsége függ a távolságtól: 2AP, ha az ellenfél a zónádon belül van (egy mozgás), és 3AP, ha szomszédos zónában van (két mozgás).
+A rohamozás AP költsége függ a távolságtól: 2AP, ha az ellenfél a zónádon belül van (egy mozgás), és 3AP, ha szomszédos zónában van (két mozgás). Ehhez jön a fegyvered támadásának AP költsége.
 
 A támadást az elköltött AP-val megegyező előnnyel teszed, és találat esetén ugyanannyi Sebet okozol. Túlütésnél ehelyett a Túlütés szabálya érvényes, a két sebforrás nem adódik össze.
 
