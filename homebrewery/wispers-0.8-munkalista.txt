@@ -1635,6 +1635,10 @@ Döntés: Féktelen harcmodor – a garantált túlütés kikerül, a kettős el
   Pontosítás (2026.10.25.): a védekező a támadás értékének ismeretében
   dönt a reakcióról; a Rohamozás 2–3 AP-jához hozzájön a fegyver
   támadásának AP-ja.
+  Túlütés (2026.10.25.): reakció nélkül is lehet túlütés, ha a támadás
+  értéke legalább kétszerese a védekező könnyű sebhatárának; a túlütés nem
+  ad előnyönként plusz sebet. A Rohamozás plusz sebei (az elköltött AP-nyi
+  seb) maradnak.
 Javítás: wispers-0.8-javitott.txt › II. rész › 4. Harc › Harcmodorok ›
   Féktelen harcmodor: „és garantált a túlütés”, „és a túlütés” és a H-50-ben
   felvett „A sikeres reakció a garantált túlütést is kivédi.” mondat törölve;
@@ -1643,7 +1647,9 @@ Javítás: wispers-0.8-javitott.txt › II. rész › 4. Harc › Harcmodorok �
   Fogalmak a harc során › Reakciók: új mondat („A reakcióról azután
   döntesz, hogy a támadó dobott, vagyis a támadás értékének ismeretében.”);
   Közelharci fegyverrel végrehajtott cselekvések › Rohamozás: „Ehhez jön a
-  fegyvered támadásának AP költsége.”
+  fegyvered támadásának AP költsége.”; Fogalmak a harc során › Túlütés: új
+  mondat a reakció nélküli túlütésről, „és azonnal elszenved egy extra sebet
+  minden a támadásra ható előny után is” törölve.
 Megjegyzés: Hátravan: a felső határ. A reakció nélküli
   automatikus találat (1) nem került döntésre. CRPG-eltérés: a
   CombatStances.cs-ben a Féktelen még minden találatot túlütéssé tesz.
@@ -1823,3 +1829,5 @@ NAPLÓ – mi történt, mikor
 2026.10.25.  H-65 – Hárítás: a kört csak a kétszeres hárítás zárja le.
 2026.10.25.  H-65 – reakció a támadás értékének ismeretében; a Rohamozáshoz
              hozzájön a fegyver AP-ja.
+2026.10.25.  H-65 – túlütés reakció nélkül is (a könnyű sebhatár kétszerese),
+             előnyönkénti plusz seb nélkül.
