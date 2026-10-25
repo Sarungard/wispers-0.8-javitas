@@ -57,7 +57,7 @@ A kettő közti különbség általában az, hogy a karaktered jártassága foly
 
 Előfordulhat, hogy a játék során bizonyos behatások okán vagy épp valamilyen cselekvés következményeként a karakter helyzeti előnyhöz vagy hátrányhoz jut, ilyenkor a cselekvését képes előnnyel vagy hátránnyal végezni. Az előny azt jelenti, hogy a próbához használt két kockája közül a kisebbet (alacsonyabb oldalszámút) egy mérettel nagyobbra cseréli. Például, ha 1d4 és 1d8 a két kocka amivel dobnál, de előnyhöz jutsz, az 1d4 helyett 1d6-ot használhatsz. Hasonlóan a hátrány azt jelenti, hogy a két kockád közül a nagyobbat (magasabb oldalszámút) egy mérettel kisebbre cseréled. Ugyanebben a példában az 1d8 helyett fogsz 1d6-ot használni.
 
-Bővebben az x. oldalon olvashatsz az ehhez tartozó szabályokról.
+Bővebben a II. rész › 1. A rendszer alapjai › Tulajdonságok › Előny és hátrány szakaszban olvashatsz az ehhez tartozó szabályokról.
 
 ### Konkrét kontra általános szabályok
 
@@ -94,7 +94,7 @@ Alapvetően a karakteralkotás első lépése egy karakterkoncepció megfogalmaz
 
 ## Faj kiválasztása
 
-Kiválasztod a fajokat az elérhető fajok listájáról (. oldal). A kiválasztott faj és a hozzátartozó alfaj együtteséből állnak össze a karaktered induló tulajdonságai, kezdőképességei, jártasságai.
+Kiválasztod a fajokat az elérhető fajok listájáról (lásd: III. rész › 1. Fajok). A kiválasztott faj és a hozzátartozó alfaj együtteséből állnak össze a karaktered induló tulajdonságai, kezdőképességei, jártasságai.
 
 ## Előtörténet és személyiség kialakítása
 
@@ -114,37 +114,37 @@ Mi voltál, mielőtt kalandozónak álltál? Mivel tengetted a mindennapjaid, mi
 
 Miután eldöntötted a származási helyed, válassz egy kulturális és egy társadalmi hátteret. Ez utóbbi azt mutatja meg, hogyan nőttél fel: milyen viszonyban álltál a renddel, a hatalommal és a védelemmel. A kettő együtt segít elmélyíteni a karaktered motivációit, tapasztalatait, élményeit az életben, és mindkettő ad egy kezdő talentet.
 
-Hátterekről bővebben az x. oldalon olvashatsz.
+Hátterekről bővebben a III. rész › 2. Személyiség és háttér › Kulturális hátterek és Társadalmi hátterek szakaszban olvashatsz.
 
 ### Szokások
 
 Mindenkinek vannak szokásai, olyan apró cselekvései, amelyek olyannyira a jellemükké váltak, hogy pusztán már ezáltal kitűnhetnek a tömegből. Az ilyen szokások azok, amik megmutatják egy kalandor valódi arcát, amivel szívesen töltik az idejüket, ha épp nem az események sűrűjében tengődnek.
 
-Szokásokról bővebben az x. oldalon olvashatsz.
+Szokásokról bővebben a III. rész › 2. Személyiség és háttér › Szokások szakaszban olvashatsz.
 
 ### Furcsaság
 
 Ahogy vannak kedvtelésből felvett szokások, úgy bizony vannak a karakterek életében rájuk ragadt, furcsa viselkedések is. Ezek ösztönös, olykor kényszeres cselekvések, amelyeket nem tudnak kontrollálni, így csak megtanultak együttélni velük.
 
-Furcsaságokról bővebben az x. oldalon olvashatsz.
+Furcsaságokról bővebben a III. rész › 2. Személyiség és háttér › Furcsaságok szakaszban olvashatsz.
 
 ### Apróság
 
 Minden kalandor hátizsákjában megbújik egy apróság, egy mütyűr, ami emlékezteti valamire. Mementója annak az életnek, amit hátrahagyott, hogy életét kockáztatva bejárja Allúvyan kontinenseit. Egy ilyen apróság sokat jelent a nehéz időkben, amikor úgy érzi, az út nem tart semerre.
 
-Apróságokról bővebben az x. oldalon olvashatsz.
+Apróságokról bővebben a III. rész › 2. Személyiség és háttér › Apróságok szakaszban olvashatsz.
 
 ### Sötét titok
 
 Minden kalandor hátizsákjában megbújik egy olyan titok is, amit senki sem tudhat, ha mégis rájönnek, az vízválasztóként szolgál az életükben. Ezen titkok birtoklása veszélyt hordoz a tulajdonosukra, ha pedig kiderülnek, az súlyos következményekkel járhat akár a birtokosukra, akár másokra nézve.
 
-Sötét titkokról bővebben az x. oldalon olvashatsz.
+Sötét titkokról bővebben a III. rész › 2. Személyiség és háttér › Sötét titkok szakaszban olvashatsz.
 
 ### Kapcsolatok
 
 Ritka az a kalandor, aki minden képességét latba vetve egyedül helyt tud állni az élet minden területén. Élelem, bájitalok, ráolvasás, fegyverek karbantartása, csempészáru, ezek mind olyan szolgáltatások, amik nélkül nehéz boldogulni a világban. Ilyenkor jönnek képbe a kapcsolatok, vagyis azok az ismertségek a karakterek életében, akiktől szívességet kérhet, vagy épp tartozik nekik eggyel.
 
-Kapcsolatokról bővebben az x. oldalon olvashatsz.
+Kapcsolatokról bővebben a III. rész › 2. Személyiség és háttér › Kapcsolatok szakaszban olvashatsz.
 
 ### Égisz
 
@@ -156,17 +156,17 @@ Karakteralkotáskor válaszd ki, melyik égisz alatt született a karaktered. A 
 - **Magas égisz:** egy kisebb negatív, egy kisebb pozitív és egy nagyobb pozitív mechanika.
 - **Suttogó (a Nyolcak egyike):** a Suttogó teljes, mechanikákkal kidolgozott képességrendszere.
 
-Az égiszhez a Discipline, Devotion, Divinity (DDD) alrendszer kapcsolódik, lásd a Kegy és égiszek fejezetben.
+A Diszciplína, Fegyelem, Áhítat alrendszer csak a Suttogó égiszhez kapcsolódik, lásd a Kegy és égiszek fejezetben. Az alacsony és a magas égisz ennél egyszerűbb.
 
 [Szerkesztői megjegyzés: az egyes égiszek mechanikái és a Suttogók képességrendszerei még nincsenek kidolgozva (H-05).]
 
-A Suttogókról bővebben az x. oldalon olvashatsz.
+A Suttogókról bővebben a III. rész › 3. Kegy és égiszek › Nyolcak szakaszban olvashatsz.
 
 ## Kaszt kiválasztása
 
 A kasztod azon képességek összesítése, amelyet a karaktered 1. szinten, vagyis kalandozó élete első pár évében tapasztal meg és ez határozza meg a jövőjét a történetben.
 
-A kasztokról bővebben az x. oldalon olvashatsz.
+A kasztokról bővebben a III. rész › 4. Kasztok szakaszban olvashatsz.
 
 ## Jártasságok
 
@@ -179,7 +179,7 @@ A kasztod leírásánál található táblázat mutatja majd, milyen jártasság
 
 ## Tulajdonságok meghatározása
 
-A karaktered lehetőségei a játékban nagyrészt a következő hat, három fizikai és három mentális tulajdonság valamelyikére korlátozódnak: Erő, Ügyesség, Állóképesség, Tudás, Jelenlét, Szellem. Ezekről bővebben a x. oldalon olvashatsz.
+A karaktered lehetőségei a játékban nagyrészt a következő hat, három fizikai és három mentális tulajdonság valamelyikére korlátozódnak: Erő, Ügyesség, Állóképesség, Tudás, Jelenlét, Szellem. Ezekről bővebben a II. rész › 1. A rendszer alapjai › Tulajdonságok szakaszban olvashatsz.
 
 Minden tulajdonságod a Világstandardról indul, ezeken fognak majd változtani a fajodból és alfajodból származó módosítók.
 
@@ -189,13 +189,38 @@ A Világstandard egy szám, amely az adott világhoz tartozik: minden tulajdons�
 
 A karaktered kezdőfelszerelését a kasztja, a háttere és a mesélővel egyeztetett előtörténetének együttese határozza meg.
 
-A felszerelésről bővebben az x. oldalon olvashatsz.
+A felszerelésről bővebben a III. rész › 5. Felszerelés és vagyontárgyak szakaszban olvashatsz.
 
 ## Játék magasabb szinten
 
 A játék során a történetet követve, bizonyos mérföldkövekhez érve a karakterek szinteket lépnek, ezzel újabb képességekre tegyetek szert. Amikor a karaktered szintet lép, akkor a kasztjánál található táblázatban az érintett szinthez tartozó újdonságokat írd a karakterlapodra.
 
 Hogyha nem első szinten szeretnétek kezdeni a játékot, arra is van lehetőség, ilyenkor végezzétek el az összes szintlépést ameddig a kívánt szintre nem juttok a karakteretekkel.
+
+### Karakterfejlődés szintenként
+
+| Szint | Elosztható pontok | Faji talent | Általános talent | Kaszt | Kezdő talent |
+|:--:|:--:|:--:|:--:|:--:|:--:|
+| 0 | ? | 1 | 1 | | 2 |
+| 1 | 8 | | | 1 | |
+| 2 | 8 | | 1 | | |
+| 3 | 8 | 1 | | | |
+| 4 | 8 | | 1 | | |
+| 5 | 8 | | | 1 | |
+| 6 | 8 | 1 | 1 | | |
+| 7 | 8 | | | | |
+| 8 | 8 | | 1 | | |
+| 9 | 8 | 1 | | 1 | |
+| 10 | 8 | | 1 | | |
+| 11 | 8 | | | | |
+| 12 | 8 | 1 | 1 | | |
+| 13 | 8 | | | 1 | |
+
+### Tulajdonságok fejlesztése
+
+Egy tulajdonság egy ponttal való emelése 1 + az elérni kívánt érték pontba kerül: 1-re emelni 2 pont, 5-re emelni 6 pont.
+
+[Szerkesztői megjegyzés: kidolgozandó (H-62): a 0. szint pontjai; hogy szintenként 8 pont jár-e, vagy 8 + Tudás + egyéb bónusz (a karakterlap Fejlődéspontok blokkja szerint); a jártasságok fejlesztésének költsége; talentek és kasztok: pontköltség vagy garantált; a varázslatok tanulása fóliánsokból vagy mesterektől, a mágiaosztály-jártasság mögé zárva.]
 
 # II. rész
 ## Szabályok
@@ -232,7 +257,7 @@ A karakter fizikai fittségét jelenti, a Szívósság mentődobás kiszámítá
 
 #### Tudás
 
-A karakter olvasott-tanultságát jelenti, a különféle varázstudományokban és tudományos ismeretekben szerzett tapasztalatát. Varázsláshoz is használható.
+A karakter olvasott-tanultságát jelenti, a különféle varázstudományokban és tudományos ismeretekben szerzett tapasztalatát.
 
 #### Jelenlét
 
@@ -250,7 +275,7 @@ A karakter a kalandozás során kimerülhet. A Kimerültség szintekben gyűlik,
 
 Előfordulhat, hogy a játék során bizonyos behatások okán vagy épp valamilyen cselekvés következményeként a karakter helyzeti előnyhöz vagy hátrányhoz jut, ilyenkor a cselekvését képes előnnyel vagy hátránnyal végezni. Az előny azt jelenti, hogy a cselekvéshez használt két kockád közül a kisebbet (alacsonyabb oldalszámút) egy mérettel nagyobbra cseréled. Például, ha 1d4 és 1d8 a két kocka amivel dobnál, de előnyhöz jutsz, az 1d4 helyett 1d6-ot használhatsz. Hasonlóan a hátrány azt jelenti, hogy a két kockád közül a nagyobbat (magasabb oldalszámút) egy mérettel kisebbre cseréled. Ugyanebben a példában az 1d8 helyett fogsz 1d6-ot használni.
 
-Ha egy cselekvést több tényező is befolyásol ugyanabba az irányba, akkor mind az előny, mind a hátrány halmozható. Ezeket úgy hívjuk, hogy egyes előny, kettős előny, hármas előny, (vagy hátrány) stb., ilyenkor az előnyök (vagy hátrányok) összeadódva fejtik ki a hatásukat. Például a fenti helyzet során egy kettes előny azt jelenti, hogy 1d4 és 1d8 helyett 2d8-at fogsz dobni.
+Ha egy cselekvést több tényező is befolyásol ugyanabba az irányba, akkor mind az előny, mind a hátrány halmozható. Ezeket úgy hívjuk, hogy egyes előny, kettős előny, hármas előny, (vagy hátrány) stb., ilyenkor az előnyök (vagy hátrányok) összeadódva fejtik ki a hatásukat. Például a fenti helyzet során egy kettős előny azt jelenti, hogy 1d4 és 1d8 helyett 2d8-at fogsz dobni.
 
 Előfordulhat, hogy ugyanarra a cselekvésre egyszerre hat több dolog, és egyik oldalról előnyhöz juttatna, másik oldalról hátrányba kerülnél, a kettő kioltja egymást mielőtt meghatároznád, milyen kockákkal is dobsz pontosan.
 
@@ -271,7 +296,7 @@ A fénynek és a sötétségnek hat fokozata van: erős fény, gyenge fény, vak
 
 ## Jártassági szintek
 
-A karakterek rendelkeznek mentődobásokban, különféle Képzettségekben, mágiaiskolákban, páncélokkal és fegyverekkel, valamint pusztakezes harcban szerzett jártassággal. Ezeket eltérő jártassági szintek jelölik. Az egyes jártassági szintek befolyásolják, hogy mekkora bónuszt kap az érintett dobáshoz, valamint, hogy egy adott szituációban mire tudja a karakter a tudását felhasználni. A jártasságok szintje a következő táblázatban látható.
+A karakterek rendelkeznek mentődobásokban, különféle Képzettségekben, mágiaosztályokban, páncélokkal és fegyverekkel, valamint pusztakezes harcban szerzett jártassággal. Ezeket eltérő jártassági szintek jelölik. Az egyes jártassági szintek befolyásolják, hogy mekkora bónuszt kap az érintett dobáshoz, valamint, hogy egy adott szituációban mire tudja a karakter a tudását felhasználni. A jártasságok szintje a következő táblázatban látható.
 
 | Jártassági szintek | Bónuszok |
 |:--|:--|
@@ -931,7 +956,7 @@ Képzettségpróbára akkor kerül sor, amikor a karakternek olyan szituációba
 
 #### Próba önmagad / szituáció ellen
 
-**Célérték:** a próba nehézségértéke fölé.
+**Célérték:** a mesélő határozza meg.
 
 **Abszolút siker:** eléred a célértéket, szakértelemmel. A próba sikeres, tisztán és maradéktalanul.
 
@@ -945,7 +970,7 @@ Képzettségpróbára akkor kerül sor, amikor a karakternek olyan szituációba
 
 A rizikós próba ugyanúgy működik, mint a sima próba, ám ezt akkor használjuk, hogyha olyan dolgot próbálsz megkísérelni, aminek súlyos következménye lehet rád nézve a kimeneteltől függően. Pl. Egy felétek zúgó szikla ellökése vagy egy mágiavihar csillapítása.
 
-**Célérték:** a próba nehézségértéke fölé.
+**Célérték:** a mesélő határozza meg.
 
 A Seb súlyosságát (Könnyű, Mély vagy Súlyos) a mesélő rendeli a próbához.
 
@@ -961,7 +986,7 @@ A Seb súlyosságát (Könnyű, Mély vagy Súlyos) a mesélő rendeli a próbá
 
 Próbára másvalaki ellen akkor kerül sor, hogyha olyan dolgot akarsz megkísérelni, aminek az eredményére valaki más is hatással van, pl. Szkandereztek vagy egyszerre vetődtök egy leeső erszény után. Mindketten tegyetek egy próbát a szituáció ellen (ez helyzettől függően lehet rizikós próba is!) és amelyikőtök magasabb értékkel ér el sikert, ő nyeri a próbát.
 
-**Célérték:** a próba nehézségértéke és a másik résztvevő eredménye fölé.
+**Célérték:** a mesélő által meghatározott érték vagy a másik résztvevő eredménye, amelyik nagyobb.
 
 **Siker:** a próba sikeres.
 
@@ -973,7 +998,7 @@ Rizikós próba esetén az arra vonatkozó szabályokat használd!
 
 ### Konfliktus
 
-A játék során a karakterek olyan szituációba keveredhetnek, ahol a hatalmi dinamizmus érezhető és szükséges a konfliktus feloldásához. Ekkor a mesélő meghatároz egy célszámot, amit a csapatnak el kell érnie sikeres próbák segítségével. Ez jelenti a fordulópontot a szituációban, akinek sikerül, egyúttal annak sikerül érvényesítenie is az érdekeit. Ehhez a játékosok három megközelítés felhasználásával felváltva megpróbálnak hatni a velük szembenálló személy(ek)re.
+A játék során a karakterek olyan szituációba keveredhetnek, ahol a hatalmi dinamizmus érezhető és szükséges a konfliktus feloldásához. Ekkor a mesélő meghatároz egy célértéket, amit a csapatnak el kell érnie sikeres próbák segítségével. Ez jelenti a fordulópontot a szituációban, akinek sikerül, egyúttal annak sikerül érvényesítenie is az érdekeit. Ehhez a játékosok három megközelítés felhasználásával felváltva megpróbálnak hatni a velük szembenálló személy(ek)re.
 
 A szociális konfrontáció három alappillére az empátia, az érvelés és a megfélemlítés, minden NPC rendelkezik majd egy ezekhez rendelt értékkel, ami azt jelképezi, mennyire lehet rájuk hatni az egyes módszerekkel. Amikor a játékosok konfrontálódnak egy (vagy több) NPC-vel, akkor az általuk választott megközelítés értéke ellen egy képzettségpróbát tesznek. Ha sikeres, a számláló a játékosoknak kedvező irányba mozdul el a siker mértékével. Ha sikertelen, akkor az ellentétes oldal irányába mozdul a bukás mértékével.
 
@@ -1101,7 +1126,7 @@ A táborozási szegmens kihagyásával a csapat minden tagja 2 szintnyi kimerül
 
 ### Cselekvések
 
-A cselekvések próbáinak nehézségértékét a mesélő határozza meg.
+A cselekvések próbáinak célértékét a mesélő határozza meg.
 
 #### Tájékozódás
 
@@ -1193,7 +1218,7 @@ Ha egy karakter úgy dönt, hogy reakciót hajt végre, a reakció AP-ját a sor
 
 Amikor a karaktered sebesülést kapna, ignorálhatod
 
-[Szerkesztői megjegyzés: a Kegy átdolgozás alatt áll; az Égiszhez és a Discipline, Devotion, Divinity alrendszerhez kapcsolódik (H-47).]
+[Szerkesztői megjegyzés: a Kegy átdolgozás alatt áll; az Égiszhez és a Diszciplína, Fegyelem, Áhítat alrendszerhez kapcsolódik (H-47).]
 
 #### Túlütés
 
@@ -1349,17 +1374,17 @@ Segíts egy társadnak, aki megpróbál végrehajtani valamit, amiben te is jár
 
 #### Kitérés {2AP}
 
-Amikor megtámadnak, reflex mentődobás segítségével megpróbálod elkerülni a téged ért ütést.
+Amikor megtámadnak, reflex mentődobás segítségével megpróbálod elkerülni a téged ért ütést. A mentődobás célértéke a támadás értéke.
 
-**Siker:** a téged ért sebzés nullára csökken és azonnal kihátrálsz.
+**Siker:** nem szenvedsz Sebet, és azonnal kihátrálsz.
 
-**Bukás:** a teljes sebzést elszenveded.
+**Bukás:** elszenveded a Sebet.
 
 #### Hárítás {1AP}
 
 Amikor megtámadnak, erre alkalmas pajzs vagy hárítófegyver segítségével megpróbálod csökkenteni a károkat.
 
-**Siker:** a téged ért sebzés nullára csökken és az ellenfeled köre véget ér.
+**Siker:** nem szenvedsz Sebet, és az ellenfeled köre véget ér.
 
 **Bukás:** az ellenfeled garantáltan túlütéssel talál el téged.
 
@@ -1371,13 +1396,13 @@ Amikor megtámadnak, a páncélod Keménységére hagyatkozol: a páncél a tal�
 
 ### Közelharci fegyverrel végrehajtott cselekvések
 
-#### Rohamozás {1-3AP}
+#### Rohamozás {2-3AP}
 
-A testi erődet és a lendületeted összehangolva, minden erődet latba vetve megrohamozol egy olyan ellenfelet, akit maximum két mozgással elérnél a körödben.
+A testi erődet és a lendületeted összehangolva, minden erődet latba vetve megrohamozol egy olyan ellenfelet, akit maximum két mozgással elérnél a körödben. Közelharci távon lévő ellenfelet nem rohamozhatsz meg.
 
-A rohamozás AP költsége függ a távolságtól.
+A rohamozás AP költsége függ a távolságtól: 2AP, ha az ellenfél a zónádon belül van (egy mozgás), és 3AP, ha szomszédos zónában van (két mozgás).
 
-A támadást az elköltött AP-val megegyező előnnyel teszed és találat esetén ugyanannyi sebet is okozol.
+A támadást az elköltött AP-val megegyező előnnyel teszed, és találat esetén ugyanannyi Sebet okozol. Túlütésnél ehelyett a Túlütés szabálya érvényes, a két sebforrás nem adódik össze.
 
 A következő köröd kezdetéig nem mozoghatsz többet és minden támadást ellened egyes előnnyel dobnak, minden védekezést egyes hátránnyal dobsz.
 
@@ -1389,7 +1414,7 @@ Fegyverenként eltérő, általában egyszer használható, használat után id�
 
 #### Célzott lövés
 
-A célpont bizonyos testrészét támadod kettes hátránnyal.
+A célpont bizonyos testrészét támadod kettős hátránnyal.
 
 **Siker:** a sebzés elszenvedése mellett a mesélő által szituációfüggő hatása is lesz a támadásnak.
 
@@ -1409,13 +1434,15 @@ Fegyverenként eltérő, általában egyszer használható, használat után id�
 
 ### Harcmodorok
 
+A harcmodort a köröd elején választod 0AP-ért, és a következő köröd kezdetéig tart. Egyszerre csak egy harcmodorban harcolhatsz.
+
 #### Terelő harcmodor
 
 Terelő harcmodor során minden támadásod egyes hátránnyal teszed és túlütés esetén sem okozol sebesülést, de minden sikeres találattal Közelharci távnyira kényszerítheted a célpontot, pozícionálva titeket a zónában.
 
 #### Kétfegyveres harcmodor
 
-Ide ki kellene találni valami izgalmas szabályt, mert ha dupla AP költsége van, akkor semmivel sem másabb, mintha kétszer támadna egy fegyverrel.
+Kétfegyveres harcmodor során a második fegyvered hárítófegyverként használható, és a forduló során az első Hárításod 0AP-be kerül. Cserébe minden támadásod egyes hátránnyal teszed.
 
 #### Védekező harcmodor
 
@@ -1427,7 +1454,7 @@ Színlelt harcmodor nem okozol sebesülést, de minden sikeres találat után a 
 
 #### Féktelen harcmodor
 
-Féktelen harcmodor során minden támadásod kettős előnnyel teszed és garantált a túlütés, de minden téged ért támadásra is garantált a kettes előny és a túlütés.
+Féktelen harcmodor során minden támadásod kettős előnnyel teszed és garantált a túlütés, de minden téged ért támadásra is garantált a kettős előny és a túlütés. A sikeres reakció a garantált túlütést is kivédi.
 
 #### Halált nem okozó harcmodor
 
@@ -1437,39 +1464,25 @@ Nem használható, ha a karakter rohamozik.
 
 ### Harc nagyobb méretű ellenféllel szemben
 
+Az Ellökést, a Megragadást, az Elrángatást, a Feldöntést és a Lefegyverzést egy mérettel nagyobb célpont ellen kettős hátránnyal teszed. Két mérettel nagyobb célpont ellen nem hajthatod végre őket.
+
 ### Harc repülő ellenféllel szemben
+
+A levegőben lévő ellenfelet a földről csak távolsági fegyverrel vagy varázslattal éred el. Ellene nem hajthatsz végre Ellökést, Megragadást és Feldöntést.
 
 # 5. Varázslás és pszionika
 
 ## Varázslás
 
-### Használható varázslatok száma
-
-A karakter által napi szinten használható varázslatok számát a Tudás tulajdonság értéke határozza meg. Egy általa ismert varázslatot napi szinten maximum Tudás tulajdonsága értékével megegyező alkalommal használhat.
-
 ### Varázserő
 
-A karakter által használt varázslatok erejét a Jelenlét tulajdonság értékének és a varázsolni kívánt varázslatban szerzett jártasság segítségével számítjuk. Ezt az értéket kell megdobnia a varázslat célpontjának a megfelelő mentődobás segítségével, ha szabadulni akar a varázslat hatása alól.
+A karakter által használt varázslatok erejét a Jelenlétkockájával és a varázsolni kívánt varázslatban szerzett jártasságkockájával dobja: a két kocka összege a Varázserő. Ezt az értéket kell megdobnia a varázslat célpontjának a megfelelő mentődobás segítségével, ha szabadulni akar a varázslat hatása alól.
 
-Varázserő = Jelenlét + Jártasságkocka.
+Varázserő = Jelenlétkocka + Jártasságkocka.
 
 ### Mentális kimerülés
 
-A varázsláshoz komoly mentális erő szükséges, ezért minden varázslás során van esély arra, hogy a varázslat besül. Ha nem sikerül a varázslathoz
-
-### Varázslatok fajtái célpontok szerint
-
-A mágia ezernyi alakot ölthet és ennek függvényében egészen eltérő mértékben képes a hatásának kifejtésére. A legtöbb esetben a varázslatoknak egyetlen célpontja van, legyen az személy vagy egy terület.
-
-- Egyetlen célszemély,
-- Síkbeli kör vagy Térbeli gömb vagy henger,
-- Síkbeli körcikk vagy Térbeli kúp,
-- Síkbeli egyenes vagy Térbeli hasáb,
-- Adott kiinduló ponttal,
-
-Ritkább esetben több, egymástól függetlenül elhelyezkedő személyt vagy térbeli pontot is érinthet.
-
-[Ábraaláírás: Különféle varázslatok célpontjai (sötétkék), a varázslat által lefedett terület (világoskék), a varázslóhoz (lila) mérten.]
+A varázsláshoz komoly mentális erő szükséges. A Varázserő dobása a képzettségpróbához hasonlóan szakértelem vagy erőltetés: ha a jártasságkockád legalább annyit dob, mint a Jelenlétkockád, szakértelemmel varázsolsz, ha kevesebbet, erőltetéssel. Erőltetésnél a varázslat létrejön, de elszenvedsz egy szint Kimerültséget.
 
 ### Varázslatok komponensei
 
@@ -1543,7 +1556,7 @@ A karakter elsődleges védekezése az elkerülhető fizikai terheléssel szembe
 
 A karakter Reflex értéke az Ügyesség értékének és Reflex jártasságából származó passzív bónuszának az összessége.
 
-Hogyha egy karaktert támadás ér, dönthet úgy, hogy egy akciópontért cserébe megpróbál kitérni előle. Ebben az esetben a karakternek Reflex próbát kell tennie amelynek célszáma a támadó által dobott sebzésérték. Siker esetén a támadást kikerülte, kudarc esetén a teljes sebzést elszenvedi.
+Ha egy karaktert támadás ér, a Kitérés reakcióval {2AP} megpróbálhat kitérni előle: Reflex mentődobást tesz, amelynek célértéke a támadás értéke. Siker esetén nem szenved Sebet, bukás esetén elszenvedi.
 
 ### Szívósság
 
@@ -1573,7 +1586,7 @@ A mentális könnyű sebhatár a fajod leírásában megadott mentális alap, a 
 
 #### Sebdobás
 
-Mindig, amikor sebet szerzel, dobj a seb súlyosságának megfelelő táblázaton (Mély és Súlyos sebnél adj hozzá egyet a Kimerültségedhez is): 1d8 + az összes sebed száma (a mostanit is beleértve) + a támadó fegyver találati mátrixának értéke az adott súlyosságra (lásd a fegyverek táblázatát; fegyver nélkül 0). A 21 vagy annál nagyobb eredmény egy fokkal súlyosabb sebet jelent, Súlyos sebnél halált.
+Mindig, amikor sebet szerzel, dobj a seb súlyosságának megfelelő táblázaton (Mély és Súlyos sebnél adj hozzá egyet a Kimerültségedhez is): 1d8 + az azonos súlyosságú sebeid száma (a mostanit is beleértve: Könnyű sebnél a Könnyű sebeid, Mély sebnél a Mély sebeid, Súlyos sebnél a Súlyos sebeid száma) + a támadó fegyver találati mátrixának értéke az adott súlyosságra (lásd a fegyverek táblázatát; fegyver nélkül 0). A 21 vagy annál nagyobb eredmény egy fokkal súlyosabb sebet jelent, Súlyos sebnél halált.
 
 [Szerkesztői megjegyzés: a három táblázat tartalma javaslat (2026.10.22.), átdolgozásra vár (D-2).]
 
@@ -1644,13 +1657,13 @@ Komoly esztétikai jellegű egy nagyobb karcolás, horzsolás, égésnyom vagy h
 
 #### Csonttörés
 
-A csonttörést elszenvedett karakter a harcot bár folytatni képes, minden támadásához és próbájához I-es hátrány jár. A csonttörés gyógyulási ideje több hét megfelelő ellátás mellett.
+A csonttörést elszenvedett karakter a harcot bár folytatni képes, minden támadásához és próbájához egyes hátrány jár. A csonttörés gyógyulási ideje több hét megfelelő ellátás mellett.
 
 #### Csonkolás
 
-A csonkolást elszenvedett karakter a harcot bár folytatni képes, a sebeit sürgősen el kell látni. Minden támadásához és próbájához II-es hátrány jár. Ha nem kap ellátást 1d4 körön belül, akkor a sebesülés súlyos vérzéssé válik.
+A csonkolást elszenvedett karakter a harcot bár folytatni képes, a sebeit sürgősen el kell látni. Minden támadásához és próbájához kettős hátrány jár. Ha nem kap ellátást 1d4 körön belül, akkor a sebesülés súlyos vérzéssé válik.
 
-Csonkolás nem gyógyítható. Az elvesztett végtag pótolható, ekkor a sebesülésből fakadó büntetés I-es hátránnyá enyhül.
+Csonkolás nem gyógyítható. Az elvesztett végtag pótolható, ekkor a sebesülésből fakadó büntetés egyes hátránnyá enyhül.
 
 #### Maradandó károsodás
 
@@ -1662,7 +1675,7 @@ A karakter sebesülése vénát vagy artériát ért, amennyiben nem jut megfele
 
 A vérzés elállításához Haladó Orvoslás próbát kell tenni.
 
-**Célszám:** a karakter sebeinek, és a vérzéssel töltött körök számának összege.
+**Célérték:** a karakter sebeinek, és a vérzéssel töltött körök számának összege.
 
 #### Belső vérzés
 
@@ -1670,7 +1683,7 @@ A karakter sebesülése belsőszervet ért, amennyiben nem jut megfelelő ellát
 
 A vérzés elállításához Mester Orvoslás próbát kell tenni.
 
-**Célszám:** a karakter sebeinek, és a vérzéssel töltött körök duplájának összege.
+**Célérték:** a karakter sebeinek, és a vérzéssel töltött körök duplájának összege.
 
 #### Bénulás
 
@@ -1683,6 +1696,34 @@ A karakter halott. Ez egy viszonylag permanens, ritkán visszafordítható álla
 ### Sebgyógyítás
 
 Ameddig egy karakter sebeinek száma nem éri el Állóképesség tulajdonságának értékét, addig a sebek gyógyíthatóak akár Orvoslás próba, vagy varázslatok segítségével.
+
+## Sebzéstípusok
+
+## Állapotok
+
+### Megragadott
+
+Nem hajthatsz végre Elmozdulást és Kihátrálást.
+
+### Földön fekvő
+
+Egyes hátránnyal támadsz, a Közelharci távról ellened indított támadások pedig egyes előnnyel mennek.
+
+### Öntudatlan
+
+Nem cselekedhetsz és nem reagálhatsz, bárki kivégezhet. Ha egy szabály szerint valaki elájul, Öntudatlan állapotba kerül.
+
+### Vakság
+
+Úgy dobsz, mintha teljes sötétségben lennél (lásd: Tulajdonságok › Látási viszonyok).
+
+### Félelem
+
+Dobj egy kockával. Ha páros, addig harcolsz, amíg a félelmed forrását meg nem ölöd, vagy bele nem halsz. Ha páratlan, mindent eldobva addig menekülsz az életedért, amíg Értelmezhetetlen távra nem kerülsz a félelmed forrásától.
+
+### Kimerültség
+
+Lásd: Tulajdonságok › Kimerültség.
 
 # III. rész
 ## Karakteropciók
@@ -1897,7 +1938,7 @@ Emellett -1 hátrányt kapnak Erőre.
 
 #### Megtagadott örökség
 
-A nemestündékre a vér méregként hat. Ha vért isznak, akkor elgyengülnek, mert a szervezetük megpróbálja kilökni, ennek következtében a nap hátralévő részében egyes hátrányt kapnak támadásra, mentődobásokra és próbatételekre.
+A nemestündékre a vér méregként hat. Ha vért isznak, akkor elgyengülnek, mert a szervezetük megpróbálja kilökni, ennek következtében a nap hátralévő részében egyes hátrányt kapnak támadásra, mentődobásokra és próbákra.
 
 Ez a hatás nem halmozható.
 
@@ -1913,7 +1954,7 @@ Emellett -1 hátrányt kapnak Tudásra.
 
 #### Elfogadott örökség
 
-Hogyha egy óelf vért iszik, a nap hátralévő részében egyes előnyt kap támadásra, mentődobásokra és próbatételekre.
+Hogyha egy óelf vért iszik, a nap hátralévő részében egyes előnyt kap támadásra, mentődobásokra és próbákra.
 
 Ez a hatás nem halmozható.
 
@@ -2278,7 +2319,7 @@ Az allúrok enyhe sötétségben és vakító fényben is a normál látási vis
 
 Az archonokhoz köthető származásuk hozadéka.
 
-Naponta Jelenlét tulajdonságuknak megfelelő alkalommal Szívósság próbára kényszeríthetnek egy általuk megragadott halandót. Ha a próba sikertelen, a célpont az allúr szintjével megegyező sebet szenved el.
+Naponta Jelenlét tulajdonságuknak megfelelő alkalommal Szívósság mentődobásra kényszeríthetnek egy általuk megragadott halandót. Ha a mentődobás sikertelen, a célpont az allúr szintjével megegyező sebet szenved el.
 
 #### Dicsfény
 
@@ -2368,7 +2409,7 @@ A fosztogató orkok megtanultak együttélni a fülükben szűnni nem akaró agr
 
 Ameddig vérszomjuk magasabb, mint a mentális könnyű sebhatáruk, akkor minden támadást egyes előnnyel dobnak.
 
-Ameddig vérszomjuk alacsonyabb, mint a mentális könnyű sebhatáruk, minden jártasságpróbát egyes előnnyel dobnak.
+Ameddig vérszomjuk alacsonyabb, mint a mentális könnyű sebhatáruk, minden képzettségpróbát egyes előnnyel dobnak.
 
 ### Nomádok
 
@@ -2388,7 +2429,7 @@ Amikor egy nomád ork sebet gyógyít, a meggyógyított sebek számával megegy
 
 A nomád orkok mindent megtesznek, hogy a vérdal torz hangjait elnyomják magukban.
 
-Ameddig vérszomjuk alacsonyabb, mint a mentális könnyű sebhatáruk, minden jártasságpróbát és mentődobást egyes előnnyel dobnak. Ha előző este megdobták a Vérszomjukhoz köthető próbát, ez kettes előnyre nő.
+Ameddig vérszomjuk alacsonyabb, mint a mentális könnyű sebhatáruk, minden képzettségpróbát és mentődobást egyes előnnyel dobnak. Ha előző este megdobták a Vérszomjukhoz köthető próbát, ez kettős előnyre nő.
 
 # 2. Személyiség és háttér
 
@@ -2803,26 +2844,28 @@ Nikka
 
 *A jó öreg Nephilea ellentéte és barátja. Az ő kettejük kapcsolata az egyetlen, amely nem negatív. Szintén a bölcs gondolkodó szerepét tölti be és alig hagyja el Nevratha termeit. Sokkal többet tölt ott Nephileával, mint mások. Nem akar keresztbe tenni neki, inkább fogadásokat kötnek, hogy bár kegyeltjeik megfontoltan döntenek, valóban a jó suttogó eszméi szerint-e. Ő maga saját követőiket az ármánykodás és az árnyékból irányítás hatalmával ruházza fel, aki pedig ellentmond neki, kirekeszti a világon kívülre, lassan emésztve fel testét és lelkét.*
 
-## Discipline, Devotion, Divinity
+## Diszciplína, Fegyelem, Áhítat
 
 [Szerkesztői megjegyzés: vázlat a wispers-DDD.txt alapján (2026.10.22.); a nyitott kérdések a munkalista H-63-as tételében.]
 
-### Discipline
+### Diszciplína
 
-Minden karakter a háttere mellé kap egy Discipline-t is: ez mutatja meg, melyik Suttogó égisze alatt született. Minden Suttogónak van egy diszciplínája, amely alá a következők tartoznak:
+Az alrendszer csak a Suttogók képességrendszeréhez tartozik: Diszciplínát az a karakter kap, aki Suttogó égiszt választott, és ez annak a Suttogónak a diszciplínája. Minden Suttogónak van egy diszciplínája, amely alá a következők tartoznak:
 
-- **Képzettségek:** ha a karakter a felsorolt képzettségek valamelyikén sikert ér el, kap 1 Divinity pontot. [Nyitott: kritikus siker kell-e hozzá.]
-- **Creature typeok:** ha a karakter egy felsorolt típusú lényen találatot ejt, kap 1 Divinity pontot. [Nyitott: kritikus találat kell-e hozzá.]
-- **Anathema:** azok a cselekvések, amelyekkel a karakter Devotiont veszít.
-- **Benediction:** azok a cselekvések, amelyekkel a karakter Devotiont nyer.
+- **Képzettségek:** ha a karakter a felsorolt képzettségek valamelyikén Abszolút sikert ér el, kap 1 pont Áhítatot.
+- **Lénytípusok:** ha a karakter egy felsorolt típusú lényt túlüt, kap 1 pont Áhítatot.
+- **Tilalom:** azok a cselekvések, amelyekkel a karakter Fegyelmet veszít.
+- **Erény:** azok a cselekvések, amelyekkel a karakter Fegyelmet nyer.
 
-### Devotion
+### Fegyelem
 
-A Devotion jelzi, milyen szinten férkőzött a karakter a Suttogója kegyeibe. Bizonyos, Suttogókhoz köthető Featek Devotion-szinthez kötöttek. Ha a karakter Devotionje túl alacsony, Hated / Hunted státuszba kerül: a Suttogó arra biztatja a diszciplínájába tartozókat, hogy vadásszák le.
+A Fegyelem jelzi, milyen szinten férkőzött a karakter a Suttogója kegyeibe. Bizonyos, Suttogókhoz köthető talentek Fegyelem-szinthez kötöttek. Ha a karakter Fegyelme túl alacsony, Gyűlölt / Üldözött státuszba kerül: a Suttogó arra biztatja a diszciplínájába tartozókat, hogy vadásszák le.
 
-### Divinity
+[Szerkesztői megjegyzés: a Fegyelem skálája a 0.6-os karakterlap skálája (Gyűlölt → … → Bajnok); a pontértékek kidolgozás alatt (H-63).]
 
-A Divinity minden karakter számára elérhető erőforrás; egyes Featek és class featureök alternatív felhasználási módot adnak hozzá. Egy karakternek egyszerre legfeljebb karakterszintnyi Divinity pontja lehet. [Nyitott: karakterszint vagy karakterszint × 3.]
+### Áhítat
+
+Az Áhítat a Suttogó égiszt választó karakterek erőforrása; egyes talentek és kasztképességek alternatív felhasználási módot adnak hozzá. Egy karakternek egyszerre legfeljebb karakterszintnyi Áhítata lehet.
 
 # 4. Kasztok
 
@@ -2886,11 +2929,11 @@ Olyan fegyvercsoport fegyverével, amelyben a karakter Képzetlen, nem támadhat
 | Sétabot | 1d6 | | | 1 | 2 | 3 | Szálfegyverek | - | | | | | |
 | Lándzsa | 1d6 | | reach | 1 | 2 | 3 | Szálfegyverek | - | | | | | |
 | Szigony | 1d6 | | reach | 1 | 2 | 3 | Szálfegyverek | - | | | | | |
-| Glaive | 1d10 | | 2h, reach | 2 | 3 | 4 | Szálfegyverek | - | | | | | |
+| Glaive | 1d10 | | kétkezes, reach | 2 | 3 | 4 | Szálfegyverek | - | | | | | |
 | Szekerce | 1d4 | | | 1 | 3 | 2 | Fejszék | - | | | | | |
 | Harci-fejsze | 1d6 | | | 1 | 3 | 2 | Fejszék | - | | | | | |
 | Csatabárd | 1d8 | | | 1 | 4 | 2 | Fejszék | - | | | | | |
-| Kétkezes-csatabárd | 1d10 | | 2h | 2 | 4 | 3 | Fejszék | - | | | | | |
+| Kétkezes-csatabárd | 1d10 | | kétkezes | 2 | 4 | 3 | Fejszék | - | | | | | |
 | Rövidkard | 1d4 | | | 2 | 2 | 3 | Kardok | - | | | | | |
 | Hosszúkard | 1d6 | | | 2 | 2 | 3 | Kardok | - | | | | | |
 | Szablya | 1d6 | | | 2 | 2 | 3 | Kardok | - | | | | | |
@@ -2902,7 +2945,7 @@ Olyan fegyvercsoport fegyverével, amelyben a karakter Képzetlen, nem támadhat
 | Kézipöröly | 1d6 | | | 2 | 3 | 2 | Pörölyök | - | | | | | |
 | Csatacsákány | 1d6 | | | 2 | 3 | 2 | Pörölyök | - | | | | | |
 | Harcipöröly | 1d8 | | | 2 | 4 | 2 | Pörölyök | - | | | | | |
-| Nagykalapács | 1d10 | | 2h | 3 | 4 | 3 | Pörölyök | - | | | | | |
+| Nagykalapács | 1d10 | | kétkezes | 3 | 4 | 3 | Pörölyök | - | | | | | |
 | Rövidíj | 1d6 | | Közepes táv | 1 | 1 | 3 | Íjak | - | | | | | |
 | Hosszúíj | 1d8 | | Nagy táv | 1 | 1 | 4 | Íjak | - | | | | | |
 | Visszacsapóíj | 1d10 | | Nagy táv | 2 | 2 | 4 | Íjak | - | | | | | |

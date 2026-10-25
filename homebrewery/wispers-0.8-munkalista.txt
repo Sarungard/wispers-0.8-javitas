@@ -23,7 +23,7 @@ Jelölések: BLOKKOLÓ – enélkül nem játszható; ELLENTMONDÁS – két sza
 hivatkozik; KISEBB – szerkesztési hiba, elnevezés.
 
 ÖSSZESÍTŐ (frissítsd menet közben)
-  NYITOTT: 13   FOLYAMATBAN: 13   DÖNTÉSRE VÁR: 6   JAVÍTVA: 30   ELVETVE: 2
+  NYITOTT: 0   FOLYAMATBAN: 20   DÖNTÉSRE VÁR: 6   JAVÍTVA: 36   ELVETVE: 2
 
 
 ================================================================
@@ -91,6 +91,8 @@ ALAPDÖNTÉSEK – ezeken sok tétel múlik
         21+ egy fokkal súlyosabb seb, Súlyosnál halál.
         Eltérések a CRPG-től: ott a sebhatár Szívósság + páncél, a súlyos a
         kétszerese, és „nagyobb mint” (>) a feltétel.
+        A sebdobást a H-58 módosította (2026.10.23.): az összes seb helyett
+        az azonos súlyosságú sebek száma adódik hozzá.
       Javítás: wispers-0.8-javitott.txt
         – II. rész › 6. › Sebesülés és halálozás › Seb: a régi egytáblás
           sebesüléstáblázat helyett „A seb súlyossága”, „Sebdobás” és három
@@ -233,6 +235,8 @@ Döntés: A játékos egyet választ a háromból:
     (major) pozitív mechanika;
   – Suttogó: teljes skill tree, mechanikákkal.
   Az égiszhez a DDD alrendszer (Discipline, Devotion, Divinity) jár (H-63).
+  Pontosítva (H-63, 2026.10.24.): a DDD csak a Suttogó égiszhez tartozik,
+  az alacsony és a magas égisz ennél egyszerűbb.
 Javítás: wispers-0.8-javitott.txt › I. rész › II. fejezet › Előtörténet és
   személyiség kialakítása › Égisz: a választás szabálya, a három lehetőség,
   utalás a DDD-re és szerkesztői megjegyzés a hiányzó tartalomról. A „skill
@@ -1208,10 +1212,16 @@ Eredet: 2025.10.22-én a találat még „a dobásod értékével megegyező Sta
 Kapcsolódó kérdés: mi történik, ha egy Féktelen harcmodorban (garantált
   túlütés) támadó ellen sikeres a Hárítás?
 Teendő: A három reakció átírása Seb-alapra (D-2).
-Állapot: NYITOTT
-Döntés:
-Javítás:
-Megjegyzés:
+Állapot: JAVÍTVA (2026.10.23.)
+Döntés: Kitérés – siker: nem szenvedsz Sebet, és azonnal kihátrálsz; bukás:
+  elszenveded a Sebet. Hárítás – siker: nem szenvedsz Sebet, és az ellenfeled
+  köre véget ér; a bukás marad. Féktelen harcmodor ellen a sikeres reakció a
+  garantált túlütést is kivédi.
+Javítás: wispers-0.8-javitott.txt › II. rész › 4. Harc › Általános
+  reakciólista › Kitérés (Siker, Bukás); Hárítás (Siker) – a mondatok
+  cserélve; Harcmodorok › Féktelen harcmodor – egy mondat hozzáadva.
+Megjegyzés: A Beleállás már a H-32-ben Seb-alapra került, itt nem kellett
+  hozzányúlni.
 
 ----------------------------------------------------------------
 [H-51] ELLENTMONDÁS – Rohamozás
@@ -1223,10 +1233,16 @@ Probléma: Olyan ellenfélre megy, „akit maximum két mozgással elérnél”,
   AP-nyi sebet ad, a Túlütés előnyönként még egy sebet: egy 3AP-s roham
   túlütéssel akár 7 seb.
 Teendő: Táv–költség táblázat; összeadódik-e a két sebforrás.
-Állapot: NYITOTT
-Döntés:
-Javítás:
-Megjegyzés:
+Állapot: JAVÍTVA (2026.10.23.)
+Döntés: Közelharci távon lévő ellenfelet nem lehet megrohamozni (ahhoz
+  lendület kell). 2AP: az ellenfél a zónádon belül (egy mozgás); 3AP:
+  szomszédos zónában (két mozgás). A két sebforrás nem adódik össze:
+  találatnál AP-nyi Seb, túlütésnél helyette a Túlütés szabálya (3AP-nél
+  legfeljebb 4 Seb).
+Javítás: wispers-0.8-javitott.txt › II. rész › 4. Harc › Közelharci
+  fegyverrel végrehajtott cselekvések › Rohamozás – címke {2-3AP}; a
+  Közelharci táv kizárása, a költség és a sebszabály beírva.
+Megjegyzés: A két sor miatt a táblázat helyett egy mondat áll.
 
 ----------------------------------------------------------------
 [H-52] HIÁNY – Harcmodorok
@@ -1235,9 +1251,14 @@ Probléma: Nincs leírva, mikor és mennyiért veszed fel, és meddig tart. A
   Kétfegyveres harcmodornál a szerzői jegyzet áll: „Ide ki kellene találni
   valami izgalmas szabályt”.
 Teendő: Felvétel, költség, időtartam; a kétfegyveres harc szabálya.
-Állapot: NYITOTT
-Döntés:
-Javítás:
+Állapot: JAVÍTVA (2026.10.23.)
+Döntés: A harcmodort a köröd elején választod, 0AP, és a következő köröd
+  kezdetéig tart; egyszerre egy harcmodor. Kétfegyveres harcmodor: a második
+  fegyvered hárítófegyverként használható, és a forduló első Hárítása 0AP;
+  cserébe minden támadásod egyes hátránnyal teszed.
+Javítás: wispers-0.8-javitott.txt › II. rész › 4. Harc › Harcmodorok – új
+  bevezető bekezdés (felvétel, költség, időtartam); Kétfegyveres harcmodor –
+  a szerzői jegyzet helyett a szabály.
 Megjegyzés:
 
 ----------------------------------------------------------------
@@ -1247,10 +1268,19 @@ Hol: II. rész › 4. Harc › Fegyvert nem igénylő cselekvések; Harc nagyobb
 Probléma: Mindhárom üres, holott az Általános cselekvéslista ide utal: „Harc
   nagyobb méretű lények ellen részt lásd a fejezet végén.”
 Teendő: A szakaszok megírása, vagy a hivatkozás törlése.
-Állapot: NYITOTT
-Döntés:
-Javítás:
-Megjegyzés:
+Állapot: FOLYAMATBAN (2026.10.23.)
+Döntés: Fegyvert nem igénylő cselekvések: egyelőre placeholder marad. Harc
+  nagyobb méretű ellenféllel szemben: Ellökés, Megragadás, Elrángatás,
+  Feldöntés, Lefegyverzés egy mérettel nagyobb célpont ellen kettős
+  hátránnyal, két mérettel nagyobb ellen nem hajtható végre. Harc repülő
+  ellenféllel szemben: a levegőben lévő ellenfelet a földről csak távolsági
+  fegyverrel vagy varázslattal éred el (a reach fegyver is csak meghosszabbított
+  közelharc); Ellökés, Megragadás, Feldöntés nem hajtható végre ellene.
+Javítás: wispers-0.8-javitott.txt › II. rész › 4. Harc › Harc nagyobb méretű
+  ellenféllel szemben; Harc repülő ellenféllel szemben – egy-egy bekezdés.
+Megjegyzés: Hátravan: a Fegyvert nem igénylő cselekvések szakasz. Nyitott
+  kérdés: a közelharcban lecsapó repülő ellenfél visszatámadható-e közelharci
+  fegyverrel.
 
 ----------------------------------------------------------------
 [H-54] BLOKKOLÓ – Varázslás: a 0.8 és a HEAD más irányba ment
@@ -1271,10 +1301,22 @@ Közös gond: a Tudás és a Jelenlét leírása is „Varázsláshoz is haszná
   0.5.5-ben a Hármasság szabálya döntötte el, melyik kell.
 Teendő: Melyik irány marad (korlát igen/nem, képlet), és a sikertelenség
   szabálya.
-Állapot: NYITOTT
-Döntés:
-Javítás:
-Megjegyzés:
+Állapot: JAVÍTVA (2026.10.23.)
+Döntés: A HEAD iránya marad: nincs napi korlát, nincsenek célpont-fajták;
+  Varázserő = Jelenlétkocka + Jártasságkocka. A Tudás leírásából kikerül a
+  „Varázsláshoz is használható”. Mentális kimerülés: a Varázserő dobása
+  szakértelem vagy erőltetés, mint a képzettségpróba; erőltetésnél a
+  varázslat létrejön, de egy szint Kimerültség jár.
+Javítás: wispers-0.8-javitott.txt
+  – II. rész › 5. › Varázslás: a Használható varázslatok száma és a
+    Varázslatok fajtái célpontok szerint (az ábraaláírással együtt) törölve;
+    Varázserő: leírás és képlet a kockás alakra; Mentális kimerülés: a csonk
+    helyett a szakértelem/erőltetés szabálya;
+  – II. rész › 1. A rendszer alapjai › Tulajdonságok › Tudás: „Varázsláshoz
+    is használható” törölve.
+Megjegyzés: A régi csonk első mondatából a „van esély arra, hogy a varázslat
+  besül” kimaradt, mert a döntés szerint erőltetésnél is létrejön a varázslat.
+  A HEAD „Hogy egy varázslat sikeres-e” csonkja nem került át.
 
 ----------------------------------------------------------------
 [H-55] KISEBB – Mágiaosztályok
@@ -1286,10 +1328,14 @@ Probléma: Nyolcból hét mágiaosztálynak egysoros leírása van („Elemi má
   mint a Szinisztrópiából („Gonosz mágia.”). A Jártassági szintek
   „mágiaiskolákban” szerzett jártasságról beszél.
 Teendő: Leírások; az Entrópia meghatározása; egy elnevezés.
-Állapot: NYITOTT
-Döntés:
-Javítás:
-Megjegyzés:
+Állapot: FOLYAMATBAN (2026.10.23.)
+Döntés: Elnevezés: „mágiaosztály”, a Jártassági szintekben is. Az Entrópia
+  meghatározása marad: „Rend- és rendbontó mágia.” A hét leírást Zoz adja
+  meg (lore, vault).
+Javítás: wispers-0.8-javitott.txt › II. rész › 1. A rendszer alapjai ›
+  Jártassági szintek: „mágiaiskolákban” → „mágiaosztályokban”.
+Megjegyzés: Hátravan: Elementurgia, Entrópia, Szakratrópia, Szinisztrópia,
+  Asztrál, Szkriptomancia, Rúnamágia leírása.
 
 ----------------------------------------------------------------
 [H-56] BLOKKOLÓ – Mentődobás: érték vagy dobás?
@@ -1317,10 +1363,15 @@ Probléma: A harmadik bekezdés szó szerint a 0.5.5-ből maradt: a kitérés �
   dobott sebzésérték”, kitérés nélkül „a páncél sebzésfelfogó értéke lép
   életbe”.
 Teendő: Átírás a mai harcrendszerre (D-1, D-2, D-4).
-Állapot: NYITOTT
-Döntés:
-Javítás:
-Megjegyzés:
+Állapot: JAVÍTVA (2026.10.23.)
+Döntés: A kitérés a Kitérés reakció {2AP}: Reflex mentődobás, célértéke a
+  támadás értéke; siker esetén nincs Seb, bukás esetén a karakter elszenvedi.
+  A Kitérés leírása is megkapja a célértéket.
+Javítás: wispers-0.8-javitott.txt
+  – II. rész › 6. › Mentődobások › Reflex: a harmadik bekezdés cserélve;
+  – II. rész › 4. Harc › Általános reakciólista › Kitérés: „A mentődobás
+    célértéke a támadás értéke.” hozzáadva.
+Megjegyzés: A „páncél sebzésfelfogó értéke” mondat már a H-32-ben kikerült.
 
 ----------------------------------------------------------------
 [H-58] ELLENTMONDÁS – Sebgyógyítási plafon
@@ -1332,12 +1383,22 @@ Probléma: „Ameddig egy karakter sebeinek száma nem éri el Állóképesség
   fölött, nincs leírva. Az allúr Sújtás sikertelen Szívósság-próba esetén
   szintnyi sebet okoz, naponta Jelenlétnyi alkalommal.
 Teendő: Mi történik a plafon fölött; a plafon a D-3 skálájához igazítva.
-Állapot: NYITOTT
-Döntés:
-Javítás:
-Megjegyzés: A D-3 döntés (2026.10.22.) után a tünde Állóképessége a
-  Világstandard (ajánlottan 3), így az első seb már nem gyógyíthatatlan; a
-  plafon fölötti eset és a Sújtás kérdése továbbra is nyitott.
+Állapot: FOLYAMATBAN (2026.10.23.)
+Döntés: A sebek nehezen gyógyuljanak; a gyógyítás szabálya később. A
+  sebdobásnál nem az összes seb, csak az azonos súlyosságú sebek száma adódik
+  hozzá (Könnyű a Könnyűhöz, Mély a Mélyhez, Súlyos a Súlyoshoz), így a sok
+  Könnyű seb is súlyosabbá válhat. Sújtás: a szintnyi seb marad, a „Szívósság
+  próba” Szívósság mentődobás lesz.
+Javítás: wispers-0.8-javitott.txt
+  – II. rész › 6. › Sebesülés és halálozás › Seb › Sebdobás: „az összes sebed
+    száma” helyett az azonos súlyosságú sebek száma;
+  – III. rész › 1. Fajok › Allúrok › Sújtás: „Szívósság próbára” →
+    „Szívósság mentődobásra”, „Ha a próba” → „Ha a mentődobás”.
+Megjegyzés: Hátravan: a Sebgyógyítás (plafon, a plafon fölötti eset). Eltérés
+  a CRPG-től: a WoundTrack.cs az összes sebet adja a sebdobáshoz. A D-3 óta a
+  tünde Állóképessége a Világstandard (ajánlottan 3), így az első seb már nem
+  gyógyíthatatlan. A „Blood on the water” név nem kell, a szabály a
+  sebdobásban van.
 
 ----------------------------------------------------------------
 [H-59] HIÁNY – Állapotok és sebzéstípusok
@@ -1347,10 +1408,21 @@ Probléma: A HEAD-ben a Sebzéstípusok és az Állapotok üres címsor, a 0.8-b
   fekvő, öntudatlan, elájul, kimerültség, félelem, vakság) és sebzéstípusokat
   (tűzsebzés, mentális sebzés) használ.
 Teendő: A két lista megírása.
-Állapot: NYITOTT
-Döntés:
-Javítás:
-Megjegyzés:
+Állapot: FOLYAMATBAN (2026.10.23.)
+Döntés: A két címsor a Sebgyógyítás után áll, mint a HEAD-ben. Állapotok
+  (csak a könyvben már használtak): Megragadott – nincs Elmozdulás és
+  Kihátrálás; Földön fekvő – egyes hátránnyal támad, Közelharci távról ellene
+  egyes előny; Öntudatlan – nem cselekedhet, nem reagálhat, bárki kivégezheti,
+  az „elájul” ezt jelenti; Vakság – mint teljes sötétségben; Félelem (Zoz
+  szabálya) – dobás egy kockával: páros, harcol, amíg a forrást meg nem öli
+  vagy bele nem hal; páratlan, mindent eldobva menekül, amíg Értelmezhetetlen
+  távra nem kerül; Kimerültség – hivatkozás. Sebzéstípusok: egyelőre
+  placeholder.
+Javítás: wispers-0.8-javitott.txt › II. rész › 6. Mentődobások, sebesülés és
+  halálozás: új „Sebzéstípusok” (üres) és „Állapotok” szakasz hat
+  alcímmel.
+Megjegyzés: Hátravan: a Sebzéstípusok. A „Fight or flight” név nem került a
+  szövegbe; a „biztos táv” az Értelmezhetetlen táv lett.
 
 ----------------------------------------------------------------
 [H-60] KISEBB – Hivatkozások
@@ -1360,10 +1432,26 @@ Probléma: 12 helyen „x. oldal”, egy helyen „(. oldal)” (I. rész › II
   oldalszámok még nem az új tördelésre mutatnak. A két <redacted> hely
   szándékos, azokat nem érintem.
 Teendő: A hivatkozások cseréje fejezetnévre, amikor a szerkezet végleges.
-Állapot: NYITOTT
-Döntés:
-Javítás:
-Megjegyzés:
+Állapot: FOLYAMATBAN (2026.10.23.)
+Döntés: Oldalszám helyett fejezetnév. Faj kiválasztása: „(lásd: III. rész ›
+  1. Fajok)”; Tulajdonságok meghatározása: „a II. rész › 1. A rendszer
+  alapjai › Tulajdonságok szakaszban”. A származási helyek, királyságok,
+  városállamok hivatkozása marad, mert a könyvben nincs ilyen fejezet. A
+  többi tíz „x. oldal” ugyanígy, „bővebben a … szakaszban olvashatsz”
+  alakban (2026.10.23.).
+Javítás: wispers-0.8-javitott.txt
+  – I. rész › II. fejezet › Faj kiválasztása; Tulajdonságok meghatározása:
+    a két hivatkozás cserélve;
+  – Bevezetés › Előny és hátrány → II. rész › 1. › Tulajdonságok › Előny és
+    hátrány; I. rész › II. fejezet › Kulturális és társadalmi háttér, Szokások,
+    Furcsaság, Apróság, Sötét titok, Kapcsolatok → III. rész › 2.
+    Személyiség és háttér megfelelő szakaszai; Égisz (Suttogók) → III. rész ›
+    3. Kegy és égiszek › Nyolcak; Kaszt kiválasztása → III. rész › 4.
+    Kasztok; Kezdőfelszerelés → III. rész › 5. Felszerelés és
+    vagyontárgyak.
+Megjegyzés: Hátravan: a származási helyek hivatkozása, ha lesz ilyen fejezet.
+  A hét „Utazásaim Allúvyanon … oldal” sor világon belüli idézet, nem
+  hivatkozás.
 
 ----------------------------------------------------------------
 [H-61] KISEBB – Párhuzamos elnevezések
@@ -1379,10 +1467,29 @@ Probléma:
   angol kifejezések      : Melee / Short / Mid / Far Range, reach, 2h, Glaive,
                            angol páncélnevek
 Teendő: Soronként egy választott alak.
-Állapot: NYITOTT
-Döntés:
-Javítás:
-Megjegyzés:
+Állapot: JAVÍTVA (2026.10.23.)
+Döntés: Előny/hátrány: egyes, kettős, hármas. Célérték (a „célszám” és a
+  „nehézségérték” helyett); a „Célérték: a próba nehézségértéke fölé” sorok
+  helyett „a mesélő határozza meg”, más ellen a mesélő értéke vagy a másik
+  résztvevő eredménye, amelyik nagyobb. Képzettségpróba (a „jártasságpróba”
+  helyett), próba (a „próbatétel” helyett). „2h” → „kétkezes”; a „reach”
+  marad. A „Glaive” egyelőre angolul marad (a „Glévia” nem tetszett).
+  Nincs teendő: a
+  Védőérték és a Keménység két érték (H-32); a sebzésfelfogó, sérülésküszöb,
+  Akaraterő, mágiaiskola és az angol távnevek már nincsenek a szövegben.
+Javítás: wispers-0.8-javitott.txt
+  – „kettes” → „kettős” (Előny és hátrány, Célzott lövés, Féktelen
+    harcmodor, Orkok); „I-es”/„II-es” → „egyes”/„kettős” (Csonttörés,
+    Csonkolás);
+  – „célszámot” → „célértéket” (Konfliktus); „Célszám:” → „Célérték:”
+    (Súlyos vérzés, Belső vérzés); Képzettségpróbák: három Célérték-sor;
+    Cselekvések: „nehézségértékét” → „célértékét”;
+  – „jártasságpróbát” → „képzettségpróbát” (Orkok, 2 hely); „próbatételekre”
+    → „próbákra” (Tündék, 2 hely);
+  – Fegyvertáblázat: „2h” → „kétkezes” (3 sor).
+Megjegyzés: A Célérték-sorok „fölé” (>) feltétele helyett most a négy
+  kimenetel „eléred” (≥) feltétele érvényes. A Glaive magyar nevére később
+  vissza lehet térni.
 
 
 ----------------------------------------------------------------
@@ -1395,10 +1502,22 @@ Probléma: A Világstandard leírása szerint kisebb standardnál „annál töb
   befektetni őket. (A H-04 / D-3 döntéséből, 2026.10.22.)
 Teendő: A pontbefektetés szabálya – karakteralkotáskor, szintlépéskor vagy
   mindkettőnél (kapcsolódik: H-03).
-Állapot: NYITOTT
-Döntés:
-Javítás:
-Megjegyzés:
+Állapot: FOLYAMATBAN (2026.10.23.)
+Döntés: Zoz Karakterfejlődés-jegyzete (OneNote, Playtest › Karakterfejlődés,
+  még nincs kész) az alap. A szintenkénti táblázat és a tulajdonságemelés
+  költsége (1 + az elérni kívánt érték) bekerül. A 0. szint matekja
+  kidolgozandó. A jártassági sorrend a könyvé marad: Kezdő, Képzett, Haladó.
+  Kezdő talentből kettő jár (kulturális és társadalmi), mint az új
+  rendszerben.
+Javítás: wispers-0.8-javitott.txt › I. rész › II. fejezet › Játék magasabb
+  szinten: új „Karakterfejlődés szintenként” táblázat (0–13. szint) és
+  „Tulajdonságok fejlesztése” alszakasz, a nyitott pontok szerkesztői
+  megjegyzésben.
+Megjegyzés: Hátravan: a 0. szint pontjai; szintenként 8, vagy 8 + Tudás +
+  egyéb bónusz (a jegyzet alján levágott sor); a jártasságfejlesztés
+  költségei; talent és kaszt: pontköltség vagy garantált; varázslattanulás.
+  A jegyzet „mágiaiskolát” ír, a könyvben ma mágiaosztály (H-55), és
+  harcmodoroknak, nyelveknek is jártasságot ad, ami a könyvben nincs.
 
 
 ----------------------------------------------------------------
@@ -1426,10 +1545,39 @@ Probléma: A vázlat beépült, de ezek nincsenek eldöntve:
   7. Suttogónként a képzettség-, creature type-, Anathema- és
      Benediction-listák.
 Teendő: A kérdések eldöntése, utána a vázlat véglegesítése.
-Állapot: NYITOTT
+Állapot: FOLYAMATBAN (2026.10.24.)
 Döntés:
-Javítás:
-Megjegyzés:
+  1. Nem kap minden karakter Discipline-t: a DDD csak a Suttogók
+     képességrendszeréhez tartozik, a többi égisz ennél egyszerűbb.
+  2. Divinity pont: a felsorolt képzettségnél Abszolút siker, a felsorolt
+     lénytípusnál Túlütés.
+  3. Divinity-maximum: karakterszint (a balansz alapján változhat).
+  4. A Devotion skálája a 0.6-os karakterlapé (HATED → … → CHAMPION); a
+     pontértékek kidolgozás alatt.
+  5. Feat → talent, class feature → kasztképesség.
+  6. Az elnevezések magyarul lesznek. Elfogadva (2026.10.24.): Divinity →
+     Áhítat, Devotion → Fegyelem. Új kifejezések, elfogadva (2026.10.24.):
+     Discipline → Diszciplína, Anathema → Tilalom, Benediction → Erény,
+     Hated / Hunted → Gyűlölt / Üldözött, CHAMPION → Bajnok, creature type
+     → lénytípus. A „DDD” rövidítés helyett a teljes név áll.
+  7. A Suttogónkénti listák később.
+Javítás: wispers-0.8-javitott.txt
+  – I. rész › II. fejezet › Égisz: a DDD csak a Suttogó égiszhez kapcsolódik;
+  – III. rész › 3. › Discipline, Devotion, Divinity: Discipline csak Suttogó
+    égisszel; Abszolút siker és túlütés ad Divinityt; Featek → talentek,
+    class featureök → kasztképességek; a Divinity a Suttogó égiszt választók
+    erőforrása, maximuma karakterszint; a Devotion-skáláról szerkesztői
+    megjegyzés; a [Nyitott] jelölések törölve;
+  – Divinity → Áhítat, Devotion → Fegyelem (Égisz, Kegy-megjegyzés,
+    a DDD-szakasz címe, alcímei és szövege);
+  – a többi név is magyarul: a szakasz címe „Diszciplína, Fegyelem,
+    Áhítat”, alcím Diszciplína; Lénytípusok, Tilalom, Erény, Gyűlölt /
+    Üldözött; a skála-megjegyzésben Gyűlölt → … → Bajnok; a „DDD”
+    rövidítés kikerült a szövegből.
+Megjegyzés: Hátravan: a Fegyelem-skála fokai és pontértékei (4., később), a
+  Suttogónkénti listák (7., később). A skála közbülső fokait a repó nem
+  ismeri, csak a két végét (DIVERGENCIA.md). A wispers-DDD.txt fájlnév és a
+  munkaszöveg fejlécének „DDD-vázlat” jelölése maradt.
 
 
 ----------------------------------------------------------------
@@ -1584,3 +1732,36 @@ NAPLÓ – mi történt, mikor
 2026.10.23.  H-48 JAVÍTVA – hatótávok magyarul: Közelharci, Rövid, Közepes, Nagy
              táv; a reach marad.
 2026.10.23.  H-49 JAVÍTVA – Kúszás, Terelő harcmodor, Letaglózó lövés zónákra.
+2026.10.23.  H-50 JAVÍTVA – Kitérés, Hárítás Seb-alapon; sikeres reakció a
+             Féktelen harcmodor túlütését is kivédi.
+2026.10.23.  H-51 JAVÍTVA – Rohamozás 2–3AP, Közelharci távon nem; AP-nyi Seb,
+             túlütésnél csak a Túlütés szabálya.
+2026.10.23.  H-52 JAVÍTVA – harcmodor a kör elején, 0AP, következő körig; Kétfegyveres:
+             0AP-s első Hárítás, egyes hátrány a támadásra.
+2026.10.23.  H-53 FOLYAMATBAN – nagyobb méretű és repülő ellenfél leírva; a Fegyvert
+             nem igénylő cselekvések egyelőre placeholder.
+2026.10.23.  H-54 JAVÍTVA – HEAD iránya: nincs napi korlát és célpont-fajta;
+             Jelenlétkocka + Jártasságkocka; erőltetésnél Kimerültség.
+2026.10.23.  H-55 FOLYAMATBAN – „mágiaosztály” a Jártassági szintekben is; az Entrópia
+             marad; a hét leírás Zoztól jön.
+2026.10.23.  H-57 JAVÍTVA – Reflex: Kitérés {2AP}, célérték a támadás értéke; a
+             Kitérés leírása is megkapta.
+2026.10.23.  H-58 FOLYAMATBAN – sebdobás: csak az azonos súlyosságú sebek; Sújtás:
+             Szívósság mentődobás; a gyógyítás később.
+2026.10.23.  H-59 FOLYAMATBAN – Állapotok hat alcímmel (Félelem: páros harc, páratlan
+             menekülés); a Sebzéstípusok egyelőre placeholder.
+2026.10.23.  H-60 FOLYAMATBAN – két hivatkozás fejezetnévre; tíz „x. oldal” még
+             döntésre vár, a származási helyeké marad.
+2026.10.23.  H-60 – a maradék tíz „x. oldal” fejezetnévre cserélve; a származási
+             helyeké marad.
+2026.10.23.  H-61 FOLYAMATBAN – egyes/kettős/hármas, célérték, képzettségpróba, próba,
+             kétkezes; a Glaive neve nyitott.
+2026.10.23.  H-61 JAVÍTVA – a Glaive egyelőre angolul marad.
+2026.10.23.  H-62 FOLYAMATBAN – Karakterfejlődés-táblázat és tulajdonságemelési
+             költség Zoz jegyzetéből; a 0. szint matekja kidolgozandó.
+2026.10.24.  H-63 FOLYAMATBAN – DDD csak a Suttogó égiszhez; Abszolút siker / Túlütés;
+             max. karakterszint; talent, kasztképesség; nevek és listák később.
+2026.10.24.  H-63 – Divinity → Áhítat, Devotion → Fegyelem; a többi név és a skála
+             később.
+2026.10.24.  H-63 – Diszciplína, Tilalom, Erény, Gyűlölt / Üldözött, Bajnok, lénytípus;
+             „DDD” helyett teljes név. A skála és a listák később.

@@ -17,7 +17,7 @@ Item-by-item fix of the Wispers 0.8 rulebook (Hungarian TTRPG by Sorbán Zoltán
 3. Update the item block, the ÖSSZESÍTŐ counts and add one NAPLÓ line. Check that the counts match the Állapot lines.
 4. Commit and push after each item.
 
-Keep replies short. Put the proposal and the question at the end of the reply.
+Keep replies short and in Hungarian. Put the proposal and the question at the end of the reply.
 
 ## Hard rules
 
@@ -36,15 +36,24 @@ Keep replies short. Put the proposal and the question at the end of the reply.
   decide the mode: jártasság ≥ tulajdonság is szakértelem, otherwise erőltetés. Four outcomes: Abszolút siker,
   Részleges siker, Bukás, Kritikus bukás.
 - Attacks: weapon die + proficiency die, no attribute. Unarmed: 1d2 (1d4/2) with the Pusztakezes harc proficiency.
-- Wounds: Könnyű / Mély / Súlyos seb by sebhatár (reaching it counts), plus Kimerültség.
-- Harci távok are abstract: Közelharci táv, Rövid táv, Közepes táv, Nagy táv, Értelmezhetetlen. „reach” stays English.
+- Wounds: Könnyű / Mély / Súlyos seb by sebhatár (reaching it counts), plus Kimerültség. Sebdobás: 1d8 + the number
+  of Sebek of the same severity (not all Sebek) + the weapon's találati mátrix; 21+ is one fok worse. Wounds must be
+  hard to heal; the healing rule comes later.
+- Harci távok are abstract: Közelharci táv, Rövid táv, Közepes táv, Nagy táv, Értelmezhetetlen. „reach” and (for now) „Glaive” stay English.
 
-## State (2026-10-23)
+## State (2026-10-24)
 
-Next item: **H-50** (numeric damage in the defence reactions). Proposal waiting for Zoz:
+No NYITOTT item is left. H-63 is FOLYAMATBAN: everything is in the text except the Fegyelem scale
+(Gyűlölt → … → Bajnok, Zoz has the steps and points) and the per-Suttogó lists; both come later. DDD names in
+Hungarian: Diszciplína, Fegyelem (Devotion), Áhítat (Divinity), Tilalom, Erény, Gyűlölt / Üldözött, Bajnok,
+lénytípus; no „DDD” abbreviation in game text.
 
-- Kitérés, siker: nem szenvedsz Sebet, és azonnal kihátrálsz. Bukás: elszenveded a Sebet.
-- Hárítás, siker: nem szenvedsz Sebet, és az ellenfeled köre véget ér.
-- Féktelen harcmodor ellen: a sikeres reakció a garantált túlütést is kivédi.
+Next: the six DÖNTÉSRE VÁR items (H-03, H-17, H-19, H-20, H-21, H-47).
 
-Still NYITOTT after H-50: H-51 to H-55, H-57 to H-63. See the worklist for FOLYAMATBAN and DÖNTÉSRE VÁR items.
+H-53 is FOLYAMATBAN: Fegyvert nem igénylő cselekvések stays a placeholder for now.
+H-55 is FOLYAMATBAN: Zoz gives the seven Mágiaosztály descriptions; Entrópia stays „Rend- és rendbontó mágia.”
+H-58 is FOLYAMATBAN: the Sebgyógyítás rule (cap, above the cap) comes later.
+H-59 is FOLYAMATBAN: Sebzéstípusok stays a placeholder for now.
+H-60 is FOLYAMATBAN: the származási helyek reference waits for a chapter.
+H-62 is FOLYAMATBAN: Karakterfejlődés table and tulajdonság cost are in; 0. szint math, jártasság costs, talent/kaszt cost, varázslattanulás are open (Zoz's OneNote note).
+See the worklist for FOLYAMATBAN and DÖNTÉSRE VÁR items.
