@@ -54,7 +54,11 @@ H-21 are JAVÍTVA. The vérszomj cannot go below 0.
 H-65 (new, FOLYAMATBAN): a duel simulation showed combat is decided by who acts first (bid 1 + Féktelen + Hárítás;
 the first mover wins 91% of mirror duels). Done: Féktelen lost its guaranteed túlütés. Kept: players act first on ties.
 Hárítás: a success blocks the Seb and ends the attacker's turn only when the parry is at least twice the attack.
-Open: the D-1 bid cap.
+Reactions are chosen after seeing the attack value. Rohamozás costs 2–3 AP plus the weapon's AP. Túlütés without a
+reaction or with Beleállás: the attack reaches heavy + unarmoured heavy threshold (18 bare, 22 with Védőérték 4); no
+extra Seb per előny. Beleállás: Keménység lowers the value first, and each Beleállás costs 1 Keménység.
+D-1 and H-65 are JAVÍTVA: the bid cap is 20 (no escalating repeat cost). The duel simulator lives in the session
+scratchpad (duel6.py / study6.py), not in this repo.
 
 The four remaining DÖNTÉSRE VÁR items (H-03, H-17, H-19, H-47) all wait on content: kasztok, the varázslat chapter, the
 Kegy rework. Open decisions: the D-1 bid cap or repeat cost (H-45, H-14, H-30), Sebgyógyítás (H-58), Szusztörő (H-13).

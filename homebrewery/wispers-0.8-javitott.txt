@@ -1196,7 +1196,7 @@ Hogyha harcra kerül a sor, fontos, hogy résen legyenek a karakterek és elker�
 
 Minden forduló kezdetén bemondasz egy számot: ennyi időt szánsz a körödre. Ez a kezdeményezésed, és ennyi AP-t költhetsz el a körödben. Az első fordulót az a karakter kezdi, akinek a legkisebb a kezdeményezése; egyenlőségnél a játékosok karakterei lépnek előbb.
 
-[Szerkesztői megjegyzés: a bemondható szám felső határa, illetve az ismételt cselekvések növekvő költsége még eldöntendő (D-1).]
+A bemondott szám legfeljebb 20 lehet.
 
 #### A karakter köre
 
@@ -1392,7 +1392,7 @@ Amikor megtámadnak, erre alkalmas pajzs vagy hárítófegyver segítségével m
 
 #### Beleállás {0AP}
 
-Amikor megtámadnak, a páncélod Keménységére hagyatkozol: a páncél a találat értékéből legfeljebb a Keménységével megegyező részt fog fel. Ennyivel csökken a találat értéke, és a páncél ugyanennyi Keménységet veszít; a sebhatárodhoz a csökkentett értéket kell mérni, és a túlütést is ebből kell számolni (lásd: Túlütés). Ha a páncél a teljes találatot felfogja, akkor is Könnyű sebet szenvedsz el. Ha a páncél Keménysége 0-ra csökken, a páncél eltörik.
+Amikor megtámadnak, a páncélod Keménységére hagyatkozol: a páncél a találat értékéből legfeljebb a Keménységével megegyező részt fog fel. Ennyivel csökken a találat értéke, a páncél pedig minden Beleállásnál 1 Keménységet veszít; a sebhatárodhoz a csökkentett értéket kell mérni, és a túlütést is ebből kell számolni (lásd: Túlütés). Ha a páncél a teljes találatot felfogja, akkor is Könnyű sebet szenvedsz el. Ha a páncél Keménysége 0-ra csökken, a páncél eltörik.
 
 ### Fegyvert nem igénylő cselekvések
 

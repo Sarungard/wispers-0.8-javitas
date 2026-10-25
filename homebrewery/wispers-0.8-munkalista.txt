@@ -23,7 +23,7 @@ Jelölések: BLOKKOLÓ – enélkül nem játszható; ELLENTMONDÁS – két sza
 hivatkozik; KISEBB – szerkesztési hiba, elnevezés.
 
 ÖSSZESÍTŐ (frissítsd menet közben)
-  NYITOTT: 0   FOLYAMATBAN: 20   DÖNTÉSRE VÁR: 4   JAVÍTVA: 39   ELVETVE: 2
+  NYITOTT: 0   FOLYAMATBAN: 19   DÖNTÉSRE VÁR: 4   JAVÍTVA: 40   ELVETVE: 2
 
 
 ================================================================
@@ -52,7 +52,7 @@ ALAPDÖNTÉSEK – ezeken sok tétel múlik
       A kör szegmens-licittel megy, a cselekvések ára akciópontban van, és
       sehol nincs leírva, hány akciópontja van egy karakternek.
       Fő tétel: H-45. Függ tőle: H-14, H-17, H-30, H-51, H-57.
-      Állapot: FOLYAMATBAN (2026.10.22.)
+      Állapot: JAVÍTVA (2026.10.25.)
       Döntés: AP = szegmens. Az AP az erőforrás, a szegmens a kezdeményezés,
         amit tétként bemondasz („ennyi időt szánsz a körödre”); ennyi AP-t
         költhetsz el. Egyenlőségnél a játékosok lépnek előbb. Reakció a CRPG
@@ -62,9 +62,13 @@ ALAPDÖNTÉSEK – ezeken sok tétel múlik
         növekvő költsége („ne 1 millió támadás, aki utolsóként jön”). Előzmény:
         a 0.5.5-ben „Egy korábban már végrehajtott akció másodjára kettő,
         harmadjára három pontba kerül.”
+        Eldöntve (2026.10.25.): a bemondott szám felső határa 20; az ismételt
+        cselekvések növekvő költsége nem kerül be. Alapja a H-65 párbaj-
+        szimulációja: 20 alatt a 4 AP-s fegyverek lemaradnak, a 20 és a 100
+        között nincs érdemi különbség.
       Javítás: wispers-0.8-javitott.txt › II. rész › 4. Harc › Fogalmak a harc
-        során: Kezdeményezés (új szabály + szerkesztői megjegyzés a nyitott
-        kérdésről), A karakter köre (a példa AP-ban), Reakciók (CRPG-szabály);
+        során: Kezdeményezés (új szabály; a szerkesztői megjegyzés helyett
+        „A bemondott szám legfeljebb 20 lehet.”), A karakter köre (a példa AP-ban), Reakciók (CRPG-szabály);
         Általános reakciólista első bekezdése ehhez igazítva.
 
 [D-2] Erőforrás-modell
@@ -819,7 +823,9 @@ Javítás: wispers-0.8-javitott.txt
   névoszlop (a régi részleges fordításokkal) „Páncélcsoport” lett, üresen –
   a 2025.10.22-i verzióban ez volt a neve (Könnyű-/Közepes-/Nehézpáncél).
 Megjegyzés: Hátravan: Védőérték, Keménység, SZ, Reflexgátlás és
-  Páncélcsoport értékei.
+  Páncélcsoport értékei. A Beleállás Keménység-vesztését a H-65 módosította
+  (2026.10.25.): minden Beleállás 1 Keménységet visz el, nem a felfogott
+  értéket.
 
 ----------------------------------------------------------------
 [H-33] KISEBB – Akaraterő és „módosító”
@@ -1123,8 +1129,8 @@ Teendő: D-1.
 Állapot: FOLYAMATBAN (2026.10.22.)
 Döntés: lásd D-1 (AP = szegmens; reakció a következő körre bemondott számból).
 Javítás: lásd D-1.
-Megjegyzés: Hátravan: a bemondott szám felső határa vagy az ismétlés
-  költsége; a Célzott lövés és a Letaglózó lövés ára.
+Megjegyzés: Hátravan: a Célzott lövés és a Letaglózó lövés ára. A felső
+  határ eldőlt: 20 (D-1, 2026.10.25.).
 
 ----------------------------------------------------------------
 [H-46] ELLENTMONDÁS – A támadásba nem számít tulajdonság
@@ -1626,7 +1632,7 @@ Probléma: Párbajszimuláció (2026.10.25.; minden tulajdonság 3, mindenhol
   licit csak pajzs nélküli ellenfél ellen nyer, ott mindig. A felső határ
   (6 vagy 9) az optimumon nem változtat.
 Teendő: A torzítások kezelése.
-Állapot: FOLYAMATBAN (2026.10.25.)
+Állapot: JAVÍTVA (2026.10.25.)
 Döntés: Féktelen harcmodor – a garantált túlütés kikerül, a kettős előny
   mindkét irányba marad. Döntetlenszabály – marad (a játékosok lépnek
   előbb). Hárítás (B változat, 2026.10.25.) – a siker elhárítja a Sebet, és
@@ -1649,7 +1655,8 @@ Döntés: Féktelen harcmodor – a garantált túlütés kikerül, a kettős el
   súlyos sebhatár kétszerese volt a szabály; ez utóbbiban a Védőérték
   duplán számított, ezért elvetve.) Beleállás: a páncél Keménysége előbb csökkenti a támadás
   értékét, és a túlütést ebből a csökkentett értékből kell számolni, mint
-  reakció nélkül.
+  reakció nélkül. A páncél minden Beleállásnál csak 1 Keménységet veszít,
+  nem a felfogott értéket (2026.10.25.).
 Javítás: wispers-0.8-javitott.txt › II. rész › 4. Harc › Harcmodorok ›
   Féktelen harcmodor: „és garantált a túlütés”, „és a túlütés” és a H-50-ben
   felvett „A sikeres reakció a garantált túlütést is kivédi.” mondat törölve;
@@ -1665,8 +1672,8 @@ Javítás: wispers-0.8-javitott.txt › II. rész › 4. Harc › Harcmodorok �
   Beleállásra pontosítva;
   Általános reakciólista › Beleállás: „és a túlütést is ebből kell számolni
   (lásd: Túlütés)”.
-Megjegyzés: Hátravan: a felső határ. A reakció nélküli
-  automatikus találat (1) nem került döntésre. CRPG-eltérés: a
+Megjegyzés: A felső határ: 20 (D-1). A reakció nélküli automatikus találat
+  (1) nem került döntésre; a túlütésszabály módosításai kezelik részben. CRPG-eltérés: a
   CombatStances.cs-ben a Féktelen még minden találatot túlütéssé tesz.
 
 
@@ -1852,3 +1859,5 @@ NAPLÓ – mi történt, mikor
              kétszerese.
 2026.10.25.  H-65 – túlütési határ: súlyos + páncél nélküli súlyos sebhatár (a
              Védőérték egyszer számít).
+2026.10.25.  H-65 – Beleállás: minden használat 1 Keménységet visz el.
+2026.10.25.  D-1 és H-65 JAVÍTVA – a bemondott szám felső határa 20.
