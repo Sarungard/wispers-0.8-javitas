@@ -586,7 +586,8 @@ Döntés: A B olvasat (H-11): az esti Eltökéltség mentődobás eredménye
   levonódik a vérszomjból, így a vérszomj minden este érdemben csökken.
 Javítás: wispers-0.8-javitott.txt › III. rész › 1. Fajok › Orkok › Vérdal: az
   esti mentődobás mondata a B olvasat szerint (szövege a H-11-nél).
-Megjegyzés: Nyitott: mehet-e a vérszomj 0 alá, ha a mentődobás nagyobb nála.
+Megjegyzés: A vérszomj nem mehet 0 alá (2026.10.25.); a Vérdal első
+  mondata kiegészítve: „…amely eleinte 1, és nem csökkenhet 0 alá.”
 
 ----------------------------------------------------------------
 [H-21] KISEBB – Vérzaj: „megdobták”
@@ -1776,3 +1777,4 @@ NAPLÓ – mi történt, mikor
              „DDD” helyett teljes név. A skála és a listák később.
 2026.10.25.  H-11, H-20, H-21 JAVÍTVA – Vérdal: B olvasat (az esti mentődobás
              levonódik a vérszomjból); Vérzaj feltétele ehhez igazítva.
+2026.10.25.  H-20 – a vérszomj nem csökkenhet 0 alá.

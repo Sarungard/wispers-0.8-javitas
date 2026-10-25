@@ -49,7 +49,7 @@ Hungarian: Diszciplína, Fegyelem (Devotion), Áhítat (Divinity), Tilalom, Eré
 lénytípus; no „DDD” abbreviation in game text.
 
 Vérdal decided (2026-10-25): reading B, the evening Eltökéltség mentődobás is subtracted from the vérszomj; H-11, H-20,
-H-21 are JAVÍTVA. Open there: whether the vérszomj can go below 0.
+H-21 are JAVÍTVA. The vérszomj cannot go below 0.
 
 The four remaining DÖNTÉSRE VÁR items (H-03, H-17, H-19, H-47) all wait on content: kasztok, the varázslat chapter, the
 Kegy rework. Open decisions: the D-1 bid cap or repeat cost (H-45, H-14, H-30), Sebgyógyítás (H-58), Szusztörő (H-13).

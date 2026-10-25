@@ -2367,7 +2367,7 @@ Minden ork fejében hallható, ez a különös, elemi morajlás, amely egyre csa
 
 Az orkok számára a vérontás olykor annyira létszükséglet, mint másoknak a mulatozás. Ha nem is minden nap, de bizonyos időközönként szükséges vért fakasztaniuk.
 
-Minden ork rendelkezik Vérszomj értékkel, amely eleinte 1.
+Minden ork rendelkezik Vérszomj értékkel, amely eleinte 1, és nem csökkenhet 0 alá.
 
 Minden reggel dobj 2d4-et és add hozzá az eredményt a Vérszomj értékedhez.
 
