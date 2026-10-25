@@ -1639,9 +1639,13 @@ Döntés: Féktelen harcmodor – a garantált túlütés kikerül, a kettős el
   értéke legalább kétszerese a védekező könnyű sebhatárának; a túlütés nem
   ad előnyönként plusz sebet. A Rohamozás plusz sebei (az elköltött AP-nyi
   seb) maradnak.
-  Páncél és túlütés (2026.10.25.): a reakció nélküli túlütést a páncél
-  nélküli könnyű sebhatárhoz (a faji testi alaphoz) kell mérni, a Védőérték
-  nem duplázódik. Beleállás: a páncél Keménysége előbb csökkenti a támadás
+  Páncél és túlütés (2026.10.25., végleges): reakció nélkül és Beleállásnál
+  túlütés, ha a támadás értéke legalább a súlyos sebhatár kétszerese (a
+  Védőértékkel együtt; páncél nélkül 18, 4-es Védőértékkel 26). A Kitérés
+  és a Hárítás marad a védekezés értékének kétszeresénél, a sikertelen
+  Hárítás garantált túlütés. (Ugyanaznap előbb a könnyű sebhatár
+  kétszerese, majd a páncél nélküli könnyű sebhatár kétszerese volt a
+  javaslat; mindkettő elvetve.) Beleállás: a páncél Keménysége előbb csökkenti a támadás
   értékét, és a túlütést ebből a csökkentett értékből kell számolni, mint
   reakció nélkül.
 Javítás: wispers-0.8-javitott.txt › II. rész › 4. Harc › Harcmodorok ›
@@ -1655,7 +1659,7 @@ Javítás: wispers-0.8-javitott.txt › II. rész › 4. Harc › Harcmodorok �
   fegyvered támadásának AP költsége.”; Fogalmak a harc során › Túlütés: új
   mondat a reakció nélküli túlütésről, „és azonnal elszenved egy extra sebet
   minden a támadásra ható előny után is” törölve; a reakció nélküli túlütés
-  mondata a páncél nélküli könnyű sebhatárra és a Beleállásra pontosítva;
+  mondata a súlyos sebhatár kétszeresére és a Beleállásra pontosítva;
   Általános reakciólista › Beleállás: „és a túlütést is ebből kell számolni
   (lásd: Túlütés)”.
 Megjegyzés: Hátravan: a felső határ. A reakció nélküli
@@ -1841,3 +1845,5 @@ NAPLÓ – mi történt, mikor
              előnyönkénti plusz seb nélkül.
 2026.10.25.  H-65 – túlütés a páncél nélküli könnyű sebhatárhoz; Beleállás: a
              Keménység előbb csökkenti az értéket, abból számít a túlütés.
+2026.10.25.  H-65 – reakció nélküli és Beleállásos túlütés: a súlyos sebhatár
+             kétszerese.
