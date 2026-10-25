@@ -1639,6 +1639,11 @@ Döntés: Féktelen harcmodor – a garantált túlütés kikerül, a kettős el
   értéke legalább kétszerese a védekező könnyű sebhatárának; a túlütés nem
   ad előnyönként plusz sebet. A Rohamozás plusz sebei (az elköltött AP-nyi
   seb) maradnak.
+  Páncél és túlütés (2026.10.25.): a reakció nélküli túlütést a páncél
+  nélküli könnyű sebhatárhoz (a faji testi alaphoz) kell mérni, a Védőérték
+  nem duplázódik. Beleállás: a páncél Keménysége előbb csökkenti a támadás
+  értékét, és a túlütést ebből a csökkentett értékből kell számolni, mint
+  reakció nélkül.
 Javítás: wispers-0.8-javitott.txt › II. rész › 4. Harc › Harcmodorok ›
   Féktelen harcmodor: „és garantált a túlütés”, „és a túlütés” és a H-50-ben
   felvett „A sikeres reakció a garantált túlütést is kivédi.” mondat törölve;
@@ -1649,7 +1654,10 @@ Javítás: wispers-0.8-javitott.txt › II. rész › 4. Harc › Harcmodorok �
   Közelharci fegyverrel végrehajtott cselekvések › Rohamozás: „Ehhez jön a
   fegyvered támadásának AP költsége.”; Fogalmak a harc során › Túlütés: új
   mondat a reakció nélküli túlütésről, „és azonnal elszenved egy extra sebet
-  minden a támadásra ható előny után is” törölve.
+  minden a támadásra ható előny után is” törölve; a reakció nélküli túlütés
+  mondata a páncél nélküli könnyű sebhatárra és a Beleállásra pontosítva;
+  Általános reakciólista › Beleállás: „és a túlütést is ebből kell számolni
+  (lásd: Túlütés)”.
 Megjegyzés: Hátravan: a felső határ. A reakció nélküli
   automatikus találat (1) nem került döntésre. CRPG-eltérés: a
   CombatStances.cs-ben a Féktelen még minden találatot túlütéssé tesz.
@@ -1831,3 +1839,5 @@ NAPLÓ – mi történt, mikor
              hozzájön a fegyver AP-ja.
 2026.10.25.  H-65 – túlütés reakció nélkül is (a könnyű sebhatár kétszerese),
              előnyönkénti plusz seb nélkül.
+2026.10.25.  H-65 – túlütés a páncél nélküli könnyű sebhatárhoz; Beleállás: a
+             Keménység előbb csökkenti az értéket, abból számít a túlütés.
