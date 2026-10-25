@@ -1454,7 +1454,7 @@ Színlelt harcmodor nem okozol sebesülést, de minden sikeres találat után a 
 
 #### Féktelen harcmodor
 
-Féktelen harcmodor során minden támadásod kettős előnnyel teszed és garantált a túlütés, de minden téged ért támadásra is garantált a kettős előny és a túlütés. A sikeres reakció a garantált túlütést is kivédi.
+Féktelen harcmodor során minden támadásod kettős előnnyel teszed, de minden téged ért támadásra is garantált a kettős előny.
 
 #### Halált nem okozó harcmodor
 

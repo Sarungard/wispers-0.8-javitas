@@ -23,7 +23,7 @@ Jelölések: BLOKKOLÓ – enélkül nem játszható; ELLENTMONDÁS – két sza
 hivatkozik; KISEBB – szerkesztési hiba, elnevezés.
 
 ÖSSZESÍTŐ (frissítsd menet közben)
-  NYITOTT: 0   FOLYAMATBAN: 19   DÖNTÉSRE VÁR: 4   JAVÍTVA: 39   ELVETVE: 2
+  NYITOTT: 0   FOLYAMATBAN: 20   DÖNTÉSRE VÁR: 4   JAVÍTVA: 39   ELVETVE: 2
 
 
 ================================================================
@@ -1608,6 +1608,36 @@ Javítás: wispers-0.8-javitott.txt › III. rész › 1. Fajok: mind a hét faj
 Megjegyzés: A tulajdonság hozzáadása az alaphoz később magasabb szinten
   feloldható talent lehet (vö. H-03, H-62).
 
+----------------------------------------------------------------
+[H-65] ELLENTMONDÁS – A harc az első lépésen dől el (új tétel, a PDF-ben nincs)
+Hol: II. rész › 4. Harc › Fogalmak a harc során › Kezdeményezés; Túlütés;
+     Általános cselekvéslista › Támadás; Általános reakciólista › Hárítás;
+     Harcmodorok › Féktelen harcmodor
+Probléma: Párbajszimuláció (2026.10.25.; minden tulajdonság 3, mindenhol
+  Kezdő jártasság, Tőr 1 AP-ért, d6-os pajzs, páncél nélkül; a Hárítás
+  dobása a CRPG szerint: pajzskocka + jártasságkocka a támadás ellen). Az
+  optimális stratégia: 1-es licit, Féktelen harcmodor, Hárítás. Két ilyen
+  karakter közül az első lépő a párbajok 91%-át nyeri, és döntetlennél a
+  játékos lép előbb. Okok: (1) reakció nélkül minden támadás talál; (2) a
+  Féktelen garantált túlütése (Súlyos seb + előnyönként egy extra seb) egy
+  találattal szinte öl; (3) a sikeres Hárítás az egész kört lezárja, így a
+  nagy licit pajzsos ellenfél ellen értéktelen, a Kitérés pedig minden
+  szempontból rosszabb; (4) döntetlennél a játékos lép előbb. A végtelen
+  licit csak pajzs nélküli ellenfél ellen nyer, ott mindig. A felső határ
+  (6 vagy 9) az optimumon nem változtat.
+Teendő: A torzítások kezelése.
+Állapot: FOLYAMATBAN (2026.10.25.)
+Döntés: Féktelen harcmodor – a garantált túlütés kikerül, a kettős előny
+  mindkét irányba marad. Döntetlenszabály – marad (a játékosok lépnek
+  előbb). Hárítás – a siker ne zárja le automatikusan a kört; a pontos
+  változat eldöntendő. Felső határ (D-1) – később.
+Javítás: wispers-0.8-javitott.txt › II. rész › 4. Harc › Harcmodorok ›
+  Féktelen harcmodor: „és garantált a túlütés”, „és a túlütés” és a H-50-ben
+  felvett „A sikeres reakció a garantált túlütést is kivédi.” mondat törölve.
+Megjegyzés: Hátravan: a Hárítás változata, a felső határ. A reakció nélküli
+  automatikus találat (1) nem került döntésre. CRPG-eltérés: a
+  CombatStances.cs-ben a Féktelen még minden találatot túlütéssé tesz.
+
 
 ================================================================
 FÜGGELÉK – FÉLKÉSZ RÉSZEK (nem hibák, csak üresek)
@@ -1778,3 +1808,5 @@ NAPLÓ – mi történt, mikor
 2026.10.25.  H-11, H-20, H-21 JAVÍTVA – Vérdal: B olvasat (az esti mentődobás
              levonódik a vérszomjból); Vérzaj feltétele ehhez igazítva.
 2026.10.25.  H-20 – a vérszomj nem csökkenhet 0 alá.
+2026.10.25.  H-65 FOLYAMATBAN (új tétel) – harcelemzés; Féktelen harcmodor: a
+             garantált túlütés kikerült; a döntetlenszabály marad.

@@ -51,6 +51,10 @@ lénytípus; no „DDD” abbreviation in game text.
 Vérdal decided (2026-10-25): reading B, the evening Eltökéltség mentődobás is subtracted from the vérszomj; H-11, H-20,
 H-21 are JAVÍTVA. The vérszomj cannot go below 0.
 
+H-65 (new, FOLYAMATBAN): a duel simulation showed combat is decided by who acts first (bid 1 + Féktelen + Hárítás;
+the first mover wins 91% of mirror duels). Done: Féktelen lost its guaranteed túlütés. Kept: players act first on ties.
+Open: the Hárítás variant (a success should not end the attacker's turn automatically), then the D-1 bid cap.
+
 The four remaining DÖNTÉSRE VÁR items (H-03, H-17, H-19, H-47) all wait on content: kasztok, the varázslat chapter, the
 Kegy rework. Open decisions: the D-1 bid cap or repeat cost (H-45, H-14, H-30), Sebgyógyítás (H-58), Szusztörő (H-13).
 `wispers-0.8-nyitott-tetelek.pdf` (2026-10-25, local only) lists every unfinished item.
