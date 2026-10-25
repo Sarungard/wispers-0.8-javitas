@@ -1384,7 +1384,7 @@ Amikor megtámadnak, reflex mentődobás segítségével megpróbálod elkerüln
 
 Amikor megtámadnak, erre alkalmas pajzs vagy hárítófegyver segítségével megpróbálod csökkenteni a károkat.
 
-**Siker:** nem szenvedsz Sebet, és az ellenfeled köre véget ér.
+**Siker:** nem szenvedsz Sebet. Ha a hárításod értéke a támadás értékének legalább kétszerese, az ellenfeled köre is véget ér.
 
 **Bukás:** az ellenfeled garantáltan túlütéssel talál el téged.
 
