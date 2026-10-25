@@ -2924,7 +2924,7 @@ Olyan fegyvercsoport fegyverével, amelyben a karakter Képzetlen, nem támadhat
 ##### Általános fegyverek
 | Fegyver | Fegyverkocka | SZ | Jellemzők | Könnyű | Mély | Súlyos | Fegyvercsoport | Képzetlen | Kezdő | Képzett | Haladó | Tapasztalt | Mester |
 |:--|:--:|:--:|:--:|:--:|:--:|:--:|:--|:--:|:--:|:--:|:--:|:--:|:--:|
-| Tőr | 1d4 | | | 1 | 1 | 4 | Tőrök | - | | | | | |
+| Tőr | 1d4 | 2 | | 1 | 1 | 4 | Tőrök | - | | | | | |
 | Párbajtőr | 1d6 | | | 1 | 1 | 4 | Tőrök | - | | | | | |
 | Hosszútőr | 1d6 | | | 1 | 1 | 4 | Tőrök | - | | | | | |
 | Fegyvertörő | 1d4 | | lefegyverző | 1 | 1 | 4 | Tőrök | - | | | | | |
@@ -2934,10 +2934,10 @@ Olyan fegyvercsoport fegyverével, amelyben a karakter Képzetlen, nem támadhat
 | Glaive | 1d10 | | kétkezes, reach | 2 | 3 | 4 | Szálfegyverek | - | | | | | |
 | Szekerce | 1d4 | | | 1 | 3 | 2 | Fejszék | - | | | | | |
 | Harci-fejsze | 1d6 | | | 1 | 3 | 2 | Fejszék | - | | | | | |
-| Csatabárd | 1d8 | | | 1 | 4 | 2 | Fejszék | - | | | | | |
+| Csatabárd | 1d8 | 4 | | 3 | 3 | 3 | Fejszék | - | | | | | |
 | Kétkezes-csatabárd | 1d10 | | kétkezes | 2 | 4 | 3 | Fejszék | - | | | | | |
-| Rövidkard | 1d4 | | | 2 | 2 | 3 | Kardok | - | | | | | |
-| Hosszúkard | 1d6 | | | 2 | 2 | 3 | Kardok | - | | | | | |
+| Rövidkard | 1d4 | 2 | | 3 | 2 | 1 | Kardok | - | | | | | |
+| Hosszúkard | 1d6 | 3 | | 2 | 2 | 3 | Kardok | - | | | | | |
 | Szablya | 1d6 | | | 2 | 2 | 3 | Kardok | - | | | | | |
 | Fattyúkard | 1d8 | | | 2 | 2 | 4 | Kardok | - | | | | | |
 | Furkósbot | 1d4 | | | 2 | 3 | 1 | Buzogányok | - | | | | | |
@@ -2947,7 +2947,7 @@ Olyan fegyvercsoport fegyverével, amelyben a karakter Képzetlen, nem támadhat
 | Kézipöröly | 1d6 | | | 2 | 3 | 2 | Pörölyök | - | | | | | |
 | Csatacsákány | 1d6 | | | 2 | 3 | 2 | Pörölyök | - | | | | | |
 | Harcipöröly | 1d8 | | | 2 | 4 | 2 | Pörölyök | - | | | | | |
-| Nagykalapács | 1d10 | | kétkezes | 3 | 4 | 3 | Pörölyök | - | | | | | |
+| Nagykalapács | 1d10 | 4 | kétkezes | 4 | 4 | 4 | Pörölyök | - | | | | | |
 | Rövidíj | 1d6 | | Közepes táv | 1 | 1 | 3 | Íjak | - | | | | | |
 | Hosszúíj | 1d8 | | Nagy táv | 1 | 1 | 4 | Íjak | - | | | | | |
 | Visszacsapóíj | 1d10 | | Nagy táv | 2 | 2 | 4 | Íjak | - | | | | | |

@@ -764,7 +764,15 @@ Javítás: wispers-0.8-javitott.txt › III. rész › 5. Felszerelés › Álta
   Far Range).
 Megjegyzés: Hátravan: az SZ oszlop, a manőverek, a jártassági oszlopok. A
   CRPG data/weapons.json-ban a Kétkezes-csatabárd és a Nagykalapács még nem
-  2h, és reach/lefegyverző adat sincs – ott is igazítani kell. A „Mid Range /
+  2h, és reach/lefegyverző adat sincs – ott is igazítani kell.
+  2026.10.25. (Zoz, a H-65 szimulációjához): SZ és találati mátrix – Tőr
+  2 AP, 1/1/4; Rövidkard 2 AP, 3/2/1; Hosszúkard 3 AP, 2/2/3; Csatabárd
+  4 AP, 3/3/3; Nagykalapács 4 AP, 4/4/4, kétkezes. Beírva a fegyvertáblába.
+  A korábbi mátrixértékek a CRPG data/weapons.json-ból jöttek (2026.10.22.):
+  a Tőrt (1/1/4) és a Rövidkardot (2/2/3) Zoz adta meg 2026.10.17-én, a
+  többi Claude csoportonkénti vázlata volt. CRPG-eltérés: ott a Rövidkard
+  2/2/3, a Csatabárd 1/4/2, a Nagykalapács 3/4/3, az AP-költség a kockából
+  jön (d4 = 1 … d10 = 4). Hátravan: a többi fegyver SZ-e és mátrixa. A „Mid Range /
   Far Range” angol címke a H-48-cal együtt cserélhető.
 
 ----------------------------------------------------------------
@@ -1861,3 +1869,5 @@ NAPLÓ – mi történt, mikor
              Védőérték egyszer számít).
 2026.10.25.  H-65 – Beleállás: minden használat 1 Keménységet visz el.
 2026.10.25.  D-1 és H-65 JAVÍTVA – a bemondott szám felső határa 20.
+2026.10.25.  H-30 – SZ és mátrix öt fegyvernél (Tőr, Rövidkard, Hosszúkard,
+             Csatabárd, Nagykalapács).
