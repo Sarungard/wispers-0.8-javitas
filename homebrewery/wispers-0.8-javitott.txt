@@ -2901,13 +2901,126 @@ WIP
 
 Vas, Réz, Ezüst, Arany a hagyományos fizetőeszköz az anyagok tulajdonságai miatt. Platina, elektrum nagyon ritka és nagyon értékes fémek, ezért nem gyakoriak.
 
+Az érmék értékét a fémek mágiához való viszonya adja; a fémek hatását a Fegyverek › Jellemzők szakasz írja le.
+
 | Érme | Érték |
 |:--|:--|
 | 1 Réz | 20 Vas |
 | 1 Ezüst | 800 Réz |
 | 1 Arany | 25 Ezüst |
 
-[Szerkesztői megjegyzés: árlista még nincs (H-29).]
+### Árlista
+
+Az árak egy napszámos napi béréhez igazodnak, ez 20 Réz. Az alapeszközök vasból készülnek, a lista ezek árát mutatja; a jobb, acélból készült darabok főleg városokban kaphatók.
+
+[Szerkesztői megjegyzés: az acél eszközök ára és a készletezés még kidolgozandó (H-29).]
+
+#### Fegyverek
+
+| Fegyver | Ár |
+|:--|:--|
+| Tőr | 60 Réz |
+| Párbajtőr | 400 Réz |
+| Hosszútőr | 150 Réz |
+| Fegyvertörő | 200 Réz |
+| Sétabot | 5 Réz |
+| Lándzsa | 80 Réz |
+| Szigony | 120 Réz |
+| Glaive | 1 Ezüst |
+| Szekerce | 60 Réz |
+| Harci-fejsze | 150 Réz |
+| Csatabárd | 400 Réz |
+| Kétkezes-csatabárd | 1 Ezüst |
+| Rövidkard | 300 Réz |
+| Hosszúkard | 1 Ezüst |
+| Szablya | 1 Ezüst |
+| Fattyúkard | 2 Ezüst |
+| Furkósbot | 5 Réz |
+| Buzogány | 200 Réz |
+| Tollasbuzogány | 300 Réz |
+| Tüskésbuzogány | 250 Réz |
+| Kézipöröly | 150 Réz |
+| Csatacsákány | 250 Réz |
+| Harcipöröly | 500 Réz |
+| Nagykalapács | 1 Ezüst |
+| Rövidíj | 150 Réz |
+| Hosszúíj | 400 Réz |
+| Visszacsapóíj | 2 Ezüst |
+| Kézinyílpuska | 1 Ezüst |
+| Könnyűnyílpuska | 1 Ezüst 400 Réz |
+| Nehéznyílpuska | 2 Ezüst |
+| Emberfogó | 400 Réz |
+| Nyílvessző (20 db) | 20 Réz |
+| Nyílpuskavessző (20 db) | 30 Réz |
+
+#### Páncélok és pajzs
+
+| Páncél | Ár |
+|:--|:--|
+| Vállvért | 100 Réz |
+| Pántos láncvért | 6 Ezüst |
+| Keményített bőrvért | 200 Réz |
+| Brigantin | 2 Ezüst |
+| Mellvért | 1 Ezüst |
+| Steppelt zeke | 100 Réz |
+| Láncing | 1 Ezüst |
+| Lemezes zeke | 2 Ezüst |
+| Jazeránvért | 4 Ezüst |
+| Ládamellű vért | 15 Ezüst |
+| Lamellás vért | 4 Ezüst |
+| Sávos lemezvért | 10 Ezüst |
+| Láncvért | 3 Ezüst |
+| Teljes lemezvért | 1 Arany |
+| Gyűrűs vért | 600 Réz |
+| Pikkelyvért | 3 Ezüst |
+| Sínvért | 6 Ezüst |
+| Vasalt bőrvért | 400 Réz |
+| Pajzs | 100 Réz |
+
+#### Felszerelés
+
+| Tárgy | Ár |
+|:--|:--|
+| Fáklya | 1 Réz |
+| Lámpás | 30 Réz |
+| Lámpaolaj | 2 Réz |
+| Kötél (egy tekercs) | 10 Réz |
+| Hátizsák | 15 Réz |
+| Takaró | 8 Réz |
+| Kulacs | 4 Réz |
+| Kötszeres gyógyítótáska | 40 Réz |
+| Tolvajszerszám | 400 Réz |
+| Alkimista felszerelés | 2 Ezüst |
+
+#### Ellátás és szállás
+
+| Tétel | Ár |
+|:--|:--|
+| Fejadag (egy nap) | 4 Réz |
+| Étkezés a fogadóban, egyszerű | 2 Réz |
+| Étkezés a fogadóban, kiadós | 5 Réz |
+| Sör (korsó) | 1 Réz |
+| Bor (korsó) | 3 Réz |
+| Szállás közös teremben (egy éj) | 3 Réz |
+| Szállás külön szobában (egy éj) | 10 Réz |
+| Istálló (egy éj) | 2 Réz |
+
+#### Szolgáltatások
+
+| Szolgáltatás | Ár |
+|:--|:--|
+| Napszámos (egy nap) | 20 Réz |
+| Mesterember (egy nap) | 40 Réz |
+| Felcser (egy seb ellátása) | 30 Réz |
+| Kocsis szállítás (egy napi út, fejenként) | 10 Réz |
+
+#### Hátasok és járművek
+
+| Tétel | Ár |
+|:--|:--|
+| Öszvér | 1 Ezüst |
+| Ló | 2 Ezüst |
+| Kocsi | 1 Ezüst |
 
 ## Fegyverek
 
@@ -2973,11 +3086,23 @@ A Jellemzők oszlop azokat a jellemzőket adja meg, amelyekkel a fegyver bárki 
 
 ### Jellemzők
 
-A jellemzők leírják, miben tér el egy fegyver a többitől. Minden jellemzőnek leírása és hatása van.
+A jellemzők leírják, miben tér el egy fegyver, egy páncél vagy egy anyag a többitől. Minden jellemzőnek leírása és hatása van.
+
+#### Acél
+
+A szénnel ötvözött vas valamennyire bájolható, de valódi előnye a szerkezetében van: keményebb, élezhetőbb és szívósabb a vasnál.
+
+#### Arany
+
+Felerősíti a mágiát.
 
 #### Átütő X
 
 A fegyver ellen a páncél Keménysége X-szel kevesebbnek számít.
+
+#### Ezüst
+
+Megtartja a mágiát.
 
 #### Halálos
 
@@ -2999,9 +3124,21 @@ A Lefegyverzést szabad kéz nélkül, ezzel a fegyverrel is végrehajthatod.
 
 A fegyver Nagy távig hátrány nélkül lő (lásd: Zónák és hatótávok).
 
+#### Ón
+
+Önmagában nincs mágikus tulajdonsága.
+
 #### Reach
 
 A fegyverrel Rövid távon is eléred az ellenfeled (lásd: Zónák és hatótávok).
+
+#### Réz
+
+Enyhe mágikus vezetőként működik.
+
+#### Vas
+
+Taszítja a mágiát: a vasból készült fegyver nem bájolható, és aki vaspáncélt visel, nem tud varázsolni.
 
 ## Páncélok
 

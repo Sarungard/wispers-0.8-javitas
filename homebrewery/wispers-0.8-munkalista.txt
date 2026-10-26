@@ -23,7 +23,7 @@ Jelölések: BLOKKOLÓ – enélkül nem játszható; ELLENTMONDÁS – két sza
 hivatkozik; KISEBB – szerkesztési hiba, elnevezés.
 
 ÖSSZESÍTŐ (frissítsd menet közben)
-  NYITOTT: 0   FOLYAMATBAN: 14   DÖNTÉSRE VÁR: 4   JAVÍTVA: 45   ELVETVE: 2
+  NYITOTT: 0   FOLYAMATBAN: 13   DÖNTÉSRE VÁR: 4   JAVÍTVA: 46   ELVETVE: 2
 
 
 ================================================================
@@ -743,14 +743,25 @@ Hol: III. rész › 5. Felszerelés és vagyontárgyak › Pénz; III. rész ›
 Probléma: Négy fém (Vas, Réz, Ezüst, Arany), de váltási arány és ár nincs. A
   Nemesek vérvonala „aranyban mért értékével” számol, ami így nem számolható.
 Teendő: Váltási arányok és egy alap árlista.
-Állapot: FOLYAMATBAN (2026.10.22.)
+Állapot: JAVÍTVA (2026.10.26.)
 Döntés: Az Open Legend-féle arányok (2020-as házi szabály) kiegészítve:
   20 Vas = 1 Réz, 800 Réz = 1 Ezüst, 25 Ezüst = 1 Arany. A vault
   Peták-rendszere (1 : 100 : 10 000 : 100 000) a szabálykönyvbe nem kerül.
 Javítás: wispers-0.8-javitott.txt › III. rész › 5. Felszerelés › Pénz: új
   váltótáblázat és szerkesztői megjegyzés a hiányzó árlistáról; az
   RTFC/DIVERGENCIA.md Peták-sorába bekerült a döntés.
-  Hátravan: alap árlista. (A Nemesek vérvonala már nem számol aranyértékkel.)
+  Árlista (2026.10.26., Claude vázlata, Zoz elfogadta): horgony a napszámos
+  napi bére, 20 Réz (1 Ezüst ≈ 40 napi bér, 1 Arany ≈ 1000). Fegyverek (mind
+  a 31 + lőszer), páncélok (mind a 18) és pajzs (100 Réz), felszerelés,
+  ellátás és szállás, szolgáltatások, hátasok és járművek. Beírva: Pénz ›
+  Árlista; a Pénz szakasz egy mondattal utal rá, hogy az érmék értékét a
+  fémek mágiához való viszonya adja. Az alapeszközök vasból vannak, a
+  jobbak (főleg városokban) acélból. Az anyagok is jellemzők (H-30).
+  Hátravan: az acél eszközök ára, a készletezés (Zoz ötlete, következő
+  lépés), az egzotikus és a fajspecifikus fémek (Platina, Titán, Mithrill,
+  Adamantium, Elektrum; EmbeRéz, TörPlatina, TündEzüst, OrKobalt) – Zoz
+  OneDrive-jegyzete alapján, később. (A Nemesek vérvonala már nem számol
+  aranyértékkel.)
 Megjegyzés:
 
 ----------------------------------------------------------------
@@ -798,6 +809,10 @@ Megjegyzés: Hátravan: az SZ oszlop, a manőverek, a jártassági oszlopok. A
   (Zónák és hatótávok, Lefegyverzés). A Kétkezesnek a könyvben nem volt
   szabálya; a leírás („mellette nem használhatsz pajzsot, és nincs szabad
   kezed”) Claude megfogalmazása, a CRPG is így kezeli.
+  Anyag-jellemzők (2026.10.26.): Acél, Arany, Ezüst, Ón, Réz, Vas – Zoz
+  fémjegyzete szerint (a Vas taszítja a mágiát: nem bájolható, vaspáncélban
+  nem lehet varázsolni). A Jellemzők bevezetője: „…miben tér el egy
+  fegyver, egy páncél vagy egy anyag a többitől.”
   Hátravan (később, Zoz): a jártassági oszlopok jellemzői, a
   fegyvermanőverek. Javítva (2026.10.26.): a Lefegyverzés lefegyverző
   fegyverrel már nem „pusztakezes támadást” kér, hanem támadást azzal a
@@ -1987,3 +2002,5 @@ NAPLÓ – mi történt, mikor
              készlet, általános talent pontból; H-03 – kasztmodell rögzítve.
 2026.10.26.  H-32 JAVÍTVA – páncélértékek három csoportban, Reflexgátlás, Képzetlen
              jártassággal nem viselhető.
+2026.10.26.  H-29 JAVÍTVA – árlista (20 Réz napi bér), pajzs; H-30 – anyag-jellemzők
+             (Acél, Arany, Ezüst, Ón, Réz, Vas).

@@ -49,6 +49,9 @@ Keep replies short and in Hungarian. Put the proposal and the question at the en
   Tudás bonus) plus points kasztok may add. Every advanceable thing is priced individually; design baseline for a
   jártasság is cumulative 1/4/10/19/31. Faji and kezdő talentek and kasztok are guaranteed at the table's levels;
   általános talentek are bought with points.
+- Prices anchor on a 20 Réz daily wage. Basic gear is iron (Vas), better gear (mostly in cities) steel (Acél).
+  Materials are jellemzők too: Vas repels magic (no enchanting, no casting in iron armour), Réz conducts, Ezüst holds,
+  Arany amplifies. Exotic and race-specific metals come later.
 - Kasztok are feat-like one-time picks at set levels with prerequisites (follow-up kaszt or a new direction), built on
   exception-based design (H-03).
 - Harci távok are abstract: Közelharci táv, Rövid táv, Közepes táv, Nagy táv, Értelmezhetetlen. „reach” and (for now) „Glaive” stay English.
