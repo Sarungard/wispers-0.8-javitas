@@ -38,7 +38,7 @@ Keep replies short and in Hungarian. Put the proposal and the question at the en
 - Attacks: weapon die + proficiency die, no attribute. Unarmed: 1d2 (1d4/2) with the Pusztakezes harc proficiency.
 - Wounds: Könnyű / Mély / Súlyos seb by sebhatár (reaching it counts), plus Kimerültség. Sebdobás: 1d8 + the number
   of Sebek of the same severity (not all Sebek) + the weapon's találati mátrix; 21+ is one fok worse. Wounds must be
-  hard to heal; the healing rule comes later.
+  hard to heal: Súlyos → Mély → Könnyű → healed, no roll on each step, a healed wound leaves a heg (scar).
 - Weapon properties are called „jellemző” (never „tulajdonság”, that is the six attributes). The Jellemzők column holds
   base jellemzők; the weapon table's Képzetlen–Mester columns hold jellemzők unlocked at that proficiency level. Each
   jellemző has a description and an effect (Fegyverek › Jellemzők). Damage types should be jellemzők too, and magic

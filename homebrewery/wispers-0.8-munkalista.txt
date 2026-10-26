@@ -23,7 +23,7 @@ Jelölések: BLOKKOLÓ – enélkül nem játszható; ELLENTMONDÁS – két sza
 hivatkozik; KISEBB – szerkesztési hiba, elnevezés.
 
 ÖSSZESÍTŐ (frissítsd menet közben)
-  NYITOTT: 0   FOLYAMATBAN: 18   DÖNTÉSRE VÁR: 4   JAVÍTVA: 41   ELVETVE: 2
+  NYITOTT: 0   FOLYAMATBAN: 17   DÖNTÉSRE VÁR: 4   JAVÍTVA: 42   ELVETVE: 2
 
 
 ================================================================
@@ -343,8 +343,8 @@ Javítás: wispers-0.8-javitott.txt › III. rész › 1. Fajok › Egy faj
   alatta szerkesztői megjegyzés a hiányzó tartalomról. Az Adaptívak szövege
   változatlan, mert már ehhez a szabályhoz illeszkedik.
 Megjegyzés:
-  – Nyitott: a mostani fix faji jellemzők (pl. Sötétlátás, Mélységi gyomor)
-    fixek maradnak, vagy átkerülnek az oszlopokba?
+  – Eldöntve (2026.10.26.): a mostani fix faji jellemzők (pl. Sötétlátás,
+    Mélységi gyomor) fixek maradnak; az oszlopokba egyszerűbb dolgok kerülnek.
   – A HEAD-ben az Adaptívak alatt egy üres, 8 soros táblázat állt (valószínűleg
     az oszlopok helye); a 0.8-ból kimaradt.
   – AJÁNLÁS a témákra, a meglévő leírásokból (nem végleges):
@@ -488,15 +488,16 @@ Probléma: A törp „reakcióból 2 Szegmens felhasználásával” jelöl ki c
   Állóképesség tulajdonságának megfelelő tűzsebzést” szenved el, holott a
   sérülést ma Sebben mérjük (H-50). Sebzéstípusok szakasz nincs (H-59).
 Teendő: D-1 és D-2 után átírni.
-Állapot: FOLYAMATBAN (2026.10.22.)
+Állapot: JAVÍTVA (2026.10.26.)
 Döntés: A fröccsenő vér mindig Könnyű sebet okoz; a sebdobás 1d8 +
-  Állóképesség.
+  Állóképesség. A reakció ára 2 AP (2026.10.26.).
 Javítás: wispers-0.8-javitott.txt › III. rész › 1. Fajok › Magmavérűek ›
   Magmavér: a tűzsebzés-mondat helyett „Az a karakter Könnyű sebet szenved el,
   a sebdobása pedig 1d8 + a törp Állóképessége.”
 Megjegyzés: Értelmezés: a törp Állóképességét írtam (az eredeti szöveg is
-  azét használta); ha az elszenvedőét akartad, szólj. A reakció ára
-  („2 Szegmens”) a D-1-re vár.
+  azét használta); ha az elszenvedőét akartad, szólj. A reakció ára: a
+  „reakcióból 2 Szegmens felhasználásával” helyett „reakcióból, 2 AP-ért”
+  (2026.10.26.). Maradt még egy lábban mért táv: „5 lábon belül” (vö. H-49).
 
 ----------------------------------------------------------------
 [H-15] HIÁNY – Sérülésküszöb
@@ -1339,9 +1340,11 @@ Döntés: Fegyvert nem igénylő cselekvések: egyelőre placeholder marad. Harc
   közelharc); Ellökés, Megragadás, Feldöntés nem hajtható végre ellene.
 Javítás: wispers-0.8-javitott.txt › II. rész › 4. Harc › Harc nagyobb méretű
   ellenféllel szemben; Harc repülő ellenféllel szemben – egy-egy bekezdés.
-Megjegyzés: Hátravan: a Fegyvert nem igénylő cselekvések szakasz. Nyitott
-  kérdés: a közelharcban lecsapó repülő ellenfél visszatámadható-e közelharci
-  fegyverrel.
+Megjegyzés: Hátravan: a Fegyvert nem igénylő cselekvések szakasz. A
+  közelharcban lecsapó repülő ellenfél (Zoz, 2026.10.26.): csak reakcióból
+  támadható vissza, ha a karakternek van ilyen lehetősége; „opportunity
+  attack” a rendszerben nem garantált. Beírva a Harc repülő ellenféllel
+  szemben szakaszba.
 
 ----------------------------------------------------------------
 [H-54] BLOKKOLÓ – Varázslás: a 0.8 és a HEAD más irányba ment
@@ -1455,7 +1458,13 @@ Javítás: wispers-0.8-javitott.txt
     száma” helyett az azonos súlyosságú sebek száma;
   – III. rész › 1. Fajok › Allúrok › Sújtás: „Szívósság próbára” →
     „Szívósság mentődobásra”, „Ha a próba” → „Ha a mentődobás”.
-Megjegyzés: Hátravan: a Sebgyógyítás (plafon, a plafon fölötti eset). Eltérés
+Gyógyulás (Zoz, 2026.10.26.): a megszerzett sebek lassan, fokonként
+  gyógyulnak: Súlyos → Mély → Könnyű → gyógyult. A súlyosság váltásakor nem
+  kell dobni, és az adott súlyosságú sebek száma ilyenkor 20 fölé is mehet.
+  A meggyógyult seb heget hagy. Beírva a Sebgyógyítás szakaszba (a régi
+  plafon-mondat után).
+Megjegyzés: Hátravan: a gyógyulás üteme (mennyi idő egy fok), a régi
+  Állóképesség-plafon sorsa és a plafon fölötti eset, a heg hatása. Eltérés
   a CRPG-től: a WoundTrack.cs az összes sebet adja a sebdobáshoz. A D-3 óta a
   tünde Állóképessége a Világstandard (ajánlottan 3), így az első seb már nem
   gyógyíthatatlan. A „Blood on the water” név nem kell, a szabály a
@@ -1922,3 +1931,6 @@ NAPLÓ – mi történt, mikor
 2026.10.26.  H-45 JAVÍTVA – Célzott és Letaglózó lövés: a fegyver AP-ja; az
              Ismételt lövés kikerült; Támadás címsora: „{a fegyver AP-ja}”.
 2026.10.26.  H-32 – a páncéltábla SZ oszlopa AP lett.
+2026.10.26.  H-14 JAVÍTVA – Magmavér: reakcióból, 2 AP-ért.
+2026.10.26.  H-09 – a fix faji jellemzők maradnak; H-53 – repülő ellenfél csak
+             reakcióból támadható vissza; H-58 – fokozatos gyógyulás, heg.
