@@ -23,7 +23,7 @@ Jelölések: BLOKKOLÓ – enélkül nem játszható; ELLENTMONDÁS – két sza
 hivatkozik; KISEBB – szerkesztési hiba, elnevezés.
 
 ÖSSZESÍTŐ (frissítsd menet közben)
-  NYITOTT: 0   FOLYAMATBAN: 16   DÖNTÉSRE VÁR: 4   JAVÍTVA: 43   ELVETVE: 2
+  NYITOTT: 0   FOLYAMATBAN: 15   DÖNTÉSRE VÁR: 4   JAVÍTVA: 44   ELVETVE: 2
 
 
 ================================================================
@@ -189,8 +189,17 @@ Teendő: A kasztok megírása, vagy ideiglenes jártassági, felszerelési és
   szintlépési szabály.
 Állapot: DÖNTÉSRE VÁR (2026.10.22.)
 Döntés: A kasztok külön munka; a D-1 és a D-3 alapdöntés után kerül sorra.
+  Kasztmodell (Zoz, 2026.10.26.): a kaszt egyszeri bónusz, mint a featek a
+  d20-as játékokban. A táblázatban jelölt szinteken a játékos
+  előfeltételektől függően új kasztot választ: egy ráépülőt, vagy egy másik
+  irányt. A kasztok kivétel alapú tervezéssel készülnek: egy alapmechanikát
+  vesznek, és hozzányúlnak, átírják vagy kiegészítik. A kasztok pontot is
+  adhatnak a szintenkénti pontkészlethez (H-62).
 Javítás: nem kell (most)
-Megjegyzés: Addig a H-04 és a szintlépés is ettől függ.
+Megjegyzés: Addig a H-04 és a szintlépés is ettől függ. A Kaszt kiválasztása
+  és a Játék magasabb szinten mostani szövege („a kasztjánál található
+  táblázatban az érintett szinthez tartozó újdonságokat”) a régi, egy
+  kasztra épülő modellt írja le; a kasztok megírásakor át kell írni.
 
 ----------------------------------------------------------------
 [H-04] BLOKKOLÓ – Tulajdonságkockák 1. szinten
@@ -1581,7 +1590,7 @@ Probléma: A Világstandard leírása szerint kisebb standardnál „annál töb
   befektetni őket. (A H-04 / D-3 döntéséből, 2026.10.22.)
 Teendő: A pontbefektetés szabálya – karakteralkotáskor, szintlépéskor vagy
   mindkettőnél (kapcsolódik: H-03).
-Állapot: FOLYAMATBAN (2026.10.23.)
+Állapot: JAVÍTVA (2026.10.26.)
 Döntés: Zoz Karakterfejlődés-jegyzete (OneNote, Playtest › Karakterfejlődés,
   még nincs kész) az alap. A szintenkénti táblázat és a tulajdonságemelés
   költsége (1 + az elérni kívánt érték) bekerül. A 0. szint matekja
@@ -1610,6 +1619,16 @@ Megjegyzés: Hátravan: a 0. szint pontjai; szintenként 8, vagy 8 + Tudás +
   – Varázslattanulás: fóliánsokból vagy mesterektől, a mágiaosztály-
     jártasság szabja meg; ez az alapvető irány (beírva: Játék magasabb
     szinten › Varázslatok tanulása, a szerkesztői megjegyzésből kivéve).
+  Döntések (2026.10.26.): a 0. szint pontkészlete 24, közösen a
+  tulajdonságoknak és a jártasságoknak; szintenként fix 8 pont (Tudás
+  nélkül), ehhez a kasztok adhatnak pontot (balanszolási tengely). Az
+  1/4/10/19/31 összesített ár (lépésenként 1, 3, 6, 9, 12). A faji és a
+  kezdő talentek és a kasztok garantáltak; az általános talentek pontból,
+  egyedi áron. Beírva: Karakterfejlődés szintenként táblázat (0. szint: 24,
+  az Általános talent oszlop kikerült); új „Elosztható pontok” alszakasz a
+  Tulajdonságok fejlesztése elé, a szerkesztői megjegyzés helyett.
+  Hátravan (tartalom): a jártasságok és az általános talentek egyedi ára,
+  a kasztok által adott pontok.
 
 
 ----------------------------------------------------------------
@@ -1955,3 +1974,5 @@ NAPLÓ – mi történt, mikor
 2026.10.26.  H-14 – Magmavér: Közelharci távon belül. H-58 – plafon nélkül, a heg
              csak narratív. H-59 JAVÍTVA – a Sebzéstípusok szakasz kikerült.
 2026.10.26.  H-62 – elvek rögzítve; Varázslatok tanulása alapirány beírva.
+2026.10.26.  H-62 JAVÍTVA – 24 kezdőpont, szintenként 8 (+ kasztpontok), közös
+             készlet, általános talent pontból; H-03 – kasztmodell rögzítve.

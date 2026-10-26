@@ -199,28 +199,34 @@ Hogyha nem első szinten szeretnétek kezdeni a játékot, arra is van lehetős�
 
 ### Karakterfejlődés szintenként
 
-| Szint | Elosztható pontok | Faji talent | Általános talent | Kaszt | Kezdő talent |
-|:--:|:--:|:--:|:--:|:--:|:--:|
-| 0 | ? | 1 | 1 | | 2 |
-| 1 | 8 | | | 1 | |
-| 2 | 8 | | 1 | | |
-| 3 | 8 | 1 | | | |
-| 4 | 8 | | 1 | | |
-| 5 | 8 | | | 1 | |
-| 6 | 8 | 1 | 1 | | |
-| 7 | 8 | | | | |
-| 8 | 8 | | 1 | | |
-| 9 | 8 | 1 | | 1 | |
-| 10 | 8 | | 1 | | |
-| 11 | 8 | | | | |
-| 12 | 8 | 1 | 1 | | |
-| 13 | 8 | | | 1 | |
+| Szint | Elosztható pontok | Faji talent | Kaszt | Kezdő talent |
+|:--:|:--:|:--:|:--:|:--:|
+| 0 | 24 | 1 | | 2 |
+| 1 | 8 | | 1 | |
+| 2 | 8 | | | |
+| 3 | 8 | 1 | | |
+| 4 | 8 | | | |
+| 5 | 8 | | 1 | |
+| 6 | 8 | 1 | | |
+| 7 | 8 | | | |
+| 8 | 8 | | | |
+| 9 | 8 | 1 | 1 | |
+| 10 | 8 | | | |
+| 11 | 8 | | | |
+| 12 | 8 | 1 | | |
+| 13 | 8 | | 1 | |
+
+### Elosztható pontok
+
+Az elosztható pontokból fejlesztheted a tulajdonságaidat és a jártasságaidat, és ezekből vásárolhatsz általános talenteket is. A 0. szinten 24 pont jár, utána szintenként 8, amihez a karaktered kasztjai további pontokat adhatnak. A faji és a kezdő talentek, valamint a kasztok a táblázatban jelölt szinteken járnak, pontba nem kerülnek.
+
+Minden fejleszthető dolognak saját ára van, ezt a leírása adja meg.
+
+[Szerkesztői megjegyzés: a jártasságok és az általános talentek egyedi ára, valamint a kasztok által adott pontok még kidolgozandók (H-62, H-03).]
 
 ### Tulajdonságok fejlesztése
 
 Egy tulajdonság egy ponttal való emelése 1 + az elérni kívánt érték pontba kerül: 1-re emelni 2 pont, 5-re emelni 6 pont.
-
-[Szerkesztői megjegyzés: kidolgozandó (H-62): a 0. szint pontjai; hogy szintenként 8 pont jár-e, vagy 8 + Tudás + egyéb bónusz (a karakterlap Fejlődéspontok blokkja szerint); a jártasságok fejlesztésének költsége; talentek és kasztok: pontköltség vagy garantált.]
 
 ### Varázslatok tanulása
 

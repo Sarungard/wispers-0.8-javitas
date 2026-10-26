@@ -45,6 +45,12 @@ Keep replies short and in Hungarian. Put the proposal and the question at the en
   will get a similar system. „Tag” is design vocabulary only, never in the book. Weapon AP (column „AP”, formerly SZ):
   d4 2, d6 3, d8 4, d10 4, d12 5,
   with individual exceptions.
+- Advancement (H-62): one shared point pool for tulajdonságok and jártasságok; 24 at level 0, then 8 per level (no
+  Tudás bonus) plus points kasztok may add. Every advanceable thing is priced individually; design baseline for a
+  jártasság is cumulative 1/4/10/19/31. Faji and kezdő talentek and kasztok are guaranteed at the table's levels;
+  általános talentek are bought with points.
+- Kasztok are feat-like one-time picks at set levels with prerequisites (follow-up kaszt or a new direction), built on
+  exception-based design (H-03).
 - Harci távok are abstract: Közelharci táv, Rövid táv, Közepes táv, Nagy táv, Értelmezhetetlen. „reach” and (for now) „Glaive” stay English.
 
 ## State (2026-10-25)
