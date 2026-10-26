@@ -2975,6 +2975,26 @@ A fegyver ellen a páncél Keménysége X-szel kevesebbnek számít.
 
 Ha támadáskor a jártasságkockád többet dob, mint a fegyverkockád, a támadás eggyel súlyosabb sebet okoz.
 
+#### Kétkezes
+
+A fegyvert két kézzel kell forgatni: mellette nem használhatsz pajzsot, és nincs szabad kezed.
+
+#### Közepes táv
+
+A fegyver Közepes távig hátrány nélkül lő, Nagy távra egyes hátránnyal (lásd: Zónák és hatótávok).
+
+#### Lefegyverző
+
+A Lefegyverzést szabad kéz nélkül, ezzel a fegyverrel is végrehajthatod.
+
+#### Nagy táv
+
+A fegyver Nagy távig hátrány nélkül lő (lásd: Zónák és hatótávok).
+
+#### Reach
+
+A fegyverrel Rövid távon is eléred az ellenfeled (lásd: Zónák és hatótávok).
+
 ## Páncélok
 
 ### Jártasságok páncélokkal

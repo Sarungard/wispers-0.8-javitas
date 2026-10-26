@@ -782,8 +782,13 @@ Megjegyzés: Hátravan: az SZ oszlop, a manőverek, a jártassági oszlopok. A
   Javítás: Általános fegyverek – magyarázó bekezdés a táblázat fölé; új
   „### Jellemzők” szakasz a Különleges fegyverek után; Zónák és hatótávok ›
   Rövid táv: „reach tulajdonságú” → „reach jellemzőjű”.
-  Hátravan: a jártassági oszlopok kitöltése, a többi jellemző leírása
-  (kétkezes, reach, lefegyverző, hatótávok), a fegyvermanőverek. A „Mid Range /
+  A meglévő jellemzők is bekerültek a szakaszba (2026.10.26.): Kétkezes,
+  Közepes táv, Lefegyverző, Nagy táv, Reach – a könyv meglévő szabályaiból
+  (Zónák és hatótávok, Lefegyverzés). A Kétkezesnek a könyvben nem volt
+  szabálya; a leírás („mellette nem használhatsz pajzsot, és nincs szabad
+  kezed”) Claude megfogalmazása, a CRPG is így kezeli.
+  Hátravan: a jártassági oszlopok kitöltése, a fegyvermanőverek. Apróság: a
+  Lefegyverzés lefegyverző fegyverrel is „pusztakezes támadást” kér. A „Mid Range /
   Far Range” angol címke a H-48-cal együtt cserélhető.
 
 ----------------------------------------------------------------
@@ -1889,3 +1894,5 @@ NAPLÓ – mi történt, mikor
 2026.10.26.  H-30 – SZ mind a 31 fegyvernél; Jellemzők szakasz (Átütő X,
              Halálos); a fegyverek tulajdonságainak neve: jellemző.
 2026.10.26.  H-59 – irány: a sebzéstípusok is jellemzők.
+2026.10.26.  H-30 – Jellemzők: Kétkezes, Közepes táv, Lefegyverző, Nagy táv,
+             Reach.
