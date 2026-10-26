@@ -766,9 +766,24 @@ Megjegyzés: Hátravan: az SZ oszlop, a manőverek, a jártassági oszlopok. A
   CRPG data/weapons.json-ban a Kétkezes-csatabárd és a Nagykalapács még nem
   2h, és reach/lefegyverző adat sincs – ott is igazítani kell.
   SZ (Zoz, 2026.10.25.): Tőr 2, Rövidkard 2, Hosszúkard 3, Csatabárd 4,
-  Nagykalapács 4 AP; beírva. A találati mátrix nem változott. Hátravan: a
-  többi fegyver SZ-e. CRPG-eltérés: ott az AP-költség a kockából jön
-  (d4 = 1 … d10 = 4). A „Mid Range /
+  Nagykalapács 4 AP; beírva. A találati mátrix nem változott. CRPG-eltérés:
+  ott az AP-költség a kockából jön (d4 = 1 … d10 = 4).
+  SZ a többi fegyvernél (2026.10.26.): d4 = 2, d6 = 3, d8 = 4, d10 = 4
+  kiindulásként, egyedi eltéréssel: Párbajtőr 2; nyílpuskák +1 az
+  újratöltés miatt (Kézinyílpuska 4, Könnyű- és Nehéznyílpuska 5). Mind a
+  31 fegyver SZ-e kitöltve. Lehet d12-es fegyver is; ennek SZ-e 5 legyen.
+  Jellemzők (2026.10.26.): a fegyverek tulajdonságainak neve „jellemző”
+  (nem „tulajdonság”, az a hat alaptulajdonság). A Jellemzők oszlop az
+  alapjellemzőket adja; a jártassági oszlopok (Képzetlen–Mester) a
+  szintenként feloldott jellemzőket. Új szakasz: Fegyverek › Jellemzők, két
+  bejegyzéssel (Zoz példái): Átütő X, Halálos. A „tag” csak
+  dizájnfilozófia, a könyvben nem szerepel. A varázslás is hasonló
+  rendszert kap majd.
+  Javítás: Általános fegyverek – magyarázó bekezdés a táblázat fölé; új
+  „### Jellemzők” szakasz a Különleges fegyverek után; Zónák és hatótávok ›
+  Rövid táv: „reach tulajdonságú” → „reach jellemzőjű”.
+  Hátravan: a jártassági oszlopok kitöltése, a többi jellemző leírása
+  (kétkezes, reach, lefegyverző, hatótávok), a fegyvermanőverek. A „Mid Range /
   Far Range” angol címke a H-48-cal együtt cserélhető.
 
 ----------------------------------------------------------------
@@ -1443,6 +1458,10 @@ Javítás: wispers-0.8-javitott.txt › II. rész › 6. Mentődobások, sebesü
   alcímmel.
 Megjegyzés: Hátravan: a Sebzéstípusok. A „Fight or flight” név nem került a
   szövegbe; a „biztos táv” az Értelmezhetetlen táv lett.
+  Irány (Zoz, 2026.10.26.): a sebzéstípusok is jellemzők legyenek (például
+  szúró, zúzó). Pontalapú sebzés nincs, ezért a „tűzsebzés okozása” mint
+  külön sebzésmennyiség értelmetlen; a hatást a jellemző írja le. A
+  Sebzéstípusok szakasz egyelőre helyőrző maradt.
 
 ----------------------------------------------------------------
 [H-60] KISEBB – Hivatkozások
@@ -1867,3 +1886,6 @@ NAPLÓ – mi történt, mikor
 2026.10.25.  D-1 és H-65 JAVÍTVA – a bemondott szám felső határa 20.
 2026.10.25.  H-30 – SZ öt fegyvernél (Tőr 2, Rövidkard 2, Hosszúkard 3, Csatabárd 4,
              Nagykalapács 4).
+2026.10.26.  H-30 – SZ mind a 31 fegyvernél; Jellemzők szakasz (Átütő X,
+             Halálos); a fegyverek tulajdonságainak neve: jellemző.
+2026.10.26.  H-59 – irány: a sebzéstípusok is jellemzők.

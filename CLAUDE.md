@@ -39,6 +39,11 @@ Keep replies short and in Hungarian. Put the proposal and the question at the en
 - Wounds: Könnyű / Mély / Súlyos seb by sebhatár (reaching it counts), plus Kimerültség. Sebdobás: 1d8 + the number
   of Sebek of the same severity (not all Sebek) + the weapon's találati mátrix; 21+ is one fok worse. Wounds must be
   hard to heal; the healing rule comes later.
+- Weapon properties are called „jellemző” (never „tulajdonság”, that is the six attributes). The Jellemzők column holds
+  base jellemzők; the weapon table's Képzetlen–Mester columns hold jellemzők unlocked at that proficiency level. Each
+  jellemző has a description and an effect (Fegyverek › Jellemzők). Damage types should be jellemzők too, and magic
+  will get a similar system. „Tag” is design vocabulary only, never in the book. SZ: d4 2, d6 3, d8 4, d10 4, d12 5,
+  with individual exceptions.
 - Harci távok are abstract: Közelharci táv, Rövid táv, Közepes táv, Nagy táv, Értelmezhetetlen. „reach” and (for now) „Glaive” stay English.
 
 ## State (2026-10-25)

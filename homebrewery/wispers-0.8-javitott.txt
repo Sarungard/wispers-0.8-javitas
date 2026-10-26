@@ -1240,7 +1240,7 @@ Ezen a hatótávon pusztakézzel vagy közelharci fegyverekkel mozgás nélkül 
 
 #### Rövid táv
 
-Ezen a távon reach tulajdonságú közelharci fegyverekkel még eléred az ellenfeled. Távolsági fegyverek használata és a varázslás már zökkenőmentes.
+Ezen a távon reach jellemzőjű közelharci fegyverekkel még eléred az ellenfeled. Távolsági fegyverek használata és a varázslás már zökkenőmentes.
 
 #### Közepes táv
 
@@ -2921,45 +2921,59 @@ Olyan fegyvercsoport fegyverével, amelyben a karakter Képzetlen, nem támadhat
 
 ### Általános fegyverek
 
+A Jellemzők oszlop azokat a jellemzőket adja meg, amelyekkel a fegyver bárki kezében rendelkezik. A jártassági oszlopokban (Képzetlen–Mester) azok a jellemzők állnak, amelyeket a karakter az adott jártassági szinttől old fel a fegyveren; a magasabb szint az alacsonyabbakét is megadja. A jellemzők hatását a Jellemzők szakasz írja le.
+
 ##### Általános fegyverek
 | Fegyver | Fegyverkocka | SZ | Jellemzők | Könnyű | Mély | Súlyos | Fegyvercsoport | Képzetlen | Kezdő | Képzett | Haladó | Tapasztalt | Mester |
 |:--|:--:|:--:|:--:|:--:|:--:|:--:|:--|:--:|:--:|:--:|:--:|:--:|:--:|
 | Tőr | 1d4 | 2 | | 1 | 1 | 4 | Tőrök | - | | | | | |
-| Párbajtőr | 1d6 | | | 1 | 1 | 4 | Tőrök | - | | | | | |
-| Hosszútőr | 1d6 | | | 1 | 1 | 4 | Tőrök | - | | | | | |
-| Fegyvertörő | 1d4 | | lefegyverző | 1 | 1 | 4 | Tőrök | - | | | | | |
-| Sétabot | 1d6 | | | 1 | 2 | 3 | Szálfegyverek | - | | | | | |
-| Lándzsa | 1d6 | | reach | 1 | 2 | 3 | Szálfegyverek | - | | | | | |
-| Szigony | 1d6 | | reach | 1 | 2 | 3 | Szálfegyverek | - | | | | | |
-| Glaive | 1d10 | | kétkezes, reach | 2 | 3 | 4 | Szálfegyverek | - | | | | | |
-| Szekerce | 1d4 | | | 1 | 3 | 2 | Fejszék | - | | | | | |
-| Harci-fejsze | 1d6 | | | 1 | 3 | 2 | Fejszék | - | | | | | |
+| Párbajtőr | 1d6 | 2 | | 1 | 1 | 4 | Tőrök | - | | | | | |
+| Hosszútőr | 1d6 | 3 | | 1 | 1 | 4 | Tőrök | - | | | | | |
+| Fegyvertörő | 1d4 | 2 | lefegyverző | 1 | 1 | 4 | Tőrök | - | | | | | |
+| Sétabot | 1d6 | 3 | | 1 | 2 | 3 | Szálfegyverek | - | | | | | |
+| Lándzsa | 1d6 | 3 | reach | 1 | 2 | 3 | Szálfegyverek | - | | | | | |
+| Szigony | 1d6 | 3 | reach | 1 | 2 | 3 | Szálfegyverek | - | | | | | |
+| Glaive | 1d10 | 4 | kétkezes, reach | 2 | 3 | 4 | Szálfegyverek | - | | | | | |
+| Szekerce | 1d4 | 2 | | 1 | 3 | 2 | Fejszék | - | | | | | |
+| Harci-fejsze | 1d6 | 3 | | 1 | 3 | 2 | Fejszék | - | | | | | |
 | Csatabárd | 1d8 | 4 | | 1 | 4 | 2 | Fejszék | - | | | | | |
-| Kétkezes-csatabárd | 1d10 | | kétkezes | 2 | 4 | 3 | Fejszék | - | | | | | |
+| Kétkezes-csatabárd | 1d10 | 4 | kétkezes | 2 | 4 | 3 | Fejszék | - | | | | | |
 | Rövidkard | 1d4 | 2 | | 2 | 2 | 3 | Kardok | - | | | | | |
 | Hosszúkard | 1d6 | 3 | | 2 | 2 | 3 | Kardok | - | | | | | |
-| Szablya | 1d6 | | | 2 | 2 | 3 | Kardok | - | | | | | |
-| Fattyúkard | 1d8 | | | 2 | 2 | 4 | Kardok | - | | | | | |
-| Furkósbot | 1d4 | | | 2 | 3 | 1 | Buzogányok | - | | | | | |
-| Buzogány | 1d6 | | | 2 | 3 | 1 | Buzogányok | - | | | | | |
-| Tollasbuzogány | 1d6 | | | 2 | 3 | 1 | Buzogányok | - | | | | | |
-| Tüskésbuzogány | 1d6 | | | 2 | 3 | 1 | Buzogányok | - | | | | | |
-| Kézipöröly | 1d6 | | | 2 | 3 | 2 | Pörölyök | - | | | | | |
-| Csatacsákány | 1d6 | | | 2 | 3 | 2 | Pörölyök | - | | | | | |
-| Harcipöröly | 1d8 | | | 2 | 4 | 2 | Pörölyök | - | | | | | |
+| Szablya | 1d6 | 3 | | 2 | 2 | 3 | Kardok | - | | | | | |
+| Fattyúkard | 1d8 | 4 | | 2 | 2 | 4 | Kardok | - | | | | | |
+| Furkósbot | 1d4 | 2 | | 2 | 3 | 1 | Buzogányok | - | | | | | |
+| Buzogány | 1d6 | 3 | | 2 | 3 | 1 | Buzogányok | - | | | | | |
+| Tollasbuzogány | 1d6 | 3 | | 2 | 3 | 1 | Buzogányok | - | | | | | |
+| Tüskésbuzogány | 1d6 | 3 | | 2 | 3 | 1 | Buzogányok | - | | | | | |
+| Kézipöröly | 1d6 | 3 | | 2 | 3 | 2 | Pörölyök | - | | | | | |
+| Csatacsákány | 1d6 | 3 | | 2 | 3 | 2 | Pörölyök | - | | | | | |
+| Harcipöröly | 1d8 | 4 | | 2 | 4 | 2 | Pörölyök | - | | | | | |
 | Nagykalapács | 1d10 | 4 | kétkezes | 3 | 4 | 3 | Pörölyök | - | | | | | |
-| Rövidíj | 1d6 | | Közepes táv | 1 | 1 | 3 | Íjak | - | | | | | |
-| Hosszúíj | 1d8 | | Nagy táv | 1 | 1 | 4 | Íjak | - | | | | | |
-| Visszacsapóíj | 1d10 | | Nagy táv | 2 | 2 | 4 | Íjak | - | | | | | |
-| Kézinyílpuska | 1d6 | | Közepes táv | 1 | 2 | 3 | Íjpuskák | - | | | | | |
-| Könnyűnyílpuska | 1d8 | | Nagy táv | 1 | 2 | 4 | Íjpuskák | - | | | | | |
-| Nehéznyílpuska | 1d10 | | Nagy táv | 2 | 3 | 4 | Íjpuskák | - | | | | | |
+| Rövidíj | 1d6 | 3 | Közepes táv | 1 | 1 | 3 | Íjak | - | | | | | |
+| Hosszúíj | 1d8 | 4 | Nagy táv | 1 | 1 | 4 | Íjak | - | | | | | |
+| Visszacsapóíj | 1d10 | 4 | Nagy táv | 2 | 2 | 4 | Íjak | - | | | | | |
+| Kézinyílpuska | 1d6 | 4 | Közepes táv | 1 | 2 | 3 | Íjpuskák | - | | | | | |
+| Könnyűnyílpuska | 1d8 | 5 | Nagy táv | 1 | 2 | 4 | Íjpuskák | - | | | | | |
+| Nehéznyílpuska | 1d10 | 5 | Nagy táv | 2 | 3 | 4 | Íjpuskák | - | | | | | |
 
 ### Különleges fegyverek
 
 | Fegyver | Fegyverkocka | SZ | Jellemzők | Könnyű | Mély | Súlyos | Fegyvercsoport | Képzetlen | Kezdő | Képzett | Haladó | Tapasztalt | Mester |
 |:--|:--:|:--:|:--:|:--:|:--:|:--:|:--|:--:|:--:|:--:|:--:|:--:|:--:|
-| Emberfogó | 1d6 | | | 1 | 2 | 3 | Szálfegyverek | - | | | | | |
+| Emberfogó | 1d6 | 3 | | 1 | 2 | 3 | Szálfegyverek | - | | | | | |
+
+### Jellemzők
+
+A jellemzők leírják, miben tér el egy fegyver a többitől. Minden jellemzőnek leírása és hatása van.
+
+#### Átütő X
+
+A fegyver ellen a páncél Keménysége X-szel kevesebbnek számít.
+
+#### Halálos
+
+Ha támadáskor a jártasságkockád többet dob, mint a fegyverkockád, a támadás eggyel súlyosabb sebet okoz.
 
 ## Páncélok
 
