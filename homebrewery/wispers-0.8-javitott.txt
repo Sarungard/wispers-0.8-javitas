@@ -1695,11 +1695,9 @@ A karakter halott. Ez egy viszonylag permanens, ritkán visszafordítható álla
 
 ### Sebgyógyítás
 
-Ameddig egy karakter sebeinek száma nem éri el Állóképesség tulajdonságának értékét, addig a sebek gyógyíthatóak akár Orvoslás próba, vagy varázslatok segítségével.
+A sebek gyógyíthatóak akár Orvoslás próba, vagy varázslatok segítségével.
 
-A megszerzett sebek lassan, fokonként gyógyulnak: a Súlyos sebből Mély seb lesz, a Mélyből Könnyű, a Könnyű seb pedig meggyógyul. Amikor egy seb súlyossága így változik, nem kell sebdobást tenni, és az adott súlyosságú sebek száma ilyenkor 20 fölé is mehet. Amikor egy seb meggyógyul, heget hagy maga után.
-
-## Sebzéstípusok
+A megszerzett sebek lassan, fokonként gyógyulnak: a Súlyos sebből Mély seb lesz, a Mélyből Könnyű, a Könnyű seb pedig meggyógyul. Amikor egy seb súlyossága így változik, nem kell sebdobást tenni, és az adott súlyosságú sebek száma ilyenkor 20 fölé is mehet. Amikor egy seb meggyógyul, heget hagy maga után; a hegnek játékbeli hatása nincs.
 
 ## Állapotok
 
@@ -2060,7 +2058,7 @@ Emellett -1 hátrányt kapnak Ügyességre.
 
 Amikor egy magmavérű törpöt megvágnak, a kifröccsenő vére képes megégetni a közelében állókat.
 
-Ha egy törp sérülést szerez oly módon, hogy kifröccsen a vére, akkor reakcióból, 2 AP-ért kijelölhet egy karaktert 5 lábon belül. Az a karakter Könnyű sebet szenved el, a sebdobása pedig 1d8 + a törp Állóképessége.
+Ha egy törp sérülést szerez oly módon, hogy kifröccsen a vére, akkor reakcióból, 2 AP-ért kijelölhet egy karaktert Közelharci távon belül. Az a karakter Könnyű sebet szenved el, a sebdobása pedig 1d8 + a törp Állóképessége.
 
 #### Nemesek vérvonala
 

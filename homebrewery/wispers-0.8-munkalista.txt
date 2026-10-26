@@ -23,7 +23,7 @@ Jelölések: BLOKKOLÓ – enélkül nem játszható; ELLENTMONDÁS – két sza
 hivatkozik; KISEBB – szerkesztési hiba, elnevezés.
 
 ÖSSZESÍTŐ (frissítsd menet közben)
-  NYITOTT: 0   FOLYAMATBAN: 17   DÖNTÉSRE VÁR: 4   JAVÍTVA: 42   ELVETVE: 2
+  NYITOTT: 0   FOLYAMATBAN: 16   DÖNTÉSRE VÁR: 4   JAVÍTVA: 43   ELVETVE: 2
 
 
 ================================================================
@@ -497,7 +497,8 @@ Javítás: wispers-0.8-javitott.txt › III. rész › 1. Fajok › Magmavérűe
 Megjegyzés: Értelmezés: a törp Állóképességét írtam (az eredeti szöveg is
   azét használta); ha az elszenvedőét akartad, szólj. A reakció ára: a
   „reakcióból 2 Szegmens felhasználásával” helyett „reakcióból, 2 AP-ért”
-  (2026.10.26.). Maradt még egy lábban mért táv: „5 lábon belül” (vö. H-49).
+  (2026.10.26.). Az „5 lábon belül” helyett „Közelharci távon belül”
+  (2026.10.26., vö. H-49).
 
 ----------------------------------------------------------------
 [H-15] HIÁNY – Sérülésküszöb
@@ -1463,8 +1464,11 @@ Gyógyulás (Zoz, 2026.10.26.): a megszerzett sebek lassan, fokonként
   kell dobni, és az adott súlyosságú sebek száma ilyenkor 20 fölé is mehet.
   A meggyógyult seb heget hagy. Beírva a Sebgyógyítás szakaszba (a régi
   plafon-mondat után).
-Megjegyzés: Hátravan: a gyógyulás üteme (mennyi idő egy fok), a régi
-  Állóképesség-plafon sorsa és a plafon fölötti eset, a heg hatása. Eltérés
+  A heg csak narratív; az Állóképesség-plafon nem kell (2026.10.26.): a
+  Sebgyógyítás első mondatából a plafon kikerült („A sebek gyógyíthatóak
+  akár Orvoslás próba, vagy varázslatok segítségével.”), a heg mondata
+  kiegészült („a hegnek játékbeli hatása nincs”).
+Megjegyzés: Hátravan: a gyógyulás üteme (mennyi idő egy fok). Eltérés
   a CRPG-től: a WoundTrack.cs az összes sebet adja a sebdobáshoz. A D-3 óta a
   tünde Állóképessége a Világstandard (ajánlottan 3), így az első seb már nem
   gyógyíthatatlan. A „Blood on the water” név nem kell, a szabály a
@@ -1478,7 +1482,7 @@ Probléma: A HEAD-ben a Sebzéstípusok és az Állapotok üres címsor, a 0.8-b
   fekvő, öntudatlan, elájul, kimerültség, félelem, vakság) és sebzéstípusokat
   (tűzsebzés, mentális sebzés) használ.
 Teendő: A két lista megírása.
-Állapot: FOLYAMATBAN (2026.10.23.)
+Állapot: JAVÍTVA (2026.10.26.)
 Döntés: A két címsor a Sebgyógyítás után áll, mint a HEAD-ben. Állapotok
   (csak a könyvben már használtak): Megragadott – nincs Elmozdulás és
   Kihátrálás; Földön fekvő – egyes hátránnyal támad, Közelharci távról ellene
@@ -1495,8 +1499,9 @@ Megjegyzés: Hátravan: a Sebzéstípusok. A „Fight or flight” név nem ker�
   szövegbe; a „biztos táv” az Értelmezhetetlen táv lett.
   Irány (Zoz, 2026.10.26.): a sebzéstípusok is jellemzők legyenek (például
   szúró, zúzó). Pontalapú sebzés nincs, ezért a „tűzsebzés okozása” mint
-  külön sebzésmennyiség értelmetlen; a hatást a jellemző írja le. A
-  Sebzéstípusok szakasz egyelőre helyőrző maradt.
+  külön sebzésmennyiség értelmetlen; a hatást a jellemző írja le.
+  Eldöntve (2026.10.26.): külön Sebzéstípusok szakasz nem kell, az üres
+  címsor kikerült; a Jellemzők szakasz sem kap erről külön mondatot.
 
 ----------------------------------------------------------------
 [H-60] KISEBB – Hivatkozások
@@ -1934,3 +1939,5 @@ NAPLÓ – mi történt, mikor
 2026.10.26.  H-14 JAVÍTVA – Magmavér: reakcióból, 2 AP-ért.
 2026.10.26.  H-09 – a fix faji jellemzők maradnak; H-53 – repülő ellenfél csak
              reakcióból támadható vissza; H-58 – fokozatos gyógyulás, heg.
+2026.10.26.  H-14 – Magmavér: Közelharci távon belül. H-58 – plafon nélkül, a heg
+             csak narratív. H-59 JAVÍTVA – a Sebzéstípusok szakasz kikerült.
