@@ -23,7 +23,7 @@ Jelölések: BLOKKOLÓ – enélkül nem játszható; ELLENTMONDÁS – két sza
 hivatkozik; KISEBB – szerkesztési hiba, elnevezés.
 
 ÖSSZESÍTŐ (frissítsd menet közben)
-  NYITOTT: 0   FOLYAMATBAN: 19   DÖNTÉSRE VÁR: 4   JAVÍTVA: 40   ELVETVE: 2
+  NYITOTT: 0   FOLYAMATBAN: 18   DÖNTÉSRE VÁR: 4   JAVÍTVA: 41   ELVETVE: 2
 
 
 ================================================================
@@ -853,7 +853,10 @@ Javítás: wispers-0.8-javitott.txt
   névoszlop (a régi részleges fordításokkal) „Páncélcsoport” lett, üresen –
   a 2025.10.22-i verzióban ez volt a neve (Könnyű-/Közepes-/Nehézpáncél).
 Megjegyzés: Hátravan: Védőérték, Keménység, SZ, Reflexgátlás és
-  Páncélcsoport értékei. A Beleállás Keménység-vesztését a H-65 módosította
+  Páncélcsoport értékei. A páncéltábla SZ oszlopa AP lett (2026.10.26.):
+  azt jelöli, hány AP a páncél használata; alapesetben 0 (Beleállás),
+  egyelőre üres, balansz miatt később kaphat értéket.
+  A Beleállás Keménység-vesztését a H-65 módosította
   (2026.10.25.): minden Beleállás 1 Keménységet visz el, nem a felfogott
   értéket.
 
@@ -1156,11 +1159,23 @@ Máshol is érinti: Kitartó harcosok (0 AP), Rövid távú harcosok (3AP),
   (0 AP), varázslati komponensek (1/2/3 AP), SZ oszlop (H-30), Rohamozás
   (H-51), Reflex (H-57).
 Teendő: D-1.
-Állapot: FOLYAMATBAN (2026.10.22.)
+Állapot: JAVÍTVA (2026.10.26.)
 Döntés: lásd D-1 (AP = szegmens; reakció a következő körre bemondott számból).
+  A Célzott lövés és a Letaglózó lövés ára a fegyver AP-ja (2026.10.26.);
+  mindkettő hátránnyal jár, így megfelel az elvnek: a manőver vagy
+  hátránnyal jár, vagy több AP-be kerül, mint az alaptámadás. Az Ismételt
+  lövés kikerült: a licit már ad módot több támadásra, és mivel a reakció
+  nélküli támadás mindig talál, egy két alaptámadásnál olcsóbb dupla lövés
+  túl erős lenne. A gyorstüzelés később jártassághoz kötött jellemző lehet.
 Javítás: lásd D-1.
-Megjegyzés: Hátravan: a Célzott lövés és a Letaglózó lövés ára. A felső
-  határ eldőlt: 20 (D-1, 2026.10.25.).
+Javítás (2026.10.26.): Távharci fegyverrel végrehajtott cselekvések ›
+  Célzott lövés és Letaglózó lövés címsora: „{a fegyver AP-ja}”; az
+  „Ismételt lövés {2AP}” szakasz törölve; Általános cselekvéslista ›
+  Támadás: „{1-6AP}” helyett „{a fegyver AP-ja}”, a szövegben „Egy támadás
+  AP költségét a fegyver adja meg (lásd a fegyvertáblázat AP oszlopát).”
+  (A fegyverek AP-ja a tesztelés alatt változhat, ezért nincs számszerű
+  tartomány a címsorban.)
+Megjegyzés: A felső határ: 20 (D-1, 2026.10.25.).
 
 ----------------------------------------------------------------
 [H-46] ELLENTMONDÁS – A támadásba nem számít tulajdonság
@@ -1904,3 +1919,6 @@ NAPLÓ – mi történt, mikor
              Reach.
 2026.10.26.  H-30 – Lefegyverzés: lefegyverző fegyverrel a fegyverrel támad.
 2026.10.26.  H-30 – a fegyvertáblák SZ oszlopa AP lett.
+2026.10.26.  H-45 JAVÍTVA – Célzott és Letaglózó lövés: a fegyver AP-ja; az
+             Ismételt lövés kikerült; Támadás címsora: „{a fegyver AP-ja}”.
+2026.10.26.  H-32 – a páncéltábla SZ oszlopa AP lett.

@@ -1270,13 +1270,13 @@ A legtöbb itt felsorolt cselekvés alapértelmezetten a támadó félnél nem n
 
 Harc nagyobb méretű lények ellen részt lásd a fejezet végén.
 
-#### Támadás {1-6AP}
+#### Támadás {a fegyver AP-ja}
 
 Harc – főleg közelharc – alatt a karakterek próbálnak folyamatosan kontaktust létesíteni az ellenfelükkel annak reményében, hogy sebet ejthetnek rajta, komoly sérülést okozva és pontot téve a harc végére. Támadás akció alatt olyan manőverezést értünk, amitől egy olyan találatot remélsz, ami elég kárt okoz ahhoz, hogy következménye legyen.
 
 Támadáshoz dobj a fegyvered kockájával és a hozzátartozó jártasságkockával. A tulajdonságaid nem számítanak bele a támadásba. Pusztakezes támadásnál a fegyverkocka 1d2 (1d4/2), a jártasságkocka pedig a Pusztakezes harc jártasságodé. A védekező fél reagálhat a támadásodra a fejezetben leírt reakciók segítségével. Amennyiben nem teszi, vagy a reakciója sikertelen, elszenved egy Sebet.
 
-Egy támadás AP költsége a támadáshoz használt fegyvertől függ.
+Egy támadás AP költségét a fegyver adja meg (lásd a fegyvertáblázat AP oszlopát).
 
 #### Elmozdulás {2AP}
 
@@ -1414,21 +1414,17 @@ Fegyverenként eltérő, általában egyszer használható, használat után id�
 
 ### Távharci fegyverrel végrehajtott cselekvések
 
-#### Célzott lövés
+#### Célzott lövés {a fegyver AP-ja}
 
 A célpont bizonyos testrészét támadod kettős hátránnyal.
 
 **Siker:** a sebzés elszenvedése mellett a mesélő által szituációfüggő hatása is lesz a támadásnak.
 
-#### Letaglózó lövés
+#### Letaglózó lövés {a fegyver AP-ja}
 
 Tégy egy távolsági támadást egyes hátránnyal a célpont irányába.
 
 **Siker:** a célpont következő körében az Elmozdulás 4AP-be kerül.
-
-#### Ismételt lövés {2AP}
-
-Gyors egymásutánban leadsz két lövést ugyanarra a célpontra egyes hátránnyal.
 
 #### Manőverezés {2-3AP}
 
@@ -3000,7 +2996,7 @@ A fegyverrel Rövid távon is eléred az ellenfeled (lásd: Zónák és hatótá
 ### Jártasságok páncélokkal
 
 ##### Általános páncélok
-| Páncél | Védőérték | Keménység | SZ | Reflexgátlás | Páncélcsoport | Képzetlen | Kezdő | Képzett | Haladó | Tapasztalt | Mester |
+| Páncél | Védőérték | Keménység | AP | Reflexgátlás | Páncélcsoport | Képzetlen | Kezdő | Képzett | Haladó | Tapasztalt | Mester |
 |:--|:--:|:--:|:--:|:--:|:--|:--:|:--:|:--:|:--:|:--:|:--:|
 | Vállvért | | | | | | - | | | | | |
 | Pántos láncvért | | | | | | - | | | | | |
