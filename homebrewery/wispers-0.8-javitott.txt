@@ -2924,7 +2924,7 @@ Olyan fegyvercsoport fegyverével, amelyben a karakter Képzetlen, nem támadhat
 A Jellemzők oszlop azokat a jellemzőket adja meg, amelyekkel a fegyver bárki kezében rendelkezik. A jártassági oszlopokban (Képzetlen–Mester) azok a jellemzők állnak, amelyeket a karakter az adott jártassági szinttől old fel a fegyveren; a magasabb szint az alacsonyabbakét is megadja. A jellemzők hatását a Jellemzők szakasz írja le.
 
 ##### Általános fegyverek
-| Fegyver | Fegyverkocka | SZ | Jellemzők | Könnyű | Mély | Súlyos | Fegyvercsoport | Képzetlen | Kezdő | Képzett | Haladó | Tapasztalt | Mester |
+| Fegyver | Fegyverkocka | AP | Jellemzők | Könnyű | Mély | Súlyos | Fegyvercsoport | Képzetlen | Kezdő | Képzett | Haladó | Tapasztalt | Mester |
 |:--|:--:|:--:|:--:|:--:|:--:|:--:|:--|:--:|:--:|:--:|:--:|:--:|:--:|
 | Tőr | 1d4 | 2 | | 1 | 1 | 4 | Tőrök | - | | | | | |
 | Párbajtőr | 1d6 | 2 | | 1 | 1 | 4 | Tőrök | - | | | | | |
@@ -2959,7 +2959,7 @@ A Jellemzők oszlop azokat a jellemzőket adja meg, amelyekkel a fegyver bárki 
 
 ### Különleges fegyverek
 
-| Fegyver | Fegyverkocka | SZ | Jellemzők | Könnyű | Mély | Súlyos | Fegyvercsoport | Képzetlen | Kezdő | Képzett | Haladó | Tapasztalt | Mester |
+| Fegyver | Fegyverkocka | AP | Jellemzők | Könnyű | Mély | Súlyos | Fegyvercsoport | Képzetlen | Kezdő | Képzett | Haladó | Tapasztalt | Mester |
 |:--|:--:|:--:|:--:|:--:|:--:|:--:|:--|:--:|:--:|:--:|:--:|:--:|:--:|
 | Emberfogó | 1d6 | 3 | | 1 | 2 | 3 | Szálfegyverek | - | | | | | |
 

@@ -42,7 +42,8 @@ Keep replies short and in Hungarian. Put the proposal and the question at the en
 - Weapon properties are called „jellemző” (never „tulajdonság”, that is the six attributes). The Jellemzők column holds
   base jellemzők; the weapon table's Képzetlen–Mester columns hold jellemzők unlocked at that proficiency level. Each
   jellemző has a description and an effect (Fegyverek › Jellemzők). Damage types should be jellemzők too, and magic
-  will get a similar system. „Tag” is design vocabulary only, never in the book. SZ: d4 2, d6 3, d8 4, d10 4, d12 5,
+  will get a similar system. „Tag” is design vocabulary only, never in the book. Weapon AP (column „AP”, formerly SZ):
+  d4 2, d6 3, d8 4, d10 4, d12 5,
   with individual exceptions.
 - Harci távok are abstract: Közelharci táv, Rövid táv, Közepes táv, Nagy táv, Értelmezhetetlen. „reach” and (for now) „Glaive” stay English.
 

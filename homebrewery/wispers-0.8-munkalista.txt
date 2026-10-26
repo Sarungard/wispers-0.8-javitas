@@ -790,7 +790,11 @@ Megjegyzés: Hátravan: az SZ oszlop, a manőverek, a jártassági oszlopok. A
   Hátravan (később, Zoz): a jártassági oszlopok jellemzői, a
   fegyvermanőverek. Javítva (2026.10.26.): a Lefegyverzés lefegyverző
   fegyverrel már nem „pusztakezes támadást” kér, hanem támadást azzal a
-  fegyverrel. A „Mid Range /
+  fegyverrel.
+  Az SZ oszlop neve AP lett a két fegyvertáblában (2026.10.26.): a szegmens
+  a harc időegysége, az AP az erőforrás. A páncéltábla SZ oszlopa
+  változatlan. Elv a manőverekhez (Zoz): vagy hátránnyal kell őket
+  végrehajtani, vagy több AP-be kerüljenek, mint a fegyver alaptámadása. A „Mid Range /
   Far Range” angol címke a H-48-cal együtt cserélhető.
 
 ----------------------------------------------------------------
@@ -1899,3 +1903,4 @@ NAPLÓ – mi történt, mikor
 2026.10.26.  H-30 – Jellemzők: Kétkezes, Közepes táv, Lefegyverző, Nagy táv,
              Reach.
 2026.10.26.  H-30 – Lefegyverzés: lefegyverző fegyverrel a fegyverrel támad.
+2026.10.26.  H-30 – a fegyvertáblák SZ oszlopa AP lett.
