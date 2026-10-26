@@ -3007,27 +3007,31 @@ A fegyverrel Rövid távon is eléred az ellenfeled (lásd: Zónák és hatótá
 
 ### Jártasságok páncélokkal
 
+Képzetlen jártassággal egyik páncél sem viselhető.
+
+A Reflexgátlás a páncélt viselő karakter Reflex mentődobásaira, így a Kitérésre is ható hátrány.
+
 ##### Általános páncélok
 | Páncél | Védőérték | Keménység | AP | Reflexgátlás | Páncélcsoport | Képzetlen | Kezdő | Képzett | Haladó | Tapasztalt | Mester |
 |:--|:--:|:--:|:--:|:--:|:--|:--:|:--:|:--:|:--:|:--:|:--:|
-| Vállvért | | | | | | - | | | | | |
-| Pántos láncvért | | | | | | - | | | | | |
-| Keményített bőrvért | | | | | | - | | | | | |
-| Brigantin | | | | | | | | | | | |
-| Mellvért | | | | | | | | | | | |
-| Steppelt zeke | | | | | | | | | | | |
-| Láncing | | | | | | | | | | | |
-| Lemezes zeke | | | | | | | | | | | |
-| Jazeránvért | | | | | | | | | | | |
-| Ládamellű vért | | | | | | | | | | | |
-| Lamellás vért | | | | | | | | | | | |
-| Sávos lemezvért | | | | | | | | | | | |
-| Láncvért | | | | | | | | | | | |
-| Teljes lemezvért | | | | | | | | | | | |
-| Gyűrűs vért | | | | | | | | | | | |
-| Pikkelyvért | | | | | | | | | | | |
-| Sínvért | | | | | | | | | | | |
-| Vasalt bőrvért | | | | | | | | | | | |
+| Vállvért | 1 | 1 | | – | Könnyű | - | | | | | |
+| Pántos láncvért | 5 | 5 | | kettős hátrány | Nehéz | - | | | | | |
+| Keményített bőrvért | 2 | 2 | | – | Könnyű | - | | | | | |
+| Brigantin | 3 | 4 | | egyes hátrány | Közepes | - | | | | | |
+| Mellvért | 3 | 4 | | egyes hátrány | Közepes | - | | | | | |
+| Steppelt zeke | 1 | 2 | | – | Könnyű | - | | | | | |
+| Láncing | 3 | 3 | | egyes hátrány | Közepes | - | | | | | |
+| Lemezes zeke | 3 | 4 | | egyes hátrány | Közepes | - | | | | | |
+| Jazeránvért | 4 | 5 | | egyes hátrány | Közepes | - | | | | | |
+| Ládamellű vért | 6 | 6 | | kettős hátrány | Nehéz | - | | | | | |
+| Lamellás vért | 4 | 5 | | egyes hátrány | Közepes | - | | | | | |
+| Sávos lemezvért | 5 | 6 | | kettős hátrány | Nehéz | - | | | | | |
+| Láncvért | 4 | 4 | | egyes hátrány | Közepes | - | | | | | |
+| Teljes lemezvért | 6 | 6 | | kettős hátrány | Nehéz | - | | | | | |
+| Gyűrűs vért | 2 | 3 | | – | Könnyű | - | | | | | |
+| Pikkelyvért | 4 | 4 | | egyes hátrány | Közepes | - | | | | | |
+| Sínvért | 5 | 5 | | kettős hátrány | Nehéz | - | | | | | |
+| Vasalt bőrvért | 2 | 3 | | – | Könnyű | - | | | | | |
 
 # 6. Varázslatok
 

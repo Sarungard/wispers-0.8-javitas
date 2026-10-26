@@ -23,7 +23,7 @@ Jelölések: BLOKKOLÓ – enélkül nem játszható; ELLENTMONDÁS – két sza
 hivatkozik; KISEBB – szerkesztési hiba, elnevezés.
 
 ÖSSZESÍTŐ (frissítsd menet közben)
-  NYITOTT: 0   FOLYAMATBAN: 15   DÖNTÉSRE VÁR: 4   JAVÍTVA: 44   ELVETVE: 2
+  NYITOTT: 0   FOLYAMATBAN: 14   DÖNTÉSRE VÁR: 4   JAVÍTVA: 45   ELVETVE: 2
 
 
 ================================================================
@@ -840,7 +840,7 @@ Probléma: Minden érték (Védőérték, SZ, Reflexgátlás, jártasságok) ür
   (táblázat), „a páncélod keménysége” (Beleállás), „a páncél sebzésfelfogó
   értéke” (Reflex).
 Teendő: Értékek, magyar nevek, egy elnevezés.
-Állapot: FOLYAMATBAN (2026.10.22.)
+Állapot: JAVÍTVA (2026.10.26.)
 Döntés: Két külön érték. Védőérték: ennyivel növeli a sebhatárokat.
   Keménység: a páncéllal csökkenthető a karaktert ért találat a saját
   értékével; ekkor a páncél annyi Keménységet veszít, ahány sebet így
@@ -867,6 +867,15 @@ Megjegyzés: Hátravan: Védőérték, Keménység, SZ, Reflexgátlás és
   Páncélcsoport értékei. A páncéltábla SZ oszlopa AP lett (2026.10.26.):
   azt jelöli, hány AP a páncél használata; alapesetben 0 (Beleállás),
   egyelőre üres, balansz miatt később kaphat értéket.
+  Értékek (2026.10.26., Claude javaslata, Zoz elfogadta): három csoport –
+  Könnyű (Védőérték 1–2, Keménység 1–3, Reflexgátlás –), Közepes (3–4,
+  3–5, egyes hátrány), Nehéz (5–6, 5–6, kettős hátrány); a Keménység 6
+  fölé nem megy (a szimulációban 8-as Keménységnél a nehéz fegyverek
+  lemaradtak). Mind a 18 páncél kitöltve, a Képzetlen oszlopban mindenhol
+  „-”. Új szöveg a táblázat fölött: „Képzetlen jártassággal egyik páncél
+  sem viselhető.” és a Reflexgátlás leírása („…Reflex mentődobásaira, így
+  a Kitérésre is ható hátrány.”). Hátravan: az AP oszlop (később, ha
+  balansz miatt kell), a jártassági oszlopok jellemzői.
   A Beleállás Keménység-vesztését a H-65 módosította
   (2026.10.25.): minden Beleállás 1 Keménységet visz el, nem a felfogott
   értéket.
@@ -1976,3 +1985,5 @@ NAPLÓ – mi történt, mikor
 2026.10.26.  H-62 – elvek rögzítve; Varázslatok tanulása alapirány beírva.
 2026.10.26.  H-62 JAVÍTVA – 24 kezdőpont, szintenként 8 (+ kasztpontok), közös
              készlet, általános talent pontból; H-03 – kasztmodell rögzítve.
+2026.10.26.  H-32 JAVÍTVA – páncélértékek három csoportban, Reflexgátlás, Képzetlen
+             jártassággal nem viselhető.
