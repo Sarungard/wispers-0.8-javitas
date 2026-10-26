@@ -220,7 +220,11 @@ Hogyha nem első szinten szeretnétek kezdeni a játékot, arra is van lehetős�
 
 Egy tulajdonság egy ponttal való emelése 1 + az elérni kívánt érték pontba kerül: 1-re emelni 2 pont, 5-re emelni 6 pont.
 
-[Szerkesztői megjegyzés: kidolgozandó (H-62): a 0. szint pontjai; hogy szintenként 8 pont jár-e, vagy 8 + Tudás + egyéb bónusz (a karakterlap Fejlődéspontok blokkja szerint); a jártasságok fejlesztésének költsége; talentek és kasztok: pontköltség vagy garantált; a varázslatok tanulása fóliánsokból vagy mesterektől, a mágiaosztály-jártasság mögé zárva.]
+[Szerkesztői megjegyzés: kidolgozandó (H-62): a 0. szint pontjai; hogy szintenként 8 pont jár-e, vagy 8 + Tudás + egyéb bónusz (a karakterlap Fejlődéspontok blokkja szerint); a jártasságok fejlesztésének költsége; talentek és kasztok: pontköltség vagy garantált.]
+
+### Varázslatok tanulása
+
+A varázslatokat fóliánsokból vagy mesterektől lehet megtanulni. Hogy egy karakter mely varázslatokat tanulhatja meg, azt a mágiaosztályokban szerzett jártassága szabja meg. Ez az alapvető irány; a részletek a varázslatok fejezetével együtt készülnek el.
 
 # II. rész
 ## Szabályok

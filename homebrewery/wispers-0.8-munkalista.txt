@@ -1597,6 +1597,19 @@ Megjegyzés: Hátravan: a 0. szint pontjai; szintenként 8, vagy 8 + Tudás +
   költségei; talent és kaszt: pontköltség vagy garantált; varázslattanulás.
   A jegyzet „mágiaiskolát” ír, a könyvben ma mágiaosztály (H-55), és
   harcmodoroknak, nyelveknek is jártasságot ad, ami a könyvben nincs.
+  Elvek (Zoz, 2026.10.26.):
+  – A tulajdonságokat és a jártasságokat ugyanabból a pontkészletből kell
+    fejleszteni.
+  – A 0. szint pontjai adjanak elég kezdőértéket, de a karakteralkotás ne a
+    szuperfókusz felé vigyen; a szélsőségek lehetségesek maradnak.
+  – A Tudás ne legyen kötelező „fun-tax”, és ne legyen a legerősebb
+    tulajdonság.
+  – Minden fejleszthető dolog egyénileg legyen beárazva; nincs egységes
+    költségszabály. Dizájnfilozófia (nem szabály): jártasság 1/4/10/19/31
+    (Kezdő–Mester).
+  – Varázslattanulás: fóliánsokból vagy mesterektől, a mágiaosztály-
+    jártasság szabja meg; ez az alapvető irány (beírva: Játék magasabb
+    szinten › Varázslatok tanulása, a szerkesztői megjegyzésből kivéve).
 
 
 ----------------------------------------------------------------
@@ -1941,3 +1954,4 @@ NAPLÓ – mi történt, mikor
              reakcióból támadható vissza; H-58 – fokozatos gyógyulás, heg.
 2026.10.26.  H-14 – Magmavér: Közelharci távon belül. H-58 – plafon nélkül, a heg
              csak narratív. H-59 JAVÍTVA – a Sebzéstípusok szakasz kikerült.
+2026.10.26.  H-62 – elvek rögzítve; Varázslatok tanulása alapirány beírva.
