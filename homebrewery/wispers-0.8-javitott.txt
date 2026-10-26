@@ -1354,7 +1354,7 @@ Ha olyat próbálsz feldönteni, akit korábban megragadtál, ez a cselekvés cs
 
 **Előfeltétel:** legyen legalább egy szabad kezed vagy lefegyverző fegyver a kezedben.
 
-Megpróbálod kicsavarni a célpont által tartott fegyvert pusztakézzel vagy lefegyverző fegyverrel. Tégy egy pusztakezes támadást a célpont irányába. A célpont dönthet úgy, hogy nem próbál ellenállni.
+Megpróbálod kicsavarni a célpont által tartott fegyvert pusztakézzel vagy lefegyverző fegyverrel. Tégy egy pusztakezes támadást a célpont irányába, lefegyverző fegyverrel pedig egy támadást azzal a fegyverrel. A célpont dönthet úgy, hogy nem próbál ellenállni.
 
 **Siker:** az ellenfeled fegyvertelenné válik.
 
