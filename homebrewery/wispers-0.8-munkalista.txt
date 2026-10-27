@@ -24,7 +24,7 @@ Jelölések: BLOKKOLÓ – enélkül nem játszható; ELLENTMONDÁS – két sza
 hivatkozik; KISEBB – szerkesztési hiba, elnevezés.
 
 ÖSSZESÍTŐ (frissítsd menet közben)
-  NYITOTT: 18   FOLYAMATBAN: 13   DÖNTÉSRE VÁR: 4   JAVÍTVA: 50   ELVETVE: 2
+  NYITOTT: 17   FOLYAMATBAN: 13   DÖNTÉSRE VÁR: 4   JAVÍTVA: 51   ELVETVE: 2
 
 
 ================================================================
@@ -1920,7 +1920,16 @@ Probléma: (§2) D4-es tulajdonsággal (Világstandard 3) a Részleges siker
   sikert (és vele az Áhítatot) csökkentheti.
 Teendő: Eldönteni, mi szándékos („a képzettség tiszta, az erő piszkos”),
   és azt kimondani; a többit javítani.
-Állapot: NYITOTT
+Állapot: JAVÍTVA (2026.10.27.)
+Döntés: Az eloszlás szándékos és marad; a szöveg kimondja.
+Javítás: Képzettségpróbák: a bevezető után új bekezdés („A két kocka
+  viszonya a karakter stílusát mutatja. …”).
+Megjegyzés: Az ajánlott célértékekkel (V-03), egyforma kockákkal a
+  saját szintű próba kb. 33/25/25/17 (Abszolút / Részleges / Bukás /
+  Kritikus bukás), egy szinttel nehezebben a Kritikus bukás 30% körül.
+  D4+d8 mellett Részleges siker szinte nincs, d8+d4 mellett 62%. A
+  Kritikus bukás gyakorisága a V-06 (következmény-menü), az előny hatása
+  a V-07, az árak aránya a V-13 része.
 
 ----------------------------------------------------------------
 [V-06] A négy kimenetel a többi alrendszerben
@@ -2347,3 +2356,5 @@ NAPLÓ – mi történt, mikor
              9, 11, 13); a mesélő finomíthat rajta.
 2026.10.27.  V-04 JAVÍTVA – Képzetlen: legfeljebb Képzetlen szintű próba, csak
              tulajdonságkockával, mindig erőltetés; a képzettséglista marad.
+2026.10.27.  V-05 JAVÍTVA – a négy kimenetel eloszlása marad; a szándék a
+             Képzettségpróbák bevezetőjébe került.

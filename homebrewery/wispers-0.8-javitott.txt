@@ -964,6 +964,8 @@ A tolvajok, zsebesek, bűvészek és csalók képessége: kézügyesség, észre
 
 Képzettségpróbára akkor kerül sor, amikor a karakternek olyan szituációban kell helytállnia, ahol hasznosíthatja a tudását. Minden képzettségpróba két kockát használ. A felhasznált képességed jártasságkockáját és a tulajdonságkockáját annak a tulajdonságodnak, amellyel a próbát szeretnéd teljesíteni. A két kockával egyszerre dobsz, és két dolgot nézel meg. A dobott értékek összege dönti el, hogy eléred-e a célértéket. A két kocka egymáshoz mérve pedig azt, hogyan: ha a jártasságkockád legalább annyit dob, mint a tulajdonságkockád, a próbát szakértelemmel teszed, ha kevesebbet, erőltetéssel. A kettőből négyféle kimenetel adódik.
 
+A két kocka viszonya a karakter stílusát mutatja. Akinek a jártassága nagyobb a tulajdonságánál, az többnyire szakértelemmel dob: tisztán sikerül vagy tisztán bukik. Akinek a tulajdonsága nagyobb, az gyakran erőltet: sokszor sikerül neki, de a sikernek ára van, és a bukása is súlyosabb.
+
 #### Célérték
 
 A próba nehézségét a mesélő a próba szintjével adja meg. A szint dönti el, ki kísérelheti meg a próbát (lásd: Jártassági szintek), és ajánlást ad a célértékre.
