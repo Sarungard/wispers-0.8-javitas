@@ -24,7 +24,7 @@ Jelölések: BLOKKOLÓ – enélkül nem játszható; ELLENTMONDÁS – két sza
 hivatkozik; KISEBB – szerkesztési hiba, elnevezés.
 
 ÖSSZESÍTŐ (frissítsd menet közben)
-  NYITOTT: 19   FOLYAMATBAN: 13   DÖNTÉSRE VÁR: 4   JAVÍTVA: 49   ELVETVE: 2
+  NYITOTT: 18   FOLYAMATBAN: 13   DÖNTÉSRE VÁR: 4   JAVÍTVA: 50   ELVETVE: 2
 
 
 ================================================================
@@ -1896,7 +1896,19 @@ Probléma: (§2, §5, top 3) A Képzetlen sor szerint „Ezzel a jártassággal
   a legtöbb karakter meg sem kísérelheti, Vadonjárás nélkül a csapat
   minden nap eltéved.
 Teendő: Képzetlen próba szabálya; a lista szűkítése vagy összevonása.
-Állapot: NYITOTT
+Állapot: JAVÍTVA (2026.10.27.)
+Döntés: Képzetlen jártassággal legfeljebb Képzetlen szintű próba tehető,
+  csak a tulajdonságkockával, mindig erőltetéssel. A képzettséglista
+  nem szűkül.
+Javítás: Jártassági szintek › Képzetlen sor: „Ezzel a jártassággal
+  próbát nem tehet.” helyett „Megpróbálhat maximum Képzetlen szintet
+  igénylő próbákat. / Csak a tulajdonságkockájával dob, a próbát mindig
+  erőltetéssel teszi.”
+Megjegyzés: Az erőltetés a meglévő szabályból következik (nincs
+  jártasságkocka, amely legalább annyit dobhatna). Az eredmény így csak
+  Részleges siker vagy Kritikus bukás; 3-as célértékre d4-gyel 50%,
+  d6-tal 67%, d8-cal 75%. CRPG-eltérés: a rules-0.8-alignment ágon az egy
+  kockás dobás szakértelem.
 
 ----------------------------------------------------------------
 [V-05] A négy kimenetel aránya
@@ -2333,3 +2345,5 @@ NAPLÓ – mi történt, mikor
              licit a harc kezdetén, a többi a kör végén.
 2026.10.27.  V-03 JAVÍTVA – ajánlott célérték a próba szintje szerint (3, 5, 7,
              9, 11, 13); a mesélő finomíthat rajta.
+2026.10.27.  V-04 JAVÍTVA – Képzetlen: legfeljebb Képzetlen szintű próba, csak
+             tulajdonságkockával, mindig erőltetés; a képzettséglista marad.

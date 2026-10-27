@@ -38,6 +38,8 @@ Keep replies short and in Hungarian. Put the proposal and the question at the en
 - Attacks: weapon die + proficiency die, no attribute. Unarmed: 1d2 (1d4/2) with the Pusztakezes harc proficiency.
 - Célérték (V-03): the GM sets the check's level, which gates who may try and suggests the célérték: Képzetlen 3, Kezdő 5,
   Képzett 7, Haladó 9, Tapasztalt 11, Mester 13. Only a recommendation; the GM may and should adjust it.
+- Képzetlen (V-04): may try Képzetlen-level checks only, rolls the attribute die alone, always erőltetés. The 42-skill
+  list stays; do not propose trimming it.
 - Kimerültség: −1 per level to every roll; death when it exceeds 2× Állóképesség; wounds never give Kimerültség (V-01).
 - Wounds: Könnyű / Mély / Súlyos seb by sebhatár (reaching it counts). Sebdobás: 1d8 + the number
   of Sebek of the same severity (not all Sebek) + the weapon's találati mátrix; 21+ is one fok worse. Wounds must be

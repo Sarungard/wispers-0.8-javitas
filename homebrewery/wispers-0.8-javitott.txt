@@ -310,7 +310,7 @@ A karakterek rendelkeznek mentődobásokban, különféle Képzettségekben, má
 
 | Jártassági szintek | Bónuszok |
 |:--|:--|
-| Képzetlen | Nincs jártasságkocka. / Passzív jártasságbónusz: 0. / Ezzel a jártassággal próbát nem tehet. |
+| Képzetlen | Nincs jártasságkocka. / Passzív jártasságbónusz: 0. / Megpróbálhat maximum Képzetlen szintet igénylő próbákat. / Csak a tulajdonságkockájával dob, a próbát mindig erőltetéssel teszi. |
 | Kezdő | Jártasságkocka d4. / Passzív jártasságbónusz: 2. / Megpróbálhat maximum Képzett szintet igénylő próbákat. |
 | Képzett | Jártasságkocka d6. / Passzív jártasságbónusz: 3. / Megpróbálhat maximum Haladó szintet igénylő próbákat. |
 | Haladó | Jártasságkocka d8. / Passzív jártasságbónusz: 4. / Megpróbálhat maximum Tapasztalt szintet igénylő próbákat. / Automatikusan sikerülnek maximum Képzetlen szintet igénylő próbák. |
