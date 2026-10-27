@@ -964,9 +964,24 @@ A tolvajok, zsebesek, bűvészek és csalók képessége: kézügyesség, észre
 
 Képzettségpróbára akkor kerül sor, amikor a karakternek olyan szituációban kell helytállnia, ahol hasznosíthatja a tudását. Minden képzettségpróba két kockát használ. A felhasznált képességed jártasságkockáját és a tulajdonságkockáját annak a tulajdonságodnak, amellyel a próbát szeretnéd teljesíteni. A két kockával egyszerre dobsz, és két dolgot nézel meg. A dobott értékek összege dönti el, hogy eléred-e a célértéket. A két kocka egymáshoz mérve pedig azt, hogyan: ha a jártasságkockád legalább annyit dob, mint a tulajdonságkockád, a próbát szakértelemmel teszed, ha kevesebbet, erőltetéssel. A kettőből négyféle kimenetel adódik.
 
+#### Célérték
+
+A próba nehézségét a mesélő a próba szintjével adja meg. A szint dönti el, ki kísérelheti meg a próbát (lásd: Jártassági szintek), és ajánlást ad a célértékre.
+
+| A próba szintje | Ajánlott célérték |
+|:--|:--:|
+| Képzetlen | 3 |
+| Kezdő | 5 |
+| Képzett | 7 |
+| Haladó | 9 |
+| Tapasztalt | 11 |
+| Mester | 13 |
+
+A táblázat ajánlás. A mesélő finomíthat rajta, és finomítson is, ha úgy látja jónak.
+
 #### Próba önmagad / szituáció ellen
 
-**Célérték:** a mesélő határozza meg.
+**Célérték:** a mesélő határozza meg, a próba szintje alapján (lásd: Célérték).
 
 **Abszolút siker:** eléred a célértéket, szakértelemmel. A próba sikeres, tisztán és maradéktalanul.
 
@@ -980,7 +995,7 @@ Képzettségpróbára akkor kerül sor, amikor a karakternek olyan szituációba
 
 A rizikós próba ugyanúgy működik, mint a sima próba, ám ezt akkor használjuk, hogyha olyan dolgot próbálsz megkísérelni, aminek súlyos következménye lehet rád nézve a kimeneteltől függően. Pl. Egy felétek zúgó szikla ellökése vagy egy mágiavihar csillapítása.
 
-**Célérték:** a mesélő határozza meg.
+**Célérték:** a mesélő határozza meg, a próba szintje alapján (lásd: Célérték).
 
 A Seb súlyosságát (Könnyű, Mély vagy Súlyos) a mesélő rendeli a próbához.
 
@@ -996,7 +1011,7 @@ A Seb súlyosságát (Könnyű, Mély vagy Súlyos) a mesélő rendeli a próbá
 
 Próbára másvalaki ellen akkor kerül sor, hogyha olyan dolgot akarsz megkísérelni, aminek az eredményére valaki más is hatással van, pl. Szkandereztek vagy egyszerre vetődtök egy leeső erszény után. Mindketten tegyetek egy próbát a szituáció ellen (ez helyzettől függően lehet rizikós próba is!) és amelyikőtök magasabb értékkel ér el sikert, ő nyeri a próbát.
 
-**Célérték:** a mesélő által meghatározott érték vagy a másik résztvevő eredménye, amelyik nagyobb.
+**Célérték:** a mesélő által a próba szintje alapján meghatározott érték (lásd: Célérték) vagy a másik résztvevő eredménye, amelyik nagyobb.
 
 **Siker:** a próba sikeres.
 
@@ -1136,7 +1151,7 @@ A táborozási szegmens kihagyásával a csapat minden tagja 2 szintnyi kimerül
 
 ### Cselekvések
 
-A cselekvések próbáinak célértékét a mesélő határozza meg.
+A cselekvések próbáinak célértékét a mesélő határozza meg, a próba szintje alapján (lásd: Képzettségpróbák › Célérték).
 
 #### Tájékozódás
 

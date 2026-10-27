@@ -24,7 +24,7 @@ Jelölések: BLOKKOLÓ – enélkül nem játszható; ELLENTMONDÁS – két sza
 hivatkozik; KISEBB – szerkesztési hiba, elnevezés.
 
 ÖSSZESÍTŐ (frissítsd menet közben)
-  NYITOTT: 20   FOLYAMATBAN: 13   DÖNTÉSRE VÁR: 4   JAVÍTVA: 48   ELVETVE: 2
+  NYITOTT: 19   FOLYAMATBAN: 13   DÖNTÉSRE VÁR: 4   JAVÍTVA: 49   ELVETVE: 2
 
 
 ================================================================
@@ -1867,7 +1867,22 @@ Probléma: (§2, top 2) A célértéket mindenhol a mesélő határozza meg,
   a próba szintje (pl. Haladó Orvoslás próba) mint második nehézségi
   tengely, a kettő viszonya nincs leírva.
 Teendő: Célérték-táblázat, és a próba szintjének helye ezen a tengelyen.
-Állapot: NYITOTT
+Állapot: JAVÍTVA (2026.10.27.)
+Döntés: Egy tengely: a mesélő a próba szintjét adja meg, ez dönti el, ki
+  kísérelheti meg, és ajánlott célértéket ad (Képzetlen 3, Kezdő 5,
+  Képzett 7, Haladó 9, Tapasztalt 11, Mester 13). A skála csak ajánlás, a
+  mesélő finomíthat rajta, és finomítson is, ha úgy látja jónak.
+Javítás: Képzettségpróbák: új „Célérték” alcím a táblázattal és az
+  ajánlás mondatával; a sima és a rizikós próba célértéke: „a mesélő
+  határozza meg, a próba szintje alapján (lásd: Célérték)”; Próba
+  másvalaki ellen: „a mesélő által a próba szintje alapján meghatározott
+  érték (lásd: Célérték)”; Utazás: a cselekvések próbáinak célértéke a
+  próba szintje alapján.
+Megjegyzés: Esélyek, ha a tulajdonság és a jártasság együtt nő (d4+d4
+  Kezdő … d12+d12 Mester): saját szintű próba 54–62%, egy szinttel
+  nehezebb 19–36%. A szociális konfrontáció „célérték” szava (a számláló
+  célja) a V-16-ban marad. A javasolt „a helyzetet előny vagy hátrány
+  jelzi, nem a célérték” mondat nem került be.
 
 ----------------------------------------------------------------
 [V-04] ELLENTMONDÁS – Képzetlen próba és a képzettséglista
@@ -2316,3 +2331,5 @@ NAPLÓ – mi történt, mikor
              határa az Állóképesség kétszerese; sebből nem jár Kimerültség.
 2026.10.27.  V-01 – a három pótolt sebtáblasor jóváhagyva. V-02 JAVÍTVA – az első
              licit a harc kezdetén, a többi a kör végén.
+2026.10.27.  V-03 JAVÍTVA – ajánlott célérték a próba szintje szerint (3, 5, 7,
+             9, 11, 13); a mesélő finomíthat rajta.
