@@ -6,8 +6,9 @@ Alapszöveg:   homebrewery/wispers-0.8.md (2026.10.03.) – a 0.7.0c PDF átrend
 Munkaszöveg:  homebrewery/wispers-0.8-javitott.txt – ebbe kerülnek a javítások
 Összevetve:   a HEAD-del (Játékok/Rpg/wispers-0.7.0b.docx, 2026.08.11.)
 Sorszámok:    H-01–H-61 azonos a wispers-0.7.0b-hibalista.pdf sorszámaival;
-              a H-62-től kezdődő tételek menet közben kerültek be
-Frissítve:    2026.10.25.
+              a H-62-től kezdődő tételek menet közben kerültek be;
+              a V-tételek a vak átnézésből (2026.10.26.) jönnek
+Frissítve:    2026.10.27.
 
 HOGYAN HASZNÁLJUK
 Sorban végigmegyünk a tételeken. Minden tételnél négy sort töltünk ki:
@@ -23,7 +24,7 @@ Jelölések: BLOKKOLÓ – enélkül nem játszható; ELLENTMONDÁS – két sza
 hivatkozik; KISEBB – szerkesztési hiba, elnevezés.
 
 ÖSSZESÍTŐ (frissítsd menet közben)
-  NYITOTT: 0   FOLYAMATBAN: 13   DÖNTÉSRE VÁR: 4   JAVÍTVA: 46   ELVETVE: 2
+  NYITOTT: 21   FOLYAMATBAN: 13   DÖNTÉSRE VÁR: 4   JAVÍTVA: 47   ELVETVE: 2
 
 
 ================================================================
@@ -1797,6 +1798,306 @@ Megjegyzés: A felső határ: 20 (D-1). A reakció nélküli automatikus talála
 
 
 ================================================================
+VAK ÁTNÉZÉS (2026.10.26.) – V-TÉTELEK
+================================================================
+
+Forrás: Játékok/Rpg/wispers-0.8-vak-atnezes.md (subagent a
+tabletop-rpg-design skill-lel; csak a munkaszöveget olvasta, a
+munkalistát, a döntéseket és a szimulációkat nem). A V-tételek a review
+megállapításai, összevonva; a zárójeles § a review szakaszára utal. A
+review Kegyre vonatkozó javaslata a H-47-hez tartozik, ezért nem kapott
+külön tételt.
+
+----------------------------------------------------------------
+[V-01] Kimerültség és sebek
+Hol: II. rész › 1. A rendszer alapjai › Tulajdonságok › Kimerültség;
+     6. Mentődobások, sebesülés és halálozás › Seb › Sebdobás és a három
+     sebtáblázat
+Probléma: (§2, §3) Mély és Súlyos sebenként +1 Kimerültség jár, a
+  sebtáblák is adnak Kimerültséget, a halál pedig az Állóképesség fölött
+  jön; emberi Állóképességnél négy-hat találat öl.
+Teendő: A Kimerültség és a sebek viszonyának rendezése.
+Állapot: JAVÍTVA (2026.10.27.)
+Döntés: A Kimerültség határa az Állóképesség kétszerese; sebből nem
+  származik Kimerültség.
+Javítás: Tulajdonságok › Kimerültség: „Ha a Kimerültség meghaladja a
+  karakter Állóképességének kétszeresét, a karakter meghal. Sebből nem
+  származik Kimerültség.”; Sebdobás: a „(Mély és Súlyos sebnél adj hozzá
+  egyet a Kimerültségedhez is)” kikerült; sebtáblák: a Kimerültség
+  kikerült a Könnyű 10, 14, 18-19, a Mély 4-5, 10, 18-19 és a Súlyos 2-3,
+  8 sorból. Ahol így nem maradt hatás, javaslat került be: Könnyű 10
+  Elakadt lélegzet – a következő köröd végéig minden próbád egyes
+  hátránnyal; Mély 4-5 Bordazúzódás – a következő pihentető táborozási
+  szegmensig az Állóképességgel tett próbáid egyes hátránnyal; Mély 18-19
+  Nyílt törés – amíg nem látják el, a csonttörés hátránya kettős.
+Megjegyzés: A három pótolt sor javaslat (a táblák egésze is az, D-2).
+  Könnyű 14 és 18-19, valamint Súlyos 2-3 így csak esztétikai sérülés; a
+  táblák átdolgozásakor érdemes erősíteni őket. Sebből most a Súlyos seb
+  táblán át jön a halál (vérzés, csonkolás, 21+). CRPG-eltérés: ott a
+  Kimerültség halálhatára és a 0.8 sebtáblák még nincsenek bent.
+
+----------------------------------------------------------------
+[V-02] ELLENTMONDÁS – A licit időzítése
+Hol: II. rész › 4. Harc › Fogalmak a harc során › Kezdeményezés; A
+     karakter köre
+Probléma: (§3, §6) „Minden forduló kezdetén bemondasz egy számot”, a
+  karakter köre szerint viszont a kör végén „a játékos ismét mond egy
+  számot”. A reakciót „a soron következő körére bemondott számból”
+  fizeted, ehhez a számnak a köröd után már ismertnek kell lennie.
+Teendő: Egy időzítés rögzítése.
+Állapot: NYITOTT
+Megjegyzés: A review szerint a 20-as licit domináns, és szegmenssávot
+  javasol. A párbajszimulációk (2026.10.25., felső határ 20) ezt nem
+  igazolják: a nyitó licitek 6 és 20 között szóródnak. A CRPG a harc
+  elején kér licitet, utána a kör végén (InitiativeQueue.EndTurn).
+
+----------------------------------------------------------------
+[V-03] HIÁNY – Célérték-skála és a próba szintje
+Hol: II. rész › 2. Próbák és konfliktusok › Képzettségpróbák; 1. A
+     rendszer alapjai › Jártassági szintek
+Probléma: (§2, top 2) A célértéket mindenhol a mesélő határozza meg,
+  skála nincs; 2 és 24 közötti összegeknél ez vakon lövés. Mellette ott
+  a próba szintje (pl. Haladó Orvoslás próba) mint második nehézségi
+  tengely, a kettő viszonya nincs leírva.
+Teendő: Célérték-táblázat, és a próba szintjének helye ezen a tengelyen.
+Állapot: NYITOTT
+
+----------------------------------------------------------------
+[V-04] ELLENTMONDÁS – Képzetlen próba és a képzettséglista
+Hol: II. rész › 1. A rendszer alapjai › Jártassági szintek; Képzettségek;
+     3. Utazás és felfedezés
+Probléma: (§2, §5, top 3) A Képzetlen sor szerint „Ezzel a jártassággal
+  próbát nem tehet.”, a Haladó sor mégis „Képzetlen szintet igénylő
+  próbák”-ról beszél. 42 képzettség van, átfedésekkel
+  (Osonás/Rejtőzés, Csapdaállítás/Csapdakeresés,
+  Legendaismeret/Történészet, Csábítás/Szexuálkultúra); a legtöbb próbát
+  a legtöbb karakter meg sem kísérelheti, Vadonjárás nélkül a csapat
+  minden nap eltéved.
+Teendő: Képzetlen próba szabálya; a lista szűkítése vagy összevonása.
+Állapot: NYITOTT
+
+----------------------------------------------------------------
+[V-05] A négy kimenetel aránya
+Hol: II. rész › 2. Próbák és konfliktusok › Képzettségpróbák
+Probléma: (§2) D4-es tulajdonsággal (Világstandard 3) a Részleges siker
+  6% alatt marad; a Kritikus bukás a gyakori kombinációkban 15–40%.
+  Nem monoton hatások: magas célértéknél a tulajdonság emelése növeli a
+  Kritikus bukást; az előny a kisebb kockát növeli, ami az Abszolút
+  sikert (és vele az Áhítatot) csökkentheti.
+Teendő: Eldönteni, mi szándékos („a képzettség tiszta, az erő piszkos”),
+  és azt kimondani; a többit javítani.
+Állapot: NYITOTT
+
+----------------------------------------------------------------
+[V-06] A négy kimenetel a többi alrendszerben
+Hol: II. rész › 2. Szociális konfrontáció; 3. Utazás és felfedezés;
+     4. Harc
+Probléma: (top 7) A szociális, az utazási és a harci szabályok
+  kétállásúak (Siker/Bukás); a négy kimenetelt a képzettségpróbán kívül
+  csak a Hazugság használja.
+Teendő: Cselekvésenként a Részleges siker és a Kritikus bukás jelentése,
+  és egy következmény-menü a mesélőnek.
+Állapot: NYITOTT
+
+----------------------------------------------------------------
+[V-07] Előny és hátrány pontosítása
+Hol: II. rész › 1. A rendszer alapjai › Előny és hátrány
+Probléma: (§2, top 8) Nem tudni, melyik kocka nő, ha a kettő egyforma
+  (ettől függ a szakértelem). Nincs leírva, mi jön a harmadik d4 után
+  (plafon), és mi történik az egyetlen d4 alatt (padló).
+Teendő: Egyenlőségi szabály, plafon, padló; a két kocka
+  megkülönböztetése (pl. színkód).
+Állapot: NYITOTT
+
+----------------------------------------------------------------
+[V-08] A Kimerültség módosítója
+Hol: II. rész › 1. A rendszer alapjai › Tulajdonságok › Kimerültség
+Probléma: (§2) A Kimerültség az egyetlen fix módosító egy kockaméretre
+  épülő rendszerben, és minden dobásra vonatkozik, a sebdobásra és a
+  Vérszomj 2d4-ére is (a kimerült karakter enyhébb sebeket dob).
+Teendő: A hatókör szűkítése vagy kockaléptetésre váltás.
+Állapot: NYITOTT
+Megjegyzés: A V-01 óta a halálhatár az Állóképesség kétszerese, így a −1
+  szintenként jóval mélyebbre mehet (Állóképesség 3-nál −6-ig).
+
+----------------------------------------------------------------
+[V-09] Páncél és varázshasználó
+Hol: II. rész › 4. Harc › Általános reakciólista › Beleállás;
+     Felszerelés › Páncélok; Jellemzők › Vas
+Probléma: (§3, top 5) A páncél a legdöntőbb választás; a vaspáncél
+  kizárja a varázslást, az alapeszközök pedig vasból vannak; a 0 AP-s
+  Beleállás korlátlan.
+Teendő: Nem vas páncél a varázshasználónak; a Beleállás ára vagy
+  fordulónkénti korlátja; a Keménység elkopása mint szándékos fogyás.
+Állapot: NYITOTT
+Megjegyzés: A Beleállás 1 Keménység / használat (H-65) már korlát. Az
+  acél páncélban varázslás a „később” listán van.
+
+----------------------------------------------------------------
+[V-10] Az Erő gépi szerepe
+Hol: II. rész › 1. A rendszer alapjai › Tulajdonságok › Erő; 4. Harc
+Probléma: (§4, top 6) A tulajdonságok nem számítanak a támadásba; az
+  Erő csak két sebtábla-sorban kerül elő, nincs teherbírás és
+  fegyverkövetelmény. Négy faj elsődleges tulajdonsága, így csapdaopció.
+Teendő: Gépi szerep az Erőnek (pl. pusztakezes manőverek,
+  fegyverkövetelmény, teherbírás).
+Állapot: NYITOTT
+
+----------------------------------------------------------------
+[V-11] Harci szabálytakarítás
+Hol: II. rész › 4. Harc
+Probléma: (§3, top 9)
+  – Hárítás: nincs leírva, mivel dobsz; hárítófegyver nincs, a Pajzsnak
+    csak ára van.
+  – Túlütés: két képlet (reakciónál a védekezés kétszerese, reakció
+    nélkül a két súlyos sebhatár összege).
+  – Rohamozás túlütésnél: a két sebforrás nem adódik össze, így a jobb
+    dobás kevesebb sebet érhet.
+  – Színlelt harcmodor: az előny a következő köröd kezdetéig tart, így
+    nem használható ki.
+  – Megzavarás: 1 AP-ért kettős hátrány, halmozható.
+  – Megragadás: nincs kiszabadulás; a „mozgásgátló” nincs definiálva.
+  – Zónák és hatótávok: két térrendszer átváltás nélkül.
+Teendő: Pontonként dönteni.
+Állapot: NYITOTT
+Megjegyzés: A review a Rohamozás AP-ját is kétértelműnek tartja; ez a
+  H-65 óta tisztázott („Ehhez jön a fegyvered támadásának AP
+  költsége.”). A CRPG-ben a Hárítás: pajzskocka + jártasságkocka a
+  támadás ellen.
+
+----------------------------------------------------------------
+[V-12] HIÁNY – Harci példa
+Hol: II. rész › 4. Harc
+Probléma: (§7, top 1) A licit, az AP, a reakció és a seb együttese példa
+  nélkül nehezen tanulható meg.
+Teendő: Egy teljes, kétfordulós harci példa.
+Állapot: NYITOTT
+
+----------------------------------------------------------------
+[V-13] Pontgazdaság és Világstandard
+Hol: I. rész › Tulajdonságok meghatározása; Játék magasabb szinten;
+     II. rész › 1. A rendszer alapjai › Tulajdonságok
+Probléma: (§4, top 10) A d4-sáv (0–4) öt érték széles, a +1-es faji
+  bónuszok és a −1/−2-es hátrányok nem váltanak kockát. 3-nál kisebb
+  Világstandardnál a mnemór Erő −2-je már karakteralkotáskor halál. A
+  tulajdonság- és a jártasságár aránya dönti el a Részleges siker és a
+  Kritikus bukás arányát, a jártasságárak pedig még hiányoznak.
+Teendő: Sávszélesség; alacsony Világstandard kezelése; jártasságárak
+  kalibrálása (H-62).
+Állapot: NYITOTT
+
+----------------------------------------------------------------
+[V-14] Fajok egyensúlya
+Hol: III. rész › 1. Fajok
+Probléma: (§4) Az allúr Sújtás, a Hadviselő Vérláza és a mnemór
+  Fürkésző tekintete jóval erősebbnek tűnik a törp Bányamérnököknél és
+  a Sziklaaffinitásnál. „Minden nap, amikor először sebet okozol egy
+  karakternek, csökkentsd a vérszomjad ugyanannyival.”: nem derül ki,
+  mennyivel. A mnemór kezdő pszionikája mögött üres a Pszionika fejezet.
+Teendő: Faji képességek összevetése; a Vérszomj mondatának pontosítása.
+Állapot: NYITOTT
+
+----------------------------------------------------------------
+[V-15] Hátterek és szinttábla
+Hol: I. rész › Előtörténet és személyiség kialakítása; Játék magasabb
+     szinten; III. rész › 2. Személyiség és háttér
+Probléma: (§4) A háttér-talentek üresek; a d100 nem szerepel a
+  kockalistában; a szinttábla Kaszt oszlopa (1, 5, 9, 13) több kasztot
+  sejtet, a szöveg nem magyarázza.
+Teendő: Talentek; d100 a kockalistába; a Kaszt oszlop magyarázata
+  (H-03).
+Állapot: NYITOTT
+
+----------------------------------------------------------------
+[V-16] Szociális konfrontáció
+Hol: II. rész › 2. Próbák és konfliktusok › Szociális konfrontáció
+Probléma: (§5) A „siker mértékével” mozgó számláló 2–24-es összegeknél
+  szeszélyes; nincs megadva, melyik tulajdonsággal dobsz; az NPC passzív;
+  az Elemzésnek nincs eljárása; a „célérték” két dolgot jelent; a példa
+  az első dobás után megszakad.
+Teendő: Pontonként dönteni.
+Állapot: NYITOTT
+
+----------------------------------------------------------------
+[V-17] Utazás
+Hol: II. rész › 3. Utazás és felfedezés
+Probléma: (§5) A tempótábla („¾”, „teljes”, „1½” megtett táv
+  szegmensenként) nem mondja meg, mennyi a teljes táv; vegyes sebességű
+  csapatra nincs szabály; a Gyűjtögetés hozama az
+  Ügyességtől függ; a Porciózás pihenő szegmensben is választható, de
+  esti hatású.
+Teendő: Pontonként dönteni.
+Állapot: NYITOTT
+
+----------------------------------------------------------------
+[V-18] Mágia
+Hol: II. rész › 5. Varázslás és pszionika
+Probléma: (§5) D12-es Jelenlét és d4-es jártasság mellett a varázslások
+  79%-a erőltetés, vagyis Kimerültség. A mentődobás 1 AP-s cselekvés,
+  az időzítése nem világos. A komponensek AP-t adnak, de még nincs
+  varázslat, amely használná őket.
+Teendő: Pontonként dönteni (a varázslat fejezettel együtt, H-17, H-19).
+Állapot: NYITOTT
+
+----------------------------------------------------------------
+[V-19] Égisz, Diszciplína, Fegyelem, Áhítat
+Hol: III. rész › 3. Kegy és égiszek
+Probléma: (§5) Az Áhítatnak nincs elsődleges felhasználása; a Fegyelem
+  skálája hiányzik; a lénytípusok mögött nincs bestiárium; az Áhítat
+  listás képzettségekkel tett próbákra csábít; a Gyűlölt / Üldözött
+  állapot játékosok közti konfliktust szülhet; a Suttogó szint
+  erősebbnek tűnik a többinél.
+Teendő: Pontonként dönteni (H-63).
+Állapot: NYITOTT
+
+----------------------------------------------------------------
+[V-20] KISEBB – Belső konzisztencia
+Hol: több helyen
+Probléma: (§6)
+  – A „{R} jelölés” sehol nem szerepel; az AP jelölése vegyes.
+  – A „szegmens” utazási napszak és harci AP-egység is; a vérzésnél a kör
+    és a forduló keveredik.
+  – Varázserő: a jártasság a varázslatban vagy a mágiaosztályban?
+  – „Tulajdonságpróbákra készségek és eszközök használatával”; az
+    eszközjártasság nincs definiálva.
+  – Pihenés-fogalmak (pihentető alvás, Pihenés végén, pihentető
+    táborozási szegmens); Kimerültség kis- és nagybetűvel.
+  – „Staminá…” a Szusztörőnél (H-13); „20 fölé is mehet” a
+    Sebgyógyításnál (nincs ilyen korlát).
+  – A Halálos és az Átütő X egyik fegyvernél sem szerepel; üres
+    oszlopok a táblákban.
+  – „0.7.0c - Átrendezett forrásszöveg” fejléc; „x. oldalon”; az Előny
+    és hátrány kétszer szerepel.
+  – Arkhónok / archonok; a Fényvarázs nincs definiálva; Kilenc trón a
+    Nyolcak mellett.
+Teendő: Pontonként javítani.
+Állapot: NYITOTT
+
+----------------------------------------------------------------
+[V-21] Szerkezet és érthetőség
+Hol: az egész könyv
+Probléma: (§7) Hármas számozás (rész, sorszámozott fejezet, római
+  fejezet). Sorrend: a Kimerültség a Tulajdonságok alatt van, a Túlütés
+  a sebhatár előtt jön, a Kegy a harci alapfogalmak között. Nincs
+  mesélői fejezet és NPC-adatlap (sebhatár, megközelítés-értékek,
+  Eltökéltség); nincs biztonsági eszköz és session zero útmutató.
+Teendő: Pontonként dönteni.
+Állapot: NYITOTT
+Megjegyzés: A helyőrzők a FÜGGELÉK-ben vannak; a célérték-táblázat a
+  V-03.
+
+----------------------------------------------------------------
+[V-22] Könyvelési teher a harcban
+Hol: II. rész › 4. Harc; 6. › Sebesülés és halálozás
+Probléma: (§3) Egy találat: küszöb-összevetés, sebdobás, táblázat. Egy
+  reakció: levonás a következő licitből. Egy Beleállás: Keménység. Húsz
+  AP-s körökben, sok támadással ez lassú.
+Teendő: Felmérni (pl. a harci példán, V-12), hol lehet egyszerűsíteni.
+Állapot: NYITOTT
+Megjegyzés: A V-01 óta a találatonkénti Kimerültség kiesett.
+
+
+================================================================
 FÜGGELÉK – FÉLKÉSZ RÉSZEK (nem hibák, csak üresek)
 ================================================================
 [ ] Bevezetés › I. fejezet: Bevezető, A könyvről, Játékmenet ismertető:
@@ -2004,3 +2305,5 @@ NAPLÓ – mi történt, mikor
              jártassággal nem viselhető.
 2026.10.26.  H-29 JAVÍTVA – árlista (20 Réz napi bér), pajzs; H-30 – anyag-jellemzők
              (Acél, Arany, Ezüst, Ón, Réz, Vas).
+2026.10.27.  Vak átnézés: V-01–V-22 felvéve. V-01 JAVÍTVA – a Kimerültség
+             határa az Állóképesség kétszerese; sebből nem jár Kimerültség.

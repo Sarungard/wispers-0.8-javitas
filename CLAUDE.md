@@ -36,7 +36,8 @@ Keep replies short and in Hungarian. Put the proposal and the question at the en
   decide the mode: jártasság ≥ tulajdonság is szakértelem, otherwise erőltetés. Four outcomes: Abszolút siker,
   Részleges siker, Bukás, Kritikus bukás.
 - Attacks: weapon die + proficiency die, no attribute. Unarmed: 1d2 (1d4/2) with the Pusztakezes harc proficiency.
-- Wounds: Könnyű / Mély / Súlyos seb by sebhatár (reaching it counts), plus Kimerültség. Sebdobás: 1d8 + the number
+- Kimerültség: −1 per level to every roll; death when it exceeds 2× Állóképesség; wounds never give Kimerültség (V-01).
+- Wounds: Könnyű / Mély / Súlyos seb by sebhatár (reaching it counts). Sebdobás: 1d8 + the number
   of Sebek of the same severity (not all Sebek) + the weapon's találati mátrix; 21+ is one fok worse. Wounds must be
   hard to heal: Súlyos → Mély → Könnyű → healed, no roll on each step, a healed wound leaves a heg (scar).
 - Weapon properties are called „jellemző” (never „tulajdonság”, that is the six attributes). The Jellemzők column holds

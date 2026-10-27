@@ -279,7 +279,7 @@ A karakter mentális fittségét jelenti, az Eltökéltség mentődobás kiszám
 
 #### Kimerültség
 
-A karakter a kalandozás során kimerülhet. A Kimerültség szintekben gyűlik, és minden szintje −1 módosítót ad a karakter minden dobására. Ha a Kimerültség meghaladja a karakter Állóképességének értékét, a karakter meghal.
+A karakter a kalandozás során kimerülhet. A Kimerültség szintekben gyűlik, és minden szintje −1 módosítót ad a karakter minden dobására. Ha a Kimerültség meghaladja a karakter Állóképességének kétszeresét, a karakter meghal. Sebből nem származik Kimerültség.
 
 ### Előny és hátrány
 
@@ -1596,7 +1596,7 @@ A mentális könnyű sebhatár a fajod leírásában megadott mentális alap, a 
 
 #### Sebdobás
 
-Mindig, amikor sebet szerzel, dobj a seb súlyosságának megfelelő táblázaton (Mély és Súlyos sebnél adj hozzá egyet a Kimerültségedhez is): 1d8 + az azonos súlyosságú sebeid száma (a mostanit is beleértve: Könnyű sebnél a Könnyű sebeid, Mély sebnél a Mély sebeid, Súlyos sebnél a Súlyos sebeid száma) + a támadó fegyver találati mátrixának értéke az adott súlyosságra (lásd a fegyverek táblázatát; fegyver nélkül 0). A 21 vagy annál nagyobb eredmény egy fokkal súlyosabb sebet jelent, Súlyos sebnél halált.
+Mindig, amikor sebet szerzel, dobj a seb súlyosságának megfelelő táblázaton: 1d8 + az azonos súlyosságú sebeid száma (a mostanit is beleértve: Könnyű sebnél a Könnyű sebeid, Mély sebnél a Mély sebeid, Súlyos sebnél a Súlyos sebeid száma) + a támadó fegyver találati mátrixának értéke az adott súlyosságra (lásd a fegyverek táblázatát; fegyver nélkül 0). A 21 vagy annál nagyobb eredmény egy fokkal súlyosabb sebet jelent, Súlyos sebnél halált.
 
 [Szerkesztői megjegyzés: a három táblázat tartalma javaslat (2026.10.22.), átdolgozásra vár (D-2).]
 
@@ -1608,43 +1608,43 @@ Mindig, amikor sebet szerzel, dobj a seb súlyosságának megfelelő táblázato
 | 7 | Kizökkent egyensúly: a következő köröd végéig minden védekezésed egyes hátránnyal teszed. |
 | 8 | Vér a szemben: a következő köröd végéig a támadásaid és a látást igénylő próbáid egyes hátránnyal teszed. |
 | 9 | Elzsibbadt kéz: a következő támadásod kettős hátránnyal teszed. |
-| 10 | Elakadt lélegzet: +1 Kimerültség. |
+| 10 | Elakadt lélegzet: a következő köröd végéig minden próbád egyes hátránnyal teszed. |
 | 11 | Felrepedt bőr: komoly esztétikai sérülés. |
 | 12 | Megrándult izom: a következő pihentető táborozási szegmensig az Erővel tett próbáid egyes hátránnyal teszed. |
 | 13 | Ütés a fejre: a következő köröd végéig nem reagálhatsz. |
-| 14 | Mély karcolás: komoly esztétikai sérülés, +1 Kimerültség. |
+| 14 | Mély karcolás: komoly esztétikai sérülés. |
 | 15 | Megtántorodás: a földre kerülsz. |
 | 16-17 | Kificamodott ujj: a következő pihentető táborozási szegmensig minden támadásod egyes hátránnyal teszed. |
-| 18-19 | Csúnya vágás: komoly esztétikai sérülés, +2 Kimerültség. |
+| 18-19 | Csúnya vágás: komoly esztétikai sérülés. |
 | 20 | Rossz esés: a földre kerülsz, és a következő köröd végéig nem reagálhatsz. |
 | 21+ | A seb Mély sebbé válik: dobj a Mély seb táblázatán. |
 
 | Mély seb | Hatás |
 |:--:|:--|
 | 2-3 | Mély vágás: komoly esztétikai sérülés. |
-| 4-5 | Bordazúzódás: +1 Kimerültség. |
+| 4-5 | Bordazúzódás: a következő pihentető táborozási szegmensig az Állóképességgel tett próbáid egyes hátránnyal teszed. |
 | 6 | Átszúrt izom: a következő pihentető táborozási szegmensig minden támadásod egyes hátránnyal teszed. |
 | 7 | Agyrázkódás: a következő köröd végéig nem reagálhatsz, és minden próbád egyes hátránnyal teszed. |
 | 8 | Kificamodott váll: fegyvertelenné válsz. |
 | 9 | Térdsérülés: a következő pihentető táborozási szegmensig nem hajthatsz végre Rohamozást. |
-| 10 | Repedt borda: +1 Kimerültség, és a következő pihentető táborozási szegmensig az Erővel tett próbáid egyes hátránnyal teszed. |
+| 10 | Repedt borda: a következő pihentető táborozási szegmensig az Erővel tett próbáid egyes hátránnyal teszed. |
 | 11 | Kéztörés: csonttörés. |
 | 12 | Bordatörés: csonttörés. |
 | 13 | Lábtörés: csonttörés; a gyógyulásig nem hajthatsz végre Rohamozást. |
 | 14 | Elvesztett ujj vagy fül: csonkolás, de a hátránya csak egyes. |
 | 15 | Sérült szem: maradandó károsodás; a távolsági támadásaid és a látást igénylő próbáid egyes hátránnyal teszed. |
 | 16-17 | Maradandó károsodás. |
-| 18-19 | Nyílt törés: csonttörés, és amíg nem látják el, minden körben +1 Kimerültség. |
+| 18-19 | Nyílt törés: csonttörés, és amíg nem látják el, a hátránya kettős. |
 | 20 | Csonkolás. |
 | 21+ | A seb Súlyos sebbé válik: dobj a Súlyos seb táblázatán. |
 
 | Súlyos seb | Hatás |
 |:--:|:--|
-| 2-3 | Vérző vágás: komoly esztétikai sérülés, +2 Kimerültség. |
+| 2-3 | Vérző vágás: komoly esztétikai sérülés. |
 | 4-5 | Eltört kar: csonttörés. |
 | 6 | Eltört láb: csonttörés; a gyógyulásig nem hajthatsz végre Rohamozást. |
 | 7 | Betört koponya: csonttörés, és a következő köröd végéig öntudatlan vagy. |
-| 8 | Átszúrt tüdő: +2 Kimerültség; a gyógyulásig az Állóképességgel tett próbáid kettős hátránnyal teszed. |
+| 8 | Átszúrt tüdő: a gyógyulásig az Állóképességgel tett próbáid kettős hátránnyal teszed. |
 | 9 | Elvesztett kéz: csonkolás. |
 | 10 | Kiszúrt szem: maradandó károsodás. |
 | 11 | Elvesztett láb: csonkolás. |
