@@ -24,7 +24,7 @@ Jelölések: BLOKKOLÓ – enélkül nem játszható; ELLENTMONDÁS – két sza
 hivatkozik; KISEBB – szerkesztési hiba, elnevezés.
 
 ÖSSZESÍTŐ (frissítsd menet közben)
-  NYITOTT: 21   FOLYAMATBAN: 13   DÖNTÉSRE VÁR: 4   JAVÍTVA: 47   ELVETVE: 2
+  NYITOTT: 20   FOLYAMATBAN: 13   DÖNTÉSRE VÁR: 4   JAVÍTVA: 48   ELVETVE: 2
 
 
 ================================================================
@@ -1830,8 +1830,8 @@ Javítás: Tulajdonságok › Kimerültség: „Ha a Kimerültség meghaladja a
   hátránnyal; Mély 4-5 Bordazúzódás – a következő pihentető táborozási
   szegmensig az Állóképességgel tett próbáid egyes hátránnyal; Mély 18-19
   Nyílt törés – amíg nem látják el, a csonttörés hátránya kettős.
-Megjegyzés: A három pótolt sor javaslat (a táblák egésze is az, D-2).
-  Könnyű 14 és 18-19, valamint Súlyos 2-3 így csak esztétikai sérülés; a
+Megjegyzés: A három pótolt sort Zoz jóváhagyta (2026.10.27.); a táblák
+  egésze továbbra is javaslat (D-2). Könnyű 14 és 18-19, valamint Súlyos 2-3 így csak esztétikai sérülés; a
   táblák átdolgozásakor érdemes erősíteni őket. Sebből most a Súlyos seb
   táblán át jön a halál (vérzés, csonkolás, 21+). CRPG-eltérés: ott a
   Kimerültség halálhatára és a 0.8 sebtáblák még nincsenek bent.
@@ -1845,11 +1845,18 @@ Probléma: (§3, §6) „Minden forduló kezdetén bemondasz egy számot”, a
   számot”. A reakciót „a soron következő körére bemondott számból”
   fizeted, ehhez a számnak a köröd után már ismertnek kell lennie.
 Teendő: Egy időzítés rögzítése.
-Állapot: NYITOTT
+Állapot: JAVÍTVA (2026.10.27.)
+Döntés: Az első számot a harc kezdetén mondja be mindenki, a következő
+  fordulóra szólót a saját köre végén. A szegmenssáv nem kerül be.
+Javítás: Fogalmak a harc során › Kezdeményezés: „Minden forduló kezdetén
+  bemondasz egy számot” helyett „A harc kezdetén mindenki bemond egy
+  számot”, és új mondat: „A következő fordulóra szóló számot a köröd
+  végén mondod be (lásd: A karakter köre).”; A karakter köre változatlan.
 Megjegyzés: A review szerint a 20-as licit domináns, és szegmenssávot
   javasol. A párbajszimulációk (2026.10.25., felső határ 20) ezt nem
-  igazolják: a nyitó licitek 6 és 20 között szóródnak. A CRPG a harc
-  elején kér licitet, utána a kör végén (InitiativeQueue.EndTurn).
+  igazolják: a nyitó licitek 6 és 20 között szóródnak. A CRPG is így
+  működik: a harc elején kér licitet, utána a kör végén
+  (InitiativeQueue.EndTurn).
 
 ----------------------------------------------------------------
 [V-03] HIÁNY – Célérték-skála és a próba szintje
@@ -2307,3 +2314,5 @@ NAPLÓ – mi történt, mikor
              (Acél, Arany, Ezüst, Ón, Réz, Vas).
 2026.10.27.  Vak átnézés: V-01–V-22 felvéve. V-01 JAVÍTVA – a Kimerültség
              határa az Állóképesség kétszerese; sebből nem jár Kimerültség.
+2026.10.27.  V-01 – a három pótolt sebtáblasor jóváhagyva. V-02 JAVÍTVA – az első
+             licit a harc kezdetén, a többi a kör végén.

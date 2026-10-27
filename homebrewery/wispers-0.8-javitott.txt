@@ -1204,7 +1204,7 @@ Egy kört kisebb időegységekre osztunk, amelyeket szegmenseknek hívunk. Egy s
 
 Hogyha harcra kerül a sor, fontos, hogy résen legyenek a karakterek és elkerüljék a végzetes döntéseket. A harcok lebonyolításában a kezdeményezés rendszer segít, ez határozza meg, hogy a karakterek milyen sorrendben hajthatják végre a cselekvéseiket. A cselekvések időt vesznek igénybe, ezt az adott cselekvésnél mindig az AP-költsége jelöli; egy AP egy szegmens.
 
-Minden forduló kezdetén bemondasz egy számot: ennyi időt szánsz a körödre. Ez a kezdeményezésed, és ennyi AP-t költhetsz el a körödben. Az első fordulót az a karakter kezdi, akinek a legkisebb a kezdeményezése; egyenlőségnél a játékosok karakterei lépnek előbb.
+A harc kezdetén mindenki bemond egy számot: ennyi időt szánsz a körödre. Ez a kezdeményezésed, és ennyi AP-t költhetsz el a körödben. Az első fordulót az a karakter kezdi, akinek a legkisebb a kezdeményezése; egyenlőségnél a játékosok karakterei lépnek előbb. A következő fordulóra szóló számot a köröd végén mondod be (lásd: A karakter köre).
 
 A bemondott szám legfeljebb 20 lehet.
 
