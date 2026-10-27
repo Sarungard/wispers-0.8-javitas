@@ -34,7 +34,10 @@ Keep replies short and in Hungarian. Put the proposal and the question at the en
 
 - Képzettségpróba: tulajdonságkocka + jártasságkocka. The sum against the célérték decides success. The two faces
   decide the mode: jártasság ≥ tulajdonság is szakértelem, otherwise erőltetés. Four outcomes: Abszolút siker,
-  Részleges siker, Bukás, Kritikus bukás.
+  Részleges siker, Bukás, Kritikus bukás. Where a rule names only siker/bukás, Részleges siker counts as siker with
+  its side effect and Kritikus bukás as bukás with its consequence (V-06). The GM picks a Kritikus bukás consequence
+  from a six-item list (Idő, Eszköz, Helyzet, Figyelem, Ár, Fáradtság) or makes one up; no Seb on that list. Social
+  conflict has all four outcomes; combat stays two-state.
 - Attacks: weapon die + proficiency die, no attribute. Unarmed: 1d2 (1d4/2) with the Pusztakezes harc proficiency.
 - Célérték (V-03): the GM sets the check's level, which gates who may try and suggests the célérték: Képzetlen 3, Kezdő 5,
   Képzett 7, Haladó 9, Tapasztalt 11, Mester 13. Only a recommendation; the GM may and should adjust it.

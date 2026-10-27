@@ -991,7 +991,20 @@ A táblázat ajánlás. A mesélő finomíthat rajta, és finomítson is, ha úg
 
 **Bukás:** nem éred el a célértéket, szakértelemmel. A próba sikertelen.
 
-**Kritikus bukás:** nem éred el a célértéket, erőltetéssel. A próba sikertelen, és a mesélő egy következményt is rendel hozzá.
+**Kritikus bukás:** nem éred el a célértéket, erőltetéssel. A próba sikertelen, és a mesélő egy következményt is rendel hozzá (lásd: A Kritikus bukás következményei).
+
+Ahol egy szabály csak sikert és bukást említ, ott a Részleges siker is siker, a mellékhatásával együtt, a Kritikus bukás pedig bukás, a következményével együtt.
+
+#### A Kritikus bukás következményei
+
+A mesélő a következők közül választ egyet, vagy a helyzethez illő sajátot rendel a próbához:
+
+- **Idő:** a feladat elhúzódik, vagy újra kell kezdeni.
+- **Eszköz:** egy használt eszköz eltörik vagy elvész.
+- **Helyzet:** a következő próbádat egyes hátránnyal teszed.
+- **Figyelem:** valaki észrevesz, gyanút fog vagy riaszt.
+- **Ár:** pénzbe, élelembe vagy egy szívességbe kerül.
+- **Fáradtság:** elszenvedsz egy szint Kimerültséget.
 
 #### Rizikós próba önmagad / szituáció ellen
 
@@ -1045,7 +1058,11 @@ Tégy próbát a szituációban felhasználható képzettség segítségével.
 
 **Siker:** mozdítsd a számlálót a nektek kedvező irányba a siker mértékével.
 
+**Részleges siker:** a számláló a ti irányotokba mozdul, de a célpont gyanakodni kezd: a következő próbát ugyanezzel a megközelítéssel egyes hátránnyal teszitek.
+
 **Bukás:** mozdítsd a számlálót a másik irányba a bukás mértékével.
+
+**Kritikus bukás:** a számláló a másik irányba mozdul, és ez a megközelítés erre a konfliktusra bezárul.
 
 #### Érvelés
 
@@ -1057,7 +1074,11 @@ Tégy próbát a szituációban felhasználható képzettség segítségével.
 
 **Siker:** mozdítsd a számlálót a nektek kedvező irányba a siker mértékével.
 
+**Részleges siker:** a számláló a ti irányotokba mozdul, de a célpont gyanakodni kezd: a következő próbát ugyanezzel a megközelítéssel egyes hátránnyal teszitek.
+
 **Bukás:** mozdítsd a számlálót a másik irányba a bukás mértékével.
+
+**Kritikus bukás:** a számláló a másik irányba mozdul, és ez a megközelítés erre a konfliktusra bezárul.
 
 **Példa:** Bernard, a fagymarta harcos két őrrel kerül szembe, akik nem akarják beengedni Zador belső várába, pedig figyelmeztetnie kell a gnoll hordákról a város vezetését.
 
@@ -1075,7 +1096,11 @@ Tégy próbát a szituációban felhasználható képzettség segítségével.
 
 **Siker:** mozdítsd a számlálót a nektek kedvező irányba a siker mértékével.
 
+**Részleges siker:** a számláló a ti irányotokba mozdul, de a célpont gyanakodni kezd: a következő próbát ugyanezzel a megközelítéssel egyes hátránnyal teszitek.
+
 **Bukás:** mozdítsd a számlálót a másik irányba a bukás mértékével.
+
+**Kritikus bukás:** a számláló a másik irányba mozdul, és ez a megközelítés erre a konfliktusra bezárul.
 
 #### Hazugság
 

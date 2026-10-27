@@ -24,7 +24,7 @@ Jelölések: BLOKKOLÓ – enélkül nem játszható; ELLENTMONDÁS – két sza
 hivatkozik; KISEBB – szerkesztési hiba, elnevezés.
 
 ÖSSZESÍTŐ (frissítsd menet közben)
-  NYITOTT: 17   FOLYAMATBAN: 13   DÖNTÉSRE VÁR: 4   JAVÍTVA: 51   ELVETVE: 2
+  NYITOTT: 16   FOLYAMATBAN: 13   DÖNTÉSRE VÁR: 4   JAVÍTVA: 52   ELVETVE: 2
 
 
 ================================================================
@@ -1940,7 +1940,21 @@ Probléma: (top 7) A szociális, az utazási és a harci szabályok
   csak a Hazugság használja.
 Teendő: Cselekvésenként a Részleges siker és a Kritikus bukás jelentése,
   és egy következmény-menü a mesélőnek.
-Állapot: NYITOTT
+Állapot: JAVÍTVA (2026.10.27.)
+Döntés: Általános szabály és következménylista; külön sor csak a
+  szociális konfrontációban. Az utazásnak nincs külön sora, a harc
+  kétállású marad.
+Javítás: Képzettségpróbák: a sima próba négy kimenetele után új
+  bekezdés („Ahol egy szabály csak sikert és bukást említ, …”) és új
+  alcím: A Kritikus bukás következményei (Idő, Eszköz, Helyzet,
+  Figyelem, Ár, Fáradtság; a mesélő egyet választ, vagy sajátot rendel).
+  A Kritikus bukás sora erre hivatkozik. Szociális konfrontáció:
+  Empátia, Érvelés, Megfélemlítés alá Részleges siker (egyes hátrány a
+  következő azonos megközelítésű próbára) és Kritikus bukás (a
+  megközelítés erre a konfliktusra bezárul).
+Megjegyzés: Seb szándékosan nincs a listán, az a rizikós próbáé. A
+  Hazugság saját Részleges siker szabálya marad. Harcban a találat értéke
+  és a sebhatár dönt, ezért ott nincs négy kimenetel.
 
 ----------------------------------------------------------------
 [V-07] Előny és hátrány pontosítása
@@ -2358,3 +2372,5 @@ NAPLÓ – mi történt, mikor
              tulajdonságkockával, mindig erőltetés; a képzettséglista marad.
 2026.10.27.  V-05 JAVÍTVA – a négy kimenetel eloszlása marad; a szándék a
              Képzettségpróbák bevezetőjébe került.
+2026.10.27.  V-06 JAVÍTVA – általános szabály, a Kritikus bukás következményei
+             (6 elem); szociális konfrontáció négy kimenettel.
