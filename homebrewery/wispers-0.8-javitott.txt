@@ -53,9 +53,11 @@ A hosszú válasz, hogy nincsen központi kockarendszer, mint sok játék eseté
 
 A kettő közti különbség általában az, hogy a karaktered jártassága folyamatosan fejlődik, a másik viszont általában fix, de cselekvésenként változó.
 
+A kockákat dobás előtt különböztesd meg, legjobb, ha színnel: a szakértelemhez tudnod kell, melyik a jártasságkocka, és előnynél azt is, melyik a harmadik.
+
 ### Előny és hátrány
 
-Előfordulhat, hogy a játék során bizonyos behatások okán vagy épp valamilyen cselekvés következményeként a karakter helyzeti előnyhöz vagy hátrányhoz jut, ilyenkor a cselekvését képes előnnyel vagy hátránnyal végezni. Az előny azt jelenti, hogy a próbához használt két kockája közül a kisebbet (alacsonyabb oldalszámút) egy mérettel nagyobbra cseréli. Például, ha 1d4 és 1d8 a két kocka amivel dobnál, de előnyhöz jutsz, az 1d4 helyett 1d6-ot használhatsz. Hasonlóan a hátrány azt jelenti, hogy a két kockád közül a nagyobbat (magasabb oldalszámút) egy mérettel kisebbre cseréled. Ugyanebben a példában az 1d8 helyett fogsz 1d6-ot használni.
+Előfordulhat, hogy a játék során bizonyos behatások okán vagy épp valamilyen cselekvés következményeként a karakter helyzeti előnyhöz vagy hátrányhoz jut. Ilyenkor a két kockája mellé egy harmadikat is dob, amely akkora, mint a kettő közül a kisebbik. Előnynél a harmadik kockát bármelyik kockája helyett használhatja, hátránynál a kisebbik kockája és a harmadik közül azt kell használnia, amelyik kevesebbet dobott.
 
 Bővebben a II. rész › 1. A rendszer alapjai › Tulajdonságok › Előny és hátrány szakaszban olvashatsz az ehhez tartozó szabályokról.
 
@@ -283,13 +285,17 @@ A karakter a kalandozás során kimerülhet. A Kimerültség szintekben gyűlik,
 
 ### Előny és hátrány
 
-Előfordulhat, hogy a játék során bizonyos behatások okán vagy épp valamilyen cselekvés következményeként a karakter helyzeti előnyhöz vagy hátrányhoz jut, ilyenkor a cselekvését képes előnnyel vagy hátránnyal végezni. Az előny azt jelenti, hogy a cselekvéshez használt két kockád közül a kisebbet (alacsonyabb oldalszámút) egy mérettel nagyobbra cseréled. Például, ha 1d4 és 1d8 a két kocka amivel dobnál, de előnyhöz jutsz, az 1d4 helyett 1d6-ot használhatsz. Hasonlóan a hátrány azt jelenti, hogy a két kockád közül a nagyobbat (magasabb oldalszámút) egy mérettel kisebbre cseréled. Ugyanebben a példában az 1d8 helyett fogsz 1d6-ot használni.
+Előfordulhat, hogy a játék során bizonyos behatások okán vagy épp valamilyen cselekvés következményeként a karakter helyzeti előnyhöz vagy hátrányhoz jut, ilyenkor a cselekvését előnnyel vagy hátránnyal végzi.
 
-Ha egy cselekvést több tényező is befolyásol ugyanabba az irányba, akkor mind az előny, mind a hátrány halmozható. Ezeket úgy hívjuk, hogy egyes előny, kettős előny, hármas előny, (vagy hátrány) stb., ilyenkor az előnyök (vagy hátrányok) összeadódva fejtik ki a hatásukat. Például a fenti helyzet során egy kettős előny azt jelenti, hogy 1d4 és 1d8 helyett 2d8-at fogsz dobni.
+**Előny:** a két kockád mellé dobj egy harmadikat is, amely akkora, mint a kettő közül a kisebbik. Dobás után a harmadik kockát a jártasságkockád vagy a tulajdonságkockád helyett használhatod, és ilyenkor annak a szerepét veszi át. Hogy használod-e, és melyik kocka helyett, a dobás után te döntöd el.
 
-Előfordulhat, hogy ugyanarra a cselekvésre egyszerre hat több dolog, és egyik oldalról előnyhöz juttatna, másik oldalról hátrányba kerülnél, a kettő kioltja egymást mielőtt meghatároznád, milyen kockákkal is dobsz pontosan.
+**Hátrány:** a két kockád mellé dobj egy harmadikat is, amely akkora, mint a kettő közül a kisebbik. A kisebbik kockád és a harmadik kocka közül azt kell használnod, amelyik kevesebbet dobott; egyforma kockáknál a jártasságkockád számít kisebbiknek. A próbát erőltetéssel teszed: hátránnyal nincs szakértelem, és a kockák összevetésén alapuló más hatás (például a Halálos jellemző) sem lép életbe.
 
-Amennyiben minden kockád a legalacsonyabb (tehát mindkettő 4 oldalú), akkor az egyik kockát kihagyod a dobásból. Amennyiben minden kockád a legmagasabb (tehát mindkettő 12 oldalú), egy harmadik, 4 oldalú kockát adsz a dobásodhoz.
+Az előny és a hátrány nem halmozódik. Akárhány dolog juttat előnyhöz, egy előnyöd van, és ugyanígy a hátránnyal. Ha egyszerre hat rád előny és hátrány, kioltják egymást, akárhány forrásból jönnek.
+
+Ha csak egy kockával dobsz (Képzetlen próba), egy ugyanakkora második kockát dobsz: előnynél a jobbat, hátránynál a rosszabbat használod.
+
+Harcban a fegyverkocka áll a tulajdonságkocka helyén.
 
 ### Látási viszonyok
 
@@ -1058,7 +1064,7 @@ Tégy próbát a szituációban felhasználható képzettség segítségével.
 
 **Siker:** mozdítsd a számlálót a nektek kedvező irányba a siker mértékével.
 
-**Részleges siker:** a számláló a ti irányotokba mozdul, de a célpont gyanakodni kezd: a következő próbát ugyanezzel a megközelítéssel egyes hátránnyal teszitek.
+**Részleges siker:** a célpont gyanakodni kezd: a számláló a siker mértékének csak a felével mozdul a ti irányotokba.
 
 **Bukás:** mozdítsd a számlálót a másik irányba a bukás mértékével.
 
@@ -1074,7 +1080,7 @@ Tégy próbát a szituációban felhasználható képzettség segítségével.
 
 **Siker:** mozdítsd a számlálót a nektek kedvező irányba a siker mértékével.
 
-**Részleges siker:** a számláló a ti irányotokba mozdul, de a célpont gyanakodni kezd: a következő próbát ugyanezzel a megközelítéssel egyes hátránnyal teszitek.
+**Részleges siker:** a célpont gyanakodni kezd: a számláló a siker mértékének csak a felével mozdul a ti irányotokba.
 
 **Bukás:** mozdítsd a számlálót a másik irányba a bukás mértékével.
 
@@ -1096,7 +1102,7 @@ Tégy próbát a szituációban felhasználható képzettség segítségével.
 
 **Siker:** mozdítsd a számlálót a nektek kedvező irányba a siker mértékével.
 
-**Részleges siker:** a számláló a ti irányotokba mozdul, de a célpont gyanakodni kezd: a következő próbát ugyanezzel a megközelítéssel egyes hátránnyal teszitek.
+**Részleges siker:** a célpont gyanakodni kezd: a számláló a siker mértékének csak a felével mozdul a ti irányotokba.
 
 **Bukás:** mozdítsd a számlálót a másik irányba a bukás mértékével.
 
@@ -1288,7 +1294,7 @@ A hatótávok célja, hogy megadják a karakterek relatív pozícióját egymás
 
 #### Közelharci táv
 
-Ezen a hatótávon pusztakézzel vagy közelharci fegyverekkel mozgás nélkül eléred akit szeretnél. Távolsági fegyverek használata és a varázslás hátránnyal történik.
+Ezen a hatótávon pusztakézzel vagy közelharci fegyverekkel mozgás nélkül eléred akit szeretnél. Távolsági fegyverek használata hátránnyal történik, a varázslás pedig 1 AP-vel többe kerül.
 
 #### Rövid táv
 

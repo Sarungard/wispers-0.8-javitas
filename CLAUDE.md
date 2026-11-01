@@ -38,6 +38,12 @@ Keep replies short and in Hungarian. Put the proposal and the question at the en
   its side effect and Kritikus bukás as bukás with its consequence (V-06). The GM picks a Kritikus bukás consequence
   from a six-item list (Idő, Eszköz, Helyzet, Figyelem, Ár, Fáradtság) or makes one up; no Seb on that list. Social
   conflict has all four outcomes; combat stays two-state.
+- Előny / hátrány (V-07): a third die the size of the smaller of the two dice. Előny: it may replace either die and
+  takes its role. Hátrány: the smaller die and the third die, the lower roll counts (on equal sizes the jártasságkocka
+  is the smaller); always erőltetés, and no die-comparison effect (Halálos) applies. No stacking; előny and hátrány
+  cancel. Social Részleges siker moves the counter by half the siker mértéke (no hátrány). Casting at Közelharci táv
+  costs +1 AP instead of hátrány. Zoz wants fewer előny/hátrány sources so they matter. Open: Helyzet loop, rizikós
+  próba under hátrány, the source pass (incl. all kettős–négyes places).
 - Attacks: weapon die + proficiency die, no attribute. Unarmed: 1d2 (1d4/2) with the Pusztakezes harc proficiency.
 - Célérték (V-03): the GM sets the check's level, which gates who may try and suggests the célérték: Képzetlen 3, Kezdő 5,
   Képzett 7, Haladó 9, Tapasztalt 11, Mester 13. Only a recommendation; the GM may and should adjust it.

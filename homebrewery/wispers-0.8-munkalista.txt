@@ -8,7 +8,7 @@ Munkaszöveg:  homebrewery/wispers-0.8-javitott.txt – ebbe kerülnek a javít�
 Sorszámok:    H-01–H-61 azonos a wispers-0.7.0b-hibalista.pdf sorszámaival;
               a H-62-től kezdődő tételek menet közben kerültek be;
               a V-tételek a vak átnézésből (2026.10.26.) jönnek
-Frissítve:    2026.10.27.
+Frissítve:    2026.11.01.
 
 HOGYAN HASZNÁLJUK
 Sorban végigmegyünk a tételeken. Minden tételnél négy sort töltünk ki:
@@ -24,7 +24,7 @@ Jelölések: BLOKKOLÓ – enélkül nem játszható; ELLENTMONDÁS – két sza
 hivatkozik; KISEBB – szerkesztési hiba, elnevezés.
 
 ÖSSZESÍTŐ (frissítsd menet közben)
-  NYITOTT: 16   FOLYAMATBAN: 13   DÖNTÉSRE VÁR: 4   JAVÍTVA: 52   ELVETVE: 2
+  NYITOTT: 15   FOLYAMATBAN: 14   DÖNTÉSRE VÁR: 4   JAVÍTVA: 52   ELVETVE: 2
 
 
 ================================================================
@@ -1964,7 +1964,31 @@ Probléma: (§2, top 8) Nem tudni, melyik kocka nő, ha a kettő egyforma
   (plafon), és mi történik az egyetlen d4 alatt (padló).
 Teendő: Egyenlőségi szabály, plafon, padló; a két kocka
   megkülönböztetése (pl. színkód).
-Állapot: NYITOTT
+Állapot: FOLYAMATBAN
+Döntés: Kockaméret-léptetés helyett harmadik kocka, a két kocka közül a
+  kisebbik méretével. Előny: bármelyik kocka helyett használható, és
+  átveszi a szerepét. Hátrány: a kisebbik kocka és a harmadik közül a
+  kevesebbet dobó számít (egyforma kockáknál a jártasságkocka a
+  kisebbik), mindig erőltetés, a kockák összevetésén alapuló hatás nem
+  él. Nincs halmozás, az előny és a hátrány kioltja egymást. Szociális
+  Részleges siker: hátrány helyett a számláló a siker mértékének felével
+  mozdul. Közelharci távon a varázslás nem hátrányos, hanem 1 AP-vel
+  drágább. Az előny- és hátrányforrásokat ritkítani kell, hogy hassanak.
+Javítás: Tandemkockák: színkód-mondat. Bevezető › Előny és hátrány és
+  II. rész › Előny és hátrány: új szabály (a lépcső, a halmozás, a
+  d4-padló és a d12-plafon kikerült). Szociális konfrontáció: a három
+  Részleges siker sor (a V-06 szövegét módosítja). Közelharci táv:
+  varázslás +1 AP.
+Megjegyzés: Nyitott: a Helyzet következmény hurka, a rizikós próba
+  hátránnyal, a források ritkítása (a halmozott kettős–négyes helyekkel
+  együtt), a H-65 párbajszimuláció újrafuttatása. Számok (saját szintű
+  célérték, d6+d6): előny 58% → 81% siker, Kritikus bukás 17% → 1%;
+  hátrány 58% → 42% siker, Abszolút siker nincs. Két független átnézés
+  (tabletop-rpg-design, wispers-design-analyst) után: a „két legkisebb”
+  hátrány a kisebbik kocka kétszeresénél elakadt volna (d4-es
+  tulajdonsággal Haladó próba felett 0%), ezért cserélve. A „+1 AP”
+  a B opció példája volt; Zoz módosíthatja. CRPG-eltérés: a CRPG a
+  kockaméret-léptetést használja.
 
 ----------------------------------------------------------------
 [V-08] A Kimerültség módosítója
@@ -2374,3 +2398,6 @@ NAPLÓ – mi történt, mikor
              Képzettségpróbák bevezetőjébe került.
 2026.10.27.  V-06 JAVÍTVA – általános szabály, a Kritikus bukás következményei
              (6 elem); szociális konfrontáció négy kimenettel.
+2026.11.01.  V-07 FOLYAMATBAN – harmadik kockás előny és hátrány, halmozás nélkül;
+             szociális Részleges siker: fél siker mérték; közelharci varázslás
+             +1 AP. Nyitott: Helyzet, rizikós próba, források ritkítása.
