@@ -1974,14 +1974,32 @@ Döntés: Kockaméret-léptetés helyett harmadik kocka, a két kocka közül a
   Részleges siker: hátrány helyett a számláló a siker mértékének felével
   mozdul. Közelharci távon a varázslás nem hátrányos, hanem 1 AP-vel
   drágább. Az előny- és hátrányforrásokat ritkítani kell, hogy hassanak.
+  Forráselv (2026.11.01., mind a 18 pont jóváhagyva): marad, ami
+  helyzeti, ritka és a játékos dönt róla; kiesik vagy szűkül, ami
+  tartós és mindenre hat, ami apró és rövid, vagy csak fokozatot
+  jelölt. A fokozatot a hatókör, az időtartam vagy a „nem kísérelhető
+  meg” jelzi, nem újabb kocka.
 Javítás: Tandemkockák: színkód-mondat. Bevezető › Előny és hátrány és
   II. rész › Előny és hátrány: új szabály (a lépcső, a halmozás, a
   d4-padló és a d12-plafon kikerült). Szociális konfrontáció: a három
   Részleges siker sor (a V-06 szövegét módosítja). Közelharci táv:
-  varázslás +1 AP.
-Megjegyzés: Nyitott: a Helyzet következmény hurka, a rizikós próba
-  hátránnyal, a források ritkítása (a halmozott kettős–négyes helyekkel
-  együtt), a H-65 párbajszimuláció újrafuttatása. Számok (saját szintű
+  varázslás +1 AP. Forrásritkítás: Látási viszonyok táblázat;
+  Utazási tempó; Nagy táv és Közepes táv jellemző; Megzavarás;
+  Rohamozás (előny, a Seb az elköltött AP-val egyenlő); Célzott és
+  Letaglózó lövés; Terelő, Kétfegyveres, Védekező, Féktelen harcmodor;
+  nagyobb méretű ellenfél; Földön fekvő; Csonttörés (csak az érintett
+  végtag), Csonkolás, pótolt végtag; Reflexgátlás (közepes: Kitérés,
+  nehéz: minden Reflex); nemestünde és óelf vér; törp csapdakeresés;
+  Mérnökök népe (naponta egyszer); Fosztogatók, Nomádok; Helyzet
+  (csak az „egyes” szó); fajok tulajdonságlevonása „−1-es módosító”.
+Megjegyzés: Nyitott: a sebtábla 14 sora (az elv jóváhagyva, a sorok
+  jóváhagyásra várnak), a Helyzet következmény hurka, a rizikós próba
+  hátránnyal, a H-65 párbajszimuláció újrafuttatása. Két részletet én
+  töltöttem ki: Teljes sötétségben a Reflex mentődobás hátránnyal megy
+  (a javaslat csak a távolsági támadást és a látást igénylő próbát
+  nevezte meg), a vér hatása pedig „a következő pihenő vagy táborozási
+  szegmensig” tart, mert a puszta „pihenő szegmens” este ivásnál
+  hosszabb lenne a régi „nap hátralévő részénél”. Számok (saját szintű
   célérték, d6+d6): előny 58% → 81% siker, Kritikus bukás 17% → 1%;
   hátrány 58% → 42% siker, Abszolút siker nincs. Két független átnézés
   (tabletop-rpg-design, wispers-design-analyst) után: a „két legkisebb”
@@ -2044,7 +2062,10 @@ Teendő: Pontonként dönteni.
 Megjegyzés: A review a Rohamozás AP-ját is kétértelműnek tartja; ez a
   H-65 óta tisztázott („Ehhez jön a fegyvered támadásának AP
   költsége.”). A CRPG-ben a Hárítás: pajzskocka + jártasságkocka a
-  támadás ellen.
+  támadás ellen. A V-07 óta nincs halmozás: a Színlelt harcmodor
+  „halmozódó” előnye érvénytelen, a szöveg itt vár átírásra. A
+  Megzavarás a V-07-ben egyszeres hátrányra esett, az AP-ját a H-65
+  újrafuttatása mutatja meg.
 
 ----------------------------------------------------------------
 [V-12] HIÁNY – Harci példa
@@ -2077,6 +2098,11 @@ Probléma: (§4) Az allúr Sújtás, a Hadviselő Vérláza és a mnemór
   mennyivel. A mnemór kezdő pszionikája mögött üres a Pszionika fejezet.
 Teendő: Faji képességek összevetése; a Vérszomj mondatának pontosítása.
 Állapot: NYITOTT
+Megjegyzés: A V-07 után az előny sokkal erősebb (d6+d6: 58% → 81%
+  siker, Kritikus bukás 17% → 1%). A Fosztogatók tartós előnye minden
+  támadásra vagy képzettségpróbára és a Nomádok előnye ezért itt
+  mérendő újra. A Nomádok „kettős előnyre nő” mondata a V-07-tel
+  kikerült (nincs halmozás).
 
 ----------------------------------------------------------------
 [V-15] Hátterek és szinttábla
@@ -2401,3 +2427,5 @@ NAPLÓ – mi történt, mikor
 2026.11.01.  V-07 FOLYAMATBAN – harmadik kockás előny és hátrány, halmozás nélkül;
              szociális Részleges siker: fél siker mérték; közelharci varázslás
              +1 AP. Nyitott: Helyzet, rizikós próba, források ritkítása.
+2026.11.01.  V-07 – forrásritkítás: 17 pont beírva, a sebtábla 14 sora jóváhagyásra
+             vár; V-11 és V-14 megjegyzéssel bővült.

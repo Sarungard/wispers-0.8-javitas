@@ -304,11 +304,11 @@ A fénynek és a sötétségnek hat fokozata van: erős fény, gyenge fény, vak
 | Látási viszony | Közelharci támadás | Távolsági támadás, látást igénylő próba, Reflex mentődobás |
 |:--|:--:|:--:|
 | Erős fény | – | – |
-| Gyenge fény | – | egyes hátrány |
-| Vakító fény | – | egyes hátrány |
-| Enyhe sötétség | egyes hátrány | kettős hátrány |
-| Részleges sötétség | kettős hátrány | hármas hátrány |
-| Teljes sötétség | hármas hátrány | négyes hátrány |
+| Gyenge fény | – | – |
+| Vakító fény | – | hátrány |
+| Enyhe sötétség | – | hátrány |
+| Részleges sötétség | hátrány | hátrány |
+| Teljes sötétség | hátrány | nem kísérelhető meg; Reflex mentődobás: hátrány |
 
 ## Jártassági szintek
 
@@ -1007,7 +1007,7 @@ A mesélő a következők közül választ egyet, vagy a helyzethez illő saját
 
 - **Idő:** a feladat elhúzódik, vagy újra kell kezdeni.
 - **Eszköz:** egy használt eszköz eltörik vagy elvész.
-- **Helyzet:** a következő próbádat egyes hátránnyal teszed.
+- **Helyzet:** a következő próbádat hátránnyal teszed.
 - **Figyelem:** valaki észrevesz, gyanút fog vagy riaszt.
 - **Ár:** pénzbe, élelembe vagy egy szívességbe kerül.
 - **Fáradtság:** elszenvedsz egy szint Kimerültséget.
@@ -1156,9 +1156,9 @@ Utazáshoz a csapat megválasztja a tempót és annak vonzatait. Például alapv
 
 | Tempó | Megtett táv szegmensenként | Cselekvések |
 |:--|:--:|:--:|
-| Komótos tempó | ¾ | egyes előny |
+| Komótos tempó | ¾ | előny |
 | Normál tempó | teljes | – |
-| Gyors tempó | 1½ | egyes hátrány |
+| Gyors tempó | 1½ | hátrány |
 
 Utazási szegmens során választható cselekvések: Tájékozódás, nyomkövetés, nyomok elrejtése, gyűjtögetés, vadászat, felderítés, csapdakeresés.
 
@@ -1306,7 +1306,7 @@ Ezen a távon közelharci fegyverrel már nem éred el az ellenfeled, csak távo
 
 #### Nagy táv
 
-A legtávolabbi hatótáv, ahol még harci kapcsolatban állsz a célponttal. Nagy táv jellemzőjű fegyverrel hátrány nélkül, Közepes táv jellemzőjűvel egyes hátránnyal éred el.
+A legtávolabbi hatótáv, ahol még harci kapcsolatban állsz a célponttal. Nagy táv jellemzőjű fegyverrel hátrány nélkül, Közepes táv jellemzőjűvel hátránnyal éred el.
 
 #### Értelmezhetetlen
 
@@ -1422,7 +1422,7 @@ Megpróbálod megtörni az ellenfeled koncentrációját, ami akár a harc kimen
 
 **Célérték:** a célpont Eltökéltség értéke.
 
-**Siker:** a célpont a következő támadását, védekezését vagy mentődobását kettős hátránnyal teszi.
+**Siker:** a célpont a következő támadását, védekezését vagy mentődobását hátránnyal teszi.
 
 ### Általános reakciólista
 
@@ -1462,9 +1462,9 @@ A testi erődet és a lendületeted összehangolva, minden erődet latba vetve m
 
 A rohamozás AP költsége függ a távolságtól: 2AP, ha az ellenfél a zónádon belül van (egy mozgás), és 3AP, ha szomszédos zónában van (két mozgás). Ehhez jön a fegyvered támadásának AP költsége.
 
-A támadást az elköltött AP-val megegyező előnnyel teszed, és találat esetén ugyanannyi Sebet okozol. Túlütésnél ehelyett a Túlütés szabálya érvényes, a két sebforrás nem adódik össze.
+A támadást előnnyel teszed, és találat esetén az elköltött AP-val megegyező számú Sebet okozol. Túlütésnél ehelyett a Túlütés szabálya érvényes, a két sebforrás nem adódik össze.
 
-A következő köröd kezdetéig nem mozoghatsz többet és minden támadást ellened egyes előnnyel dobnak, minden védekezést egyes hátránnyal dobsz.
+A következő köröd kezdetéig nem mozoghatsz többet és minden támadást ellened előnnyel dobnak, minden védekezést hátránnyal dobsz.
 
 #### Manőverezés {2-3AP}
 
@@ -1474,13 +1474,13 @@ Fegyverenként eltérő, általában egyszer használható, használat után id�
 
 #### Célzott lövés {a fegyver AP-ja}
 
-A célpont bizonyos testrészét támadod kettős hátránnyal.
+A célpont bizonyos testrészét támadod hátránnyal.
 
 **Siker:** a sebzés elszenvedése mellett a mesélő által szituációfüggő hatása is lesz a támadásnak.
 
 #### Letaglózó lövés {a fegyver AP-ja}
 
-Tégy egy távolsági támadást egyes hátránnyal a célpont irányába.
+Tégy egy távolsági támadást hátránnyal a célpont irányába.
 
 **Siker:** a célpont következő körében az Elmozdulás 4AP-be kerül.
 
@@ -1494,15 +1494,15 @@ A harcmodort a köröd elején választod 0AP-ért, és a következő köröd ke
 
 #### Terelő harcmodor
 
-Terelő harcmodor során minden támadásod egyes hátránnyal teszed és túlütés esetén sem okozol sebesülést, de minden sikeres találattal Közelharci távnyira kényszerítheted a célpontot, pozícionálva titeket a zónában.
+Terelő harcmodor során minden támadásod hátránnyal teszed és túlütés esetén sem okozol sebesülést, de minden sikeres találattal Közelharci távnyira kényszerítheted a célpontot, pozícionálva titeket a zónában.
 
 #### Kétfegyveres harcmodor
 
-Kétfegyveres harcmodor során a második fegyvered hárítófegyverként használható, és a forduló során az első Hárításod 0AP-be kerül. Cserébe minden támadásod egyes hátránnyal teszed.
+Kétfegyveres harcmodor során a második fegyvered hárítófegyverként használható, és a forduló során az első Hárításod 0AP-be kerül. Cserébe minden támadásod hátránnyal teszed.
 
 #### Védekező harcmodor
 
-Védekező harcmodor során minden támadásod egyes hátránnyal teszed, de minden ellened indított támadásra is garantált az egyes hátrány.
+Védekező harcmodor során minden támadásod hátránnyal teszed, de minden ellened indított támadásra is garantált a hátrány.
 
 #### Színlelt harcmodor
 
@@ -1510,7 +1510,7 @@ Színlelt harcmodor nem okozol sebesülést, de minden sikeres találat után a 
 
 #### Féktelen harcmodor
 
-Féktelen harcmodor során minden támadásod kettős előnnyel teszed, de minden téged ért támadásra is garantált a kettős előny.
+Féktelen harcmodor során minden támadásod előnnyel teszed, de minden téged ért támadásra is garantált az előny.
 
 #### Halált nem okozó harcmodor
 
@@ -1520,7 +1520,7 @@ Nem használható, ha a karakter rohamozik.
 
 ### Harc nagyobb méretű ellenféllel szemben
 
-Az Ellökést, a Megragadást, az Elrángatást, a Feldöntést és a Lefegyverzést egy mérettel nagyobb célpont ellen kettős hátránnyal teszed. Két mérettel nagyobb célpont ellen nem hajthatod végre őket.
+Az Ellökést, a Megragadást, az Elrángatást, a Feldöntést és a Lefegyverzést egy mérettel nagyobb célpont ellen hátránnyal teszed. Két mérettel nagyobb célpont ellen nem hajthatod végre őket.
 
 ### Harc repülő ellenféllel szemben
 
@@ -1715,13 +1715,13 @@ Komoly esztétikai jellegű egy nagyobb karcolás, horzsolás, égésnyom vagy h
 
 #### Csonttörés
 
-A csonttörést elszenvedett karakter a harcot bár folytatni képes, minden támadásához és próbájához egyes hátrány jár. A csonttörés gyógyulási ideje több hét megfelelő ellátás mellett.
+A csonttörést elszenvedett karakter a harcot bár folytatni képes, az érintett végtagot igénylő támadásaihoz és próbáihoz hátrány jár. A csonttörés gyógyulási ideje több hét megfelelő ellátás mellett.
 
 #### Csonkolás
 
-A csonkolást elszenvedett karakter a harcot bár folytatni képes, a sebeit sürgősen el kell látni. Minden támadásához és próbájához kettős hátrány jár. Ha nem kap ellátást 1d4 körön belül, akkor a sebesülés súlyos vérzéssé válik.
+A csonkolást elszenvedett karakter a harcot bár folytatni képes, a sebeit sürgősen el kell látni. Minden támadásához és próbájához hátrány jár. Ha nem kap ellátást 1d4 körön belül, akkor a sebesülés súlyos vérzéssé válik.
 
-Csonkolás nem gyógyítható. Az elvesztett végtag pótolható, ekkor a sebesülésből fakadó büntetés egyes hátránnyá enyhül.
+Csonkolás nem gyógyítható. Az elvesztett végtag pótolható, ekkor a hátrány már csak a végtagot igénylő támadásokra és próbákra vonatkozik.
 
 #### Maradandó károsodás
 
@@ -1765,7 +1765,7 @@ Nem hajthatsz végre Elmozdulást és Kihátrálást.
 
 ### Földön fekvő
 
-Egyes hátránnyal támadsz, a Közelharci távról ellened indított támadások pedig egyes előnnyel mennek.
+Hátránnyal támadsz, a Közelharci távról ellened indított támadások pedig előnnyel mennek.
 
 ### Öntudatlan
 
@@ -1812,7 +1812,7 @@ Minden faj leírásánál megtalálhatóak azok faji jellemzői, amik a faj kép
 
 Minden faj rendelkezik egy kijelölt elsődleges tulajdonsággal, amit kettővel, és egy másodlagos tulajdonsággal, amit eggyel növelj meg. A másodlagos tulajdonságot fajtól függően a leírás jelöli ki, vagy szabadon választhatod. Kivétel az ork, aki egyetlen +3-as bónuszt kap.
 
-Az alfajok ehhez még egy választható +1-es bónuszt adnak (a leírásukban megadott két tulajdonság közül választhatsz), valamint egy kijelölt tulajdonságra −1-es hátrányt. Az alfaj nélküli fajok (mnemórok, allúrok) ezt a választható bónuszt és a hátrányt a saját faji leírásukban kapják; a mnemóroknál a hátrány −2.
+Az alfajok ehhez még egy választható +1-es bónuszt adnak (a leírásukban megadott két tulajdonság közül választhatsz), valamint egy kijelölt tulajdonságra −1-es módosítót. Az alfaj nélküli fajok (mnemórok, allúrok) ezt a választható bónuszt és a módosítót a saját faji leírásukban kapják; a mnemóroknál a módosító −2.
 
 #### Életkor
 
@@ -1886,7 +1886,7 @@ Az emberek faji jellemzőiket három kategóriából választhatnak kettő helye
 
 A városorzók választható +1 bónuszt kapnak Tudásra vagy Jelenlétre.
 
-Emellett -1 hátrányt kapnak Ügyességre.
+Emellett -1-es módosítót kapnak Ügyességre.
 
 #### Diplomaták
 
@@ -1902,7 +1902,7 @@ Konfrontációnként egyszer a választott módszerhez hozzáadhatja a Tudását
 
 A fagymarták választható +1 bónuszt kapnak Erőre vagy Állóképességre.
 
-Emellett -1 hátrányt kapnak Jelenlétre.
+Emellett -1-es módosítót kapnak Jelenlétre.
 
 #### Győzelmi lakoma
 
@@ -1916,7 +1916,7 @@ Pihenés végén a Kimerültségük eggyel jobban csökken, hogyha képesek volt
 
 A napszítták választható +1 bónuszt kapnak Erőre vagy Szellemre.
 
-Emellett -1 hátrányt kapnak Tudásra.
+Emellett -1-es módosítót kapnak Tudásra.
 
 #### Kitartó harcosok
 
@@ -1930,7 +1930,7 @@ Naponta Állóképesség tulajdonságuknak megfelelő alkalommal választhatják
 
 A vadszívélyűek választható +1 bónuszt kapnak Ügyességre vagy Állóképességre.
 
-Emellett -1 hátrányt kapnak Tudásra.
+Emellett -1-es módosítót kapnak Tudásra.
 
 #### Vadonlakók
 
@@ -1992,11 +1992,11 @@ A Velarnok vérvonala ott csörgedezik az ereikben. Ha vért isznak, képesek á
 
 A nemestündék választható +1 bónuszt kapnak Tudásra vagy Jelenlétre.
 
-Emellett -1 hátrányt kapnak Erőre.
+Emellett -1-es módosítót kapnak Erőre.
 
 #### Megtagadott örökség
 
-A nemestündékre a vér méregként hat. Ha vért isznak, akkor elgyengülnek, mert a szervezetük megpróbálja kilökni, ennek következtében a nap hátralévő részében egyes hátrányt kapnak támadásra, mentődobásokra és próbákra.
+A nemestündékre a vér méregként hat. Ha vért isznak, akkor elgyengülnek, mert a szervezetük megpróbálja kilökni, ennek következtében a következő pihenő vagy táborozási szegmensig hátrányt kapnak támadásra, mentődobásokra és próbákra.
 
 Ez a hatás nem halmozható.
 
@@ -2008,11 +2008,11 @@ Ez a hatás nem halmozható.
 
 Az óelfek választható +1 bónuszt kapnak Ügyességre vagy Jelenlétre.
 
-Emellett -1 hátrányt kapnak Tudásra.
+Emellett -1-es módosítót kapnak Tudásra.
 
 #### Elfogadott örökség
 
-Hogyha egy óelf vért iszik, a nap hátralévő részében egyes előnyt kap támadásra, mentődobásokra és próbákra.
+Hogyha egy óelf vért iszik, a következő pihenő vagy táborozási szegmensig előnyt kap támadásra, mentődobásokra és próbákra.
 
 Ez a hatás nem halmozható.
 
@@ -2100,7 +2100,7 @@ Emellett a föld alatt tartózkodva öt láb eltéréssel képesek megmondani, h
 
 Minden törp képes 5 év pontossággal meghatározni egy kőépítményről, hogy mikor építették.
 
-Kőfalakban elrejtett csapda és/vagy rejtekajtó keresésére próbát egyes előnnyel tesznek.
+Kőfalakban elrejtett csapda és/vagy rejtekajtó keresésére próbát előnnyel tesznek.
 
 ### Magmavérűek
 
@@ -2110,7 +2110,7 @@ Kőfalakban elrejtett csapda és/vagy rejtekajtó keresésére próbát egyes el
 
 A magmavérű törpök választható +1 bónuszt kapnak Állóképességre vagy Jelenlétre.
 
-Emellett -1 hátrányt kapnak Ügyességre.
+Emellett -1-es módosítót kapnak Ügyességre.
 
 #### Magmavér
 
@@ -2130,7 +2130,7 @@ A magmavérű törpökre jótékony hatással vannak a nemesfémek, ékkövek.
 
 A vasvérű törpök választható +1 bónuszt kapnak Erőre vagy Állóképességre.
 
-Emellett -1 hátrányt kapnak Tudásra.
+Emellett -1-es módosítót kapnak Tudásra.
 
 #### Vasvér
 
@@ -2148,13 +2148,13 @@ Ha egy vasvérű törpöt mágikus hatások mentődobásra kényszerítenek, ál
 
 A hígvérű törpök választható +1 bónuszt kapnak Állóképességre vagy Tudásra.
 
-Emellett -1 hátrányt kapnak Jelenlétre.
+Emellett -1-es módosítót kapnak Jelenlétre.
 
 #### Mérnökök népe
 
 A hígvérű törpök számára a valóság pusztán egy egyenlet.
 
-Ha van időd felkészülni - legalább 10 perc - egy képzettségpróbára és rendelkezel releváns jártassággal, akkor azt a próbát egyes előnnyel teszed.
+Ha van időd felkészülni - legalább 10 perc - egy képzettségpróbára és rendelkezel releváns jártassággal, akkor azt a próbát előnnyel teszed. Ezt naponta egyszer teheted meg.
 
 ## Félszerzetek
 
@@ -2214,7 +2214,7 @@ Minden pihentető alvás alkalmával a társaid Kimerültsége eggyel jobban cs�
 
 A könnyűléptű félszerzetek választható +1 bónuszt kapnak Ügyességre vagy Jelenlétre.
 
-Emellett -1 hátrányt kapnak Tudásra.
+Emellett -1-es módosítót kapnak Tudásra.
 
 #### Fürgeléptűek
 
@@ -2230,7 +2230,7 @@ Naponta Jelenlét tulajdonságuknak megfelelő alkalommal választhatják, hogy 
 
 A parázsszívű félszerzetek választható +1 bónuszt kapnak Erőre vagy Állóképességre.
 
-Emellett -1 hátrányt kapnak Ügyességre.
+Emellett -1-es módosítót kapnak Ügyességre.
 
 #### Rettenthetetlenek
 
@@ -2246,7 +2246,7 @@ Naponta Jelenlét tulajdonságuknak megfelelő alkalommal választhatják, hogy 
 
 A rejtélylelkű félszerzetek választható +1 bónuszt kapnak Jelenlétre vagy Szellemre.
 
-Emellett -1 hátrányt kapnak Erőre.
+Emellett -1-es módosítót kapnak Erőre.
 
 #### Kifürkészhetetlenek
 
@@ -2270,7 +2270,7 @@ Ugyanis amikor egy mnemór nagykorúvá érik, vagy ahogy ők mondják először
 
 A mnemórok +2 bónuszt kapnak Tudásra és +1 bónuszt Szellemre.
 
-Emellett választható +1 bónuszt kapnak Ügyességre vagy Tudásra és -2 hátrányt Erőre.
+Emellett választható +1 bónuszt kapnak Ügyességre vagy Tudásra és -2-es módosítót Erőre.
 
 #### Életkor
 
@@ -2339,7 +2339,7 @@ Az allúrok azóta lovagrendekbe szerveződve keresik az útjukat a fénybe, aho
 
 Az allúrok +2 bónuszt kapnak Erőre és +1 bónuszt Jelenlétre.
 
-Emellett választható +1 bónuszt kapnak Erőre vagy Jelenlétre és -1 hátrányt Ügyességre.
+Emellett választható +1 bónuszt kapnak Erőre vagy Jelenlétre és -1-es módosítót Ügyességre.
 
 #### Életkor
 
@@ -2441,7 +2441,7 @@ Minden nap, amikor először sebet okozol egy karakternek, csökkentsd a vérszo
 
 A hadviselő orkok választható +1 bónuszt kapnak Erőre vagy Állóképességre.
 
-Emellett -1 hátrányt kapnak Ügyességre.
+Emellett -1-es módosítót kapnak Ügyességre.
 
 #### Vérláz
 
@@ -2459,15 +2459,15 @@ Csak akkor használhatják ezt képességüket, ha a vérszomjuk magasabb, mint 
 
 A fosztogató orkok választható +1 bónuszt kapnak Ügyességre vagy Állóképességre.
 
-Emellett -1 hátrányt kapnak Jelenlétre.
+Emellett -1-es módosítót kapnak Jelenlétre.
 
 #### Kényes egyensúly
 
 A fosztogató orkok megtanultak együttélni a fülükben szűnni nem akaró agresszív morajlással, így fel tudják használni azt az előnyükre, de épp ugyanígy képesek kiélvezni annak hátrányát is.
 
-Ameddig vérszomjuk magasabb, mint a mentális könnyű sebhatáruk, akkor minden támadást egyes előnnyel dobnak.
+Ameddig vérszomjuk magasabb, mint a mentális könnyű sebhatáruk, akkor minden támadást előnnyel dobnak.
 
-Ameddig vérszomjuk alacsonyabb, mint a mentális könnyű sebhatáruk, minden képzettségpróbát egyes előnnyel dobnak.
+Ameddig vérszomjuk alacsonyabb, mint a mentális könnyű sebhatáruk, minden képzettségpróbát előnnyel dobnak.
 
 ### Nomádok
 
@@ -2477,7 +2477,7 @@ Ameddig vérszomjuk alacsonyabb, mint a mentális könnyű sebhatáruk, minden k
 
 A nomád orkok választható +1 bónuszt kapnak Jelenlétre vagy Szellemre.
 
-Emellett -1 hátrányt kapnak Tudásra.
+Emellett -1-es módosítót kapnak Tudásra.
 
 #### Lélekszinkron
 
@@ -2487,7 +2487,7 @@ Amikor egy nomád ork sebet gyógyít, a meggyógyított sebek számával megegy
 
 A nomád orkok mindent megtesznek, hogy a vérdal torz hangjait elnyomják magukban.
 
-Ameddig vérszomjuk alacsonyabb, mint a mentális könnyű sebhatáruk, minden képzettségpróbát és mentődobást egyes előnnyel dobnak. Ha előző este a mentődobás a mentális könnyű sebhatáruk alá vitte a Vérszomjukat, ez kettős előnyre nő.
+Ameddig vérszomjuk alacsonyabb, mint a mentális könnyű sebhatáruk, minden képzettségpróbát és mentődobást előnnyel dobnak.
 
 # 2. Személyiség és háttér
 
@@ -3162,7 +3162,7 @@ A fegyvert két kézzel kell forgatni: mellette nem használhatsz pajzsot, és n
 
 #### Közepes táv
 
-A fegyver Közepes távig hátrány nélkül lő, Nagy távra egyes hátránnyal (lásd: Zónák és hatótávok).
+A fegyver Közepes távig hátrány nélkül lő, Nagy távra hátránnyal (lásd: Zónák és hatótávok).
 
 #### Lefegyverző
 
@@ -3194,28 +3194,28 @@ Taszítja a mágiát: a vasból készült fegyver nem bájolható, és aki vasp�
 
 Képzetlen jártassággal egyik páncél sem viselhető.
 
-A Reflexgátlás a páncélt viselő karakter Reflex mentődobásaira, így a Kitérésre is ható hátrány.
+A Reflexgátlás a páncélt viselő karakterre ható hátrány: közepes vértben csak a Kitérésre, nehéz vértben minden Reflex mentődobásra, így a Kitérésre is.
 
 ##### Általános páncélok
 | Páncél | Védőérték | Keménység | AP | Reflexgátlás | Páncélcsoport | Képzetlen | Kezdő | Képzett | Haladó | Tapasztalt | Mester |
 |:--|:--:|:--:|:--:|:--:|:--|:--:|:--:|:--:|:--:|:--:|:--:|
 | Vállvért | 1 | 1 | | – | Könnyű | - | | | | | |
-| Pántos láncvért | 5 | 5 | | kettős hátrány | Nehéz | - | | | | | |
+| Pántos láncvért | 5 | 5 | | minden Reflex | Nehéz | - | | | | | |
 | Keményített bőrvért | 2 | 2 | | – | Könnyű | - | | | | | |
-| Brigantin | 3 | 4 | | egyes hátrány | Közepes | - | | | | | |
-| Mellvért | 3 | 4 | | egyes hátrány | Közepes | - | | | | | |
+| Brigantin | 3 | 4 | | Kitérés | Közepes | - | | | | | |
+| Mellvért | 3 | 4 | | Kitérés | Közepes | - | | | | | |
 | Steppelt zeke | 1 | 2 | | – | Könnyű | - | | | | | |
-| Láncing | 3 | 3 | | egyes hátrány | Közepes | - | | | | | |
-| Lemezes zeke | 3 | 4 | | egyes hátrány | Közepes | - | | | | | |
-| Jazeránvért | 4 | 5 | | egyes hátrány | Közepes | - | | | | | |
-| Ládamellű vért | 6 | 6 | | kettős hátrány | Nehéz | - | | | | | |
-| Lamellás vért | 4 | 5 | | egyes hátrány | Közepes | - | | | | | |
-| Sávos lemezvért | 5 | 6 | | kettős hátrány | Nehéz | - | | | | | |
-| Láncvért | 4 | 4 | | egyes hátrány | Közepes | - | | | | | |
-| Teljes lemezvért | 6 | 6 | | kettős hátrány | Nehéz | - | | | | | |
+| Láncing | 3 | 3 | | Kitérés | Közepes | - | | | | | |
+| Lemezes zeke | 3 | 4 | | Kitérés | Közepes | - | | | | | |
+| Jazeránvért | 4 | 5 | | Kitérés | Közepes | - | | | | | |
+| Ládamellű vért | 6 | 6 | | minden Reflex | Nehéz | - | | | | | |
+| Lamellás vért | 4 | 5 | | Kitérés | Közepes | - | | | | | |
+| Sávos lemezvért | 5 | 6 | | minden Reflex | Nehéz | - | | | | | |
+| Láncvért | 4 | 4 | | Kitérés | Közepes | - | | | | | |
+| Teljes lemezvért | 6 | 6 | | minden Reflex | Nehéz | - | | | | | |
 | Gyűrűs vért | 2 | 3 | | – | Könnyű | - | | | | | |
-| Pikkelyvért | 4 | 4 | | egyes hátrány | Közepes | - | | | | | |
-| Sínvért | 5 | 5 | | kettős hátrány | Nehéz | - | | | | | |
+| Pikkelyvért | 4 | 4 | | Kitérés | Közepes | - | | | | | |
+| Sínvért | 5 | 5 | | minden Reflex | Nehéz | - | | | | | |
 | Vasalt bőrvért | 2 | 3 | | – | Könnyű | - | | | | | |
 
 # 6. Varázslatok
