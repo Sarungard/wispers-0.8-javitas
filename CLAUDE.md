@@ -45,7 +45,8 @@ Keep replies short and in Hungarian. Put the proposal and the question at the en
   costs +1 AP instead of hátrány. Zoz wants fewer előny/hátrány sources so they matter: keep the situational ones the
   player chooses (harcmodor, roham, tempó, position); cut or narrow the lasting, broad, minor ones; express grades
   by scope, duration or „nem kísérelhető meg”, never by extra dice. Racial attribute penalties are „−1-es módosító”,
-  never „hátrány”. Open: the 14 wound-table rows, the Helyzet loop, rizikós próba under hátrány, Színlelt (V-11).
+  never „hátrány”. Wound tables: Könnyű seb never gives hátrány; Mély seb a narrow one until rest; Súlyos seb a broad
+  one. Open: the Helyzet loop, rizikós próba under hátrány, Színlelt (V-11), the H-65 duel re-run.
 - Attacks: weapon die + proficiency die, no attribute. Unarmed: 1d2 (1d4/2) with the Pusztakezes harc proficiency.
 - Célérték (V-03): the GM sets the check's level, which gates who may try and suggests the célérték: Képzetlen 3, Kezdő 5,
   Képzett 7, Haladó 9, Tapasztalt 11, Mester 13. Only a recommendation; the GM may and should adjust it.

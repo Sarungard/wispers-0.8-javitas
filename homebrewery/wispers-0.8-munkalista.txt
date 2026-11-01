@@ -1992,8 +1992,14 @@ Javítás: Tandemkockák: színkód-mondat. Bevezető › Előny és hátrány �
   nehéz: minden Reflex); nemestünde és óelf vér; törp csapdakeresés;
   Mérnökök népe (naponta egyszer); Fosztogatók, Nomádok; Helyzet
   (csak az „egyes” szó); fajok tulajdonságlevonása „−1-es módosító”.
-Megjegyzés: Nyitott: a sebtábla 14 sora (az elv jóváhagyva, a sorok
-  jóváhagyásra várnak), a Helyzet következmény hurka, a rizikós próba
+  Sebtábla (14 sor): a Könnyű seb nem ad hátrányt (Kizökkent egyensúly:
+  nincs Kitérés; Vér a szemben: nincs távolsági támadás; Elzsibbadt kéz:
+  +1 AP; Elakadt lélegzet: −2 AP; Megrándult izom: nincs Rohamozás;
+  Kificamodott ujj: fegyvertelen); Mély seb szűk körre (Agyrázkódás:
+  Tudás-próbák pihenőig; Elvesztett ujj vagy fül: az érintett kéz vagy a
+  hallás; Nyílt törés ellátásig minden dobásra); Súlyos seb széles
+  körre (Átszúrt tüdő: minden támadás és próba a gyógyulásig).
+Megjegyzés: Nyitott: a Helyzet következmény hurka, a rizikós próba
   hátránnyal, a H-65 párbajszimuláció újrafuttatása. Egy részletet én
   töltöttem ki: Teljes sötétségben a Reflex mentődobás hátránnyal megy
   (a javaslat csak a távolsági támadást és a látást igénylő próbát
@@ -2430,3 +2436,5 @@ NAPLÓ – mi történt, mikor
 2026.11.01.  V-07 – forrásritkítás: 17 pont beírva, a sebtábla 14 sora jóváhagyásra
              vár; V-11 és V-14 megjegyzéssel bővült.
 2026.11.01.  V-07 – a nemestünde és az óelf vér hatása napkeltéig tart.
+2026.11.01.  V-07 – sebtábla: 14 sor az új hátrányelvhez igazítva (a Könnyű seb
+             nem ad hátrányt). Nyitott: Helyzet, rizikós próba, H-65.

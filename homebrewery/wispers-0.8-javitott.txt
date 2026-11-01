@@ -1653,16 +1653,16 @@ Mindig, amikor sebet szerzel, dobj a seb súlyosságának megfelelő táblázato
 | 2-3 | Karcolás: enyhe esztétikai sérülés. |
 | 4-5 | Horzsolás: enyhe esztétikai sérülés. |
 | 6 | Zúzódás: enyhe esztétikai sérülés. |
-| 7 | Kizökkent egyensúly: a következő köröd végéig minden védekezésed egyes hátránnyal teszed. |
-| 8 | Vér a szemben: a következő köröd végéig a támadásaid és a látást igénylő próbáid egyes hátránnyal teszed. |
-| 9 | Elzsibbadt kéz: a következő támadásod kettős hátránnyal teszed. |
-| 10 | Elakadt lélegzet: a következő köröd végéig minden próbád egyes hátránnyal teszed. |
+| 7 | Kizökkent egyensúly: a következő köröd végéig nem hajthatsz végre Kitérést. |
+| 8 | Vér a szemben: a következő köröd végéig nem tehetsz távolsági támadást. |
+| 9 | Elzsibbadt kéz: a következő támadásod 1 AP-vel többe kerül. |
+| 10 | Elakadt lélegzet: a következő körödben 2 AP-vel kevesebbet költhetsz. |
 | 11 | Felrepedt bőr: komoly esztétikai sérülés. |
-| 12 | Megrándult izom: a következő pihentető táborozási szegmensig az Erővel tett próbáid egyes hátránnyal teszed. |
+| 12 | Megrándult izom: a következő köröd végéig nem hajthatsz végre Rohamozást. |
 | 13 | Ütés a fejre: a következő köröd végéig nem reagálhatsz. |
 | 14 | Mély karcolás: komoly esztétikai sérülés. |
 | 15 | Megtántorodás: a földre kerülsz. |
-| 16-17 | Kificamodott ujj: a következő pihentető táborozási szegmensig minden támadásod egyes hátránnyal teszed. |
+| 16-17 | Kificamodott ujj: fegyvertelenné válsz. |
 | 18-19 | Csúnya vágás: komoly esztétikai sérülés. |
 | 20 | Rossz esés: a földre kerülsz, és a következő köröd végéig nem reagálhatsz. |
 | 21+ | A seb Mély sebbé válik: dobj a Mély seb táblázatán. |
@@ -1670,19 +1670,19 @@ Mindig, amikor sebet szerzel, dobj a seb súlyosságának megfelelő táblázato
 | Mély seb | Hatás |
 |:--:|:--|
 | 2-3 | Mély vágás: komoly esztétikai sérülés. |
-| 4-5 | Bordazúzódás: a következő pihentető táborozási szegmensig az Állóképességgel tett próbáid egyes hátránnyal teszed. |
-| 6 | Átszúrt izom: a következő pihentető táborozási szegmensig minden támadásod egyes hátránnyal teszed. |
-| 7 | Agyrázkódás: a következő köröd végéig nem reagálhatsz, és minden próbád egyes hátránnyal teszed. |
+| 4-5 | Bordazúzódás: a következő pihentető táborozási szegmensig az Állóképességgel tett próbáid hátránnyal teszed. |
+| 6 | Átszúrt izom: a következő pihentető táborozási szegmensig minden támadásod hátránnyal teszed. |
+| 7 | Agyrázkódás: a következő köröd végéig nem reagálhatsz, és a következő pihentető táborozási szegmensig a Tudással tett próbáid hátránnyal teszed. |
 | 8 | Kificamodott váll: fegyvertelenné válsz. |
 | 9 | Térdsérülés: a következő pihentető táborozási szegmensig nem hajthatsz végre Rohamozást. |
-| 10 | Repedt borda: a következő pihentető táborozási szegmensig az Erővel tett próbáid egyes hátránnyal teszed. |
+| 10 | Repedt borda: a következő pihentető táborozási szegmensig az Erővel tett próbáid hátránnyal teszed. |
 | 11 | Kéztörés: csonttörés. |
 | 12 | Bordatörés: csonttörés. |
 | 13 | Lábtörés: csonttörés; a gyógyulásig nem hajthatsz végre Rohamozást. |
-| 14 | Elvesztett ujj vagy fül: csonkolás, de a hátránya csak egyes. |
-| 15 | Sérült szem: maradandó károsodás; a távolsági támadásaid és a látást igénylő próbáid egyes hátránnyal teszed. |
+| 14 | Elvesztett ujj vagy fül: csonkolás, de a hátránya csak az érintett kézzel vagy a hallással kapcsolatos dobásokra vonatkozik. |
+| 15 | Sérült szem: maradandó károsodás; a távolsági támadásaid és a látást igénylő próbáid hátránnyal teszed. |
 | 16-17 | Maradandó károsodás. |
-| 18-19 | Nyílt törés: csonttörés, és amíg nem látják el, a hátránya kettős. |
+| 18-19 | Nyílt törés: csonttörés, és amíg nem látják el, a hátránya minden támadásodra és próbádra vonatkozik. |
 | 20 | Csonkolás. |
 | 21+ | A seb Súlyos sebbé válik: dobj a Súlyos seb táblázatán. |
 
@@ -1692,7 +1692,7 @@ Mindig, amikor sebet szerzel, dobj a seb súlyosságának megfelelő táblázato
 | 4-5 | Eltört kar: csonttörés. |
 | 6 | Eltört láb: csonttörés; a gyógyulásig nem hajthatsz végre Rohamozást. |
 | 7 | Betört koponya: csonttörés, és a következő köröd végéig öntudatlan vagy. |
-| 8 | Átszúrt tüdő: a gyógyulásig az Állóképességgel tett próbáid kettős hátránnyal teszed. |
+| 8 | Átszúrt tüdő: a gyógyulásig minden támadásodat és próbádat hátránnyal teszed. |
 | 9 | Elvesztett kéz: csonkolás. |
 | 10 | Kiszúrt szem: maradandó károsodás. |
 | 11 | Elvesztett láb: csonkolás. |
