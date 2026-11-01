@@ -1996,7 +1996,7 @@ Emellett -1-es módosítót kapnak Erőre.
 
 #### Megtagadott örökség
 
-A nemestündékre a vér méregként hat. Ha vért isznak, akkor elgyengülnek, mert a szervezetük megpróbálja kilökni, ennek következtében a következő pihenő vagy táborozási szegmensig hátrányt kapnak támadásra, mentődobásokra és próbákra.
+A nemestündékre a vér méregként hat. Ha vért isznak, akkor elgyengülnek, mert a szervezetük megpróbálja kilökni, ennek következtében napkeltéig hátrányt kapnak támadásra, mentődobásokra és próbákra.
 
 Ez a hatás nem halmozható.
 
@@ -2012,7 +2012,7 @@ Emellett -1-es módosítót kapnak Tudásra.
 
 #### Elfogadott örökség
 
-Hogyha egy óelf vért iszik, a következő pihenő vagy táborozási szegmensig előnyt kap támadásra, mentődobásokra és próbákra.
+Hogyha egy óelf vért iszik, napkeltéig előnyt kap támadásra, mentődobásokra és próbákra.
 
 Ez a hatás nem halmozható.
 

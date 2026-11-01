@@ -1994,12 +1994,12 @@ Javítás: Tandemkockák: színkód-mondat. Bevezető › Előny és hátrány �
   (csak az „egyes” szó); fajok tulajdonságlevonása „−1-es módosító”.
 Megjegyzés: Nyitott: a sebtábla 14 sora (az elv jóváhagyva, a sorok
   jóváhagyásra várnak), a Helyzet következmény hurka, a rizikós próba
-  hátránnyal, a H-65 párbajszimuláció újrafuttatása. Két részletet én
+  hátránnyal, a H-65 párbajszimuláció újrafuttatása. Egy részletet én
   töltöttem ki: Teljes sötétségben a Reflex mentődobás hátránnyal megy
   (a javaslat csak a távolsági támadást és a látást igénylő próbát
-  nevezte meg), a vér hatása pedig „a következő pihenő vagy táborozási
-  szegmensig” tart, mert a puszta „pihenő szegmens” este ivásnál
-  hosszabb lenne a régi „nap hátralévő részénél”. Számok (saját szintű
+  nevezte meg). A nemestünde és az óelf vér hatása Zoz döntése szerint
+  napkeltéig tart, mert semmi sem garantálja, hogy a karakterek minden
+  nap utaznak (így nem kötődik az utazási szegmensekhez). Számok (saját szintű
   célérték, d6+d6): előny 58% → 81% siker, Kritikus bukás 17% → 1%;
   hátrány 58% → 42% siker, Abszolút siker nincs. Két független átnézés
   (tabletop-rpg-design, wispers-design-analyst) után: a „két legkisebb”
@@ -2429,3 +2429,4 @@ NAPLÓ – mi történt, mikor
              +1 AP. Nyitott: Helyzet, rizikós próba, források ritkítása.
 2026.11.01.  V-07 – forrásritkítás: 17 pont beírva, a sebtábla 14 sora jóváhagyásra
              vár; V-11 és V-14 megjegyzéssel bővült.
+2026.11.01.  V-07 – a nemestünde és az óelf vér hatása napkeltéig tart.
