@@ -1,0 +1,34 @@
+=== [Állóképesség-Ügyességkocka-Reflexkocka 5-6-4] páncél nélkül, felső határ 20, 360 stratégia, 40 párbaj/párosítás
+  a játék értéke a játékosnak (döntetlennél ő lép előbb): 0.58
+  játékos egyensúlyi keveréke: 18% Nagykalapács, licit 20→20 | 17% Tőr, licit 6→8 | 9% Tőr, licit 8→8, Féktelen | 7% Tőr, licit 6→8, Féktelen, roham
+    fegyver: Tőr 49%, Nagykalapács 30%, Rövidkard 19%, Hosszúkard 1%
+    nyitó licit: 6 37%, 20 24%, 12 21%, 8 18%
+    Féktelen: 48%, roham: 12%
+  ellenfél egyensúlyi keveréke: 13% Rövidkard, licit 4→8, Féktelen, roham | 12% Tőr, licit 6→8, Féktelen, roham | 8% Tőr, licit 6→20, Féktelen | 8% Hosszúkard, licit 8→20, roham
+    fegyver: Tőr 43%, Rövidkard 35%, Nagykalapács 14%, Hosszúkard 8%
+    nyitó licit: 4 24%, 6 22%, 8 21%, 12 19%, 20 14%
+    Féktelen: 58%, roham: 51%
+  reakciók az egyensúlyi párbajokban: nincs reakció 74%, Kitérés 14%, Hárítás 11%
+  fegyverenként a legjobb stratégia az ellenfél egyensúlya ellen:
+    0.59  Tőr, licit 6→20, Féktelen
+    0.59  Rövidkard, licit 12→8
+    0.57  Hosszúkard, licit 12→20, Féktelen
+    0.58  Csatabárd, licit 20→20
+    0.58  Nagykalapács, licit 20→20, Féktelen
+=== [Állóképesség-Ügyességkocka-Reflexkocka 5-6-4] páncél (Védőérték 4, Keménység 4), felső határ 20, 360 stratégia, 40 párbaj/párosítás
+  a játék értéke a játékosnak (döntetlennél ő lép előbb): 0.61
+  játékos egyensúlyi keveréke: 20% Rövidkard, licit 20→8, Féktelen | 17% Rövidkard, licit 20→20, roham | 15% Rövidkard, licit 20→8, Féktelen, roham | 14% Rövidkard, licit 12→8, Féktelen, roham
+    fegyver: Rövidkard 69%, Nagykalapács 14%, Tőr 11%, Hosszúkard 6%
+    nyitó licit: 20 71%, 12 29%
+    Féktelen: 68%, roham: 68%
+  ellenfél egyensúlyi keveréke: 31% Rövidkard, licit 12→8, Féktelen | 24% Rövidkard, licit 12→20 | 13% Rövidkard, licit 12→8, roham | 8% Tőr, licit 12→20
+    fegyver: Rövidkard 91%, Tőr 9%
+    nyitó licit: 12 86%, 20 14%
+    Féktelen: 42%, roham: 19%
+  reakciók az egyensúlyi párbajokban: nincs reakció 81%, Hárítás 10%, Beleállás 8%, Kitérés 2%
+  fegyverenként a legjobb stratégia az ellenfél egyensúlya ellen:
+    0.61  Tőr, licit 12→20, Féktelen
+    0.61  Rövidkard, licit 20→20, roham
+    0.61  Hosszúkard, licit 20→20, Féktelen, roham
+    0.51  Csatabárd, licit 20→20
+    0.61  Nagykalapács, licit 20→20, roham

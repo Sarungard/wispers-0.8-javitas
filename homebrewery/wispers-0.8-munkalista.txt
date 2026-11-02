@@ -1825,7 +1825,7 @@ Megjegyzés: A szimulációhoz néhány sebsort értelmezni kellett: a
   vagy fül fele-fele arányban kéz; a Betört koponya kiesés; a meg nem
   nevezett csonttörés véletlenszerűen kar vagy láb. Egyetlen alkat
   (5-6-4) futott, a zaj ±0,01–0,02. A szimulátor (duel9, duel10, duel11,
-  study11) a munkamenet scratchpadjében van, nem a repóban. Kapcsolódik:
+  study11) és az eredmények a tools/sim mappában vannak. Kapcsolódik:
   V-01, V-07, H-65.
 
 

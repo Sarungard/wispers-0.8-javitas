@@ -93,9 +93,10 @@ Hárítás: a success blocks the Seb and ends the attacker's turn only when the 
 Reactions are chosen after seeing the attack value. Rohamozás costs 2–3 AP plus the weapon's AP. Túlütés without a
 reaction or with Beleállás: the attack reaches heavy + unarmoured heavy threshold (18 bare, 22 with Védőérték 4); no
 extra Seb per előny. Beleállás: Keménység lowers the value first, and each Beleállás costs 1 Keménység.
-D-1 and H-65 are JAVÍTVA: the bid cap is 20 (no escalating repeat cost). The duel simulator lives in the session
-scratchpad, not in this repo: `simreplay/scripts` holds duel9 (H-65 baseline), duel10 (V-07 dice only), duel11 (the
-current book) and study11 (`SIM=duel11`).
+D-1 and H-65 are JAVÍTVA: the bid cap is 20 (no escalating repeat cost). The duel simulator is in `tools/sim/`:
+duel9 (H-65 baseline), duel10 (V-07 dice only), duel11 (the current book) and study11, the equilibrium study. Run it
+from `tools/sim/` as `SIM=duel11 python study11.py 40 csupasz 5-6-4 20` (`pancel` for armour; about 8 minutes).
+Results so far are in `tools/sim/out/`.
 
 H-66 (new, NYITOTT, 2026-11-02): the V-07 re-run showed that since V-01 combat has no attrition. The first-mover edge
 is nearly gone (mirror duels 48–63%), but 1–7% of duels are undecided after 40 rounds, and in armour only Rövidkard
