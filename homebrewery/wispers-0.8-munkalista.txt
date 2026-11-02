@@ -1808,17 +1808,24 @@ Probléma: Párbajszimuláció (2026.11.02.; Állóképesség 5, Ügyességkocka
   seb (kiesés, vérzés, 21+) dönt.
   - Az elsőként lépő előnye szinte eltűnt: tükörpárbajban 48–63% (a
     H-65 után 61–96%). Ez jó, ezt meg kell tartani.
-  - A párbajok 1–7%-a 40 forduló után sem dől el.
+  - A párbajok 1–7%-ában mindkét fél kiesik: az egyik a körben, a másik
+    a forduló végén elvérzik. 40 fordulós döntetlen nincs (a 2026.11.02-i
+    első leírás tévesen elhúzódó párbajnak nevezte).
   - Páncélban (Védőérték 4, Keménység 4) csak a Rövidkard és a Tőr marad
     versenyben, Féktelennel (0,63); a Hosszúkard 0,36, a Nagykalapács
-    0,22, a Csatabárd 0,18.
+    0,22, a Csatabárd 0,18. Ok: a sebdobás létrája (1d8 + az azonos
+    súlyosságú sebek száma, 21+ egy fokkal súlyosabb) kb. 35 találat
+    után bármilyen páncélon át öl, és a 2 AP-s fegyver kétszer annyit
+    üt. A páncél így a nehéz fegyver súlyos sebét veszi el, a könnyű
+    fegyver sok Könnyű sebét nem. A vesztes egy párbaj végén átlagosan
+    5–7 Súlyos és 10–15 Mély sebet visel.
   - Páncél nélkül az egyensúlyi keverék Nagykalapács-túlsúlyos (72–89%),
     de a Tőr, a Rövidkard és a Csatabárd ugyanolyan jó válasz (0,57);
     csak a Hosszúkard marad le (0,51).
   A V-07 kockái önmagukban ezt nem okozzák (csak a V-07-tel: játékérték
-  0,58 és 0,61, tükörpárbaj 60–94%, eldöntetlen nincs).
-Teendő: A nehéz fegyverek páncél elleni gyengesége és az elhúzódó
-  párbajok kezelése úgy, hogy az elsőként lépő előnye ne térjen vissza.
+  0,58 és 0,61, tükörpárbaj 60–94%, kölcsönös kiesés nincs).
+Teendő: A nehéz fegyverek páncél elleni gyengeségének kezelése úgy, hogy
+  az elsőként lépő előnye ne térjen vissza.
 Állapot: NYITOTT
 Megjegyzés: A szimulációhoz néhány sebsort értelmezni kellett: a
   Bordatörés nem jelöl végtagot, ezért nincs hatása; az Elvesztett ujj
@@ -2497,3 +2504,5 @@ NAPLÓ – mi történt, mikor
 2026.11.02.  V-07 JAVÍTVA – a H-65 párbajszimuláció szerint a V-07 kockái tartják
              az egyensúlyt. Új tétel: H-66 (harci egyensúly a V-01 után:
              nehéz fegyverek páncél ellen, elhúzódó párbajok).
+2026.11.02.  H-66 – helyesbítés: a döntetlenek kölcsönös kiesések, elhúzódó párbaj
+             nincs; a páncélos fegyverpolarizáció oka a sebdobás létrája.

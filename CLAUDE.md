@@ -99,8 +99,10 @@ from `tools/sim/` as `SIM=duel11 python study11.py 40 csupasz 5-6-4 20` (`pancel
 Results so far are in `tools/sim/out/`.
 
 H-66 (new, NYITOTT, 2026-11-02): the V-07 re-run showed that since V-01 combat has no attrition. The first-mover edge
-is nearly gone (mirror duels 48–63%), but 1–7% of duels are undecided after 40 rounds, and in armour only Rövidkard
-and Tőr with Féktelen stay competitive (heavy weapons 0.18–0.36). Keep the first-mover fix while solving this.
+is nearly gone (mirror duels 48–63%). In armour only Rövidkard and Tőr with Féktelen stay competitive (heavy weapons
+0.18–0.36): the sebdobás ladder kills through any armour after about 35 hits, and 2-AP weapons hit twice as often.
+The 1–7% „draws” are mutual knockouts (one falls, the other bleeds out at round end), not 40-round stalemates. Keep
+the first-mover fix while solving this.
 
 The four remaining DÖNTÉSRE VÁR items (H-03, H-17, H-19, H-47) all wait on content: kasztok, the varázslat chapter, the
 Kegy rework. Open decisions: the D-1 bid cap or repeat cost (H-45, H-14, H-30), Sebgyógyítás (H-58), Szusztörő (H-13).
