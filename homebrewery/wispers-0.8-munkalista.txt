@@ -1983,6 +1983,11 @@ Döntés: Kockaméret-léptetés helyett harmadik kocka, a két kocka közül a
   pótlás nélkül (a lista csak ajánlás). Elv (Zoz): a mechanikáknak
   narratív vonzata legyen, ne mechanikai; a Kritikus bukás narratív
   hátrányt okozzon. A Fáradtság (mechanikai) egyelőre marad a listán.
+  Rizikós próba hátránnyal: marad, és a szöveg nem mondja ki, hogy
+  ilyenkor csak Részleges siker vagy Kritikus bukás jöhet. Ez mesélői
+  információ, dedukcióval kideríthető; legfeljebb egy későbbi, mesélőknek
+  szánt fejezetbe kerülhet. Az alapszabályba nem kerül olyan, ami csak
+  esetenként fordul elő.
 Javítás: Tandemkockák: színkód-mondat. Bevezető › Előny és hátrány és
   II. rész › Előny és hátrány: új szabály (a lépcső, a halmozás, a
   d4-padló és a d12-plafon kikerült). Szociális konfrontáció: a három
@@ -2003,8 +2008,7 @@ Javítás: Tandemkockák: színkód-mondat. Bevezető › Előny és hátrány �
   Tudás-próbák pihenőig; Elvesztett ujj vagy fül: az érintett kéz vagy a
   hallás; Nyílt törés ellátásig minden dobásra); Súlyos seb széles
   körre (Átszúrt tüdő: minden támadás és próba a gyógyulásig).
-Megjegyzés: Nyitott: a rizikós próba hátránnyal, a H-65
-  párbajszimuláció újrafuttatása. A Helyzet hurka a Helyzet
+Megjegyzés: Nyitott: a H-65 párbajszimuláció újrafuttatása. A Helyzet hurka a Helyzet
   kivezetésével megszűnt. Egy részletet én
   töltöttem ki: Teljes sötétségben a Reflex mentődobás hátránnyal megy
   (a javaslat csak a távolsági támadást és a látást igénylő próbát
@@ -2445,3 +2449,5 @@ NAPLÓ – mi történt, mikor
              nem ad hátrányt). Nyitott: Helyzet, rizikós próba, H-65.
 2026.11.02.  V-07 – a Helyzet kikerült a Kritikus bukás következményei közül; elv:
              a Kritikus bukás narratív, ne mechanikai hátrányt okozzon.
+2026.11.02.  V-07 – a Fáradtság marad; a rizikós próba hátránnyal marad, kimondás
+             nélkül (mesélői információ). Nyitott: H-65 újrafuttatás.
