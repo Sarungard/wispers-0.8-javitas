@@ -48,7 +48,7 @@ Keep replies short and in Hungarian. Put the proposal and the question at the en
   player chooses (harcmodor, roham, tempó, position); cut or narrow the lasting, broad, minor ones; express grades
   by scope, duration or „nem kísérelhető meg”, never by extra dice. Racial attribute penalties are „−1-es módosító”,
   never „hátrány”. Wound tables: Könnyű seb never gives hátrány; Mély seb a narrow one until rest; Súlyos seb a broad
-  one. Open: Színlelt (V-11), the H-65 duel re-run.
+  one. V-07 is JAVÍTVA (2026-11-02). Open: Színlelt (V-11).
 - Core rules state rules, not situational GM advice: do not write into them what only happens in some cases or what a
   GM can deduce (e.g. rizikós próba under hátrány). Such notes may go into a later chapter for GMs.
 - Attacks: weapon die + proficiency die, no attribute. Unarmed: 1d2 (1d4/2) with the Pusztakezes harc proficiency.
@@ -94,7 +94,12 @@ Reactions are chosen after seeing the attack value. Rohamozás costs 2–3 AP pl
 reaction or with Beleállás: the attack reaches heavy + unarmoured heavy threshold (18 bare, 22 with Védőérték 4); no
 extra Seb per előny. Beleállás: Keménység lowers the value first, and each Beleállás costs 1 Keménység.
 D-1 and H-65 are JAVÍTVA: the bid cap is 20 (no escalating repeat cost). The duel simulator lives in the session
-scratchpad (duel6.py / study6.py), not in this repo.
+scratchpad, not in this repo: `simreplay/scripts` holds duel9 (H-65 baseline), duel10 (V-07 dice only), duel11 (the
+current book) and study11 (`SIM=duel11`).
+
+H-66 (new, NYITOTT, 2026-11-02): the V-07 re-run showed that since V-01 combat has no attrition. The first-mover edge
+is nearly gone (mirror duels 48–63%), but 1–7% of duels are undecided after 40 rounds, and in armour only Rövidkard
+and Tőr with Féktelen stay competitive (heavy weapons 0.18–0.36). Keep the first-mover fix while solving this.
 
 The four remaining DÖNTÉSRE VÁR items (H-03, H-17, H-19, H-47) all wait on content: kasztok, the varázslat chapter, the
 Kegy rework. Open decisions: the D-1 bid cap or repeat cost (H-45, H-14, H-30), Sebgyógyítás (H-58), Szusztörő (H-13).

@@ -8,7 +8,7 @@ Munkaszöveg:  homebrewery/wispers-0.8-javitott.txt – ebbe kerülnek a javít�
 Sorszámok:    H-01–H-61 azonos a wispers-0.7.0b-hibalista.pdf sorszámaival;
               a H-62-től kezdődő tételek menet közben kerültek be;
               a V-tételek a vak átnézésből (2026.10.26.) jönnek
-Frissítve:    2026.11.01.
+Frissítve:    2026.11.02.
 
 HOGYAN HASZNÁLJUK
 Sorban végigmegyünk a tételeken. Minden tételnél négy sort töltünk ki:
@@ -24,7 +24,7 @@ Jelölések: BLOKKOLÓ – enélkül nem játszható; ELLENTMONDÁS – két sza
 hivatkozik; KISEBB – szerkesztési hiba, elnevezés.
 
 ÖSSZESÍTŐ (frissítsd menet közben)
-  NYITOTT: 15   FOLYAMATBAN: 14   DÖNTÉSRE VÁR: 4   JAVÍTVA: 52   ELVETVE: 2
+  NYITOTT: 16   FOLYAMATBAN: 13   DÖNTÉSRE VÁR: 4   JAVÍTVA: 53   ELVETVE: 2
 
 
 ================================================================
@@ -1796,6 +1796,38 @@ Megjegyzés: A felső határ: 20 (D-1). A reakció nélküli automatikus talála
   (1) nem került döntésre; a túlütésszabály módosításai kezelik részben. CRPG-eltérés: a
   CombatStances.cs-ben a Féktelen még minden találatot túlütéssé tesz.
 
+----------------------------------------------------------------
+[H-66] Harci egyensúly a V-01 után (új tétel, a PDF-ben nincs)
+Hol: II. rész › 4. Harc; 6. Mentődobások, sebesülés és halálozás › Seb ›
+     Sebdobás és a három sebtáblázat; 5. Felszerelés és vagyontárgyak ›
+     Fegyverek
+Probléma: Párbajszimuláció (2026.11.02.; Állóképesség 5, Ügyességkocka
+  d6, Reflexkocka d4, Kezdő jártasság, licitplafon 20, 360 stratégia, 40
+  párbaj párosításonként; a V-07 kockái és a mostani sebtábla). Mióta a
+  sebből nem jár Kimerültség (V-01), a harcban nincs kopás: csak Súlyos
+  seb (kiesés, vérzés, 21+) dönt.
+  - Az elsőként lépő előnye szinte eltűnt: tükörpárbajban 48–63% (a
+    H-65 után 61–96%). Ez jó, ezt meg kell tartani.
+  - A párbajok 1–7%-a 40 forduló után sem dől el.
+  - Páncélban (Védőérték 4, Keménység 4) csak a Rövidkard és a Tőr marad
+    versenyben, Féktelennel (0,63); a Hosszúkard 0,36, a Nagykalapács
+    0,22, a Csatabárd 0,18.
+  - Páncél nélkül az egyensúlyi keverék Nagykalapács-túlsúlyos (72–89%),
+    de a Tőr, a Rövidkard és a Csatabárd ugyanolyan jó válasz (0,57);
+    csak a Hosszúkard marad le (0,51).
+  A V-07 kockái önmagukban ezt nem okozzák (csak a V-07-tel: játékérték
+  0,58 és 0,61, tükörpárbaj 60–94%, eldöntetlen nincs).
+Teendő: A nehéz fegyverek páncél elleni gyengesége és az elhúzódó
+  párbajok kezelése úgy, hogy az elsőként lépő előnye ne térjen vissza.
+Állapot: NYITOTT
+Megjegyzés: A szimulációhoz néhány sebsort értelmezni kellett: a
+  Bordatörés nem jelöl végtagot, ezért nincs hatása; az Elvesztett ujj
+  vagy fül fele-fele arányban kéz; a Betört koponya kiesés; a meg nem
+  nevezett csonttörés véletlenszerűen kar vagy láb. Egyetlen alkat
+  (5-6-4) futott, a zaj ±0,01–0,02. A szimulátor (duel9, duel10, duel11,
+  study11) a munkamenet scratchpadjében van, nem a repóban. Kapcsolódik:
+  V-01, V-07, H-65.
+
 
 ================================================================
 VAK ÁTNÉZÉS (2026.10.26.) – V-TÉTELEK
@@ -1969,7 +2001,7 @@ Probléma: (§2, top 8) Nem tudni, melyik kocka nő, ha a kettő egyforma
   (plafon), és mi történik az egyetlen d4 alatt (padló).
 Teendő: Egyenlőségi szabály, plafon, padló; a két kocka
   megkülönböztetése (pl. színkód).
-Állapot: FOLYAMATBAN
+Állapot: JAVÍTVA (2026.11.02.)
 Döntés: Kockaméret-léptetés helyett harmadik kocka, a két kocka közül a
   kisebbik méretével. Előny: bármelyik kocka helyett használható, és
   átveszi a szerepét. Hátrány: a kisebbik kocka és a harmadik közül a
@@ -2013,7 +2045,11 @@ Javítás: Tandemkockák: színkód-mondat. Bevezető › Előny és hátrány �
   Tudás-próbák pihenőig; Elvesztett ujj vagy fül: az érintett kéz vagy a
   hallás; Nyílt törés ellátásig minden dobásra); Súlyos seb széles
   körre (Átszúrt tüdő: minden támadás és próba a gyógyulásig).
-Megjegyzés: Nyitott: a H-65 párbajszimuláció újrafuttatása. A Helyzet hurka a Helyzet
+Megjegyzés: H-65 párbajszimuláció újrafuttatva (2026.11.02.): a V-07
+  kockái önmagukban tartják az egyensúlyt (játékérték páncél nélkül 0,58,
+  páncélban 0,61; előtte 0,61 és 0,61), és páncél nélkül a Féktelen
+  ritkább (76% → 48%). A mostani könyv eltérései a V-01-ből jönnek, külön
+  tételben: H-66. A Helyzet hurka a Helyzet
   kivezetésével megszűnt. Egy részletet én
   töltöttem ki: Teljes sötétségben a Reflex mentődobás hátránnyal megy
   (a javaslat csak a távolsági támadást és a látást igénylő próbát
@@ -2458,3 +2494,6 @@ NAPLÓ – mi történt, mikor
              nélkül (mesélői információ). Nyitott: H-65 újrafuttatás.
 2026.11.02.  V-06 pontosítás – a négy kimenetel csak a képzettségpróbákra vonatkozik;
              a mentődobás és a harci reakciók kétállásúak.
+2026.11.02.  V-07 JAVÍTVA – a H-65 párbajszimuláció szerint a V-07 kockái tartják
+             az egyensúlyt. Új tétel: H-66 (harci egyensúly a V-01 után:
+             nehéz fegyverek páncél ellen, elhúzódó párbajok).
