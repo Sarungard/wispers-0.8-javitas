@@ -999,7 +999,7 @@ A táblázat ajánlás. A mesélő finomíthat rajta, és finomítson is, ha úg
 
 **Kritikus bukás:** nem éred el a célértéket, erőltetéssel. A próba sikertelen, és a mesélő egy következményt is rendel hozzá (lásd: A Kritikus bukás következményei).
 
-Ahol egy szabály csak sikert és bukást említ, ott a Részleges siker is siker, a mellékhatásával együtt, a Kritikus bukás pedig bukás, a következményével együtt.
+A négy kimenetel csak a képzettségpróbákra vonatkozik. Ahol egy képzettségpróbára vonatkozó szabály csak sikert és bukást említ, ott a Részleges siker is siker, a mellékhatásával együtt, a Kritikus bukás pedig bukás, a következményével együtt.
 
 #### A Kritikus bukás következményei
 

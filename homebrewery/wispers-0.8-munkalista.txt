@@ -1955,6 +1955,11 @@ Javítás: Képzettségpróbák: a sima próba négy kimenetele után új
 Megjegyzés: Seb szándékosan nincs a listán, az a rizikós próbáé. A
   Hazugság saját Részleges siker szabálya marad. Harcban a találat értéke
   és a sebhatár dönt, ezért ott nincs négy kimenetel.
+  Pontosítás (2026.11.02., Zoz): a négy kimenetel csak a
+  képzettségpróbákra vonatkozik; a mentődobás és a harci reakciók
+  (Kitérés, Hárítás) kétállásúak. Az általános szabály első mondata
+  ezt kimondja, a második „képzettségpróbára vonatkozó” szabályra szűkül.
+  A szociális Részleges siker (V-07) és a Helyzet (V-07) azóta változott.
 
 ----------------------------------------------------------------
 [V-07] Előny és hátrány pontosítása
@@ -2451,3 +2456,5 @@ NAPLÓ – mi történt, mikor
              a Kritikus bukás narratív, ne mechanikai hátrányt okozzon.
 2026.11.02.  V-07 – a Fáradtság marad; a rizikós próba hátránnyal marad, kimondás
              nélkül (mesélői információ). Nyitott: H-65 újrafuttatás.
+2026.11.02.  V-06 pontosítás – a négy kimenetel csak a képzettségpróbákra vonatkozik;
+             a mentődobás és a harci reakciók kétállásúak.

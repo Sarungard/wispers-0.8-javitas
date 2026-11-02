@@ -38,7 +38,8 @@ Keep replies short and in Hungarian. Put the proposal and the question at the en
   its side effect and Kritikus bukás as bukás with its consequence (V-06). The GM picks a Kritikus bukás consequence
   from a list (Idő, Eszköz, Figyelem, Ár, Fáradtság; Helyzet was removed in V-07) or makes one up; no Seb on that
   list. Zoz's principle: mechanics should have narrative consequences, not mechanical ones; a Kritikus bukás causes
-  narrative trouble, not a mechanical penalty. Social conflict has all four outcomes; combat stays two-state.
+  narrative trouble, not a mechanical penalty. Social conflict has all four outcomes; combat stays two-state. The four
+  outcomes apply to képzettségpróbák only: mentődobás and combat reactions (Kitérés, Hárítás) are two-state.
 - Előny / hátrány (V-07): a third die the size of the smaller of the two dice. Előny: it may replace either die and
   takes its role. Hátrány: the smaller die and the third die, the lower roll counts (on equal sizes the jártasságkocka
   is the smaller); always erőltetés, and no die-comparison effect (Halálos) applies. No stacking; előny and hátrány
