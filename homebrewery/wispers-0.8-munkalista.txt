@@ -1982,7 +1982,7 @@ Döntés: Kockaméret-léptetés helyett harmadik kocka, a két kocka közül a
   Helyzet (2026.11.02.): kikerült a Kritikus bukás következményei közül,
   pótlás nélkül (a lista csak ajánlás). Elv (Zoz): a mechanikáknak
   narratív vonzata legyen, ne mechanikai; a Kritikus bukás narratív
-  hátrányt okozzon.
+  hátrányt okozzon. A Fáradtság (mechanikai) egyelőre marad a listán.
 Javítás: Tandemkockák: színkód-mondat. Bevezető › Előny és hátrány és
   II. rész › Előny és hátrány: új szabály (a lépcső, a halmozás, a
   d4-padló és a d12-plafon kikerült). Szociális konfrontáció: a három
