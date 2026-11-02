@@ -1979,6 +1979,10 @@ Döntés: Kockaméret-léptetés helyett harmadik kocka, a két kocka közül a
   tartós és mindenre hat, ami apró és rövid, vagy csak fokozatot
   jelölt. A fokozatot a hatókör, az időtartam vagy a „nem kísérelhető
   meg” jelzi, nem újabb kocka.
+  Helyzet (2026.11.02.): kikerült a Kritikus bukás következményei közül,
+  pótlás nélkül (a lista csak ajánlás). Elv (Zoz): a mechanikáknak
+  narratív vonzata legyen, ne mechanikai; a Kritikus bukás narratív
+  hátrányt okozzon.
 Javítás: Tandemkockák: színkód-mondat. Bevezető › Előny és hátrány és
   II. rész › Előny és hátrány: új szabály (a lépcső, a halmozás, a
   d4-padló és a d12-plafon kikerült). Szociális konfrontáció: a három
@@ -1999,8 +2003,9 @@ Javítás: Tandemkockák: színkód-mondat. Bevezető › Előny és hátrány �
   Tudás-próbák pihenőig; Elvesztett ujj vagy fül: az érintett kéz vagy a
   hallás; Nyílt törés ellátásig minden dobásra); Súlyos seb széles
   körre (Átszúrt tüdő: minden támadás és próba a gyógyulásig).
-Megjegyzés: Nyitott: a Helyzet következmény hurka, a rizikós próba
-  hátránnyal, a H-65 párbajszimuláció újrafuttatása. Egy részletet én
+Megjegyzés: Nyitott: a rizikós próba hátránnyal, a H-65
+  párbajszimuláció újrafuttatása. A Helyzet hurka a Helyzet
+  kivezetésével megszűnt. Egy részletet én
   töltöttem ki: Teljes sötétségben a Reflex mentődobás hátránnyal megy
   (a javaslat csak a távolsági támadást és a látást igénylő próbát
   nevezte meg). A nemestünde és az óelf vér hatása Zoz döntése szerint
@@ -2438,3 +2443,5 @@ NAPLÓ – mi történt, mikor
 2026.11.01.  V-07 – a nemestünde és az óelf vér hatása napkeltéig tart.
 2026.11.01.  V-07 – sebtábla: 14 sor az új hátrányelvhez igazítva (a Könnyű seb
              nem ad hátrányt). Nyitott: Helyzet, rizikós próba, H-65.
+2026.11.02.  V-07 – a Helyzet kikerült a Kritikus bukás következményei közül; elv:
+             a Kritikus bukás narratív, ne mechanikai hátrányt okozzon.

@@ -1007,7 +1007,6 @@ A mesélő a következők közül választ egyet, vagy a helyzethez illő saját
 
 - **Idő:** a feladat elhúzódik, vagy újra kell kezdeni.
 - **Eszköz:** egy használt eszköz eltörik vagy elvész.
-- **Helyzet:** a következő próbádat hátránnyal teszed.
 - **Figyelem:** valaki észrevesz, gyanút fog vagy riaszt.
 - **Ár:** pénzbe, élelembe vagy egy szívességbe kerül.
 - **Fáradtság:** elszenvedsz egy szint Kimerültséget.

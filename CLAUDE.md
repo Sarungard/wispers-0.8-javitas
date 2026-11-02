@@ -36,8 +36,9 @@ Keep replies short and in Hungarian. Put the proposal and the question at the en
   decide the mode: jártasság ≥ tulajdonság is szakértelem, otherwise erőltetés. Four outcomes: Abszolút siker,
   Részleges siker, Bukás, Kritikus bukás. Where a rule names only siker/bukás, Részleges siker counts as siker with
   its side effect and Kritikus bukás as bukás with its consequence (V-06). The GM picks a Kritikus bukás consequence
-  from a six-item list (Idő, Eszköz, Helyzet, Figyelem, Ár, Fáradtság) or makes one up; no Seb on that list. Social
-  conflict has all four outcomes; combat stays two-state.
+  from a list (Idő, Eszköz, Figyelem, Ár, Fáradtság; Helyzet was removed in V-07) or makes one up; no Seb on that
+  list. Zoz's principle: mechanics should have narrative consequences, not mechanical ones; a Kritikus bukás causes
+  narrative trouble, not a mechanical penalty. Social conflict has all four outcomes; combat stays two-state.
 - Előny / hátrány (V-07): a third die the size of the smaller of the two dice. Előny: it may replace either die and
   takes its role. Hátrány: the smaller die and the third die, the lower roll counts (on equal sizes the jártasságkocka
   is the smaller); always erőltetés, and no die-comparison effect (Halálos) applies. No stacking; előny and hátrány
@@ -46,7 +47,7 @@ Keep replies short and in Hungarian. Put the proposal and the question at the en
   player chooses (harcmodor, roham, tempó, position); cut or narrow the lasting, broad, minor ones; express grades
   by scope, duration or „nem kísérelhető meg”, never by extra dice. Racial attribute penalties are „−1-es módosító”,
   never „hátrány”. Wound tables: Könnyű seb never gives hátrány; Mély seb a narrow one until rest; Súlyos seb a broad
-  one. Open: the Helyzet loop, rizikós próba under hátrány, Színlelt (V-11), the H-65 duel re-run.
+  one. Open: rizikós próba under hátrány, Színlelt (V-11), the H-65 duel re-run.
 - Attacks: weapon die + proficiency die, no attribute. Unarmed: 1d2 (1d4/2) with the Pusztakezes harc proficiency.
 - Célérték (V-03): the GM sets the check's level, which gates who may try and suggests the célérték: Képzetlen 3, Kezdő 5,
   Képzett 7, Haladó 9, Tapasztalt 11, Mester 13. Only a recommendation; the GM may and should adjust it.
