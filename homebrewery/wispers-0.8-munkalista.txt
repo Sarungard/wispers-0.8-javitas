@@ -1834,6 +1834,23 @@ Megjegyzés: A szimulációhoz néhány sebsort értelmezni kellett: a
   (5-6-4) futott, a zaj ±0,01–0,02. A szimulátor (duel9, duel10, duel11,
   study11) és az eredmények a tools/sim mappában vannak. Kapcsolódik:
   V-01, V-07, H-65.
+  Változatok (2026.11.03., tools/sim: h66sim, pairs, out/h66_*). Egy
+  fegyver átlagos esélye a többi ellen páncélban (4/4), Tőr / Rövidkard /
+  Hosszúkard / Csatabárd / Nagykalapács sorrendben:
+  - Könyv: 0,73 / 0,79 / 0,45 / 0,22 / 0,31; egyensúlyban csak könnyű
+    fegyver. Páncél nélkül minden fegyver 0,47–0,53.
+  - P2 („páncélban a Könnyű seb 21+ eredménye nem válik Mély sebbé”):
+    0,23 / 0,24 / 0,48 / 0,66 / 0,89; egyensúlyban 100% Nagykalapács, a
+    könnyű fegyverek legjobb válasza 0,02. Páncél nélkül nem változik. A
+    játékérték 0,54, az elsőként lépő előnye nem tér vissza.
+  - P2 + Halálos a Tőrön: a Tőr mindenhol uralkodik (egyensúlyban
+    84–99%, páncél nélkül is 0,65), elvetve.
+  - Nem segített: nagyobb Könnyű találati mátrix; a Keménység levonása a
+    sebdobásból (az Átütővel együtt sem); a Könnyű seb 21+ eredménye a
+    Keménységet koptatja. Részben segített: az Átütő X a Védőértékre
+    hat (Rövidkard ellen 0,33–0,55 közepes, 0,18–0,37 nehéz vértben).
+  A mélyebb ok a támadások száma: 20 AP-ből a 2 AP-s fegyver 10-szer üt,
+  egy párbaj 15–77 támadás (vö. V-22).
 
 
 ================================================================
@@ -2506,3 +2523,5 @@ NAPLÓ – mi történt, mikor
              nehéz fegyverek páncél ellen, elhúzódó párbajok).
 2026.11.02.  H-66 – helyesbítés: a döntetlenek kölcsönös kiesések, elhúzódó párbaj
              nincs; a páncélos fegyverpolarizáció oka a sebdobás létrája.
+2026.11.03.  H-66 – változatok szimulálva (P2, Halálos, Átütő, Keménység); a
+             P2 megfordítja a polarizációt. Irányra vár.

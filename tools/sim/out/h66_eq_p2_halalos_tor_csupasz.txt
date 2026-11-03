@@ -1,0 +1,17 @@
+=== [Állóképesség-Ügyességkocka-Reflexkocka 5-6-4] páncél nélkül, felső határ 20, 360 stratégia, 40 párbaj/párosítás
+  a játék értéke a játékosnak (döntetlennél ő lép előbb): 0.55
+  játékos egyensúlyi keveréke: 33% Tőr, licit 20→20, Féktelen | 29% Nagykalapács, licit 20→20, roham | 17% Tőr, licit 12→20 | 10% Tőr, licit 20→20
+    fegyver: Tőr 71%, Nagykalapács 29%
+    nyitó licit: 20 74%, 12 20%, 8 6%
+    Féktelen: 41%, roham: 31%
+  ellenfél egyensúlyi keveréke: 28% Tőr, licit 12→20, Féktelen | 24% Tőr, licit 20→20, Féktelen | 18% Tőr, licit 12→20 | 17% Tőr, licit 8→20, Féktelen
+    fegyver: Tőr 89%, Csatabárd 11%
+    nyitó licit: 12 48%, 20 24%, 8 18%, 4 10%
+    Féktelen: 70%, roham: 1%
+  reakciók az egyensúlyi párbajokban: nincs reakció 58%, Kitérés 34%, Hárítás 8%
+  fegyverenként a legjobb stratégia az ellenfél egyensúlya ellen:
+    0.55  Tőr, licit 20→20, Féktelen
+    0.41  Rövidkard, licit 20→20
+    0.46  Hosszúkard, licit 20→20
+    0.51  Csatabárd, licit 20→20
+    0.55  Nagykalapács, licit 20→20, roham
