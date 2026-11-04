@@ -8,7 +8,7 @@ Munkaszöveg:  homebrewery/wispers-0.8-javitott.txt – ebbe kerülnek a javít�
 Sorszámok:    H-01–H-61 azonos a wispers-0.7.0b-hibalista.pdf sorszámaival;
               a H-62-től kezdődő tételek menet közben kerültek be;
               a V-tételek a vak átnézésből (2026.10.26.) jönnek
-Frissítve:    2026.11.04.
+Frissítve:    2026.11.02.
 
 HOGYAN HASZNÁLJUK
 Sorban végigmegyünk a tételeken. Minden tételnél négy sort töltünk ki:
@@ -24,7 +24,7 @@ Jelölések: BLOKKOLÓ – enélkül nem játszható; ELLENTMONDÁS – két sza
 hivatkozik; KISEBB – szerkesztési hiba, elnevezés.
 
 ÖSSZESÍTŐ (frissítsd menet közben)
-  NYITOTT: 15   FOLYAMATBAN: 13   DÖNTÉSRE VÁR: 4   JAVÍTVA: 54   ELVETVE: 2
+  NYITOTT: 16   FOLYAMATBAN: 13   DÖNTÉSRE VÁR: 4   JAVÍTVA: 53   ELVETVE: 2
 
 
 ================================================================
@@ -1826,20 +1826,8 @@ Probléma: Párbajszimuláció (2026.11.02.; Állóképesség 5, Ügyességkocka
   0,58 és 0,61, tükörpárbaj 60–94%, kölcsönös kiesés nincs).
 Teendő: A nehéz fegyverek páncél elleni gyengeségének kezelése úgy, hogy
   az elsőként lépő előnye ne térjen vissza.
-Állapot: JAVÍTVA (2026.11.04.)
-Döntés: P2 (Zoz, 2026.11.04.): ép páncélban a Könnyű seb 21+ eredménye
-  nem válik Mély sebbé. A támadások száma (a mélyebb ok) a V-22-höz
-  kerül.
-Javítás: Seb › Sebdobás: „Ha ép páncélt viselsz, a Könnyű seb
-  táblázatán a 21 vagy annál nagyobb eredmény nem jelent súlyosabb sebet:
-  a seb Könnyű seb marad, és nincs hatása.”; Könnyű seb táblázat, 21+
-  sor: „Ép páncélban a seb Könnyű marad, hatása nincs.”
-Megjegyzés: Következmény (szimuláció): páncélban a polarizáció
-  megfordul, egyensúlyban 100% Nagykalapács, a könnyű fegyverek legjobb
-  válasza 0,02; páncél nélkül nincs változás; a játékérték 0,54, az
-  elsőként lépő előnye nem tér vissza. Ép páncél: amíg a Keménysége 0-ra
-  nem csökken (Beleállás). CRPG-eltérés: a CRPG-ben a 0.8 sebtábla még
-  nincs bent. A szimulációhoz néhány sebsort értelmezni kellett: a
+Állapot: NYITOTT
+Megjegyzés: A szimulációhoz néhány sebsort értelmezni kellett: a
   Bordatörés nem jelöl végtagot, ezért nincs hatása; az Elvesztett ujj
   vagy fül fele-fele arányban kéz; a Betört koponya kiesés; a meg nem
   nevezett csonttörés véletlenszerűen kar vagy láb. Egyetlen alkat
@@ -2293,10 +2281,7 @@ Probléma: (§3) Egy találat: küszöb-összevetés, sebdobás, táblázat. Egy
   AP-s körökben, sok támadással ez lassú.
 Teendő: Felmérni (pl. a harci példán, V-12), hol lehet egyszerűsíteni.
 Állapot: NYITOTT
-Megjegyzés: A V-01 óta a találatonkénti Kimerültség kiesett. A H-66
-  szimulációja szerint egy párbaj 15–77 támadás, és 20 AP-ből a 2 AP-s
-  fegyver 10-szer üt. A támadások száma a H-66 mélyebb oka is: a P2 óta
-  páncélban a könnyű fegyver alig ér valamit (2026.11.04.).
+Megjegyzés: A V-01 óta a találatonkénti Kimerültség kiesett.
 
 
 ================================================================
@@ -2540,5 +2525,3 @@ NAPLÓ – mi történt, mikor
              nincs; a páncélos fegyverpolarizáció oka a sebdobás létrája.
 2026.11.03.  H-66 – változatok szimulálva (P2, Halálos, Átütő, Keménység); a
              P2 megfordítja a polarizációt. Irányra vár.
-2026.11.04.  H-66 JAVÍTVA – P2: ép páncélban a Könnyű seb 21+ eredménye nem
-             válik Mély sebbé. A támadások száma a V-22-höz került.
