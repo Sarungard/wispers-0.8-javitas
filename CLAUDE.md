@@ -98,11 +98,13 @@ duel9 (H-65 baseline), duel10 (V-07 dice only), duel11 (the current book) and st
 from `tools/sim/` as `SIM=duel11 python study11.py 40 csupasz 5-6-4 20` (`pancel` for armour; about 8 minutes).
 Results so far are in `tools/sim/out/`.
 
-H-66 (new, NYITOTT, 2026-11-02): the V-07 re-run showed that since V-01 combat has no attrition. The first-mover edge
-is nearly gone (mirror duels 48–63%). In armour only Rövidkard and Tőr with Féktelen stay competitive (heavy weapons
-0.18–0.36): the sebdobás ladder kills through any armour after about 35 hits, and 2-AP weapons hit twice as often.
-The 1–7% „draws” are mutual knockouts (one falls, the other bleeds out at round end), not 40-round stalemates. Keep
-the first-mover fix while solving this.
+H-66 is JAVÍTVA (2026-11-04): in armour the sebdobás ladder let many small hits kill through any armour, so light
+weapons won. Fix (P2): in ép páncél (Keménység above 0) a Könnyű seb 21+ result does not become Mély; the seb stays
+Könnyű with no effect. Consequence: in armour the equilibrium flips to 100% Nagykalapács (light weapons 0.02);
+unarmoured is unchanged and balanced; the first-mover edge stays gone (game value 0.54). The deeper cause, the number
+of attacks (a 2-AP weapon hits 10 times from 20 AP, a duel is 15–77 attacks), moved to V-22. The 1–7% „draws” are
+mutual knockouts, not stalemates. H-66 scripts: `tools/sim/h66sim.py`, `duel_h66.py` (`SIM=duel_h66 H66=p2`),
+`pairs.py`.
 
 The four remaining DÖNTÉSRE VÁR items (H-03, H-17, H-19, H-47) all wait on content: kasztok, the varázslat chapter, the
 Kegy rework. Open decisions: the D-1 bid cap or repeat cost (H-45, H-14, H-30), Sebgyógyítás (H-58), Szusztörő (H-13).
