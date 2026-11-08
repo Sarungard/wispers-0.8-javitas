@@ -1,0 +1,16 @@
+=== fordulópont 21+
+  páncél 4/4: 0.74 / 0.79 / 0.45 / 0.22 / 0.31  | támadás/párbaj medián 66, átlag 64 | sebdobás/párbaj medián 94, átlag 89 | tükörben az első 0.60
+  páncél nélkül: 0.48 / 0.50 / 0.48 / 0.50 / 0.54  | támadás/párbaj medián 38, átlag 37 | sebdobás/párbaj medián 31, átlag 32 | tükörben az első 0.60
+=== fordulópont 18+
+  páncél 4/4: 0.74 / 0.80 / 0.46 / 0.20 / 0.30  | támadás/párbaj medián 52, átlag 51 | sebdobás/párbaj medián 75, átlag 72 | tükörben az első 0.62
+  páncél nélkül: 0.49 / 0.52 / 0.46 / 0.49 / 0.54  | támadás/párbaj medián 31, átlag 29 | sebdobás/párbaj medián 28, átlag 26 | tükörben az első 0.62
+=== fordulópont 16+
+  páncél 4/4: 0.79 / 0.83 / 0.49 / 0.10 / 0.28  | támadás/párbaj medián 45, átlag 46 | sebdobás/párbaj medián 65, átlag 66 | tükörben az első 0.66
+  páncél nélkül: 0.54 / 0.54 / 0.46 / 0.41 / 0.55  | támadás/párbaj medián 29, átlag 29 | sebdobás/párbaj medián 26, átlag 26 | tükörben az első 0.67
+=== fordulópont 14+
+  páncél 4/4: 0.70 / 0.75 / 0.45 / 0.23 / 0.38  | támadás/párbaj medián 31, átlag 30 | sebdobás/párbaj medián 44, átlag 43 | tükörben az első 0.66
+  páncél nélkül: 0.48 / 0.51 / 0.46 / 0.48 / 0.57  | támadás/párbaj medián 15, átlag 16 | sebdobás/párbaj medián 14, átlag 15 | tükörben az első 0.70
+=== fordulópont 12+
+  páncél 4/4: 0.62 / 0.69 / 0.46 / 0.25 / 0.48  | támadás/párbaj medián 19, átlag 19 | sebdobás/párbaj medián 27, átlag 27 | tükörben az első 0.69
+  páncél nélkül: 0.48 / 0.49 / 0.49 / 0.46 / 0.58  | támadás/párbaj medián 8, átlag 9 | sebdobás/párbaj medián 8, átlag 9 | tükörben az első 0.75
+(fegyverek: Tőr / Rövidkard / Hosszúkard / Csatabárd / Nagykalapács; Féktelen, reakció nélkül, mindkét sorrend átlaga)

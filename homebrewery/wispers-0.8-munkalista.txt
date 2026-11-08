@@ -8,7 +8,7 @@ Munkaszöveg:  homebrewery/wispers-0.8-javitott.txt – ebbe kerülnek a javít�
 Sorszámok:    H-01–H-61 azonos a wispers-0.7.0b-hibalista.pdf sorszámaival;
               a H-62-től kezdődő tételek menet közben kerültek be;
               a V-tételek a vak átnézésből (2026.10.26.) jönnek
-Frissítve:    2026.11.02.
+Frissítve:    2026.11.08.
 
 HOGYAN HASZNÁLJUK
 Sorban végigmegyünk a tételeken. Minden tételnél négy sort töltünk ki:
@@ -24,7 +24,7 @@ Jelölések: BLOKKOLÓ – enélkül nem játszható; ELLENTMONDÁS – két sza
 hivatkozik; KISEBB – szerkesztési hiba, elnevezés.
 
 ÖSSZESÍTŐ (frissítsd menet közben)
-  NYITOTT: 16   FOLYAMATBAN: 13   DÖNTÉSRE VÁR: 4   JAVÍTVA: 53   ELVETVE: 2
+  NYITOTT: 15   FOLYAMATBAN: 14   DÖNTÉSRE VÁR: 4   JAVÍTVA: 54   ELVETVE: 2
 
 
 ================================================================
@@ -98,6 +98,8 @@ ALAPDÖNTÉSEK – ezeken sok tétel múlik
         kétszerese, és „nagyobb mint” (>) a feltétel.
         A sebdobást a H-58 módosította (2026.10.23.): az összes seb helyett
         az azonos súlyosságú sebek száma adódik hozzá.
+        A fordulópontot a V-22 12-re vitte (2026.11.08.); a táblák 2–11-re
+        szűkítése: H-67.
       Javítás: wispers-0.8-javitott.txt
         – II. rész › 6. › Sebesülés és halálozás › Seb: a régi egytáblás
           sebesüléstáblázat helyett „A seb súlyossága”, „Sebdobás” és három
@@ -1826,7 +1828,7 @@ Probléma: Párbajszimuláció (2026.11.02.; Állóképesség 5, Ügyességkocka
   0,58 és 0,61, tükörpárbaj 60–94%, kölcsönös kiesés nincs).
 Teendő: A nehéz fegyverek páncél elleni gyengeségének kezelése úgy, hogy
   az elsőként lépő előnye ne térjen vissza.
-Állapot: NYITOTT
+Állapot: FOLYAMATBAN (2026.11.08.)
 Megjegyzés: A szimulációhoz néhány sebsort értelmezni kellett: a
   Bordatörés nem jelöl végtagot, ezért nincs hatása; az Elvesztett ujj
   vagy fül fele-fele arányban kéz; a Betört koponya kiesés; a meg nem
@@ -1851,6 +1853,25 @@ Megjegyzés: A szimulációhoz néhány sebsort értelmezni kellett: a
     hat (Rövidkard ellen 0,33–0,55 közepes, 0,18–0,37 nehéz vértben).
   A mélyebb ok a támadások száma: 20 AP-ből a 2 AP-s fegyver 10-szer üt,
   egy párbaj 15–77 támadás (vö. V-22).
+  A 12-es fordulópont (V-22, 2026.11.08.) a nagy részét megoldja: páncélban
+  a Hosszúkard 0,61, a Nagykalapács 0,60, a Tőr és a Rövidkard 0,62; a
+  játékérték 0,59 páncél nélkül és 0,62 páncélban (könyv 0,57 és 0,63).
+  Hátravan a Csatabárd (0,39; a Súlyos találati mátrixa 2). Az eredmény
+  függ attól, melyik sorok maradnak a sebtáblákban: a H-67 után újra kell
+  futtatni.
+
+----------------------------------------------------------------
+[H-67] A sebtáblák szűkítése 2–11-re (új tétel, a PDF-ben nincs)
+Hol: II. rész › 6. Mentődobások, sebesülés és halálozás › Seb › Sebdobás
+Probléma: A V-22 óta a sebdobás 12 vagy annál nagyobb eredménye egy fokkal
+  súlyosabb seb, Súlyos sebnél halál. A három táblázat 12–20 sora így nem
+  dobható: táblázatonként 10 hely marad (2–11) a mostani 15 sorra.
+Teendő: Táblázatonként kiválasztani a megmaradó sorokat (Zoz választ).
+Állapot: NYITOTT
+Megjegyzés: A V-22 szimulációja a mostani páros sorokat tartotta meg (2, 4,
+  6, … 20). A 2-es eredmény csak fegyver nélkül dobható (1d8 + 1 + mátrix).
+  A kiválasztás után a V-22 és a H-66 szimulációját újra kell futtatni.
+  Kapcsolódik: D-2, V-22, H-66.
 
 
 ================================================================
@@ -2280,8 +2301,36 @@ Probléma: (§3) Egy találat: küszöb-összevetés, sebdobás, táblázat. Egy
   reakció: levonás a következő licitből. Egy Beleállás: Keménység. Húsz
   AP-s körökben, sok támadással ez lassú.
 Teendő: Felmérni (pl. a harci példán, V-12), hol lehet egyszerűsíteni.
-Állapot: NYITOTT
+Állapot: JAVÍTVA (2026.11.08.)
+Döntés: A sebdobás fordulópontja 21 helyett 12: a 12 vagy annál nagyobb
+  eredmény egy fokkal súlyosabb seb, Súlyos sebnél halál. A licitplafon
+  marad 20. A táblázatsorok kiválasztása későbbi pont (H-67).
+Javítás: wispers-0.8-javitott.txt – II. rész › 6. › Seb › Sebdobás: „A 21
+  vagy annál nagyobb eredmény” → „A 12 vagy annál nagyobb eredmény”; a
+  három táblázat utolsó sora „21+” → „12+”; a szerkesztői megjegyzés
+  kiegészítve (a 12–20 sorok nem dobhatók, H-67).
 Megjegyzés: A V-01 óta a találatonkénti Kimerültség kiesett.
+  Szimuláció (2026.11.04., tools/sim: v22sim, rr_v22, tsim, rr_turn,
+  out/v22_*): a licitplafon a körönkénti támadásszámot csökkenti, a
+  párbajonkéntit nem (12-es plafonnal páncélban 64 helyett 63 támadás); a
+  párbaj hosszát a sebdobás létrája adja. A 12-es fordulópont (licitplafon
+  20, a táblák a mostani páros soraival):
+  - egy párbaj páncélban 64 helyett 19 támadás és 89 helyett 27 sebdobás,
+    páncél nélkül 37 helyett 9 támadás és 32 helyett 9 sebdobás;
+  - a vesztes páncélban 15,5 / 13,8 / 6,4 helyett 5,4 / 3,7 / 2,2 Könnyű /
+    Mély / Súlyos sebbel esik ki, páncél nélkül 1,2 / 8,7 / 5,4 helyett
+    0,1 / 2,5 / 2,2 sebbel;
+  - a játékérték 0,59 páncél nélkül és 0,62 páncélban (könyv 0,57 és
+    0,63): az elsőként lépő előnye nem nő;
+  - a seb halálosabb: az első Súlyos seb Tőrrel 25%, Rövidkarddal,
+    Hosszúkarddal és Nagykalapáccsal 12,5% eséllyel öl, Csatabárddal csak
+    a második; az első Mély seb Csatabárddal és Nagykalapáccsal 25%
+    eséllyel Súlyossá válik.
+  A 12-es licitplafon páncél nélkül jobb (0,52), de páncélban a nehéz
+  fegyverek 0,10–0,29-re esnek; a 12-es fordulópont 12-es plafonnal együtt
+  páncélban rosszabb (0,23–0,41). A 14-es fordulópont páncélban 0,73 lett:
+  az eredmény függ attól, melyik táblázatsorok maradnak.
+  Eltérés a CRPG-től: ott a fordulópont 21 (WoundTests.cs).
 
 
 ================================================================
@@ -2525,3 +2574,6 @@ NAPLÓ – mi történt, mikor
              nincs; a páncélos fegyverpolarizáció oka a sebdobás létrája.
 2026.11.03.  H-66 – változatok szimulálva (P2, Halálos, Átütő, Keménység); a
              P2 megfordítja a polarizációt. Irányra vár.
+2026.11.08.  V-22 JAVÍTVA – a sebdobás fordulópontja 21 helyett 12, a licitplafon
+             marad 20. H-66 FOLYAMATBAN (hátravan a Csatabárd). Új tétel: H-67
+             (a sebtáblák szűkítése 2–11-re, a sorokat Zoz választja).

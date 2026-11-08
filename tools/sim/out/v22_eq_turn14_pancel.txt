@@ -1,0 +1,34 @@
+=== [Állóképesség-Ügyességkocka-Reflexkocka 5-6-4] páncél (Védőérték 4, Keménység 4), felső határ 20, 360 stratégia, 40 párbaj/párosítás
+  a játék értéke a játékosnak (döntetlennél ő lép előbb): 0.73
+  játékos egyensúlyi keveréke: 37% Rövidkard, licit 20→20, roham | 23% Tőr, licit 20→20, Féktelen, roham | 20% Rövidkard, licit 20→20, Féktelen, roham | 20% Rövidkard, licit 20→20, Féktelen
+    fegyver: Rövidkard 77%, Tőr 24%
+    nyitó licit: 20 100%
+    Féktelen: 63%, roham: 80%
+  ellenfél egyensúlyi keveréke: 42% Rövidkard, licit 20→20, Féktelen | 23% Tőr, licit 20→20, roham | 18% Rövidkard, licit 20→20, roham | 17% Rövidkard, licit 20→20, Féktelen, roham
+    fegyver: Rövidkard 77%, Tőr 23%
+    nyitó licit: 20 100%
+    Féktelen: 59%, roham: 58%
+  reakciók az egyensúlyi párbajokban: nincs reakció 90%, Beleállás 6%, Hárítás 4%
+  fegyverenként a legjobb stratégia az ellenfél egyensúlya ellen:
+    0.73  Tőr, licit 20→20, Féktelen, roham
+    0.73  Rövidkard, licit 20→20, Féktelen
+    0.40  Hosszúkard, licit 20→20, Féktelen, roham
+    0.24  Csatabárd, licit 20→20, Féktelen
+    0.38  Nagykalapács, licit 20→20, Féktelen, roham
+=== [Állóképesség-Ügyességkocka-Reflexkocka 5-6-4] páncél (Védőérték 4, Keménység 4), felső határ 12, 300 stratégia, 40 párbaj/párosítás
+  a játék értéke a játékosnak (döntetlennél ő lép előbb): 0.65
+  játékos egyensúlyi keveréke: 55% Rövidkard, licit 12→12, Féktelen, roham | 18% Tőr, licit 12→12 | 13% Rövidkard, licit 12→12 | 9% Tőr, licit 12→12, Féktelen, roham
+    fegyver: Rövidkard 73%, Tőr 27%
+    nyitó licit: 12 100%
+    Féktelen: 69%, roham: 64%
+  ellenfél egyensúlyi keveréke: 40% Rövidkard, licit 12→8, Féktelen, roham | 34% Rövidkard, licit 12→12, roham | 13% Rövidkard, licit 12→12, Féktelen | 7% Rövidkard, licit 12→12, Féktelen, roham
+    fegyver: Rövidkard 100%
+    nyitó licit: 12 100%
+    Féktelen: 60%, roham: 81%
+  reakciók az egyensúlyi párbajokban: nincs reakció 87%, Beleállás 8%, Hárítás 6%
+  fegyverenként a legjobb stratégia az ellenfél egyensúlya ellen:
+    0.65  Tőr, licit 12→12, Féktelen, roham
+    0.65  Rövidkard, licit 12→12, Féktelen, roham
+    0.32  Hosszúkard, licit 12→12
+    0.14  Csatabárd, licit 6→12, roham
+    0.27  Nagykalapács, licit 12→12, roham

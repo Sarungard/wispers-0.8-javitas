@@ -1,0 +1,17 @@
+=== [Állóképesség-Ügyességkocka-Reflexkocka 5-6-4] páncél (Védőérték 4, Keménység 4), felső határ 12, 300 stratégia, 40 párbaj/párosítás
+  a játék értéke a játékosnak (döntetlennél ő lép előbb): 0.61
+  játékos egyensúlyi keveréke: 74% Rövidkard, licit 12→12, Féktelen | 15% Rövidkard, licit 12→12 | 11% Rövidkard, licit 8→12, Féktelen, roham
+    fegyver: Rövidkard 100%
+    nyitó licit: 12 89%, 8 11%
+    Féktelen: 85%, roham: 11%
+  ellenfél egyensúlyi keveréke: 55% Rövidkard, licit 12→12 | 27% Rövidkard, licit 12→12, Féktelen | 18% Rövidkard, licit 12→12, roham
+    fegyver: Rövidkard 100%
+    nyitó licit: 12 100%
+    Féktelen: 27%, roham: 18%
+  reakciók az egyensúlyi párbajokban: nincs reakció 86%, Hárítás 8%, Beleállás 6%
+  fegyverenként a legjobb stratégia az ellenfél egyensúlya ellen:
+    0.52  Tőr, licit 12→12, Féktelen, roham
+    0.61  Rövidkard, licit 12→12, Féktelen
+    0.29  Hosszúkard, licit 2→12
+    0.10  Csatabárd, licit 12→12, roham
+    0.19  Nagykalapács, licit 12→12, Féktelen, roham

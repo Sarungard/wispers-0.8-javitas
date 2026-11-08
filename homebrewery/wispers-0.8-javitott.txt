@@ -1643,9 +1643,9 @@ A mentális könnyű sebhatár a fajod leírásában megadott mentális alap, a 
 
 #### Sebdobás
 
-Mindig, amikor sebet szerzel, dobj a seb súlyosságának megfelelő táblázaton: 1d8 + az azonos súlyosságú sebeid száma (a mostanit is beleértve: Könnyű sebnél a Könnyű sebeid, Mély sebnél a Mély sebeid, Súlyos sebnél a Súlyos sebeid száma) + a támadó fegyver találati mátrixának értéke az adott súlyosságra (lásd a fegyverek táblázatát; fegyver nélkül 0). A 21 vagy annál nagyobb eredmény egy fokkal súlyosabb sebet jelent, Súlyos sebnél halált.
+Mindig, amikor sebet szerzel, dobj a seb súlyosságának megfelelő táblázaton: 1d8 + az azonos súlyosságú sebeid száma (a mostanit is beleértve: Könnyű sebnél a Könnyű sebeid, Mély sebnél a Mély sebeid, Súlyos sebnél a Súlyos sebeid száma) + a támadó fegyver találati mátrixának értéke az adott súlyosságra (lásd a fegyverek táblázatát; fegyver nélkül 0). A 12 vagy annál nagyobb eredmény egy fokkal súlyosabb sebet jelent, Súlyos sebnél halált.
 
-[Szerkesztői megjegyzés: a három táblázat tartalma javaslat (2026.10.22.), átdolgozásra vár (D-2).]
+[Szerkesztői megjegyzés: a három táblázat tartalma javaslat (2026.10.22.), átdolgozásra vár (D-2). A fordulópont 12 (V-22), ezért a 12–20 sorok nem dobhatók; a táblázatok 2–11-re szűkítése és a megmaradó sorok kiválasztása a H-67.]
 
 | Könnyű seb | Hatás |
 |:--:|:--|
@@ -1664,7 +1664,7 @@ Mindig, amikor sebet szerzel, dobj a seb súlyosságának megfelelő táblázato
 | 16-17 | Kificamodott ujj: fegyvertelenné válsz. |
 | 18-19 | Csúnya vágás: komoly esztétikai sérülés. |
 | 20 | Rossz esés: a földre kerülsz, és a következő köröd végéig nem reagálhatsz. |
-| 21+ | A seb Mély sebbé válik: dobj a Mély seb táblázatán. |
+| 12+ | A seb Mély sebbé válik: dobj a Mély seb táblázatán. |
 
 | Mély seb | Hatás |
 |:--:|:--|
@@ -1683,7 +1683,7 @@ Mindig, amikor sebet szerzel, dobj a seb súlyosságának megfelelő táblázato
 | 16-17 | Maradandó károsodás. |
 | 18-19 | Nyílt törés: csonttörés, és amíg nem látják el, a hátránya minden támadásodra és próbádra vonatkozik. |
 | 20 | Csonkolás. |
-| 21+ | A seb Súlyos sebbé válik: dobj a Súlyos seb táblázatán. |
+| 12+ | A seb Súlyos sebbé válik: dobj a Súlyos seb táblázatán. |
 
 | Súlyos seb | Hatás |
 |:--:|:--|
@@ -1702,7 +1702,7 @@ Mindig, amikor sebet szerzel, dobj a seb súlyosságának megfelelő táblázato
 | 16-17 | Belső vérzés és csonttörés. |
 | 18-19 | Belső vérzés és maradandó károsodás. |
 | 20 | Bénulás. |
-| 21+ | Halál. |
+| 12+ | Halál. |
 
 #### Enyhe esztétikai jellegű
 

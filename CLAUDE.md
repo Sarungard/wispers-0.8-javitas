@@ -58,7 +58,8 @@ Keep replies short and in Hungarian. Put the proposal and the question at the en
   list stays; do not propose trimming it.
 - Kimerültség: −1 per level to every roll; death when it exceeds 2× Állóképesség; wounds never give Kimerültség (V-01).
 - Wounds: Könnyű / Mély / Súlyos seb by sebhatár (reaching it counts). Sebdobás: 1d8 + the number
-  of Sebek of the same severity (not all Sebek) + the weapon's találati mátrix; 21+ is one fok worse. Wounds must be
+  of Sebek of the same severity (not all Sebek) + the weapon's találati mátrix; 12+ is one fok worse (V-22, was 21+;
+  the CRPG still uses 21), on the Súlyos table death. Wounds must be
   hard to heal: Súlyos → Mély → Könnyű → healed, no roll on each step, a healed wound leaves a heg (scar).
 - Weapon properties are called „jellemző” (never „tulajdonság”, that is the six attributes). The Jellemzők column holds
   base jellemzők; the weapon table's Képzetlen–Mester columns hold jellemzők unlocked at that proficiency level. Each
@@ -98,11 +99,18 @@ duel9 (H-65 baseline), duel10 (V-07 dice only), duel11 (the current book) and st
 from `tools/sim/` as `SIM=duel11 python study11.py 40 csupasz 5-6-4 20` (`pancel` for armour; about 8 minutes).
 Results so far are in `tools/sim/out/`.
 
-H-66 (new, NYITOTT, 2026-11-02): the V-07 re-run showed that since V-01 combat has no attrition. The first-mover edge
-is nearly gone (mirror duels 48–63%). In armour only Rövidkard and Tőr with Féktelen stay competitive (heavy weapons
-0.18–0.36): the sebdobás ladder kills through any armour after about 35 hits, and 2-AP weapons hit twice as often.
-The 1–7% „draws” are mutual knockouts (one falls, the other bleeds out at round end), not 40-round stalemates. Keep
-the first-mover fix while solving this.
+H-66 (new, FOLYAMATBAN, 2026-11-08): the V-07 re-run showed that since V-01 combat has no attrition. The first-mover
+edge is nearly gone (mirror duels 48–63%). In armour only Rövidkard and Tőr with Féktelen stayed competitive (heavy
+weapons 0.18–0.36): the sebdobás ladder killed through any armour after about 35 hits, and 2-AP weapons hit twice as
+often. The 1–7% „draws” are mutual knockouts (one falls, the other bleeds out at round end), not 40-round stalemates.
+Keep the first-mover fix while solving this.
+
+V-22 is JAVÍTVA (2026-11-08): the sebdobás turning point is 12 instead of 21; the bid cap stays 20. Duels are about a
+quarter as long (armour 19 attacks instead of 64), the loser falls with about 2 Súlyos sebek, and in armour Hosszúkard
+0.61 and Nagykalapács 0.60 now match the light weapons (0.62). Left for H-66: Csatabárd (0.39, Súlyos mátrix 2).
+H-67 (new, NYITOTT): the three wound tables must shrink to rows 2–11; Zoz picks which 10 of the 15 rows stay. The
+simulation used the current even rows; re-run V-22 and H-66 after the pick. Simulator: `tools/sim/tsim.py` and
+`duel_turn.py` (`SIM=duel_turn TURN=12 python study11.py …`), round-robin `rr_turn.py`.
 
 The four remaining DÖNTÉSRE VÁR items (H-03, H-17, H-19, H-47) all wait on content: kasztok, the varázslat chapter, the
 Kegy rework. Open decisions: the D-1 bid cap or repeat cost (H-45, H-14, H-30), Sebgyógyítás (H-58), Szusztörő (H-13).

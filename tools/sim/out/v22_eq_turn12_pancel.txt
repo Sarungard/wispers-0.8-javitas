@@ -1,0 +1,34 @@
+=== [Állóképesség-Ügyességkocka-Reflexkocka 5-6-4] páncél (Védőérték 4, Keménység 4), felső határ 20, 360 stratégia, 40 párbaj/párosítás
+  a játék értéke a játékosnak (döntetlennél ő lép előbb): 0.62
+  játékos egyensúlyi keveréke: 37% Tőr, licit 20→20, Féktelen, roham | 23% Rövidkard, licit 20→20, Féktelen, roham | 16% Rövidkard, licit 20→20 | 16% Rövidkard, licit 20→8, Féktelen, roham
+    fegyver: Rövidkard 62%, Tőr 38%
+    nyitó licit: 20 100%
+    Féktelen: 83%, roham: 77%
+  ellenfél egyensúlyi keveréke: 33% Rövidkard, licit 20→8, roham | 18% Rövidkard, licit 20→8 | 18% Rövidkard, licit 12→20 | 18% Rövidkard, licit 20→20, Féktelen, roham
+    fegyver: Rövidkard 100%
+    nyitó licit: 20 69%, 12 31%
+    Féktelen: 30%, roham: 51%
+  reakciók az egyensúlyi párbajokban: nincs reakció 88%, Beleállás 7%, Hárítás 5%
+  fegyverenként a legjobb stratégia az ellenfél egyensúlya ellen:
+    0.62  Tőr, licit 20→20, Féktelen, roham
+    0.62  Rövidkard, licit 20→20, Féktelen, roham
+    0.61  Hosszúkard, licit 20→20
+    0.39  Csatabárd, licit 20→20
+    0.60  Nagykalapács, licit 20→20, Féktelen, roham
+=== [Állóképesség-Ügyességkocka-Reflexkocka 5-6-4] páncél (Védőérték 4, Keménység 4), felső határ 12, 300 stratégia, 40 párbaj/párosítás
+  a játék értéke a játékosnak (döntetlennél ő lép előbb): 0.61
+  játékos egyensúlyi keveréke: 48% Rövidkard, licit 12→12, Féktelen, roham | 27% Rövidkard, licit 12→8, Féktelen, roham | 16% Rövidkard, licit 12→12, Féktelen | 6% Rövidkard, licit 12→12, roham
+    fegyver: Rövidkard 100%
+    nyitó licit: 12 100%
+    Féktelen: 91%, roham: 82%
+  ellenfél egyensúlyi keveréke: 25% Rövidkard, licit 12→8 | 23% Rövidkard, licit 12→8, roham | 21% Rövidkard, licit 12→8, Féktelen | 15% Rövidkard, licit 12→12
+    fegyver: Rövidkard 89%, Tőr 11%
+    nyitó licit: 12 100%
+    Féktelen: 32%, roham: 28%
+  reakciók az egyensúlyi párbajokban: nincs reakció 86%, Beleállás 8%, Hárítás 6%
+  fegyverenként a legjobb stratégia az ellenfél egyensúlya ellen:
+    0.59  Tőr, licit 12→12, Féktelen, roham
+    0.61  Rövidkard, licit 12→8, Féktelen, roham
+    0.35  Hosszúkard, licit 12→12, Féktelen, roham
+    0.23  Csatabárd, licit 12→12, roham
+    0.41  Nagykalapács, licit 12→12, Féktelen, roham
