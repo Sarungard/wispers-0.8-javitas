@@ -1331,7 +1331,7 @@ Harc nagyobb méretű lények ellen részt lásd a fejezet végén.
 
 Harc – főleg közelharc – alatt a karakterek próbálnak folyamatosan kontaktust létesíteni az ellenfelükkel annak reményében, hogy sebet ejthetnek rajta, komoly sérülést okozva és pontot téve a harc végére. Támadás akció alatt olyan manőverezést értünk, amitől egy olyan találatot remélsz, ami elég kárt okoz ahhoz, hogy következménye legyen.
 
-Támadáshoz dobj a fegyvered kockájával és a hozzátartozó jártasságkockával. A tulajdonságaid nem számítanak bele a támadásba. Pusztakezes támadásnál a fegyverkocka 1d2 (1d4/2), a jártasságkocka pedig a Pusztakezes harc jártasságodé. A védekező fél reagálhat a támadásodra a fejezetben leírt reakciók segítségével. Amennyiben nem teszi, vagy a reakciója sikertelen, elszenved egy Sebet.
+Támadáshoz dobj a fegyvered kockájával és a hozzátartozó jártasságkockával. A tulajdonságaid nem számítanak bele a támadásba. Pusztakezes támadásnál a fegyverkocka 1d2 (1d4/2), a jártasságkocka pedig a Pusztakezes harc jártasságodé. Ha az Ellökést, a Megragadást, az Elrángatást, a Feldöntést vagy a Lefegyverzést pusztakézzel hajtod végre, a fegyverkocka helyett az Erőkockáddal dobsz. A védekező fél reagálhat a támadásodra a fejezetben leírt reakciók segítségével. Amennyiben nem teszi, vagy a reakciója sikertelen, elszenved egy Sebet.
 
 Egy támadás AP költségét a fegyver adja meg (lásd a fegyvertáblázat AP oszlopát).
 

@@ -24,7 +24,7 @@ Jelölések: BLOKKOLÓ – enélkül nem játszható; ELLENTMONDÁS – két sza
 hivatkozik; KISEBB – szerkesztési hiba, elnevezés.
 
 ÖSSZESÍTŐ (frissítsd menet közben)
-  NYITOTT: 14   FOLYAMATBAN: 14   DÖNTÉSRE VÁR: 4   JAVÍTVA: 56   ELVETVE: 2
+  NYITOTT: 14   FOLYAMATBAN: 15   DÖNTÉSRE VÁR: 4   JAVÍTVA: 56   ELVETVE: 2
 
 
 ================================================================
@@ -1895,6 +1895,22 @@ Megjegyzés: Javaslat (2026.11.09.): a próbadobást a jártassághoz kötni, ne
   (V-20). (3) A Hárítás kockái nincsenek leírva (V-11).
   Kapcsolódik: V-08, V-11, V-20.
 
+----------------------------------------------------------------
+[H-69] Helyekre bontott felszerelés, az Erő új helyeket nyit (új tétel,
+  a PDF-ben nincs)
+Hol: II. rész › 1. A rendszer alapjai › Tulajdonságok › Erő; Felszerelés;
+  karakterlap
+Probléma: Nincs teherbírás: a könyvben se súly, se tárgyhely nincs, az Erő
+  leírása („súlyokat cipelni”) mögött nincs szabály (V-10, B).
+Teendő: Helyekre bontott (slot alapú) felszerelés a karakterlapon; az Erő
+  új helyeket nyit (Zoz döntése, 2026.11.09.). Kidolgozandó: hány hely jár
+  alapból, melyik Erő-érték nyit újat, mennyi helyet foglal egy tárgy.
+Állapot: NYITOTT
+Megjegyzés: A hely könyvbeli neve még nincs eldöntve; a „slot” angol szó,
+  a magyar kifejezést ÚJ KIFEJEZÉS-ként kell javasolni. Zoz korábbi
+  jegyzete (ruleset_ideas.txt): „Strength: … Inventory sizes”.
+  Kapcsolódik: V-10.
+
 
 ================================================================
 VAK ÁTNÉZÉS (2026.10.26.) – V-TÉTELEK
@@ -2201,7 +2217,25 @@ Probléma: (§4, top 6) A tulajdonságok nem számítanak a támadásba; az
   fegyverkövetelmény. Négy faj elsődleges tulajdonsága, így csapdaopció.
 Teendő: Gépi szerep az Erőnek (pl. pusztakezes manőverek,
   fegyverkövetelmény, teherbírás).
-Állapot: NYITOTT
+Állapot: FOLYAMATBAN (2026.11.09.)
+Döntés: (A) Pusztakezes Ellökésnél, Megragadásnál, Elrángatásnál,
+  Feldöntésnél és Lefegyverzésnél az 1d2 helyett az Erőkocka dob; a
+  támadásba továbbra sem számít tulajdonság, mert ezek nem sebeznek.
+  (B) Teherbírás: helyekre bontott felszerelés, az Erő új helyeket nyit;
+  külön tétel: H-69. (C) Fegyverkövetelmény: minimum Erő a fegyverek
+  forgatásához és a páncélok viseléséhez; javaslatra vár.
+Javítás: Támadás, a pusztakezes támadás mondata után: „Ha az Ellökést, a
+  Megragadást, az Elrángatást, a Feldöntést vagy a Lefegyverzést
+  pusztakézzel hajtod végre, a fegyverkocka helyett az Erőkockáddal
+  dobsz.”
+Megjegyzés: (A) számai Kezdő Pusztakezes harccal (d4): eddig átlag 4,0;
+  Erő d4-gyel 5,0, d6-tal 6,0, d8-cal 7,0. Ugyanaz az öt manőver, amelyre
+  a méretszabály vonatkozik. Képzetlen Pusztakezes harccal az Erőkocka
+  egyedül dob (H-68). Az Erő eddig a próbákon kívül csak a Repedt borda
+  sorban szerepelt. Elvetett változat: sebzési plafon (a fegyverkocka nem
+  nagyobb az Erőkockánál) – Világstandard 3 mellett a Hosszúkard d4-et
+  dobna, a Nagykalapácshoz Erő 9 (45 pont) kellene. Eltérés a CRPG-től:
+  ott a manőverek 1d2-vel mennek, és az Erő harcban nem szerepel.
 
 ----------------------------------------------------------------
 [V-11] Harci szabálytakarítás
@@ -2643,3 +2677,6 @@ NAPLÓ – mi történt, mikor
 2026.11.09.  V-09 JAVÍTVA – a Steppelt zeke és a Keményített bőrvért nem fém, ezekben
              lehet varázsolni; az eltört páncél nem ad Védőértéket, amíg meg nem
              javítják. A Beleállás marad 0 AP, a korlátja a Keménység.
+2026.11.09.  V-10 FOLYAMATBAN – pusztakezes manővereknél az 1d2 helyett az Erőkocka
+             dob. Hátravan: minimum Erő a fegyverekhez és a páncélokhoz. Új tétel:
+             H-69 (helyekre bontott felszerelés, az Erő új helyeket nyit).
