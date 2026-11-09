@@ -49,7 +49,7 @@ Keep replies short and in Hungarian. Put the proposal and the question at the en
   by scope, duration or „nem kísérelhető meg”, never by extra dice. Racial attribute penalties are „−1-es módosító”,
   never „hátrány”, and every racial penalty is −1 (the mnemór −2 was a typo, fixed under H-08; at Világstandard 3
   the mnemór Erő is 2). Wound tables: Könnyű seb never gives hátrány; Mély seb a narrow one until rest; Súlyos seb a broad
-  one. V-07 is JAVÍTVA (2026-11-02). Open: Színlelt (V-11).
+  one. V-07 is JAVÍTVA (2026-11-02).
 - Core rules state rules, not situational GM advice: do not write into them what only happens in some cases or what a
   GM can deduce (e.g. rizikós próba under hátrány). Such notes may go into a later chapter for GMs.
 - Attacks: weapon die + proficiency die, no attribute. Unarmed: 1d2 (1d4/2) with the Pusztakezes harc proficiency.
@@ -112,7 +112,8 @@ Megragadott: break free with Ellökés. Közepes táv = same zone, Nagy táv = a
 shield or parry-weapon die + proficiency die against the attack value (reaching it succeeds); the parry weapon is the
 Kétfegyveres second weapon; only a shield stops missiles; failure stays túlütés. Shields have their own table after
 armour (not with weapons): Kis pajzs 1d4 Könnyű, Pajzs 1d6 Erő 3 Közepes, Nagy pajzs 1d8 Erő 4 Kitérés-gátlás Nehéz;
-the proficiency is the shield's Páncélcsoport; missing Erő makes the Hárítás dearer. Kis/Nagy pajzs prices are open.
+the proficiency is the shield's Páncélcsoport; missing Erő makes the Hárítás dearer. Prices: Kis pajzs 50, Pajzs 100,
+Nagy pajzs 200 Réz. V-11 is JAVÍTVA (2026-11-09).
 Beleállás: Keménység lowers the value first, and each Beleállás costs 1 Keménység.
 D-1 and H-65 are JAVÍTVA: the bid cap is 20 (no escalating repeat cost). The duel simulator is in `tools/sim/`:
 duel9 (H-65 baseline), duel10 (V-07 dice only), duel11 (the current book) and study11, the equilibrium study. Run it

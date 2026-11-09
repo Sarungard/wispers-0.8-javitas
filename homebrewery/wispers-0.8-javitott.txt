@@ -3000,7 +3000,7 @@ Az árak egy napszámos napi béréhez igazodnak, ez 20 Réz. Az alapeszközök 
 | Nyílvessző (20 db) | 20 Réz |
 | Nyílpuskavessző (20 db) | 30 Réz |
 
-#### Páncélok és pajzs
+#### Páncélok és pajzsok
 
 | Páncél | Ár |
 |:--|:--|
@@ -3022,7 +3022,9 @@ Az árak egy napszámos napi béréhez igazodnak, ez 20 Réz. Az alapeszközök 
 | Pikkelyvért | 3 Ezüst |
 | Sínvért | 6 Ezüst |
 | Vasalt bőrvért | 400 Réz |
+| Kis pajzs | 50 Réz |
 | Pajzs | 100 Réz |
+| Nagy pajzs | 200 Réz |
 
 #### Felszerelés
 

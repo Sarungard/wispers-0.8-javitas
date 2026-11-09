@@ -24,7 +24,7 @@ Jelölések: BLOKKOLÓ – enélkül nem játszható; ELLENTMONDÁS – két sza
 hivatkozik; KISEBB – szerkesztési hiba, elnevezés.
 
 ÖSSZESÍTŐ (frissítsd menet közben)
-  NYITOTT: 13   FOLYAMATBAN: 15   DÖNTÉSRE VÁR: 4   JAVÍTVA: 57   ELVETVE: 2
+  NYITOTT: 13   FOLYAMATBAN: 14   DÖNTÉSRE VÁR: 4   JAVÍTVA: 58   ELVETVE: 2
 
 
 ================================================================
@@ -2280,7 +2280,7 @@ Probléma: (§3, top 9)
   – Megragadás: nincs kiszabadulás; a „mozgásgátló” nincs definiálva.
   – Zónák és hatótávok: két térrendszer átváltás nélkül.
 Teendő: Pontonként dönteni.
-Állapot: FOLYAMATBAN (2026.11.09.)
+Állapot: JAVÍTVA (2026.11.09.)
 Döntés: (2) Túlütés: reakciónál marad a védekezés értékének kétszerese;
   reakció nélkül vagy Beleállásnál a könnyű és a súlyos sebhatár
   összege. A páncél így kétszer számít, de nem kell kivonni (Zoz:
@@ -2302,7 +2302,8 @@ Döntés: (2) Túlütés: reakciónál marad a védekezés értékének kétszer
   Páncélcsoportja adja, így nem kell új jártasság. Három fajta: Kis
   pajzs (1d4, Könnyű), Pajzs (1d6, Erő 3, Közepes), Nagy pajzs (1d8, Erő
   4, Kitérés-gátlás, Nehéz); a Kis pajzs és a Nagy pajzs új tárgynév
-  (ÚJ KIFEJEZÉS, Zoz jóváhagyta). A két új pajzs ára még hiányzik.
+  (ÚJ KIFEJEZÉS, Zoz jóváhagyta). Árak: Kis pajzs 50 Réz, Nagy pajzs
+  200 Réz (a Pajzs 100 Réz marad).
 Javítás: Túlütés: „…a támadás értékét a sebhatáraihoz kell mérni:
   túlütés, ha legalább a könnyű és a súlyos sebhatárának összege.” (a
   „Védőérték csak egyszer számít” mondat kimaradt); „Amikor valakit
@@ -2328,7 +2329,8 @@ Javítás: Túlütés: „…a támadás értékét a sebhatáraihoz kell mérni
   jártassággal pajzzsal nem háríthatsz.”; a Reflexgátlás úgy hat, mint a
   páncélnál; a hiányzó Erő pontonként 1 AP-vel drágítja a Hárítást) és
   a háromsoros Pajzsok tábla (Kocka, Erő, Reflexgátlás, Páncélcsoport,
-  Képzetlen–Mester).
+  Képzetlen–Mester). Árlista: a cím „Páncélok és pajzsok”, új sorok: Kis
+  pajzs 50 Réz, Nagy pajzs 200 Réz.
 Megjegyzés: (1) számai Kezdő (d4) jártassággal, d8+d4-es támadás ellen:
   Kis pajzs 32% siker (5% kör vége), Pajzs 44% (9%), Nagy pajzs 55%
   (14%). A siker a célérték elérése; a szimuláció (duel11) eddig
@@ -2795,3 +2797,5 @@ NAPLÓ – mi történt, mikor
 2026.11.09.  V-11 – Hárítás: pajzs- vagy hárítófegyver-kocka + jártasságkocka a
              támadás értéke ellen; saját Pajzsok tábla (Kis pajzs, Pajzs,
              Nagy pajzs), jártasság a Páncélcsoportból. Az árak hiányoznak.
+2026.11.09.  V-11 JAVÍTVA – pajzsárak: Kis pajzs 50 Réz, Nagy pajzs 200 Réz;
+             az árlista címe „Páncélok és pajzsok”.
