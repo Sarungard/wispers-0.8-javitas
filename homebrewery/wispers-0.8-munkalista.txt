@@ -231,6 +231,8 @@ Megjegyzés: Világstandard 3 mellett karakteralkotáskor az értékek 1 és 7
   – 2-es vagy kisebb Világstandardnál a mnemór Ereje (−2) 0 alá esik, vagyis
     a karakter már létrehozáskor meghal → a mnemór miatt a legkisebb
     használható standard 3, hacsak a mnemór büntetése nem változik;
+    helyesbítés (2026.11.09., H-08): a −2 elírás, minden faji hátrány −1,
+    így a mnemór Ereje 2, és a legkisebb használható Világstandard 2;
   – a táblázat „0-4” sorának 0-ját élő karakter már nem éri el;
   – a Bénulás tulajdonságcsökkentése („annyi negatív módosítót kap, ahány
     hétig volt bénult”) most már ölhet;
@@ -333,6 +335,10 @@ Javítás: wispers-0.8-javitott.txt › III. rész › 1. Fajok › Egy faj
   jelöli ki, vagy szabadon választható), kivétel az ork egyetlen +3-mal;
   (2) alfaj: választható +1 a leírásban megadott két tulajdonság közül és
   kijelölt −1; alfaj nélküli fajoknál a faji leírásban, a mnemóroknál −2.
+  Helyesbítés (2026.11.09.): a mnemór −2-je elírás, minden faji hátrány
+  −1 (Zoz). Az általános szabályból törölve: „; a mnemóroknál a módosító
+  −2.” Mnemórok › Tulajdonságmódosítók: „-2-es módosítót Erőre” helyett
+  „-1-es módosítót Erőre”. A mnemór Ereje Világstandard 3 mellett 2.
 Megjegyzés: Világstandard 3 mellett karakteralkotáskor a hadviselő ork Ereje
   7 (d8) lehet (lásd H-04).
 
@@ -2282,6 +2288,9 @@ Probléma: (§4, top 10) A d4-sáv (0–4) öt érték széles, a +1-es faji
 Teendő: Sávszélesség; alacsony Világstandard kezelése; jártasságárak
   kalibrálása (H-62).
 Állapot: NYITOTT
+Megjegyzés: A mnemór −2-je elírás volt (2026.11.09., H-08): minden faji
+  hátrány −1, így a karakteralkotáskori halál csak 2-nél kisebb
+  Világstandardnál jön elő.
 
 ----------------------------------------------------------------
 [V-14] Fajok egyensúlya
@@ -2680,3 +2689,5 @@ NAPLÓ – mi történt, mikor
 2026.11.09.  V-10 FOLYAMATBAN – pusztakezes manővereknél az 1d2 helyett az Erőkocka
              dob. Hátravan: minimum Erő a fegyverekhez és a páncélokhoz. Új tétel:
              H-69 (helyekre bontott felszerelés, az Erő új helyeket nyit).
+2026.11.09.  H-08 helyesbítés – a mnemór Erő −2-je elírás, minden faji hátrány −1
+             (Zoz); a mnemór Ereje Világstandard 3 mellett 2. H-04, V-13 jegyzet.

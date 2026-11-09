@@ -1811,7 +1811,7 @@ Minden faj leírásánál megtalálhatóak azok faji jellemzői, amik a faj kép
 
 Minden faj rendelkezik egy kijelölt elsődleges tulajdonsággal, amit kettővel, és egy másodlagos tulajdonsággal, amit eggyel növelj meg. A másodlagos tulajdonságot fajtól függően a leírás jelöli ki, vagy szabadon választhatod. Kivétel az ork, aki egyetlen +3-as bónuszt kap.
 
-Az alfajok ehhez még egy választható +1-es bónuszt adnak (a leírásukban megadott két tulajdonság közül választhatsz), valamint egy kijelölt tulajdonságra −1-es módosítót. Az alfaj nélküli fajok (mnemórok, allúrok) ezt a választható bónuszt és a módosítót a saját faji leírásukban kapják; a mnemóroknál a módosító −2.
+Az alfajok ehhez még egy választható +1-es bónuszt adnak (a leírásukban megadott két tulajdonság közül választhatsz), valamint egy kijelölt tulajdonságra −1-es módosítót. Az alfaj nélküli fajok (mnemórok, allúrok) ezt a választható bónuszt és a módosítót a saját faji leírásukban kapják.
 
 #### Életkor
 
@@ -2269,7 +2269,7 @@ Ugyanis amikor egy mnemór nagykorúvá érik, vagy ahogy ők mondják először
 
 A mnemórok +2 bónuszt kapnak Tudásra és +1 bónuszt Szellemre.
 
-Emellett választható +1 bónuszt kapnak Ügyességre vagy Tudásra és -2-es módosítót Erőre.
+Emellett választható +1 bónuszt kapnak Ügyességre vagy Tudásra és -1-es módosítót Erőre.
 
 #### Életkor
 
