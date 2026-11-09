@@ -24,7 +24,7 @@ Jelölések: BLOKKOLÓ – enélkül nem játszható; ELLENTMONDÁS – két sza
 hivatkozik; KISEBB – szerkesztési hiba, elnevezés.
 
 ÖSSZESÍTŐ (frissítsd menet közben)
-  NYITOTT: 11   FOLYAMATBAN: 14   DÖNTÉSRE VÁR: 4   JAVÍTVA: 60   ELVETVE: 2
+  NYITOTT: 11   FOLYAMATBAN: 15   DÖNTÉSRE VÁR: 4   JAVÍTVA: 59   ELVETVE: 2
 
 
 ================================================================
@@ -1623,7 +1623,7 @@ Probléma: A Világstandard leírása szerint kisebb standardnál „annál töb
   befektetni őket. (A H-04 / D-3 döntéséből, 2026.10.22.)
 Teendő: A pontbefektetés szabálya – karakteralkotáskor, szintlépéskor vagy
   mindkettőnél (kapcsolódik: H-03).
-Állapot: JAVÍTVA (2026.10.26.)
+Állapot: FOLYAMATBAN (2026.11.09., előtte JAVÍTVA 2026.10.26.)
 Döntés: Zoz Karakterfejlődés-jegyzete (OneNote, Playtest › Karakterfejlődés,
   még nincs kész) az alap. A szintenkénti táblázat és a tulajdonságemelés
   költsége (1 + az elérni kívánt érték) bekerül. A 0. szint matekja
@@ -1664,6 +1664,9 @@ Megjegyzés: Hátravan: a 0. szint pontjai; szintenként 8, vagy 8 + Tudás +
   jártasságár aránya is szempont: ez dönti el, milyen gyakran dob a
   karakter szakértelemmel vagy erőltetéssel, így a Részleges siker és a
   Kritikus bukás gyakoriságát.
+  Visszanyitva (2026.11.09., Zoz): a jártasságok és az általános talentek
+  egyedi ára, valamint a kasztok által adott pontok még hiányoznak (a
+  szöveg szerkesztői megjegyzése ide mutat).
   Hátravan (tartalom): a jártasságok és az általános talentek egyedi ára,
   a kasztok által adott pontok.
 
@@ -2828,3 +2831,5 @@ NAPLÓ – mi történt, mikor
              a H-67 után ellenőrizni (sebtáblasorok).
 2026.11.09.  V-13 JAVÍTVA – a tulajdonságsávok maradnak; a legkisebb Világstandard
              2; a jártasságárak kalibrálása a H-62-höz került.
+2026.11.09.  H-62 visszanyitva FOLYAMATBAN-ra – a jártasság- és talentárak, a
+             kasztok pontjai hiányoznak.
