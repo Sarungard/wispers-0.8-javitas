@@ -1441,7 +1441,7 @@ Amikor megtámadnak, reflex mentődobás segítségével megpróbálod elkerüln
 
 #### Hárítás {1AP}
 
-Amikor megtámadnak, erre alkalmas pajzs vagy hárítófegyver segítségével megpróbálod csökkenteni a károkat.
+Amikor megtámadnak, erre alkalmas pajzs vagy hárítófegyver segítségével megpróbálod csökkenteni a károkat. Dobj a pajzsod kockájával és a pajzs páncélcsoportjának jártasságkockájával, vagy a hárítófegyvered kockájával és a fegyvercsoportja jártasságkockájával. A célérték a támadás értéke. Hárítófegyver a Kétfegyveres harcmodor második fegyvere. Távolsági támadást csak pajzzsal háríthatsz.
 
 **Siker:** nem szenvedsz Sebet. Ha a hárításod értéke a támadás értékének legalább kétszerese, az ellenfeled köre is véget ér.
 
@@ -3222,6 +3222,17 @@ Az Erő oszlop azt az Erőt adja meg, amely a páncél viseléséhez kell. Ha az
 | Pikkelyvért | 4 | 4 | | 4 | Kitérés | Közepes | - | | | | | |
 | Sínvért | 5 | 5 | | 5 | minden Reflex | Nehéz | - | | | | | |
 | Vasalt bőrvért | 2 | 3 | | – | – | Könnyű | - | | | | | |
+
+### Pajzsok
+
+A pajzs a páncélcsoportja jártasságát használja: Hárításnál a pajzs kockájával és ennek a jártasságnak a kockájával dobsz (lásd: Hárítás). Képzetlen jártassággal pajzzsal nem háríthatsz. A Reflexgátlás a pajzsnál ugyanúgy hat, mint a páncélnál. Ha az Erőd kisebb a pajzs Erejénél, minden hiányzó pont 1 AP-vel drágítja a Hárítást.
+
+##### Pajzsok
+| Pajzs | Kocka | Erő | Reflexgátlás | Páncélcsoport | Képzetlen | Kezdő | Képzett | Haladó | Tapasztalt | Mester |
+|:--|:--:|:--:|:--:|:--|:--:|:--:|:--:|:--:|:--:|:--:|
+| Kis pajzs | 1d4 | – | – | Könnyű | - | | | | | |
+| Pajzs | 1d6 | 3 | – | Közepes | - | | | | | |
+| Nagy pajzs | 1d8 | 4 | Kitérés | Nehéz | - | | | | | |
 
 # 6. Varázslatok
 

@@ -2294,8 +2294,15 @@ Döntés: (2) Túlütés: reakciónál marad a védekezés értékének kétszer
   Megragadott: Ellökéssel kiszabadulhat, a megragadó bármikor
   elengedhet; Elrángatásnál az Elmozdulás 4 AP. (7) Közepes táv: a
   célpont a zónádon belül van (egy Elmozdulás a közelharcig); Nagy táv:
-  másik zónában (több Elmozdulás). (1) Hárítás: nyitott (a kocka, a
-  Pajzs adatai és a jártasság).
+  másik zónában (több Elmozdulás). (1) Hárítás: a pajzs vagy a
+  hárítófegyver kockája + jártasságkocka, a célérték a támadás értéke.
+  Hárítófegyver a Kétfegyveres harcmodor második fegyvere; távolsági
+  támadást csak pajzs hárít; a Bukás marad túlütés. A pajzs saját táblát
+  kap a páncélok után, nem a fegyverekhez kerül: jártasságát a
+  Páncélcsoportja adja, így nem kell új jártasság. Három fajta: Kis
+  pajzs (1d4, Könnyű), Pajzs (1d6, Erő 3, Közepes), Nagy pajzs (1d8, Erő
+  4, Kitérés-gátlás, Nehéz); a Kis pajzs és a Nagy pajzs új tárgynév
+  (ÚJ KIFEJEZÉS, Zoz jóváhagyta). A két új pajzs ára még hiányzik.
 Javítás: Túlütés: „…a támadás értékét a sebhatáraihoz kell mérni:
   túlütés, ha legalább a könnyű és a súlyos sebhatárának összege.” (a
   „Védőérték csak egyszer számít” mondat kimaradt); „Amikor valakit
@@ -2312,7 +2319,26 @@ Javítás: Túlütés: „…a támadás értékét a sebhatáraihoz kell mérni
   bármikor elengedhet.” Közepes táv: „A célpont a zónádon belül van: egy
   Elmozdulással közelharcba kerülsz vele.” Nagy táv: „A célpont másik
   zónában van: több Elmozdulás kell, hogy közelharcba kerülj vele.”
-Megjegyzés: (2) számai (testi alap 4): a határ 18 + VÉ helyett 13 + 2×VÉ;
+  Hárítás, az első mondat után: „Dobj a pajzsod kockájával és a pajzs
+  páncélcsoportjának jártasságkockájával, vagy a hárítófegyvered
+  kockájával és a fegyvercsoportja jártasságkockájával. A célérték a
+  támadás értéke. Hárítófegyver a Kétfegyveres harcmodor második
+  fegyvere. Távolsági támadást csak pajzzsal háríthatsz.” Páncélok, új
+  alfejezet (Pajzsok) a páncéltábla után: bekezdés („Képzetlen
+  jártassággal pajzzsal nem háríthatsz.”; a Reflexgátlás úgy hat, mint a
+  páncélnál; a hiányzó Erő pontonként 1 AP-vel drágítja a Hárítást) és
+  a háromsoros Pajzsok tábla (Kocka, Erő, Reflexgátlás, Páncélcsoport,
+  Képzetlen–Mester).
+Megjegyzés: (1) számai Kezdő (d4) jártassággal, d8+d4-es támadás ellen:
+  Kis pajzs 32% siker (5% kör vége), Pajzs 44% (9%), Nagy pajzs 55%
+  (14%). A siker a célérték elérése; a szimuláció (duel11) eddig
+  „meghaladja” szabállyal és csak d6-os pajzzsal számolt. A Bukás a
+  V-11 óta a találat Sebe + egy Súlyos seb: a Hárítás 1 AP-s kockázatos,
+  a Kitérés 2 AP-s biztos védekezés. A hiányzó Erő a Hárítást drágítja
+  (mint a fegyvernél), nem minden cselekvést (mint a páncélnál), mert a
+  pajzzsal csak hárítani lehet. Eltérés a CRPG-től: ott egyetlen pajzs
+  van (d6, rögzített Kezdő jártasság).
+  (2) számai (testi alap 4): a határ 18 + VÉ helyett 13 + 2×VÉ;
   VÉ 0: 18 → 13, VÉ 2: 20 → 17, VÉ 4: 22 → 21, VÉ 5: 23 marad, VÉ 6:
   24 → 25. Reakció nélküli túlütés esélye d10+d8-cal páncél nélkül
   1% → 26%, VÉ 1-ben 0 → 12%; d12+d12-vel páncél nélkül 19% → 54%. A
@@ -2766,3 +2792,6 @@ NAPLÓ – mi történt, mikor
              Rohamozás +2/+3 a sebdobáshoz; Színlelt: a többiek előnnyel
              támadnak; kiszabadulás Ellökéssel; zónák és távok átváltása.
              A Hárítás nyitott.
+2026.11.09.  V-11 – Hárítás: pajzs- vagy hárítófegyver-kocka + jártasságkocka a
+             támadás értéke ellen; saját Pajzsok tábla (Kis pajzs, Pajzs,
+             Nagy pajzs), jártasság a Páncélcsoportból. Az árak hiányoznak.

@@ -108,7 +108,11 @@ reaction or with Beleállás (V-11): the attack reaches the könnyű + súlyos s
 purpose, less math). A túlütés deals the hit's own Seb plus one extra Súlyos seb, so an undefended túlütés is two
 Súlyos sebek; the sim does not model this yet. Rohamozás adds its own 2–3 AP to every sebdobás of the hit (no extra
 Sebek). Színlelt: on a hit everyone else attacks the target with előny until the end of their own next turn.
-Megragadott: break free with Ellökés. Közepes táv = same zone, Nagy táv = another zone. V-11 Hárítás is still open.
+Megragadott: break free with Ellökés. Közepes táv = same zone, Nagy táv = another zone. Hárítás (V-11):
+shield or parry-weapon die + proficiency die against the attack value (reaching it succeeds); the parry weapon is the
+Kétfegyveres second weapon; only a shield stops missiles; failure stays túlütés. Shields have their own table after
+armour (not with weapons): Kis pajzs 1d4 Könnyű, Pajzs 1d6 Erő 3 Közepes, Nagy pajzs 1d8 Erő 4 Kitérés-gátlás Nehéz;
+the proficiency is the shield's Páncélcsoport; missing Erő makes the Hárítás dearer. Kis/Nagy pajzs prices are open.
 Beleállás: Keménység lowers the value first, and each Beleállás costs 1 Keménység.
 D-1 and H-65 are JAVÍTVA: the bid cap is 20 (no escalating repeat cost). The duel simulator is in `tools/sim/`:
 duel9 (H-65 baseline), duel10 (V-07 dice only), duel11 (the current book) and study11, the equilibrium study. Run it
