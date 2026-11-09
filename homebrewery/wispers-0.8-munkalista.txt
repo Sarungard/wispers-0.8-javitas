@@ -24,7 +24,7 @@ Jelölések: BLOKKOLÓ – enélkül nem játszható; ELLENTMONDÁS – két sza
 hivatkozik; KISEBB – szerkesztési hiba, elnevezés.
 
 ÖSSZESÍTŐ (frissítsd menet közben)
-  NYITOTT: 14   FOLYAMATBAN: 15   DÖNTÉSRE VÁR: 4   JAVÍTVA: 56   ELVETVE: 2
+  NYITOTT: 14   FOLYAMATBAN: 14   DÖNTÉSRE VÁR: 4   JAVÍTVA: 57   ELVETVE: 2
 
 
 ================================================================
@@ -2223,25 +2223,46 @@ Probléma: (§4, top 6) A tulajdonságok nem számítanak a támadásba; az
   fegyverkövetelmény. Négy faj elsődleges tulajdonsága, így csapdaopció.
 Teendő: Gépi szerep az Erőnek (pl. pusztakezes manőverek,
   fegyverkövetelmény, teherbírás).
-Állapot: FOLYAMATBAN (2026.11.09.)
+Állapot: JAVÍTVA (2026.11.09.)
 Döntés: (A) Pusztakezes Ellökésnél, Megragadásnál, Elrángatásnál,
   Feldöntésnél és Lefegyverzésnél az 1d2 helyett az Erőkocka dob; a
   támadásba továbbra sem számít tulajdonság, mert ezek nem sebeznek.
   (B) Teherbírás: helyekre bontott felszerelés, az Erő új helyeket nyit;
-  külön tétel: H-69. (C) Fegyverkövetelmény: minimum Erő a fegyverek
-  forgatásához és a páncélok viseléséhez; javaslatra vár.
+  külön tétel: H-69. (C) Minimum Erő a fegyverek forgatásához és a
+  páncélok viseléséhez; a hiányzó Erő nem tilt, hanem drágít: minden
+  hiányzó pont +1 AP a fegyverrel tett cselekvésekre és reakciókra, illetve
+  páncélnál minden cselekvésre (a reakciókra nem). Küszöbök: d4-es fegyver
+  nincs, d6 3, d8 4, d10 5, Íjpuskák nincs; Könnyű páncél nincs, Közepes 4,
+  Nehéz 5.
 Javítás: Támadás, a pusztakezes támadás mondata után: „Ha az Ellökést, a
   Megragadást, az Elrángatást, a Feldöntést vagy a Lefegyverzést
   pusztakézzel hajtod végre, a fegyverkocka helyett az Erőkockáddal
-  dobsz.”
+  dobsz.” A fegyvertáblákban (Általános és Különleges fegyverek) és a
+  páncéltáblában új Erő oszlop az AP után. Jártasságok fegyverekkel, új
+  bekezdés: „Az Erő oszlop azt az Erőt adja meg, amely a fegyver
+  forgatásához kell. Ha az Erőd kisebb, minden hiányzó pont 1 AP-vel
+  drágítja a fegyverrel tett cselekvéseidet és reakcióidat.” Jártasságok
+  páncélokkal, új bekezdés: „Az Erő oszlop azt az Erőt adja meg, amely a
+  páncél viseléséhez kell. Ha az Erőd kisebb, minden hiányzó pont 1 AP-vel
+  drágítja minden cselekvésedet.”
 Megjegyzés: (A) számai Kezdő Pusztakezes harccal (d4): eddig átlag 4,0;
   Erő d4-gyel 5,0, d6-tal 6,0, d8-cal 7,0. Ugyanaz az öt manőver, amelyre
   a méretszabály vonatkozik. Képzetlen Pusztakezes harccal az Erőkocka
   egyedül dob (H-68). Az Erő eddig a próbákon kívül csak a Repedt borda
   sorban szerepelt. Elvetett változat: sebzési plafon (a fegyverkocka nem
   nagyobb az Erőkockánál) – Világstandard 3 mellett a Hosszúkard d4-et
-  dobna, a Nagykalapácshoz Erő 9 (45 pont) kellene. Eltérés a CRPG-től:
-  ott a manőverek 1d2-vel mennek, és az Erő harcban nem szerepel.
+  dobna, a Nagykalapácshoz Erő 9 (45 pont) kellene. Elvetve a tiltás is
+  (Erő alatt nem használható): Zoz a drágítást választotta. (C) számai
+  20 AP-s licittel: Erő 3-as ember Csatabárddal 5 AP (5 helyett 4 támadás),
+  Nagykalapáccsal 6 AP (3 támadás), Nehéz páncélban Hosszúkarddal 5 AP
+  (6 helyett 4), az Elmozdulás 4 AP. Erő 2-vel (mnemór, nemestünde,
+  rejtélylelkű) Nehéz páncélban Nagykalapáccsal 10 AP. Az ork (6), a törp
+  és az allúr (5) mindent drágulás nélkül használ; embernél a drágulás
+  megszüntetése 5 pont (Erő 4) vagy 11 pont (Erő 5). A páncél a reakciókat
+  nem drágítja: a Kitérést a Reflexgátlás már sújtja, a Beleállás 0 AP
+  marad (V-09). A kockák nem változnak; a H-66 szimulációja egyenlő Erőt
+  feltételezett. Eltérés a CRPG-től: ott a manőverek 1d2-vel mennek, az
+  Erő harcban nem szerepel, és nincs minimum Erő.
 
 ----------------------------------------------------------------
 [V-11] Harci szabálytakarítás
@@ -2691,3 +2712,6 @@ NAPLÓ – mi történt, mikor
              H-69 (helyekre bontott felszerelés, az Erő új helyeket nyit).
 2026.11.09.  H-08 helyesbítés – a mnemór Erő −2-je elírás, minden faji hátrány −1
              (Zoz); a mnemór Ereje Világstandard 3 mellett 2. H-04, V-13 jegyzet.
+2026.11.09.  V-10 JAVÍTVA – minimum Erő a fegyverekhez (d6 3, d8 4, d10 5, íjpuska
+             nincs) és a páncélokhoz (Közepes 4, Nehéz 5); a hiányzó pont +1 AP a
+             fegyveres cselekvésekre és reakciókra, páncélnál minden cselekvésre.

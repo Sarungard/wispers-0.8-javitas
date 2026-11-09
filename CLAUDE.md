@@ -54,7 +54,9 @@ Keep replies short and in Hungarian. Put the proposal and the question at the en
   GM can deduce (e.g. rizikós próba under hátrány). Such notes may go into a later chapter for GMs.
 - Attacks: weapon die + proficiency die, no attribute. Unarmed: 1d2 (1d4/2) with the Pusztakezes harc proficiency.
   Unarmed Ellökés, Megragadás, Elrángatás, Feldöntés and Lefegyverzés roll the Erőkocka instead of 1d2 (V-10).
-  V-10 is FOLYAMATBAN: minimum Erő for weapons and armour is open. H-69 (NYITOTT): slot-based inventory on the
+  Minimum Erő (V-10, JAVÍTVA): an Erő column in the weapon and armour tables; weapons d4 none, d6 3, d8 4, d10 5,
+  Íjpuskák none; armour Könnyű none, Közepes 4, Nehéz 5. Each missing point costs +1 AP on actions and reactions
+  with that weapon, and in armour +1 AP on every action (not reactions); never a ban. H-69 (NYITOTT): slot-based inventory on the
   character sheet, Erő unlocks new slots; the Hungarian word for the slot still needs an ÚJ KIFEJEZÉS proposal.
 - Célérték (V-03): the GM sets the check's level, which gates who may try and suggests the célérték: Képzetlen 3, Kezdő 5,
   Képzett 7, Haladó 9, Tapasztalt 11, Mester 13. Only a recommendation; the GM may and should adjust it.

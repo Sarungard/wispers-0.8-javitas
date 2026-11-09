@@ -3075,6 +3075,8 @@ Az árak egy napszámos napi béréhez igazodnak, ez 20 Réz. Az alapeszközök 
 
 Olyan fegyvercsoport fegyverével, amelyben a karakter Képzetlen, nem támadhat.
 
+Az Erő oszlop azt az Erőt adja meg, amely a fegyver forgatásához kell. Ha az Erőd kisebb, minden hiányzó pont 1 AP-vel drágítja a fegyverrel tett cselekvéseidet és reakcióidat.
+
 ##### Jártasságok fegyverekkel
 | Fegyvercsoport | Képzetlen | Kezdő | Képzett | Haladó | Tapasztalt | Mester |
 |:--|:--:|:--:|:--:|:--:|:--:|:--:|
@@ -3092,44 +3094,44 @@ Olyan fegyvercsoport fegyverével, amelyben a karakter Képzetlen, nem támadhat
 A Jellemzők oszlop azokat a jellemzőket adja meg, amelyekkel a fegyver bárki kezében rendelkezik. A jártassági oszlopokban (Képzetlen–Mester) azok a jellemzők állnak, amelyeket a karakter az adott jártassági szinttől old fel a fegyveren; a magasabb szint az alacsonyabbakét is megadja. A jellemzők hatását a Jellemzők szakasz írja le.
 
 ##### Általános fegyverek
-| Fegyver | Fegyverkocka | AP | Jellemzők | Könnyű | Mély | Súlyos | Fegyvercsoport | Képzetlen | Kezdő | Képzett | Haladó | Tapasztalt | Mester |
-|:--|:--:|:--:|:--:|:--:|:--:|:--:|:--|:--:|:--:|:--:|:--:|:--:|:--:|
-| Tőr | 1d4 | 2 | | 1 | 1 | 4 | Tőrök | - | | | | | |
-| Párbajtőr | 1d6 | 2 | | 1 | 1 | 4 | Tőrök | - | | | | | |
-| Hosszútőr | 1d6 | 3 | | 1 | 1 | 4 | Tőrök | - | | | | | |
-| Fegyvertörő | 1d4 | 2 | lefegyverző | 1 | 1 | 4 | Tőrök | - | | | | | |
-| Sétabot | 1d6 | 3 | | 1 | 2 | 3 | Szálfegyverek | - | | | | | |
-| Lándzsa | 1d6 | 3 | reach | 1 | 2 | 3 | Szálfegyverek | - | | | | | |
-| Szigony | 1d6 | 3 | reach | 1 | 2 | 3 | Szálfegyverek | - | | | | | |
-| Glaive | 1d10 | 4 | kétkezes, reach | 2 | 3 | 4 | Szálfegyverek | - | | | | | |
-| Szekerce | 1d4 | 2 | | 1 | 3 | 2 | Fejszék | - | | | | | |
-| Harci-fejsze | 1d6 | 3 | | 1 | 3 | 2 | Fejszék | - | | | | | |
-| Csatabárd | 1d8 | 4 | | 1 | 4 | 2 | Fejszék | - | | | | | |
-| Kétkezes-csatabárd | 1d10 | 4 | kétkezes | 2 | 4 | 3 | Fejszék | - | | | | | |
-| Rövidkard | 1d4 | 2 | | 2 | 2 | 3 | Kardok | - | | | | | |
-| Hosszúkard | 1d6 | 3 | | 2 | 2 | 3 | Kardok | - | | | | | |
-| Szablya | 1d6 | 3 | | 2 | 2 | 3 | Kardok | - | | | | | |
-| Fattyúkard | 1d8 | 4 | | 2 | 2 | 4 | Kardok | - | | | | | |
-| Furkósbot | 1d4 | 2 | | 2 | 3 | 1 | Buzogányok | - | | | | | |
-| Buzogány | 1d6 | 3 | | 2 | 3 | 1 | Buzogányok | - | | | | | |
-| Tollasbuzogány | 1d6 | 3 | | 2 | 3 | 1 | Buzogányok | - | | | | | |
-| Tüskésbuzogány | 1d6 | 3 | | 2 | 3 | 1 | Buzogányok | - | | | | | |
-| Kézipöröly | 1d6 | 3 | | 2 | 3 | 2 | Pörölyök | - | | | | | |
-| Csatacsákány | 1d6 | 3 | | 2 | 3 | 2 | Pörölyök | - | | | | | |
-| Harcipöröly | 1d8 | 4 | | 2 | 4 | 2 | Pörölyök | - | | | | | |
-| Nagykalapács | 1d10 | 4 | kétkezes | 3 | 4 | 3 | Pörölyök | - | | | | | |
-| Rövidíj | 1d6 | 3 | Közepes táv | 1 | 1 | 3 | Íjak | - | | | | | |
-| Hosszúíj | 1d8 | 4 | Nagy táv | 1 | 1 | 4 | Íjak | - | | | | | |
-| Visszacsapóíj | 1d10 | 4 | Nagy táv | 2 | 2 | 4 | Íjak | - | | | | | |
-| Kézinyílpuska | 1d6 | 4 | Közepes táv | 1 | 2 | 3 | Íjpuskák | - | | | | | |
-| Könnyűnyílpuska | 1d8 | 5 | Nagy táv | 1 | 2 | 4 | Íjpuskák | - | | | | | |
-| Nehéznyílpuska | 1d10 | 5 | Nagy táv | 2 | 3 | 4 | Íjpuskák | - | | | | | |
+| Fegyver | Fegyverkocka | AP | Erő | Jellemzők | Könnyű | Mély | Súlyos | Fegyvercsoport | Képzetlen | Kezdő | Képzett | Haladó | Tapasztalt | Mester |
+|:--|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--|:--:|:--:|:--:|:--:|:--:|:--:|
+| Tőr | 1d4 | 2 | – | | 1 | 1 | 4 | Tőrök | - | | | | | |
+| Párbajtőr | 1d6 | 2 | 3 | | 1 | 1 | 4 | Tőrök | - | | | | | |
+| Hosszútőr | 1d6 | 3 | 3 | | 1 | 1 | 4 | Tőrök | - | | | | | |
+| Fegyvertörő | 1d4 | 2 | – | lefegyverző | 1 | 1 | 4 | Tőrök | - | | | | | |
+| Sétabot | 1d6 | 3 | 3 | | 1 | 2 | 3 | Szálfegyverek | - | | | | | |
+| Lándzsa | 1d6 | 3 | 3 | reach | 1 | 2 | 3 | Szálfegyverek | - | | | | | |
+| Szigony | 1d6 | 3 | 3 | reach | 1 | 2 | 3 | Szálfegyverek | - | | | | | |
+| Glaive | 1d10 | 4 | 5 | kétkezes, reach | 2 | 3 | 4 | Szálfegyverek | - | | | | | |
+| Szekerce | 1d4 | 2 | – | | 1 | 3 | 2 | Fejszék | - | | | | | |
+| Harci-fejsze | 1d6 | 3 | 3 | | 1 | 3 | 2 | Fejszék | - | | | | | |
+| Csatabárd | 1d8 | 4 | 4 | | 1 | 4 | 2 | Fejszék | - | | | | | |
+| Kétkezes-csatabárd | 1d10 | 4 | 5 | kétkezes | 2 | 4 | 3 | Fejszék | - | | | | | |
+| Rövidkard | 1d4 | 2 | – | | 2 | 2 | 3 | Kardok | - | | | | | |
+| Hosszúkard | 1d6 | 3 | 3 | | 2 | 2 | 3 | Kardok | - | | | | | |
+| Szablya | 1d6 | 3 | 3 | | 2 | 2 | 3 | Kardok | - | | | | | |
+| Fattyúkard | 1d8 | 4 | 4 | | 2 | 2 | 4 | Kardok | - | | | | | |
+| Furkósbot | 1d4 | 2 | – | | 2 | 3 | 1 | Buzogányok | - | | | | | |
+| Buzogány | 1d6 | 3 | 3 | | 2 | 3 | 1 | Buzogányok | - | | | | | |
+| Tollasbuzogány | 1d6 | 3 | 3 | | 2 | 3 | 1 | Buzogányok | - | | | | | |
+| Tüskésbuzogány | 1d6 | 3 | 3 | | 2 | 3 | 1 | Buzogányok | - | | | | | |
+| Kézipöröly | 1d6 | 3 | 3 | | 2 | 3 | 2 | Pörölyök | - | | | | | |
+| Csatacsákány | 1d6 | 3 | 3 | | 2 | 3 | 2 | Pörölyök | - | | | | | |
+| Harcipöröly | 1d8 | 4 | 4 | | 2 | 4 | 2 | Pörölyök | - | | | | | |
+| Nagykalapács | 1d10 | 4 | 5 | kétkezes | 3 | 4 | 3 | Pörölyök | - | | | | | |
+| Rövidíj | 1d6 | 3 | 3 | Közepes táv | 1 | 1 | 3 | Íjak | - | | | | | |
+| Hosszúíj | 1d8 | 4 | 4 | Nagy táv | 1 | 1 | 4 | Íjak | - | | | | | |
+| Visszacsapóíj | 1d10 | 4 | 5 | Nagy táv | 2 | 2 | 4 | Íjak | - | | | | | |
+| Kézinyílpuska | 1d6 | 4 | – | Közepes táv | 1 | 2 | 3 | Íjpuskák | - | | | | | |
+| Könnyűnyílpuska | 1d8 | 5 | – | Nagy táv | 1 | 2 | 4 | Íjpuskák | - | | | | | |
+| Nehéznyílpuska | 1d10 | 5 | – | Nagy táv | 2 | 3 | 4 | Íjpuskák | - | | | | | |
 
 ### Különleges fegyverek
 
-| Fegyver | Fegyverkocka | AP | Jellemzők | Könnyű | Mély | Súlyos | Fegyvercsoport | Képzetlen | Kezdő | Képzett | Haladó | Tapasztalt | Mester |
-|:--|:--:|:--:|:--:|:--:|:--:|:--:|:--|:--:|:--:|:--:|:--:|:--:|:--:|
-| Emberfogó | 1d6 | 3 | | 1 | 2 | 3 | Szálfegyverek | - | | | | | |
+| Fegyver | Fegyverkocka | AP | Erő | Jellemzők | Könnyű | Mély | Súlyos | Fegyvercsoport | Képzetlen | Kezdő | Képzett | Haladó | Tapasztalt | Mester |
+|:--|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--|:--:|:--:|:--:|:--:|:--:|:--:|
+| Emberfogó | 1d6 | 3 | 3 | | 1 | 2 | 3 | Szálfegyverek | - | | | | | |
 
 ### Jellemzők
 
@@ -3197,27 +3199,29 @@ A Reflexgátlás a páncélt viselő karakterre ható hátrány: közepes vértb
 
 A páncélok vasból készülnek, kivéve a Steppelt zekét és a Keményített bőrvértet, amelyekben nincs fém (lásd: Vas).
 
+Az Erő oszlop azt az Erőt adja meg, amely a páncél viseléséhez kell. Ha az Erőd kisebb, minden hiányzó pont 1 AP-vel drágítja minden cselekvésedet.
+
 ##### Általános páncélok
-| Páncél | Védőérték | Keménység | AP | Reflexgátlás | Páncélcsoport | Képzetlen | Kezdő | Képzett | Haladó | Tapasztalt | Mester |
-|:--|:--:|:--:|:--:|:--:|:--|:--:|:--:|:--:|:--:|:--:|:--:|
-| Vállvért | 1 | 1 | | – | Könnyű | - | | | | | |
-| Pántos láncvért | 5 | 5 | | minden Reflex | Nehéz | - | | | | | |
-| Keményített bőrvért | 2 | 2 | | – | Könnyű | - | | | | | |
-| Brigantin | 3 | 4 | | Kitérés | Közepes | - | | | | | |
-| Mellvért | 3 | 4 | | Kitérés | Közepes | - | | | | | |
-| Steppelt zeke | 1 | 2 | | – | Könnyű | - | | | | | |
-| Láncing | 3 | 3 | | Kitérés | Közepes | - | | | | | |
-| Lemezes zeke | 3 | 4 | | Kitérés | Közepes | - | | | | | |
-| Jazeránvért | 4 | 5 | | Kitérés | Közepes | - | | | | | |
-| Ládamellű vért | 6 | 6 | | minden Reflex | Nehéz | - | | | | | |
-| Lamellás vért | 4 | 5 | | Kitérés | Közepes | - | | | | | |
-| Sávos lemezvért | 5 | 6 | | minden Reflex | Nehéz | - | | | | | |
-| Láncvért | 4 | 4 | | Kitérés | Közepes | - | | | | | |
-| Teljes lemezvért | 6 | 6 | | minden Reflex | Nehéz | - | | | | | |
-| Gyűrűs vért | 2 | 3 | | – | Könnyű | - | | | | | |
-| Pikkelyvért | 4 | 4 | | Kitérés | Közepes | - | | | | | |
-| Sínvért | 5 | 5 | | minden Reflex | Nehéz | - | | | | | |
-| Vasalt bőrvért | 2 | 3 | | – | Könnyű | - | | | | | |
+| Páncél | Védőérték | Keménység | AP | Erő | Reflexgátlás | Páncélcsoport | Képzetlen | Kezdő | Képzett | Haladó | Tapasztalt | Mester |
+|:--|:--:|:--:|:--:|:--:|:--:|:--|:--:|:--:|:--:|:--:|:--:|:--:|
+| Vállvért | 1 | 1 | | – | – | Könnyű | - | | | | | |
+| Pántos láncvért | 5 | 5 | | 5 | minden Reflex | Nehéz | - | | | | | |
+| Keményített bőrvért | 2 | 2 | | – | – | Könnyű | - | | | | | |
+| Brigantin | 3 | 4 | | 4 | Kitérés | Közepes | - | | | | | |
+| Mellvért | 3 | 4 | | 4 | Kitérés | Közepes | - | | | | | |
+| Steppelt zeke | 1 | 2 | | – | – | Könnyű | - | | | | | |
+| Láncing | 3 | 3 | | 4 | Kitérés | Közepes | - | | | | | |
+| Lemezes zeke | 3 | 4 | | 4 | Kitérés | Közepes | - | | | | | |
+| Jazeránvért | 4 | 5 | | 4 | Kitérés | Közepes | - | | | | | |
+| Ládamellű vért | 6 | 6 | | 5 | minden Reflex | Nehéz | - | | | | | |
+| Lamellás vért | 4 | 5 | | 4 | Kitérés | Közepes | - | | | | | |
+| Sávos lemezvért | 5 | 6 | | 5 | minden Reflex | Nehéz | - | | | | | |
+| Láncvért | 4 | 4 | | 4 | Kitérés | Közepes | - | | | | | |
+| Teljes lemezvért | 6 | 6 | | 5 | minden Reflex | Nehéz | - | | | | | |
+| Gyűrűs vért | 2 | 3 | | – | – | Könnyű | - | | | | | |
+| Pikkelyvért | 4 | 4 | | 4 | Kitérés | Közepes | - | | | | | |
+| Sínvért | 5 | 5 | | 5 | minden Reflex | Nehéz | - | | | | | |
+| Vasalt bőrvért | 2 | 3 | | – | – | Könnyű | - | | | | | |
 
 # 6. Varázslatok
 
