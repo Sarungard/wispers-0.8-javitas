@@ -47,7 +47,8 @@ Keep replies short and in Hungarian. Put the proposal and the question at the en
   costs +1 AP instead of hátrány. Zoz wants fewer előny/hátrány sources so they matter: keep the situational ones the
   player chooses (harcmodor, roham, tempó, position); cut or narrow the lasting, broad, minor ones; express grades
   by scope, duration or „nem kísérelhető meg”, never by extra dice. Racial attribute penalties are „−1-es módosító”,
-  never „hátrány”. Wound tables: Könnyű seb never gives hátrány; Mély seb a narrow one until rest; Súlyos seb a broad
+  never „hátrány”, and every racial penalty is −1 (the mnemór −2 was a typo, fixed under H-08; at Világstandard 3
+  the mnemór Erő is 2). Wound tables: Könnyű seb never gives hátrány; Mély seb a narrow one until rest; Súlyos seb a broad
   one. V-07 is JAVÍTVA (2026-11-02). Open: Színlelt (V-11).
 - Core rules state rules, not situational GM advice: do not write into them what only happens in some cases or what a
   GM can deduce (e.g. rizikós próba under hátrány). Such notes may go into a later chapter for GMs.
