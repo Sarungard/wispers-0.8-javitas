@@ -281,7 +281,7 @@ A karakter mentális fittségét jelenti, az Eltökéltség mentődobás kiszám
 
 #### Kimerültség
 
-A karakter a kalandozás során kimerülhet. A Kimerültség szintekben gyűlik, és minden szintje −1 módosítót ad a karakter minden dobására. Ha a Kimerültség meghaladja a karakter Állóképességének kétszeresét, a karakter meghal. Sebből nem származik Kimerültség.
+A karakter a kalandozás során kimerülhet. A Kimerültség minden szintje −1 módosítót ad a próbadobásai eredményéhez. Ha a Kimerültség meghaladja a karakter Állóképességének kétszeresét, a karakter meghal. Sebből nem származik Kimerültség.
 
 ### Előny és hátrány
 

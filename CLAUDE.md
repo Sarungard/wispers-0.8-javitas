@@ -56,7 +56,10 @@ Keep replies short and in Hungarian. Put the proposal and the question at the en
   Képzett 7, Haladó 9, Tapasztalt 11, Mester 13. Only a recommendation; the GM may and should adjust it.
 - Képzetlen (V-04): may try Képzetlen-level checks only, rolls the attribute die alone, always erőltetés. The 42-skill
   list stays; do not propose trimming it.
-- Kimerültség: −1 per level to every roll; death when it exceeds 2× Állóképesség; wounds never give Kimerültség (V-01).
+- Kimerültség: −1 per level to the result of every próbadobás (V-08), so it never changes the die comparison; death
+  when it exceeds 2× Állóképesség; wounds never give Kimerültség (V-01). Próbadobás is not yet defined (H-68): Zoz's
+  working definition is every roll that uses a jártasságkocka; the Képzetlen próba is the exception (no jártasságkocka).
+  Sebdobás, vérzés, Vérszomj, Rettegés and the 1d100 tables are not próbadobások.
 - Wounds: Könnyű / Mély / Súlyos seb by sebhatár (reaching it counts). Sebdobás: 1d8 + the number
   of Sebek of the same severity (not all Sebek) + the weapon's találati mátrix; 12+ is one fok worse (V-22, was 21+;
   the CRPG still uses 21), on the Súlyos table death. Wounds must be
@@ -111,6 +114,9 @@ quarter as long (armour 19 attacks instead of 64), the loser falls with about 2 
 H-67 (new, NYITOTT): the three wound tables must shrink to rows 2–11; Zoz picks which 10 of the 15 rows stay. The
 simulation used the current even rows; re-run V-22 and H-66 after the pick. Simulator: `tools/sim/tsim.py` and
 `duel_turn.py` (`SIM=duel_turn TURN=12 python study11.py …`), round-robin `rr_turn.py`.
+
+V-08 is JAVÍTVA (2026-11-09): Kimerültség affects próbadobások only. H-68 (new, NYITOTT): define próbadobás; the
+suggestion is to tie it to the jártasság, not its die, so the Képzetlen próba counts too.
 
 The four remaining DÖNTÉSRE VÁR items (H-03, H-17, H-19, H-47) all wait on content: kasztok, the varázslat chapter, the
 Kegy rework. Open decisions: the D-1 bid cap or repeat cost (H-45, H-14, H-30), Sebgyógyítás (H-58), Szusztörő (H-13).

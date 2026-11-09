@@ -8,7 +8,7 @@ Munkaszöveg:  homebrewery/wispers-0.8-javitott.txt – ebbe kerülnek a javít�
 Sorszámok:    H-01–H-61 azonos a wispers-0.7.0b-hibalista.pdf sorszámaival;
               a H-62-től kezdődő tételek menet közben kerültek be;
               a V-tételek a vak átnézésből (2026.10.26.) jönnek
-Frissítve:    2026.11.08.
+Frissítve:    2026.11.09.
 
 HOGYAN HASZNÁLJUK
 Sorban végigmegyünk a tételeken. Minden tételnél négy sort töltünk ki:
@@ -24,7 +24,7 @@ Jelölések: BLOKKOLÓ – enélkül nem játszható; ELLENTMONDÁS – két sza
 hivatkozik; KISEBB – szerkesztési hiba, elnevezés.
 
 ÖSSZESÍTŐ (frissítsd menet közben)
-  NYITOTT: 15   FOLYAMATBAN: 14   DÖNTÉSRE VÁR: 4   JAVÍTVA: 54   ELVETVE: 2
+  NYITOTT: 15   FOLYAMATBAN: 14   DÖNTÉSRE VÁR: 4   JAVÍTVA: 55   ELVETVE: 2
 
 
 ================================================================
@@ -1873,6 +1873,28 @@ Megjegyzés: A V-22 szimulációja a mostani páros sorokat tartotta meg (2, 4,
   A kiválasztás után a V-22 és a H-66 szimulációját újra kell futtatni.
   Kapcsolódik: D-2, V-22, H-66.
 
+----------------------------------------------------------------
+[H-68] A próbadobás fogalma (új tétel, a PDF-ben nincs)
+Hol: II. rész › 1. A rendszer alapjai (Kimerültség, Jártasságok);
+  Képzettségpróba
+Probléma: A V-08 óta a Kimerültség a próbadobásokra hat, de a szöveg nem
+  mondja meg, mi a próbadobás. Zoz meghatározása: minden dobás, amely
+  jártasságkockát használ. Ez a Képzetlen próbára nem áll: a jártassági
+  táblázat szerint Képzetlen szinten „Nincs jártasságkocka.”, és a karakter
+  „Csak a tulajdonságkockájával dob, a próbát mindig erőltetéssel teszi.”
+  Így a Kimerültség a Képzetlen próbára nem hatna.
+Teendő: A próbadobás meghatározása, és az alábbi esetek rendezése.
+Állapot: NYITOTT
+Megjegyzés: Javaslat (2026.11.09.): a próbadobást a jártassághoz kötni, ne
+  a kockájához: minden dobás, amelyhez jártasság tartozik, Képzetlen
+  szinten is. Így a Képzetlen próba is próbadobás, a sebdobás, a vérzés és
+  a Vérszomj továbbra sem. További esetek: (1) Képzetlen pusztakezes
+  támadás: a tiltás csak a fegyvercsoportra szól, így itt 1d2 maradna
+  jártasságkocka nélkül; ez szabályozatlan. (2) Képzettségpróba: „Minden
+  képzettségpróba két kockát használ.” – a Képzetlen szintre nem igaz
+  (V-20). (3) A Hárítás kockái nincsenek leírva (V-11).
+  Kapcsolódik: V-08, V-11, V-20.
+
 
 ================================================================
 VAK ÁTNÉZÉS (2026.10.26.) – V-TÉTELEK
@@ -2116,9 +2138,25 @@ Probléma: (§2) A Kimerültség az egyetlen fix módosító egy kockaméretre
   épülő rendszerben, és minden dobásra vonatkozik, a sebdobásra és a
   Vérszomj 2d4-ére is (a kimerült karakter enyhébb sebeket dob).
 Teendő: A hatókör szűkítése vagy kockaléptetésre váltás.
-Állapot: NYITOTT
+Állapot: JAVÍTVA (2026.11.09.)
+Döntés: A hatókör a próbadobásokra szűkül (Zoz szövege). A −1 az
+  eredményhez adódik, a kockák összevetése nem változik: a szakértelemre,
+  az erőltetésre és a Halálos jellemzőre nem hat. A próbadobás fogalmát
+  később kell tisztázni: H-68.
+Javítás: Kimerültség: „A Kimerültség szintekben gyűlik, és minden szintje
+  −1 módosítót ad a karakter minden dobására.” helyett „A Kimerültség
+  minden szintje −1 módosítót ad a próbadobásai eredményéhez.”
 Megjegyzés: A V-01 óta a halálhatár az Állóképesség kétszerese, így a −1
   szintenként jóval mélyebbre mehet (Állóképesség 3-nál −6-ig).
+  Zoz állítása: próbadobás minden, ami jártasságkockát használ. Ellenőrizve
+  (2026.11.09.): jártasságkockát használ a képzettségpróba, a mentődobás
+  (a Kitérés és a varázslat elleni mentődobás is), a fegyveres támadás és
+  a Varázserő; a Hárítás kockái nincsenek leírva (V-11). Nem használ
+  jártasságkockát, és nem is próba: a sebdobás, a vérzés, a Vérszomj, a
+  Rettegés és az 1d100-as táblázatok, ezekre a Kimerültség nem hat. Kivétel
+  a Képzetlen próba, ott nincs jártasságkocka (H-68). Eltérés a CRPG-től:
+  ott a Kimerültség egyetlen dobásból sem vonódik le, csak megjelenik, és a
+  Mély és Súlyos seb ad Kimerültséget.
 
 ----------------------------------------------------------------
 [V-09] Páncél és varázshasználó
@@ -2577,3 +2615,6 @@ NAPLÓ – mi történt, mikor
 2026.11.08.  V-22 JAVÍTVA – a sebdobás fordulópontja 21 helyett 12, a licitplafon
              marad 20. H-66 FOLYAMATBAN (hátravan a Csatabárd). Új tétel: H-67
              (a sebtáblák szűkítése 2–11-re, a sorokat Zoz választja).
+2026.11.09.  V-08 JAVÍTVA – a Kimerültség −1-e csak a próbadobások eredményéhez
+             adódik (Zoz szövege). Új tétel: H-68 (a próbadobás fogalma; a
+             Képzetlen próbán nincs jártasságkocka).
