@@ -1281,9 +1281,9 @@ Amikor a karaktered sebesülést kapna, ignorálhatod
 
 #### Túlütés
 
-Amikor egy támadás olyan jól sikerül, hogy a védekezőnek esélye sincs elkerülni a súlyos sérüléseket, azt túlütésnek nevezzük. Túlütésről akkor beszélünk, ha a támadás értéke legalább kétszerese a védekezés értékének – a védekezés módjától függetlenül. Ha a védekező nem reagál, vagy Beleállással védekezik, a támadás értékét a súlyos sebhatárához kell mérni: túlütés, ha legalább a súlyos sebhatár és a páncél nélküli súlyos sebhatár összege. A páncél Védőértéke így csak egyszer számít bele.
+Amikor egy támadás olyan jól sikerül, hogy a védekezőnek esélye sincs elkerülni a súlyos sérüléseket, azt túlütésnek nevezzük. Túlütésről akkor beszélünk, ha a támadás értéke legalább kétszerese a védekezés értékének – a védekezés módjától függetlenül. Ha a védekező nem reagál, vagy Beleállással védekezik, a támadás értékét a sebhatáraihoz kell mérni: túlütés, ha legalább a könnyű és a súlyos sebhatárának összege.
 
-Amikor valakit túlütnek, elszenved egy sebet, és a találatot nem negálhatja kegy elköltésével.
+Amikor valakit túlütnek, a találat Sebén felül egy Súlyos sebet is elszenved, és a találatot nem negálhatja kegy elköltésével.
 
 #### Zónák és hatótávok
 
@@ -1301,11 +1301,11 @@ Ezen a távon reach jellemzőjű közelharci fegyverekkel még eléred az ellenf
 
 #### Közepes táv
 
-Ezen a távon közelharci fegyverrel már nem éred el az ellenfeled, csak távolsági fegyverrel. A Közepes táv jellemzőjű fegyverek idáig hátrány nélkül lőnek.
+Ezen a távon közelharci fegyverrel már nem éred el az ellenfeled, csak távolsági fegyverrel. A Közepes táv jellemzőjű fegyverek idáig hátrány nélkül lőnek. A célpont a zónádon belül van: egy Elmozdulással közelharcba kerülsz vele.
 
 #### Nagy táv
 
-A legtávolabbi hatótáv, ahol még harci kapcsolatban állsz a célponttal. Nagy táv jellemzőjű fegyverrel hátrány nélkül, Közepes táv jellemzőjűvel hátránnyal éred el.
+A legtávolabbi hatótáv, ahol még harci kapcsolatban állsz a célponttal. Nagy táv jellemzőjű fegyverrel hátrány nélkül, Közepes táv jellemzőjűvel hátránnyal éred el. A célpont másik zónában van: több Elmozdulás kell, hogy közelharcba kerülj vele.
 
 #### Értelmezhetetlen
 
@@ -1395,7 +1395,7 @@ Tégy egy pusztakezes támadást a megragadott célpont irányába. A célpont d
 
 **Célérték:** a célpont Szívósság értéke.
 
-**Siker:** a megragadott célponttal együtt mozoghatsz, viszont mozgásgátlóként működik.
+**Siker:** a megragadott célponttal együtt mozoghatsz, de az Elmozdulásod 4 AP-be kerül.
 
 #### Feldöntés {1-2AP}
 
@@ -1461,7 +1461,7 @@ A testi erődet és a lendületeted összehangolva, minden erődet latba vetve m
 
 A rohamozás AP költsége függ a távolságtól: 2AP, ha az ellenfél a zónádon belül van (egy mozgás), és 3AP, ha szomszédos zónában van (két mozgás). Ehhez jön a fegyvered támadásának AP költsége.
 
-A támadást előnnyel teszed, és találat esetén az elköltött AP-val megegyező számú Sebet okozol. Túlütésnél ehelyett a Túlütés szabálya érvényes, a két sebforrás nem adódik össze.
+A támadást előnnyel teszed, és találat esetén a támadás sebdobásaihoz hozzáadod a Rohamozás AP-költségét (2 vagy 3).
 
 A következő köröd kezdetéig nem mozoghatsz többet és minden támadást ellened előnnyel dobnak, minden védekezést hátránnyal dobsz.
 
@@ -1505,7 +1505,7 @@ Védekező harcmodor során minden támadásod hátránnyal teszed, de minden el
 
 #### Színlelt harcmodor
 
-Színlelt harcmodor nem okozol sebesülést, de minden sikeres találat után a célpont ellen indított támadásaidra garantált a - halmozódó - egyes előny a következő köröd kezdetéig.
+Színlelt harcmodor során nem okozol sebesülést, de ha eltalálod a célpontot, rajtad kívül mindenki előnnyel támadja a saját következő köre végéig.
 
 #### Féktelen harcmodor
 
@@ -1637,7 +1637,7 @@ Amikor egy karakter megsérül, akár harcban, akár balesetben vagy épp egy ri
 
 #### A seb súlyossága
 
-A sebeknek három súlyossága van: Könnyű seb, Mély seb és Súlyos seb. Minden karakternek két sebhatára van: a könnyű sebhatár és a súlyos sebhatár, amely a könnyű sebhatárnál 5-tel magasabb. A testi könnyű sebhatár a fajod leírásában megadott testi alap és a páncél Védőértékének összege; a páncél Védőértéke így mindkét testi sebhatárt ugyanannyival növeli. Ha egy találat értéke nem éri el a könnyű sebhatárt, a karakter Könnyű sebet szenved el; ha eléri, Mély sebet; ha a súlyos sebhatárt is eléri, Súlyos sebet. A túlütés mindig Súlyos sebet okoz.
+A sebeknek három súlyossága van: Könnyű seb, Mély seb és Súlyos seb. Minden karakternek két sebhatára van: a könnyű sebhatár és a súlyos sebhatár, amely a könnyű sebhatárnál 5-tel magasabb. A testi könnyű sebhatár a fajod leírásában megadott testi alap és a páncél Védőértékének összege; a páncél Védőértéke így mindkét testi sebhatárt ugyanannyival növeli. Ha egy találat értéke nem éri el a könnyű sebhatárt, a karakter Könnyű sebet szenved el; ha eléri, Mély sebet; ha a súlyos sebhatárt is eléri, Súlyos sebet. A túlütés a találat Sebén felül egy Súlyos sebet is okoz.
 
 A mentális könnyű sebhatár a fajod leírásában megadott mentális alap, a mentális súlyos sebhatár ennél 5-tel magasabb. Mentális seb alapesetben nincs: a mentális sebhatárt egyes varázslatok célozzák, és hogy ilyenkor mi történik, azt a varázslat leírása adja meg.
 
@@ -1760,7 +1760,7 @@ A megszerzett sebek lassan, fokonként gyógyulnak: a Súlyos sebből Mély seb 
 
 ### Megragadott
 
-Nem hajthatsz végre Elmozdulást és Kihátrálást.
+Nem hajthatsz végre Elmozdulást és Kihátrálást. Ellökéssel kiszabadulhatsz: siker esetén a megragadás véget ér. A megragadó bármikor elengedhet.
 
 ### Földön fekvő
 

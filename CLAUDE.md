@@ -88,7 +88,7 @@ Keep replies short and in Hungarian. Put the proposal and the question at the en
   1 Keménység is restored (the CRPG removes it instead).
 - Kasztok are feat-like one-time picks at set levels with prerequisites (follow-up kaszt or a new direction), built on
   exception-based design (H-03).
-- Harci távok are abstract: Közelharci táv, Rövid táv, Közepes táv, Nagy táv, Értelmezhetetlen. „reach” and (for now) „Glaive” stay English.
+- Harci távok are abstract: Közelharci táv, Rövid táv, Közepes táv (same zone), Nagy táv (another zone), Értelmezhetetlen. „reach” and (for now) „Glaive” stay English.
 
 ## State (2026-10-25)
 
@@ -104,8 +104,12 @@ H-65 (new, FOLYAMATBAN): a duel simulation showed combat is decided by who acts 
 the first mover wins 91% of mirror duels). Done: Féktelen lost its guaranteed túlütés. Kept: players act first on ties.
 Hárítás: a success blocks the Seb and ends the attacker's turn only when the parry is at least twice the attack.
 Reactions are chosen after seeing the attack value. Rohamozás costs 2–3 AP plus the weapon's AP. Túlütés without a
-reaction or with Beleállás: the attack reaches heavy + unarmoured heavy threshold (18 bare, 22 with Védőérték 4); no
-extra Seb per előny. Beleállás: Keménység lowers the value first, and each Beleállás costs 1 Keménység.
+reaction or with Beleállás (V-11): the attack reaches the könnyű + súlyos sebhatár (13 + 2×VÉ; armour counts twice on
+purpose, less math). A túlütés deals the hit's own Seb plus one extra Súlyos seb, so an undefended túlütés is two
+Súlyos sebek; the sim does not model this yet. Rohamozás adds its own 2–3 AP to every sebdobás of the hit (no extra
+Sebek). Színlelt: on a hit everyone else attacks the target with előny until the end of their own next turn.
+Megragadott: break free with Ellökés. Közepes táv = same zone, Nagy táv = another zone. V-11 Hárítás is still open.
+Beleállás: Keménység lowers the value first, and each Beleállás costs 1 Keménység.
 D-1 and H-65 are JAVÍTVA: the bid cap is 20 (no escalating repeat cost). The duel simulator is in `tools/sim/`:
 duel9 (H-65 baseline), duel10 (V-07 dice only), duel11 (the current book) and study11, the equilibrium study. Run it
 from `tools/sim/` as `SIM=duel11 python study11.py 40 csupasz 5-6-4 20` (`pancel` for armour; about 8 minutes).

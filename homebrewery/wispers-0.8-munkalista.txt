@@ -24,7 +24,7 @@ Jelölések: BLOKKOLÓ – enélkül nem játszható; ELLENTMONDÁS – két sza
 hivatkozik; KISEBB – szerkesztési hiba, elnevezés.
 
 ÖSSZESÍTŐ (frissítsd menet közben)
-  NYITOTT: 14   FOLYAMATBAN: 14   DÖNTÉSRE VÁR: 4   JAVÍTVA: 57   ELVETVE: 2
+  NYITOTT: 13   FOLYAMATBAN: 15   DÖNTÉSRE VÁR: 4   JAVÍTVA: 57   ELVETVE: 2
 
 
 ================================================================
@@ -2280,8 +2280,54 @@ Probléma: (§3, top 9)
   – Megragadás: nincs kiszabadulás; a „mozgásgátló” nincs definiálva.
   – Zónák és hatótávok: két térrendszer átváltás nélkül.
 Teendő: Pontonként dönteni.
-Állapot: NYITOTT
-Megjegyzés: A review a Rohamozás AP-ját is kétértelműnek tartja; ez a
+Állapot: FOLYAMATBAN (2026.11.09.)
+Döntés: (2) Túlütés: reakciónál marad a védekezés értékének kétszerese;
+  reakció nélkül vagy Beleállásnál a könnyű és a súlyos sebhatár
+  összege. A páncél így kétszer számít, de nem kell kivonni (Zoz:
+  kevesebb számolás, a karakterlapon egy szám). (3) A túlütés a találat
+  Sebén felül egy Súlyos sebet okoz. Rohamozás: találatnál a támadás
+  minden sebdobásához (a túlütés Súlyos sebéhez is) hozzáadódik a
+  Rohamozás saját AP-költsége (2 vagy 3, a fegyver AP-je nélkül); extra
+  Sebet nem okoz. (4) Színlelt: találatnál a színlelőn kívül mindenki
+  előnnyel támadja a célpontot a saját következő köre végéig; a
+  közelharchoz kötött szűkítés nem kell. (5) Megzavarás: marad. (6)
+  Megragadott: Ellökéssel kiszabadulhat, a megragadó bármikor
+  elengedhet; Elrángatásnál az Elmozdulás 4 AP. (7) Közepes táv: a
+  célpont a zónádon belül van (egy Elmozdulás a közelharcig); Nagy táv:
+  másik zónában (több Elmozdulás). (1) Hárítás: nyitott (a kocka, a
+  Pajzs adatai és a jártasság).
+Javítás: Túlütés: „…a támadás értékét a sebhatáraihoz kell mérni:
+  túlütés, ha legalább a könnyű és a súlyos sebhatárának összege.” (a
+  „Védőérték csak egyszer számít” mondat kimaradt); „Amikor valakit
+  túlütnek, a találat Sebén felül egy Súlyos sebet is elszenved, és a
+  találatot nem negálhatja kegy elköltésével.” A seb súlyossága: „A
+  túlütés a találat Sebén felül egy Súlyos sebet is okoz.” Rohamozás: „A
+  támadást előnnyel teszed, és találat esetén a támadás sebdobásaihoz
+  hozzáadod a Rohamozás AP-költségét (2 vagy 3).” Színlelt harcmodor:
+  „Színlelt harcmodor során nem okozol sebesülést, de ha eltalálod a
+  célpontot, rajtad kívül mindenki előnnyel támadja a saját következő
+  köre végéig.” Elrángatás, Siker: „…együtt mozoghatsz, de az
+  Elmozdulásod 4 AP-be kerül.” Megragadott: „Ellökéssel
+  kiszabadulhatsz: siker esetén a megragadás véget ér. A megragadó
+  bármikor elengedhet.” Közepes táv: „A célpont a zónádon belül van: egy
+  Elmozdulással közelharcba kerülsz vele.” Nagy táv: „A célpont másik
+  zónában van: több Elmozdulás kell, hogy közelharcba kerülj vele.”
+Megjegyzés: (2) számai (testi alap 4): a határ 18 + VÉ helyett 13 + 2×VÉ;
+  VÉ 0: 18 → 13, VÉ 2: 20 → 17, VÉ 4: 22 → 21, VÉ 5: 23 marad, VÉ 6:
+  24 → 25. Reakció nélküli túlütés esélye d10+d8-cal páncél nélkül
+  1% → 26%, VÉ 1-ben 0 → 12%; d12+d12-vel páncél nélkül 19% → 54%. A
+  könnyű páncélos sebezhetőbb lett, a nehéz páncél kicsit jobban véd.
+  (2) és (3) együtt: a reakció nélküli túlütés mindig 2 Súlyos seb (a
+  találat maga is eléri a súlyos sebhatárt); a V-22 szimulációjában a
+  vesztes kb. 2 Súlyos sebnél esik el. A V-22 és a H-66 számai így
+  elavultak: a H-67 utáni újrafuttatás előtt a szimulátorba (duel11) is
+  be kell építeni. (3) számai: az első Mély sebnél, 1-es mátrixszal a
+  +3 a fokugrást (12+) 0-ról 25%-ra emeli; a fegyver AP-jével együtt
+  (pl. +7) 75% lenne. (4) Párbajban a Színlelt nem ad semmit, csoportos
+  eszköz lett. Eltérés a CRPG-től: ott a reakció nélküli túlütés határa
+  a súlyos és a páncél nélküli súlyos sebhatár összege, a túlütés
+  egyetlen Súlyos seb, a Színlelt előnye a színlelőé.
+  Korábbi megjegyzés: A review a Rohamozás AP-ját is kétértelműnek tartja; ez a
   H-65 óta tisztázott („Ehhez jön a fegyvered támadásának AP
   költsége.”). A CRPG-ben a Hárítás: pajzskocka + jártasságkocka a
   támadás ellen. A V-07 óta nincs halmozás: a Színlelt harcmodor
@@ -2715,3 +2761,8 @@ NAPLÓ – mi történt, mikor
 2026.11.09.  V-10 JAVÍTVA – minimum Erő a fegyverekhez (d6 3, d8 4, d10 5, íjpuska
              nincs) és a páncélokhoz (Közepes 4, Nehéz 5); a hiányzó pont +1 AP a
              fegyveres cselekvésekre és reakciókra, páncélnál minden cselekvésre.
+2026.11.09.  V-11 FOLYAMATBAN – túlütés reakció nélkül: könnyű + súlyos
+             sebhatár; a túlütés a találat Sebén felül egy Súlyos seb;
+             Rohamozás +2/+3 a sebdobáshoz; Színlelt: a többiek előnnyel
+             támadnak; kiszabadulás Ellökéssel; zónák és távok átváltása.
+             A Hárítás nyitott.
