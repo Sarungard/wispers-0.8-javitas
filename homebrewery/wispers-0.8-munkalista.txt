@@ -24,7 +24,7 @@ Jelölések: BLOKKOLÓ – enélkül nem játszható; ELLENTMONDÁS – két sza
 hivatkozik; KISEBB – szerkesztési hiba, elnevezés.
 
 ÖSSZESÍTŐ (frissítsd menet közben)
-  NYITOTT: 13   FOLYAMATBAN: 14   DÖNTÉSRE VÁR: 4   JAVÍTVA: 58   ELVETVE: 2
+  NYITOTT: 12   FOLYAMATBAN: 14   DÖNTÉSRE VÁR: 4   JAVÍTVA: 59   ELVETVE: 2
 
 
 ================================================================
@@ -2369,7 +2369,19 @@ Hol: II. rész › 4. Harc
 Probléma: (§7, top 1) A licit, az AP, a reakció és a seb együttese példa
   nélkül nehezen tanulható meg.
 Teendő: Egy teljes, kétfordulós harci példa.
-Állapot: NYITOTT
+Állapot: JAVÍTVA (2026.11.09.)
+Döntés: Kétfordulós példa a Harc fejezet végén: Ilka (Hosszúkard, Pajzs,
+  Láncing) és Vendel (Rövidkard, Steppelt zeke) egy martalóc
+  (Csatabárd, Keményített bőrvért) ellen.
+Javítás: 4. Harc, új alfejezet a „Harc repülő ellenféllel szemben” után:
+  „Harci példa”. Bemutatja a licitet és a sorrendet, az Elmozdulást, a
+  Beleállást és a páncél eltörését, a Kitérést sikerrel és bukással, a
+  kört lezáró Hárítást, a következő licitből fizetett reakció-AP-t, a
+  hátrányt, az előnyt, a Színlelt harcmodort, a reakció melletti
+  túlütést két Súlyos sebbel, a sebdobást és a 12+ szabályt.
+Megjegyzés: A példa a sebtáblák mai soraira hivatkozik (Könnyű 6, 7;
+  Mély 6, 9; Súlyos 6). A H-67 sorválasztása után ellenőrizni kell. Kegy
+  nincs benne (H-47).
 
 ----------------------------------------------------------------
 [V-13] Pontgazdaság és Világstandard
@@ -2799,3 +2811,5 @@ NAPLÓ – mi történt, mikor
              Nagy pajzs), jártasság a Páncélcsoportból. Az árak hiányoznak.
 2026.11.09.  V-11 JAVÍTVA – pajzsárak: Kis pajzs 50 Réz, Nagy pajzs 200 Réz;
              az árlista címe „Páncélok és pajzsok”.
+2026.11.09.  V-12 JAVÍTVA – kétfordulós harci példa a Harc fejezet végén;
+             a H-67 után ellenőrizni (sebtáblasorok).

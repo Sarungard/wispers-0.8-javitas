@@ -1527,6 +1527,105 @@ A levegőben lévő ellenfelet a földről csak távolsági fegyverrel vagy var�
 
 Ha egy repülő ellenfél közelharcban lecsap rád, közelharci fegyverrel csak akkor támadhatod vissza, ha van erre szolgáló reakciód: a lecsapás magától nem ad visszatámadási lehetőséget.
 
+### Harci példa
+
+A példa két fordulón át követ egy összecsapást. A számok a fegyver-, a páncél- és a sebtáblázatokból valók.
+
+**A szereplők**
+
+- **Ilka** (ember, játékos karakter):
+  - Hosszúkard (1d6, 3 AP); Kardok: Képzett (d6).
+  - Pajzs (1d6); Közepes páncélcsoport: Kezdő (d4).
+  - Láncing (Védőérték 3, Keménység 3).
+  - Erő 4. Sebhatár: 7 és 12.
+- **Vendel** (ember, játékos karakter):
+  - Rövidkard (1d4, 2 AP); Kardok: Kezdő (d4).
+  - Steppelt zeke (Védőérték 1).
+  - Ügyesség 6; Reflex: Képzett (d6). Sebhatár: 5 és 10.
+- **A martalóc** (ember, a mesélő karaktere):
+  - Csatabárd (1d8, 4 AP); Fejszék: Képzett (d6).
+  - Keményített bőrvért (Védőérték 2, Keménység 2).
+  - Erő 5, Ügyesség 4; Reflex: Kezdő (d4). Sebhatár: 6 és 11.
+
+A martalóc Ilkára ront, így ők ketten közelharcba kerülnek. Vendel ugyanabban a zónában áll, Közepes távon.
+
+**1. forduló**
+
+*Licit.* Mindenki bemond egy számot, legfeljebb 20-at. Ennyi AP-t költhet el a körében, és a kisebb szám lép előbb.
+
+- Vendel 6-ot mond, mert elsőként akar odaérni.
+- Ilka 8-at mond.
+- A martalóc 10-et mond, mert sok AP-t akar.
+
+A sorrend: Vendel, Ilka, a martalóc.
+
+*Vendel köre (6 AP).*
+
+- Elmozdulással (2 AP) közelharcba kerül a martalóccal.
+- Rövidkarddal támad (2 AP): 3 + 4 = 7.
+  - A martalóc a dobás ismeretében dönt a reakcióról, és beleáll (0 AP). A bőrvért Keménysége 2-t fog fel, 5 marad, ez a könnyű sebhatára (6) alatt van: Könnyű seb. A bőrvért Keménysége 1 lesz. Beleállás nélkül a 7 Mély seb lett volna.
+  - Sebdobás a Könnyű seb táblázatán: 1d8 (4) + 1 (az első Könnyű sebe) + 2 (a Rövidkard Könnyű mátrixa) = 7, Kizökkent egyensúly. A következő köre végéig nem térhet ki.
+- Újra támad (2 AP): 4 + 2 = 6.
+  - A martalóc nem térhet ki, ezért ismét beleáll. A bőrvért 1-et fog fel, 5 marad: újabb Könnyű seb.
+  - A Keménység 0-ra csökken, a bőrvért eltörik. A martalóc sebhatára ettől kezdve 4 és 9.
+  - Sebdobás: 2 + 2 + 2 = 6, Zúzódás.
+- Elköltötte a 6 AP-t, és a következő fordulóra 8-at mond.
+
+*Ilka köre (8 AP).*
+
+- Hosszúkarddal támad (3 AP): 3 + 4 = 7.
+  - A martalóc nem térhet ki, és eltört páncélban nem állhat bele, ezért nem reagál.
+  - A 7 eléri a könnyű sebhatárát (4): Mély seb.
+  - Sebdobás a Mély seb táblázatán: 3 + 1 + 2 = 6, Átszúrt izom. A következő pihentető táborozási szegmensig minden támadását hátránnyal teszi.
+- Újra támad (3 AP): 1 + 2 = 3. Ez a martalóc harmadik Könnyű sebe: 1 + 3 + 2 = 6, Zúzódás.
+- A maradék 2 AP-ről lemond, és 12-t mond: a következő fordulóban később lép, de több AP-je lesz.
+
+*A martalóc köre (10 AP).*
+
+- Csatabárddal Ilkára támad (4 AP), hátránnyal. A d6-os jártasságkocka mellé egy harmadik d6-tal is dob, és a kettő közül a kisebb számít: 8, valamint az 5 és a 4 közül a 4, összesen 12.
+  - Ez Ilka súlyos sebhatárát (12) is eléri. Ilka beleáll: a Láncing Keménysége 3-at fog fel, 9 marad, ez csak Mély seb. A Láncing Keménysége 2 lesz.
+  - Sebdobás: 4 + 1 + 4 (a Csatabárd Mély mátrixa) = 9, Térdsérülés.
+- Ezután Vendelre támad (4 AP), szintén hátránnyal: 3, valamint a 2 és az 5 közül a 2, összesen 5.
+  - Ez eléri Vendel könnyű sebhatárát (5), ezért Vendel kitér (2 AP). Reflex mentődobás: 4 + 3 = 7, ez eléri a célértéket (5).
+  - Vendel nem szenved Sebet, és kihátrál a közelharcból.
+  - A Kitérés 2 AP-jét a következő fordulóra bemondott 8-ból fizeti: a 2. fordulóban 6 AP-t költhet el, de továbbra is 8-asként lép.
+- A martalóc 2 AP-ről lemond, és 6-ot mond.
+
+**2. forduló**
+
+A sorrend: a martalóc (6), Vendel (8), Ilka (12).
+
+*A martalóc köre (6 AP).*
+
+- Ilkára támad (4 AP), hátránnyal: 2, valamint a 3 és a 6 közül a 3, összesen 5.
+- Ilka hárít (1 AP, a 12-ből fizeti, így 11 AP-je marad). Pajzskocka és a Közepes páncélcsoport jártasságkockája: 6 + 4 = 10.
+  - Ez eléri a támadás értékét, így Ilka nem szenved Sebet.
+  - A kétszeresét is eléri, ezért a martalóc köre véget ér.
+- A martalóc a 3. fordulóra 10-et mond.
+
+*Vendel köre (6 AP).*
+
+- A köre elején Színlelt harcmodort választ (0 AP).
+- Elmozdulással (2 AP) visszalép a közelharcba, és támad (2 AP): 3 + 3 = 6.
+  - A martalóc már kitérhet, mert a Kizökkent egyensúly az előző köre végén lejárt. Reflex mentődobás: 2 + 1 = 3, bukás. A 2 AP-t a 3. fordulóra mondott 10-ből fizeti.
+  - Színlelt harcmodorban Vendel nem sebez. Mivel eltalálta a martalócot, rajta kívül mindenki előnnyel támadja a martalócot a saját következő köre végéig.
+- A maradék 2 AP-ről lemond, és 6-ot mond.
+
+*Ilka köre (11 AP).*
+
+- Előnnyel támad: a két d6 mellé dob egy harmadik d6-ot, amely bármelyiket helyettesítheti.
+  - A fegyverkockán 2, a jártasságkockán 5, a harmadikon 6 jön. A 2 helyére a 6 kerül, a támadás 11.
+- A martalóc kitér (2 AP; a 10-ből így csak 6 marad): 3 + 2 = 5, bukás.
+- A támadás a kitérés kétszeresét is eléri (11 ≥ 10), ez túlütés.
+  - A martalóc a találat Sebét elszenvedi: a 11 eléri a súlyos sebhatárát (9), ez Súlyos seb.
+  - Ezen felül még egy Súlyos sebet is.
+  - Ha nem reagált volna, a túlütéshez a két sebhatára összege (4 + 9 = 13) kellett volna, és csak egy Súlyos sebet kap.
+- Sebdobások a Súlyos seb táblázatán:
+  - 2 + 1 + 3 (a Hosszúkard Súlyos mátrixa) = 6, Eltört láb.
+  - 7 + 2 + 3 = 12, ami Súlyos sebnél halál.
+
+A martalóc holtan esik össze.
+
 # 5. Varázslás és pszionika
 
 ## Varázslás
