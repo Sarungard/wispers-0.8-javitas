@@ -76,7 +76,10 @@ Keep replies short and in Hungarian. Put the proposal and the question at the en
   általános talentek are bought with points.
 - Prices anchor on a 20 Réz daily wage. Basic gear is iron (Vas), better gear (mostly in cities) steel (Acél).
   Materials are jellemzők too: Vas repels magic (no enchanting, no casting in iron armour), Réz conducts, Ezüst holds,
-  Arany amplifies. Exotic and race-specific metals come later.
+  Arany amplifies. Exotic and race-specific metals come later. Armour (V-09): all armour is iron except Steppelt zeke
+  and Keményített bőrvért, so casters wear those (Védőérték up to 2); casting in steel armour comes later (H-29).
+  Beleállás stays 0 AP, limited by Keménység (1 per use); a broken armour gives no Védőérték and no Beleállás until
+  1 Keménység is restored (the CRPG removes it instead).
 - Kasztok are feat-like one-time picks at set levels with prerequisites (follow-up kaszt or a new direction), built on
   exception-based design (H-03).
 - Harci távok are abstract: Közelharci táv, Rövid táv, Közepes táv, Nagy táv, Értelmezhetetlen. „reach” and (for now) „Glaive” stay English.

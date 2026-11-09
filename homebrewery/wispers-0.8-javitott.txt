@@ -1449,7 +1449,7 @@ Amikor megtámadnak, erre alkalmas pajzs vagy hárítófegyver segítségével m
 
 #### Beleállás {0AP}
 
-Amikor megtámadnak, a páncélod Keménységére hagyatkozol: a páncél a találat értékéből legfeljebb a Keménységével megegyező részt fog fel. Ennyivel csökken a találat értéke, a páncél pedig minden Beleállásnál 1 Keménységet veszít; a sebhatárodhoz a csökkentett értéket kell mérni, és a túlütést is ebből kell számolni (lásd: Túlütés). Ha a páncél a teljes találatot felfogja, akkor is Könnyű sebet szenvedsz el. Ha a páncél Keménysége 0-ra csökken, a páncél eltörik.
+Amikor megtámadnak, a páncélod Keménységére hagyatkozol: a páncél a találat értékéből legfeljebb a Keménységével megegyező részt fog fel. Ennyivel csökken a találat értéke, a páncél pedig minden Beleállásnál 1 Keménységet veszít; a sebhatárodhoz a csökkentett értéket kell mérni, és a túlütést is ebből kell számolni (lásd: Túlütés). Ha a páncél a teljes találatot felfogja, akkor is Könnyű sebet szenvedsz el. Ha a páncél Keménysége 0-ra csökken, a páncél eltörik. Az eltört páncél nem ad Védőértéket, és nem lehet vele Beleállni, amíg legalább 1 Keménységét helyre nem állítják.
 
 ### Fegyvert nem igénylő cselekvések
 
@@ -3194,6 +3194,8 @@ Taszítja a mágiát: a vasból készült fegyver nem bájolható, és aki vasp�
 Képzetlen jártassággal egyik páncél sem viselhető.
 
 A Reflexgátlás a páncélt viselő karakterre ható hátrány: közepes vértben csak a Kitérésre, nehéz vértben minden Reflex mentődobásra, így a Kitérésre is.
+
+A páncélok vasból készülnek, kivéve a Steppelt zekét és a Keményített bőrvértet, amelyekben nincs fém (lásd: Vas).
 
 ##### Általános páncélok
 | Páncél | Védőérték | Keménység | AP | Reflexgátlás | Páncélcsoport | Képzetlen | Kezdő | Képzett | Haladó | Tapasztalt | Mester |

@@ -24,7 +24,7 @@ Jelölések: BLOKKOLÓ – enélkül nem játszható; ELLENTMONDÁS – két sza
 hivatkozik; KISEBB – szerkesztési hiba, elnevezés.
 
 ÖSSZESÍTŐ (frissítsd menet közben)
-  NYITOTT: 15   FOLYAMATBAN: 14   DÖNTÉSRE VÁR: 4   JAVÍTVA: 55   ELVETVE: 2
+  NYITOTT: 14   FOLYAMATBAN: 14   DÖNTÉSRE VÁR: 4   JAVÍTVA: 56   ELVETVE: 2
 
 
 ================================================================
@@ -2167,9 +2167,31 @@ Probléma: (§3, top 5) A páncél a legdöntőbb választás; a vaspáncél
   Beleállás korlátlan.
 Teendő: Nem vas páncél a varázshasználónak; a Beleállás ára vagy
   fordulónkénti korlátja; a Keménység elkopása mint szándékos fogyás.
-Állapot: NYITOTT
+Állapot: JAVÍTVA (2026.11.09.)
+Döntés: (1) A páncélok vasból vannak, kivéve a Steppelt zekét és a
+  Keményített bőrvértet: varázshasználó ezekben páncélozhat (Védőérték
+  legfeljebb 2). A Vállvért fémnek számít. (2) A Beleállás nem változik:
+  0 AP, fordulónkénti korlát nélkül; a korlát a Keménység (H-65), ez a
+  szándékos fogyás. (3) Az eltört páncél nem ad Védőértéket, és nem lehet
+  vele Beleállni, amíg legalább 1 Keménységét helyre nem állítják.
+  (4) A páncél dominanciája ellen most nincs változás.
+Javítás: Páncélok › Jártasságok páncélokkal, a Reflexgátlás után új
+  bekezdés: „A páncélok vasból készülnek, kivéve a Steppelt zekét és a
+  Keményített bőrvértet, amelyekben nincs fém (lásd: Vas).” Beleállás, a
+  bekezdés végén új mondat: „Az eltört páncél nem ad Védőértéket, és nem
+  lehet vele Beleállni, amíg legalább 1 Keménységét helyre nem állítják.”
 Megjegyzés: A Beleállás 1 Keménység / használat (H-65) már korlát. Az
-  acél páncélban varázslás a „később” listán van.
+  acél páncélban varázslás a „később” listán van (H-29).
+  Számok: testi alap 4 mellett a sebhatár páncél nélkül 4/9, Keményített
+  bőrvértben 6/11, Teljes lemezvértben 10/15. Teljes lemezvérttel 6-szor
+  lehet Beleállni, Keményített bőrvérttel 2-szer. Az utolsó Beleállás a
+  harc hátralevő részére elviszi a Védőértéket; egy táborozás (Szakma és
+  Tudás próba) után a páncél újra használható. A dominancia ellensúlyai:
+  az ár (Teljes lemezvért 1 Arany, azaz 1000 napszám; Keményített bőrvért
+  10), a Reflexgátlás, a páncéljártasság és a vas. Ha kell, aszimmetrikus
+  szimuláció (könnyű páncél nehéz ellen) a H-66 alatt. Eltérés a
+  CRPG-től: ott a varázslás nem nézi a páncél anyagát, és az eltört
+  páncél eltűnik (Inventory.WearDown).
 
 ----------------------------------------------------------------
 [V-10] Az Erő gépi szerepe
@@ -2618,3 +2640,6 @@ NAPLÓ – mi történt, mikor
 2026.11.09.  V-08 JAVÍTVA – a Kimerültség −1-e csak a próbadobások eredményéhez
              adódik (Zoz szövege). Új tétel: H-68 (a próbadobás fogalma; a
              Képzetlen próbán nincs jártasságkocka).
+2026.11.09.  V-09 JAVÍTVA – a Steppelt zeke és a Keményített bőrvért nem fém, ezekben
+             lehet varázsolni; az eltört páncél nem ad Védőértéket, amíg meg nem
+             javítják. A Beleállás marad 0 AP, a korlátja a Keménység.
