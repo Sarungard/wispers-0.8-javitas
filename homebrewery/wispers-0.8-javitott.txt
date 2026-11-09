@@ -185,7 +185,7 @@ A karaktered lehetőségei a játékban nagyrészt a következő hat, három fiz
 
 Minden tulajdonságod a Világstandardról indul, ezeken fognak majd változtani a fajodból és alfajodból származó módosítók.
 
-A Világstandard egy szám, amely az adott világhoz tartozik: minden tulajdonság kezdőértéke ezzel egyezik meg. Minél kisebb ez a szám, annál zordabb a világ, és annál több pontot kell a karaktereknek a gyenge tulajdonságaikba fektetniük. Az ajánlott Világstandard 3.
+A Világstandard egy szám, amely az adott világhoz tartozik: minden tulajdonság kezdőértéke ezzel egyezik meg. Minél kisebb ez a szám, annál zordabb a világ, és annál több pontot kell a karaktereknek a gyenge tulajdonságaikba fektetniük. Az ajánlott Világstandard 3, a legkisebb 2.
 
 ## Kezdőfelszerelés
 

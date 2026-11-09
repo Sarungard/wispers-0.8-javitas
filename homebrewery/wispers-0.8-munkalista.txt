@@ -24,7 +24,7 @@ Jelölések: BLOKKOLÓ – enélkül nem játszható; ELLENTMONDÁS – két sza
 hivatkozik; KISEBB – szerkesztési hiba, elnevezés.
 
 ÖSSZESÍTŐ (frissítsd menet közben)
-  NYITOTT: 12   FOLYAMATBAN: 14   DÖNTÉSRE VÁR: 4   JAVÍTVA: 59   ELVETVE: 2
+  NYITOTT: 11   FOLYAMATBAN: 14   DÖNTÉSRE VÁR: 4   JAVÍTVA: 60   ELVETVE: 2
 
 
 ================================================================
@@ -1660,6 +1660,10 @@ Megjegyzés: Hátravan: a 0. szint pontjai; szintenként 8, vagy 8 + Tudás +
   egyedi áron. Beírva: Karakterfejlődés szintenként táblázat (0. szint: 24,
   az Általános talent oszlop kikerült); új „Elosztható pontok” alszakasz a
   Tulajdonságok fejlesztése elé, a szerkesztői megjegyzés helyett.
+  V-13 (2026.11.09.): a jártasságok egyedi árainál a tulajdonság- és a
+  jártasságár aránya is szempont: ez dönti el, milyen gyakran dob a
+  karakter szakértelemmel vagy erőltetéssel, így a Részleges siker és a
+  Kritikus bukás gyakoriságát.
   Hátravan (tartalom): a jártasságok és az általános talentek egyedi ára,
   a kasztok által adott pontok.
 
@@ -2394,7 +2398,16 @@ Probléma: (§4, top 10) A d4-sáv (0–4) öt érték széles, a +1-es faji
   Kritikus bukás arányát, a jártasságárak pedig még hiányoznak.
 Teendő: Sávszélesség; alacsony Világstandard kezelése; jártasságárak
   kalibrálása (H-62).
-Állapot: NYITOTT
+Állapot: JAVÍTVA (2026.11.09.)
+Döntés: (1) A tulajdonságkocka sávjai maradnak: 3-as Világstandardnál a
+  d4-sáv ténylegesen két érték (3–4), mint a többi. A faji +1 nem vált
+  kockát, de a d6 árát 11 pontról 6-ra csökkenti (a 24 pont ötöde), és
+  növeli a mentődobás értékét, a minimum Erőt (V-10) és a Kimerültség
+  halálhatárát. A sávtolás (0–3 d4, 4–5 d6, …) elvetve: minden kockát és
+  szimulációt átrendezne. (2) A legkisebb Világstandard 2, így a faji −1
+  legfeljebb 1-re visz. (3) A jártasságárak kalibrálása a H-62-höz kerül.
+Javítás: Tulajdonságok meghatározása: „Az ajánlott Világstandard 3, a
+  legkisebb 2.”
 Megjegyzés: A mnemór −2-je elírás volt (2026.11.09., H-08): minden faji
   hátrány −1, így a karakteralkotáskori halál csak 2-nél kisebb
   Világstandardnál jön elő.
@@ -2813,3 +2826,5 @@ NAPLÓ – mi történt, mikor
              az árlista címe „Páncélok és pajzsok”.
 2026.11.09.  V-12 JAVÍTVA – kétfordulós harci példa a Harc fejezet végén;
              a H-67 után ellenőrizni (sebtáblasorok).
+2026.11.09.  V-13 JAVÍTVA – a tulajdonságsávok maradnak; a legkisebb Világstandard
+             2; a jártasságárak kalibrálása a H-62-höz került.
