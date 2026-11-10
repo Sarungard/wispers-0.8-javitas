@@ -12,7 +12,9 @@ Item-by-item fix of the Wispers 0.8 rulebook (Hungarian TTRPG by Sorbán Zoltán
 
 ## Workflow
 
-1. Take the next item, state the problem in one or two lines, and give a short proposal.
+1. Take the next item, state the problem in one or two lines, and give a proposal Zoz can verify: quote the current
+   text, give the full proposed text, and for every number state the method and assumptions (dice, values, how many
+   runs) so he can recompute it. Never ask for a decision on conclusions alone.
 2. Zoz decides (often just „Mehet”). Apply exactly that decision to `wispers-0.8-javitott.txt`.
 3. Update the item block, the ÖSSZESÍTŐ counts and add one NAPLÓ line. Check that the counts match the Állapot lines.
 4. Commit and push after each item.

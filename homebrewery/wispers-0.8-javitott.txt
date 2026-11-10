@@ -2471,11 +2471,13 @@ Az allúrok származásukból kifolyólag természetes úton sosem betegszenek m
 
 Az allúrok enyhe sötétségben és vakító fényben is a normál látási viszonyoknak megfelelően látnak.
 
-#### Sújtás
+#### Sújtás {2AP}
 
 Az archonokhoz köthető származásuk hozadéka.
 
-Naponta Jelenlét tulajdonságuknak megfelelő alkalommal Szívósság mentődobásra kényszeríthetnek egy általuk megragadott halandót. Ha a mentődobás sikertelen, a célpont az allúr szintjével megegyező sebet szenved el.
+Naponta Jelenlét értéküknek megfelelő alkalommal megsújthatnak egy általuk megragadott halandót. A Sújtás értéke dobás nélkül az allúr szintje. A célpont Szívósság mentődobással védekezhet, amelynek célértéke a Sújtás értéke. Bukás esetén Sebet szenved, amelynek súlyosságát a Sújtás értéke adja.
+
+Jellemzők: fény, tűz.
 
 #### Dicsfény
 
@@ -2545,9 +2547,9 @@ Emellett -1-es módosítót kapnak Ügyességre.
 
 Minden reggel vérszomjukat 3d4-gyel dobják 2d4 helyett.
 
-Körönként egyszer választhatják a Támadás akciót 0 AP költségért, ha olyan karaktert támadnak, akinek már okoztak sebet a körben. Ehhez a támadáshoz hozzáadják az éppen aktuális vérszomj értéküket is.
+Körönként egyszer 1 AP-ért támadhatnak egy olyan karaktert, akinek a körben már sebet okoztak.
 
-Csak akkor használhatják ezt képességüket, ha a vérszomjuk magasabb, mint a mentális könnyű sebhatáruk.
+Csak akkor használhatják ezt a képességüket, ha a vérszomjuk magasabb, mint a mentális könnyű sebhatáruk.
 
 ### Fosztogatók
 

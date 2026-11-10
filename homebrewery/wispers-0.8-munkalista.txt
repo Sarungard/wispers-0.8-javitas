@@ -24,7 +24,7 @@ Jelölések: BLOKKOLÓ – enélkül nem játszható; ELLENTMONDÁS – két sza
 hivatkozik; KISEBB – szerkesztési hiba, elnevezés.
 
 ÖSSZESÍTŐ (frissítsd menet közben)
-  NYITOTT: 11   FOLYAMATBAN: 15   DÖNTÉSRE VÁR: 4   JAVÍTVA: 59   ELVETVE: 2
+  NYITOTT: 10   FOLYAMATBAN: 16   DÖNTÉSRE VÁR: 4   JAVÍTVA: 59   ELVETVE: 2
 
 
 ================================================================
@@ -2424,12 +2424,29 @@ Probléma: (§4) Az allúr Sújtás, a Hadviselő Vérláza és a mnemór
   karakternek, csökkentsd a vérszomjad ugyanannyival.”: nem derül ki,
   mennyivel. A mnemór kezdő pszionikája mögött üres a Pszionika fejezet.
 Teendő: Faji képességek összevetése; a Vérszomj mondatának pontosítása.
-Állapot: NYITOTT
+Állapot: FOLYAMATBAN (2026.11.10.)
+Döntés: Vérláz (Hadviselők): a 6 AP-s rendszer ingyenes ismételt támadása
+  helyett körönként egy 1 AP-s támadás olyan karakter ellen, akit a körben
+  már megsebeztek; a Vérszomj-bónusz kimarad. Sújtás (allúrok): {2AP},
+  értéke dobás nélkül az allúr szintje, a célpont Szívósság
+  mentődobással védekezik (célérték a Sújtás értéke), bukásnál egy Seb a
+  Sújtás értéke szerinti súlyossággal; jellemzők: fény, tűz (a
+  sebzéstípusok későbbi rendszerének előkészítése, H-59). Nyitott: a
+  Vérdal napi csökkentése (Zoz: a felezés mellett is félő, hogy a
+  Vérszomj elszabadul és a Kimerültség megöli az orkot), a Fosztogatók
+  és a Nomádok állandó előnye, a mnemór és a törp.
+Javítás: Allúrok › Sújtás és Hadviselők › Vérláz a döntés szerint.
 Megjegyzés: A V-07 után az előny sokkal erősebb (d6+d6: 58% → 81%
   siker, Kritikus bukás 17% → 1%). A Fosztogatók tartós előnye minden
   támadásra vagy képzettségpróbára és a Nomádok előnye ezért itt
   mérendő újra. A Nomádok „kettős előnyre nő” mondata a V-07-tel
   kikerült (nincs halmozás).
+  Vérláz szimulációja (2026.11.09., duel11 a V-22 fordulópontjával, a V-11
+  nélkül; tükörpárbaj, Féktelen, reakció nélkül, licit 20, Állóképesség 5,
+  Ügyesség d6, Reflex d4, Kezdő jártasság, 2×2000 párbaj): a Hadviselő
+  győzelmi aránya 1 AP-s rácsapással páncél nélkül 0,52–0,55, páncélban
+  0,52–0,62 (Csatabárd 0,62); 0 AP-vel 0,53–0,64. Elvetett változat: 25-ös
+  licitplafon (később lép, így többnyire veszít: 0,27–0,59).
 
 ----------------------------------------------------------------
 [V-15] Hátterek és szinttábla
@@ -2833,3 +2850,5 @@ NAPLÓ – mi történt, mikor
              2; a jártasságárak kalibrálása a H-62-höz került.
 2026.11.09.  H-62 visszanyitva FOLYAMATBAN-ra – a jártasság- és talentárak, a
              kasztok pontjai hiányoznak.
+2026.11.10.  V-14 FOLYAMATBAN – Vérláz: 1 AP-s támadás a megsebzett célpontra;
+             Sújtás: {2AP}, értéke a szint, Szívósság mentődobás, fény, tűz.
