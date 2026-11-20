@@ -1045,7 +1045,7 @@ Rizikós próba esetén az arra vonatkozó szabályokat használd!
 
 ### Konfliktus
 
-A játék során a karakterek olyan szituációba keveredhetnek, ahol a hatalmi dinamizmus érezhető és szükséges a konfliktus feloldásához. Ekkor a mesélő meghatároz egy célértéket, amit a csapatnak el kell érnie sikeres próbák segítségével. Ez jelenti a fordulópontot a szituációban, akinek sikerül, egyúttal annak sikerül érvényesítenie is az érdekeit. Ehhez a játékosok három megközelítés felhasználásával felváltva megpróbálnak hatni a velük szembenálló személy(ek)re.
+A játék során a karakterek olyan szituációba keveredhetnek, ahol a hatalmi dinamizmus érezhető és szükséges a konfliktus feloldásához. Ekkor a mesélő kijelöl egy értéket, amit a csapatnak el kell érnie sikeres próbák segítségével. Ez jelenti a fordulópontot a szituációban, akinek sikerül, egyúttal annak sikerül érvényesítenie is az érdekeit. Ehhez a játékosok három megközelítés felhasználásával felváltva megpróbálnak hatni a velük szembenálló személy(ek)re.
 
 A szociális konfrontáció három alappillére az empátia, az érvelés és a megfélemlítés, minden NPC rendelkezik majd egy ezekhez rendelt értékkel, ami azt jelképezi, mennyire lehet rájuk hatni az egyes módszerekkel. Amikor a játékosok konfrontálódnak egy (vagy több) NPC-vel, akkor az általuk választott megközelítés értéke ellen egy képzettségpróbát tesznek. Ha sikeres, a számláló a játékosoknak kedvező irányba mozdul el a siker mértékével. Ha sikertelen, akkor az ellentétes oldal irányába mozdul a bukás mértékével.
 
@@ -1089,7 +1089,7 @@ Tégy próbát a szituációban felhasználható képzettség segítségével.
 
 **Példa:** Bernard, a fagymarta harcos két őrrel kerül szembe, akik nem akarják beengedni Zador belső várába, pedig figyelmeztetnie kell a gnoll hordákról a város vezetését.
 
-Az óra ketyeg, a konfrontáció nehézsége 7.
+Az óra ketyeg, a kijelölt érték 7.
 
 Bernard először fenyegetéssel próbál hatni az őrökre, az eredménye 4 lesz, az őr Megfélemlítés értéke 7, ezért a számláló az őrök javára tolódik 3-mal.
 
