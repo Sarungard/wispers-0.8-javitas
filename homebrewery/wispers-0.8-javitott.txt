@@ -45,6 +45,8 @@ Ebben a szabályszedetben ezekre a dobótestekre úgy találsz hivatkozást, hog
 
 Ebből az öt kockából szükséged lesz darabonként legalább egyre, ideális esetben inkább kettőre.
 
+A személyiségtáblázatokhoz 1d100-at is dobsz: ehhez két d10 kell, az egyik a tízeseket, a másik az egyeseket adja, a 00 pedig 100-at jelent.
+
 ### Tandemkockák
 
 Szerepjátékban tapasztalt játékosok már biztos keresték a bevezetőben, hogy pontosan mi az a dobótest, ami köré épül a játék, hány oldala is van fortuna materializációjának, amely dönt majd a kritikus pillanatban élet és halál közt? A rövid válasz, hogy nincs ilyen.
@@ -195,7 +197,7 @@ A felszerelésről bővebben a III. rész › 5. Felszerelés és vagyontárgyak
 
 ## Játék magasabb szinten
 
-A játék során a történetet követve, bizonyos mérföldkövekhez érve a karakterek szinteket lépnek, ezzel újabb képességekre tegyetek szert. Amikor a karaktered szintet lép, akkor a kasztjánál található táblázatban az érintett szinthez tartozó újdonságokat írd a karakterlapodra.
+A játék során a történetet követve, bizonyos mérföldkövekhez érve a karakterek szinteket lépnek, és ezzel újabb képességekre tesznek szert. Amikor a karaktered szintet lép, a Karakterfejlődés szintenként táblázat mutatja, mi jár neki az új szinten. A Kaszt oszlopban jelölt szinteken (1., 5., 9. és 13.) új kasztot választasz: egy korábbi kasztodra épülőt vagy egy új irányt. Minden kaszt leírása megadja az előfeltételeit.
 
 Hogyha nem első szinten szeretnétek kezdeni a játékot, arra is van lehetőség, ilyenkor végezzétek el az összes szintlépést ameddig a kívánt szintre nem juttok a karakteretekkel.
 

@@ -24,7 +24,7 @@ Jelölések: BLOKKOLÓ – enélkül nem játszható; ELLENTMONDÁS – két sza
 hivatkozik; KISEBB – szerkesztési hiba, elnevezés.
 
 ÖSSZESÍTŐ (frissítsd menet közben)
-  NYITOTT: 10   FOLYAMATBAN: 15   DÖNTÉSRE VÁR: 4   JAVÍTVA: 60   ELVETVE: 2
+  NYITOTT: 9   FOLYAMATBAN: 15   DÖNTÉSRE VÁR: 4   JAVÍTVA: 61   ELVETVE: 2
 
 
 ================================================================
@@ -2498,7 +2498,17 @@ Probléma: (§4) A háttér-talentek üresek; a d100 nem szerepel a
   sejtet, a szöveg nem magyarázza.
 Teendő: Talentek; d100 a kockalistába; a Kaszt oszlop magyarázata
   (H-03).
-Állapot: NYITOTT
+Állapot: JAVÍTVA (2026.11.21.)
+Döntés: A háttér-talentek tartalma a H-24-ben marad. A d100 két d10-zel
+  dobható (tízesek és egyesek, a 00 = 100). A Kaszt oszlop jelölt
+  szintjein (1., 5., 9., 13.) új kaszt választható: egy korábbira épülő
+  vagy egy új irány, előfeltételekkel (a H-03 kasztmodellje).
+Javítás: I. rész › Játékhoz használt kockák: új mondat az 1d100-ról;
+  Játék magasabb szinten: az első bekezdés a döntés szerint, a „tegyetek
+  szert” → „tesznek szert” javítással.
+Megjegyzés: A Kaszt kiválasztása és a Jártasságok szakasz még az egy
+  kasztos modellt sejteti; ezeket a kasztok megírásakor a H-03 és a H-04
+  rendezi.
 
 ----------------------------------------------------------------
 [V-16] Szociális konfrontáció
@@ -2899,3 +2909,5 @@ NAPLÓ – mi történt, mikor
 2026.11.20.  V-14 FOLYAMATBAN – Vérzaj: a határon is él („nem magasabb”).
 2026.11.20.  V-14 FOLYAMATBAN – Mnemór: Fürkésző tekintet {1AP}, a szöveg marad.
 2026.11.21.  V-14 JAVÍTVA – a törp változatlan; a fajok egyensúlya kész.
+2026.11.21.  V-15 JAVÍTVA – 1d100 két d10-zel; a Kaszt oszlop magyarázata (H-03);
+             a talentek a H-24-ben.
