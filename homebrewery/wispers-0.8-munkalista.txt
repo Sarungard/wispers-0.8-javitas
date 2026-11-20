@@ -2471,6 +2471,10 @@ Megjegyzés: A V-07 után az előny sokkal erősebb (d6+d6: 58% → 81%
   CRPG: a Vérláz 0 AP, a Vérszomj csak arra a támadásra adódik hozzá,
   nincs levonás; a határ az Eltökéltség értéke; a Lélekszinkron a régi
   (a CRPG nem változik).
+  Kimerültség-halálhatár (2026.11.20.): a 3× és 4× Állóképesség csak
+  késlelteti a halált, ahol a Vérszomj tartósan nő (Hadviselő heti harccal
+  100% a 14. helyett a 20. / 27. napon); a −1/szint miatt addigra a
+  karakter úgyis szinte minden próbát elbukik. Zoz döntése: marad a 2×.
 
 ----------------------------------------------------------------
 [V-15] Hátterek és szinttábla
