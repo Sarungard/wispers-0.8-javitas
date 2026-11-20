@@ -2526,10 +2526,12 @@ Döntés: Célérték: a mesélő értéke „kijelölt érték”, a „célér
   tulajdonsággal dobsz, amellyel a próbát teljesíteni szeretnéd).
   Számláló: marad a siker és a bukás mértéke (a fix lépéseket Zoz
   elvetette); a célértéket pontosan elérő siker mértéke 0, a számláló
-  nem mozdul (d6+d4, célérték 5: 18 sikerből 4).
-  Nyitott: a passzív NPC, az Elemzés, a példa.
+  nem mozdul (d6+d4, célérték 5: 18 sikerből 4). NPC: nem tesz próbát, a
+  számláló a karakterek bukásaival mozdul felé; ez egy mondatban kimondva.
+  Nyitott: az Elemzés, a példa.
 Javítás: Konfliktus: „meghatároz egy célértéket” → „kijelöl egy
-  értéket”; példa: „a konfrontáció nehézsége 7” → „a kijelölt érték 7”.
+  értéket”; példa: „a konfrontáció nehézsége 7” → „a kijelölt érték 7”;
+  Konfliktus: új mondat a passzív NPC-ről.
 
 ----------------------------------------------------------------
 [V-17] Utazás
@@ -2925,3 +2927,4 @@ NAPLÓ – mi történt, mikor
 2026.11.21.  V-16 FOLYAMATBAN – „kijelölt érték” a mesélő értékére, a célérték az NPC-é.
 2026.11.21.  V-16 FOLYAMATBAN – a tulajdonság a képzettségtől függ, a szöveg marad.
 2026.11.21.  V-16 FOLYAMATBAN – a számláló marad a mértékkel.
+2026.11.21.  V-16 FOLYAMATBAN – az NPC nem tesz próbát (kimondva).
