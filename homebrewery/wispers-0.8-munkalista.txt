@@ -2521,7 +2521,10 @@ Teendő: Pontonként dönteni.
 Állapot: FOLYAMATBAN (2026.11.21.)
 Döntés: Célérték: a mesélő értéke „kijelölt érték”, a „célérték” csak a
   célpont megközelítési értéke (a „fordulópont” és a „nehézség” foglalt).
-  Nyitott: a számláló, a tulajdonság, a passzív NPC, az Elemzés, a példa.
+  Tulajdonság: nem változik; a felhasznált képzettségtől függ, nincs előre
+  megírva (a képzettségpróba általános szabálya szerint azzal a
+  tulajdonsággal dobsz, amellyel a próbát teljesíteni szeretnéd).
+  Nyitott: a számláló, a passzív NPC, az Elemzés, a példa.
 Javítás: Konfliktus: „meghatároz egy célértéket” → „kijelöl egy
   értéket”; példa: „a konfrontáció nehézsége 7” → „a kijelölt érték 7”.
 
@@ -2917,3 +2920,4 @@ NAPLÓ – mi történt, mikor
 2026.11.21.  V-15 JAVÍTVA – 1d100 két d10-zel; a Kaszt oszlop magyarázata (H-03);
              a talentek a H-24-ben.
 2026.11.21.  V-16 FOLYAMATBAN – „kijelölt érték” a mesélő értékére, a célérték az NPC-é.
+2026.11.21.  V-16 FOLYAMATBAN – a tulajdonság a képzettségtől függ, a szöveg marad.
