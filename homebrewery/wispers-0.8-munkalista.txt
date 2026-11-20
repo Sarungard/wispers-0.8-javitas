@@ -2525,7 +2525,8 @@ Döntés: Célérték: a mesélő értéke „kijelölt érték”, a „célér
   megírva (a képzettségpróba általános szabálya szerint azzal a
   tulajdonsággal dobsz, amellyel a próbát teljesíteni szeretnéd).
   Számláló: marad a siker és a bukás mértéke (a fix lépéseket Zoz
-  elvetette).
+  elvetette); a célértéket pontosan elérő siker mértéke 0, a számláló
+  nem mozdul (d6+d4, célérték 5: 18 sikerből 4).
   Nyitott: a passzív NPC, az Elemzés, a példa.
 Javítás: Konfliktus: „meghatároz egy célértéket” → „kijelöl egy
   értéket”; példa: „a konfrontáció nehézsége 7” → „a kijelölt érték 7”.
