@@ -91,6 +91,13 @@ Keep replies short and in Hungarian. Put the proposal and the question at the en
 - Kasztok are feat-like one-time picks at set levels with prerequisites (follow-up kaszt or a new direction), built on
   exception-based design (H-03).
 - Harci távok are abstract: Közelharci táv, Rövid táv, Közepes táv (same zone), Nagy táv (another zone), Értelmezhetetlen. „reach” and (for now) „Glaive” stay English.
+- Vérszomj (V-14, 2026-11-20, Zoz's framework; no caps, Zoz finds them too much to track): morning +2d4 (Hadviselő
+  3d4), evening −Eltökéltség mentődobás; above the mentális könnyű sebhatár the night is restless (+1 Kimerültség),
+  at or below it restful. No „first wound of the day” valve; each subrace vents its own way. Hadviselő: above the
+  threshold the Vérszomj is added to every attack value; after every attack the Vérszomj drops by the attack's dice
+  sum. Fosztogató: above the threshold attacks with előny and drops by the attack's dice sum; at or below it skill
+  checks with előny and rises by the check's dice sum. Nomád: healing a wound lowers it by the Szellem value. Sim:
+  `tools/sim/verszomj_keret.py`; rejected variants (halving, cap, restless-night halving or reset) in `verszomj.py`.
 
 ## State (2026-10-25)
 

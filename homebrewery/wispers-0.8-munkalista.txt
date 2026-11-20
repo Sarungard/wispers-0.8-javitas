@@ -2424,18 +2424,28 @@ Probléma: (§4) Az allúr Sújtás, a Hadviselő Vérláza és a mnemór
   karakternek, csökkentsd a vérszomjad ugyanannyival.”: nem derül ki,
   mennyivel. A mnemór kezdő pszionikája mögött üres a Pszionika fejezet.
 Teendő: Faji képességek összevetése; a Vérszomj mondatának pontosítása.
-Állapot: FOLYAMATBAN (2026.11.10.)
+Állapot: FOLYAMATBAN (2026.11.20.)
 Döntés: Vérláz (Hadviselők): a 6 AP-s rendszer ingyenes ismételt támadása
   helyett körönként egy 1 AP-s támadás olyan karakter ellen, akit a körben
-  már megsebeztek; a Vérszomj-bónusz kimarad. Sújtás (allúrok): {2AP},
+  már megsebeztek. Sújtás (allúrok): {2AP},
   értéke dobás nélkül az allúr szintje, a célpont Szívósság
   mentődobással védekezik (célérték a Sújtás értéke), bukásnál egy Seb a
   Sújtás értéke szerinti súlyossággal; jellemzők: fény, tűz (a
-  sebzéstípusok későbbi rendszerének előkészítése, H-59). Nyitott: a
-  Vérdal napi csökkentése (Zoz: a felezés mellett is félő, hogy a
-  Vérszomj elszabadul és a Kimerültség megöli az orkot), a Fosztogatók
-  és a Nomádok állandó előnye, a mnemór és a törp.
-Javítás: Allúrok › Sújtás és Hadviselők › Vérláz a döntés szerint.
+  sebzéstípusok későbbi rendszerének előkészítése, H-59).
+  Vérszomj (2026.11.20., Zoz kerete, plafon nélkül): reggel +2d4
+  (Hadviselő 3d4), este −Eltökéltség mentődobás; ha a Vérszomj nagyobb a
+  mentális könnyű sebhatárnál, az éjszaka nyugtalan (+1 Kimerültség),
+  különben pihentető. A „nap első sebe” szelep kikerül; a levezetés
+  alfajonként más. Hadviselő: a határ fölött minden támadás értékéhez
+  hozzáadja a Vérszomjat, és minden támadása után a Vérszomj a támadás
+  kockáinak összegével csökken. Fosztogató: a határ fölött előnnyel
+  támad, és a támadás kockáinak összegével csökken; a határon vagy alatta
+  előnnyel tesz képzettségpróbát, és a próba kockáinak összegével nő.
+  Nomád (Lélekszinkron): sebgyógyításkor a Vérszomj a Szellem értékével
+  csökken. Nyitott: a Nomádok Vérzaja (tartós előny), a mnemór és a törp.
+Javítás: Allúrok › Sújtás, Orkok › Vérdal, Hadviselők › Vérláz,
+  Fosztogatók › Kényes egyensúly és Nomádok › Lélekszinkron a döntés
+  szerint.
 Megjegyzés: A V-07 után az előny sokkal erősebb (d6+d6: 58% → 81%
   siker, Kritikus bukás 17% → 1%). A Fosztogatók tartós előnye minden
   támadásra vagy képzettségpróbára és a Nomádok előnye ezért itt
@@ -2447,6 +2457,20 @@ Megjegyzés: A V-07 után az előny sokkal erősebb (d6+d6: 58% → 81%
   győzelmi aránya 1 AP-s rácsapással páncél nélkül 0,52–0,55, páncélban
   0,52–0,62 (Csatabárd 0,62); 0 AP-vel 0,53–0,64. Elvetett változat: 25-ös
   licitplafon (később lép, így többnyire veszít: 0,27–0,59).
+  Vérszomj szimulációja (tools/sim/verszomj_keret.py; 4000 ork, 60 nap,
+  seed 5, Állóképesség 3, pihentető éj −1, Szellem 3, határ 3; Hadviselő
+  harconként 2 kör, d8+d4; Fosztogató 4 támadás d6+d4, napi 2 próba
+  d6+d4; Nomád harci napon 1 gyógyítás). Halál 60 nap alatt, harc 3
+  naponta / hetente / soha: Hadviselő (Kezdő Eltökéltség) 2% / 100% /
+  100%, átlagbónusz +10,4 / +16,2; Fosztogató (Kezdő) 0–46% / 41–87% /
+  98% (a harc utáni próba visszatölti a Vérszomjat); Nomád 29% / 77% /
+  96%; alfaj nélküli ork 95%. A reggeli 2d4 az esetek 81%-ában a határ
+  fölé visz, ezért a nyugodt ágak (próbaelőny, Vérzaj) napközben ritkán
+  élnek. Elvetett változatok (tools/sim/verszomj.py): felezés, plafon a
+  mentális súlyos sebhatárnál, nyugtalan éjszakai felezés vagy nullázás.
+  CRPG: a Vérláz 0 AP, a Vérszomj csak arra a támadásra adódik hozzá,
+  nincs levonás; a határ az Eltökéltség értéke; a Lélekszinkron a régi
+  (a CRPG nem változik).
 
 ----------------------------------------------------------------
 [V-15] Hátterek és szinttábla
@@ -2852,3 +2876,6 @@ NAPLÓ – mi történt, mikor
              kasztok pontjai hiányoznak.
 2026.11.10.  V-14 FOLYAMATBAN – Vérláz: 1 AP-s támadás a megsebzett célpontra;
              Sújtás: {2AP}, értéke a szint, Szívósság mentődobás, fény, tűz.
+2026.11.20.  V-14 FOLYAMATBAN – Vérszomj Zoz kerete szerint: este −Eltökéltség-dobás,
+             a határ fölött nyugtalan éj; Hadviselő bónusz és levonás, Fosztogató
+             kétirányú, Nomád gyógyításkor −Szellem; a nap első sebe szelep kikerül.

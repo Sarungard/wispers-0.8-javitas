@@ -2529,9 +2529,7 @@ Minden ork rendelkezik Vérszomj értékkel, amely eleinte 1, és nem csökkenhe
 
 Minden reggel dobj 2d4-et és add hozzá az eredményt a Vérszomj értékedhez.
 
-Minden este tégy egy Eltökéltség mentődobást, és az eredményét vond le a Vérszomjadból. Ha így a Vérszomjad a mentális könnyű sebhatárod alá kerül, az alvás pihentető. Ha nem, az alvás nem pihentető, és az éjszaka során egy szintnyi Kimerültséget szerzel.
-
-Minden nap, amikor először sebet okozol egy karakternek, csökkentsd a vérszomjad ugyanannyival.
+Minden este tégy egy Eltökéltség mentődobást, és az eredményét vond le a Vérszomjadból. Ha így a Vérszomjad nem nagyobb a mentális könnyű sebhatárodnál, az alvás pihentető. Ha nagyobb, az alvás nem pihentető, és az éjszaka során egy szintnyi Kimerültséget szerzel.
 
 ### Hadviselők
 
@@ -2547,9 +2545,9 @@ Emellett -1-es módosítót kapnak Ügyességre.
 
 Minden reggel vérszomjukat 3d4-gyel dobják 2d4 helyett.
 
-Körönként egyszer 1 AP-ért támadhatnak egy olyan karaktert, akinek a körben már sebet okoztak.
+Ameddig vérszomjuk magasabb, mint a mentális könnyű sebhatáruk, minden támadásuk értékéhez hozzáadják a vérszomjukat, és körönként egyszer 1 AP-ért támadhatnak egy olyan karaktert, akinek a körben már sebet okoztak.
 
-Csak akkor használhatják ezt a képességüket, ha a vérszomjuk magasabb, mint a mentális könnyű sebhatáruk.
+Minden támadásuk után vérszomjuk a támadás kockáinak összegével csökken.
 
 ### Fosztogatók
 
@@ -2565,9 +2563,9 @@ Emellett -1-es módosítót kapnak Jelenlétre.
 
 A fosztogató orkok megtanultak együttélni a fülükben szűnni nem akaró agresszív morajlással, így fel tudják használni azt az előnyükre, de épp ugyanígy képesek kiélvezni annak hátrányát is.
 
-Ameddig vérszomjuk magasabb, mint a mentális könnyű sebhatáruk, akkor minden támadást előnnyel dobnak.
+Ameddig vérszomjuk magasabb, mint a mentális könnyű sebhatáruk, minden támadást előnnyel dobnak, és minden támadás után vérszomjuk a támadás kockáinak összegével csökken.
 
-Ameddig vérszomjuk alacsonyabb, mint a mentális könnyű sebhatáruk, minden képzettségpróbát előnnyel dobnak.
+Ameddig vérszomjuk nem magasabb, mint a mentális könnyű sebhatáruk, minden képzettségpróbát előnnyel dobnak, és minden próba után vérszomjuk a próba kockáinak összegével nő.
 
 ### Nomádok
 
@@ -2581,7 +2579,7 @@ Emellett -1-es módosítót kapnak Tudásra.
 
 #### Lélekszinkron
 
-Amikor egy nomád ork sebet gyógyít, a meggyógyított sebek számával megegyező mértékben csökkentheti a Vérszomját.
+Amikor egy nomád ork sebet gyógyít, vérszomja a Szellem értékével csökken.
 
 #### Vérzaj
 
