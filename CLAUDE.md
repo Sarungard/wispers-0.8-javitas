@@ -99,6 +99,9 @@ Keep replies short and in Hungarian. Put the proposal and the question at the en
   checks with előny and rises by the check's dice sum. Nomád: healing a wound lowers it by the Szellem value; Vérzaj
   works at or below the threshold. Sim:
   `tools/sim/verszomj_keret.py`; rejected variants (halving, cap, restless-night halving or reset) in `verszomj.py`.
+  V-14 is JAVÍTVA (2026-11-21): Fürkésző tekintet got {1AP} (text unchanged, no daily limit), the mnemór „kezdő
+  pszionika” stays a placeholder until the Pszionika chapter exists, the törp is unchanged, the Kimerültség death
+  limit stays 2× Állóképesség.
 
 ## State (2026-10-25)
 

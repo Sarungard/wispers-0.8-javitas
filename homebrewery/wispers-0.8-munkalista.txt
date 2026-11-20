@@ -24,7 +24,7 @@ Jelölések: BLOKKOLÓ – enélkül nem játszható; ELLENTMONDÁS – két sza
 hivatkozik; KISEBB – szerkesztési hiba, elnevezés.
 
 ÖSSZESÍTŐ (frissítsd menet közben)
-  NYITOTT: 10   FOLYAMATBAN: 16   DÖNTÉSRE VÁR: 4   JAVÍTVA: 59   ELVETVE: 2
+  NYITOTT: 10   FOLYAMATBAN: 15   DÖNTÉSRE VÁR: 4   JAVÍTVA: 60   ELVETVE: 2
 
 
 ================================================================
@@ -2424,7 +2424,7 @@ Probléma: (§4) Az allúr Sújtás, a Hadviselő Vérláza és a mnemór
   karakternek, csökkentsd a vérszomjad ugyanannyival.”: nem derül ki,
   mennyivel. A mnemór kezdő pszionikája mögött üres a Pszionika fejezet.
 Teendő: Faji képességek összevetése; a Vérszomj mondatának pontosítása.
-Állapot: FOLYAMATBAN (2026.11.20.)
+Állapot: JAVÍTVA (2026.11.21.)
 Döntés: Vérláz (Hadviselők): a 6 AP-s rendszer ingyenes ismételt támadása
   helyett körönként egy 1 AP-s támadás olyan karakter ellen, akit a körben
   már megsebeztek. Sújtás (allúrok): {2AP},
@@ -2446,7 +2446,9 @@ Döntés: Vérláz (Hadviselők): a 6 AP-s rendszer ingyenes ismételt támadás
   és a pihentető alvással egyezően (a reggeli 2d4 miatt ritkán él: 0-ról
   3/16). Mnemór: a Fürkésző tekintet címe {1AP} jelölést kap, a szöveg
   nem változik (napi korlát nincs); a „kezdő pszionika” helyőrző marad,
-  amíg a Pszionika fejezet meg nem születik. Nyitott: a törp.
+  amíg a Pszionika fejezet meg nem születik. Törp: nem változik; a súlyát
+  a Sziklatest és a Mélységi gyomor adja, a Bányamérnökök elbeszélő, a
+  Sziklaaffinitás előnye szűk.
 Javítás: Allúrok › Sújtás, Orkok › Vérdal, Hadviselők › Vérláz,
   Fosztogatók › Kényes egyensúly, Nomádok › Lélekszinkron és Vérzaj,
   Mnemórok › Fürkésző tekintet a döntés szerint.
@@ -2479,6 +2481,13 @@ Megjegyzés: A V-07 után az előny sokkal erősebb (d6+d6: 58% → 81%
   késlelteti a halált, ahol a Vérszomj tartósan nő (Hadviselő heti harccal
   100% a 14. helyett a 20. / 27. napon); a −1/szint miatt addigra a
   karakter úgyis szinte minden próbát elbukik. Zoz döntése: marad a 2×.
+  Törp (2026.11.21.): a Sziklatesttel a testi alap 6, a sebhatárok 6 és
+  11, a reakció nélküli túlütés 17 (4-es testi alapnál 4, 9, 13). Egy
+  d8+d4-es támadás ellen legalább Mély seb 29/32 → 22/32, Súlyos seb
+  10/32 → 3/32. Sújtás (tájékoztatás): célértéke a szint, a Szívósság
+  2d4-gyel 1–2. szinten mindig, 3. szinten 15/16, 5. szinten 10/16
+  eséllyel sikerül, és a sebhatár alatti érték Könnyű sebet okoz, így kb.
+  az 5. szintig alig hat.
 
 ----------------------------------------------------------------
 [V-15] Hátterek és szinttábla
@@ -2889,3 +2898,4 @@ NAPLÓ – mi történt, mikor
              kétirányú, Nomád gyógyításkor −Szellem; a nap első sebe szelep kikerül.
 2026.11.20.  V-14 FOLYAMATBAN – Vérzaj: a határon is él („nem magasabb”).
 2026.11.20.  V-14 FOLYAMATBAN – Mnemór: Fürkésző tekintet {1AP}, a szöveg marad.
+2026.11.21.  V-14 JAVÍTVA – a törp változatlan; a fajok egyensúlya kész.
