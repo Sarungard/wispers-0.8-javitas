@@ -2444,10 +2444,12 @@ Döntés: Vérláz (Hadviselők): a 6 AP-s rendszer ingyenes ismételt támadás
   Nomád (Lélekszinkron): sebgyógyításkor a Vérszomj a Szellem értékével
   csökken. Vérzaj: „alacsonyabb” helyett „nem magasabb”, a Fosztogatóval
   és a pihentető alvással egyezően (a reggeli 2d4 miatt ritkán él: 0-ról
-  3/16). Nyitott: a mnemór és a törp.
+  3/16). Mnemór: a Fürkésző tekintet címe {1AP} jelölést kap, a szöveg
+  nem változik (napi korlát nincs); a „kezdő pszionika” helyőrző marad,
+  amíg a Pszionika fejezet meg nem születik. Nyitott: a törp.
 Javítás: Allúrok › Sújtás, Orkok › Vérdal, Hadviselők › Vérláz,
-  Fosztogatók › Kényes egyensúly, Nomádok › Lélekszinkron és Vérzaj a
-  döntés szerint.
+  Fosztogatók › Kényes egyensúly, Nomádok › Lélekszinkron és Vérzaj,
+  Mnemórok › Fürkésző tekintet a döntés szerint.
 Megjegyzés: A V-07 után az előny sokkal erősebb (d6+d6: 58% → 81%
   siker, Kritikus bukás 17% → 1%). A Fosztogatók tartós előnye minden
   támadásra vagy képzettségpróbára és a Nomádok előnye ezért itt
@@ -2886,3 +2888,4 @@ NAPLÓ – mi történt, mikor
              a határ fölött nyugtalan éj; Hadviselő bónusz és levonás, Fosztogató
              kétirányú, Nomád gyógyításkor −Szellem; a nap első sebe szelep kikerül.
 2026.11.20.  V-14 FOLYAMATBAN – Vérzaj: a határon is él („nem magasabb”).
+2026.11.20.  V-14 FOLYAMATBAN – Mnemór: Fürkésző tekintet {1AP}, a szöveg marad.

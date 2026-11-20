@@ -2396,7 +2396,7 @@ Testi alap: 4, mentális alap: 5.
 
 Minden mnemór kezdő pszionikával rendelkezik.
 
-#### Fürkésző tekintet
+#### Fürkésző tekintet {1AP}
 
 A mnemórok képesek behatolni más halandók tudatába, hogy fürdőzzenek annak tudásában. Ha egy másik halandó belenéz a mnemór szemébe, az megpróbálhat kapcsolatot létesíteni elméjük között. Ilyenkor egy speciális támadást kell tennie a célpont Eltökéltsége ellen. Ezzel a fegyverrel a jártassága mindig a mnemór legmagasabb jártassági szintje, a kockája pedig mindig a mnemór Tudásához tartozó tulajdonságkocka.
 
