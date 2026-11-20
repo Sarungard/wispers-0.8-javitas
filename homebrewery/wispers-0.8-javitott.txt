@@ -2585,7 +2585,7 @@ Amikor egy nomád ork sebet gyógyít, vérszomja a Szellem értékével csökke
 
 A nomád orkok mindent megtesznek, hogy a vérdal torz hangjait elnyomják magukban.
 
-Ameddig vérszomjuk alacsonyabb, mint a mentális könnyű sebhatáruk, minden képzettségpróbát és mentődobást előnnyel dobnak.
+Ameddig vérszomjuk nem magasabb, mint a mentális könnyű sebhatáruk, minden képzettségpróbát és mentődobást előnnyel dobnak.
 
 # 2. Személyiség és háttér
 

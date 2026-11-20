@@ -96,7 +96,8 @@ Keep replies short and in Hungarian. Put the proposal and the question at the en
   at or below it restful. No „first wound of the day” valve; each subrace vents its own way. Hadviselő: above the
   threshold the Vérszomj is added to every attack value; after every attack the Vérszomj drops by the attack's dice
   sum. Fosztogató: above the threshold attacks with előny and drops by the attack's dice sum; at or below it skill
-  checks with előny and rises by the check's dice sum. Nomád: healing a wound lowers it by the Szellem value. Sim:
+  checks with előny and rises by the check's dice sum. Nomád: healing a wound lowers it by the Szellem value; Vérzaj
+  works at or below the threshold. Sim:
   `tools/sim/verszomj_keret.py`; rejected variants (halving, cap, restless-night halving or reset) in `verszomj.py`.
 
 ## State (2026-10-25)
