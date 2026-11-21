@@ -24,7 +24,7 @@ Jelölések: BLOKKOLÓ – enélkül nem játszható; ELLENTMONDÁS – két sza
 hivatkozik; KISEBB – szerkesztési hiba, elnevezés.
 
 ÖSSZESÍTŐ (frissítsd menet közben)
-  NYITOTT: 7   FOLYAMATBAN: 15   DÖNTÉSRE VÁR: 4   JAVÍTVA: 63   ELVETVE: 2
+  NYITOTT: 6   FOLYAMATBAN: 16   DÖNTÉSRE VÁR: 4   JAVÍTVA: 63   ELVETVE: 2
 
 
 ================================================================
@@ -2576,7 +2576,11 @@ Probléma: (§5) D12-es Jelenlét és d4-es jártasság mellett a varázslások
   az időzítése nem világos. A komponensek AP-t adnak, de még nincs
   varázslat, amely használná őket.
 Teendő: Pontonként dönteni (a varázslat fejezettel együtt, H-17, H-19).
-Állapot: NYITOTT
+Állapot: FOLYAMATBAN (2026.11.21.)
+Döntés: Erőltetés: marad a Kimerültség (a képzettségpróbával azonos logika,
+  a jártasság csökkenti). Erőltetés esélye P(jártasság < Jelenlét): d12/d4
+  79%, d12/d12 46%, d8/d8 44%, d4/d4 38%.
+  Nyitott: a mentődobás időzítése, a komponensek.
 
 ----------------------------------------------------------------
 [V-19] Égisz, Diszciplína, Fegyelem, Áhítat
@@ -2958,3 +2962,4 @@ NAPLÓ – mi történt, mikor
 2026.11.21.  V-17 FOLYAMATBAN – a csapat a leglassabb tag sebességével halad.
 2026.11.21.  V-17 FOLYAMATBAN – a Gyűjtögetés hozama marad az Ügyesség.
 2026.11.21.  V-17 JAVÍTVA – a Porciózás marad.
+2026.11.21.  V-18 FOLYAMATBAN – erőltetésnél marad a Kimerültség.
