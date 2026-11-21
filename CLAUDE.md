@@ -106,6 +106,9 @@ Keep replies short and in Hungarian. Put the proposal and the question at the en
   NPC's approach value. The attribute follows the skill used (not fixed per approach). The counter moves by the siker /
   bukás mértéke (0 moves nothing). NPCs roll nothing. Elemzés costs one attempt, no roll. The worked example (Bernard)
   sits after Megfélemlítés.
+- Utazás (V-17, JAVÍTVA 2026-11-21): an utazási szegmens is at most 4 hours; the teljes táv is the race's mérföld/óra
+  × the segment hours; the party moves at its slowest member's speed. Ember 4, allúr 5 mérföld/óra (the CRPG still has
+  5 and 4). Gyűjtögetés yield stays the Ügyesség value; Porciózás unchanged.
 
 ## State (2026-10-25)
 

@@ -24,7 +24,7 @@ Jelölések: BLOKKOLÓ – enélkül nem játszható; ELLENTMONDÁS – két sza
 hivatkozik; KISEBB – szerkesztési hiba, elnevezés.
 
 ÖSSZESÍTŐ (frissítsd menet közben)
-  NYITOTT: 7   FOLYAMATBAN: 16   DÖNTÉSRE VÁR: 4   JAVÍTVA: 62   ELVETVE: 2
+  NYITOTT: 7   FOLYAMATBAN: 15   DÖNTÉSRE VÁR: 4   JAVÍTVA: 63   ELVETVE: 2
 
 
 ================================================================
@@ -2551,14 +2551,15 @@ Probléma: (§5) A tempótábla („¾”, „teljes”, „1½” megtett táv
   Ügyességtől függ; a Porciózás pihenő szegmensben is választható, de
   esti hatású.
 Teendő: Pontonként dönteni.
-Állapot: FOLYAMATBAN (2026.11.21.)
+Állapot: JAVÍTVA (2026.11.21.)
 Döntés: Táv: a teljes táv a faj óránkénti mérföldje × a szegmens órái; az
   utazási szegmens legfeljebb 4 óra (volt 6); ember 4 (volt 5), allúr 5
   (volt 4) mérföld/óra. Törp normál tempóban: 3 × 4 = 12 mérföld.
   Vegyes csapat: a leglassabb tag sebességével halad.
   Gyűjtögetés: a hozam marad az Ügyesség értéke (a passzív
   jártasságbónuszt, a siker mértékét és a jártasságkockát Zoz elvetette).
-  Nyitott: Porciózás.
+  Porciózás: marad; a pihenőben ebédkor osztják be a vacsorát, két siker
+  sem halmozódik.
 Javítás: Utazási szegmensek: „maximum 6 óráig” → „maximum 4 óráig”; új
   mondat a tempótáblázat után a teljes távról; Emberek és Allúrok: az
   óránkénti mérföld cseréje; új mondat: „A csapat a leglassabb tagja
@@ -2956,3 +2957,4 @@ NAPLÓ – mi történt, mikor
 2026.11.21.  V-17 FOLYAMATBAN – teljes táv, 4 órás szegmens, ember 4, allúr 5.
 2026.11.21.  V-17 FOLYAMATBAN – a csapat a leglassabb tag sebességével halad.
 2026.11.21.  V-17 FOLYAMATBAN – a Gyűjtögetés hozama marad az Ügyesség.
+2026.11.21.  V-17 JAVÍTVA – a Porciózás marad.
