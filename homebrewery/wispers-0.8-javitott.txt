@@ -1285,7 +1285,7 @@ Amikor a karaktered sebesülést kapna, ignorálhatod
 
 #### Túlütés
 
-Amikor egy támadás olyan jól sikerül, hogy a védekezőnek esélye sincs elkerülni a súlyos sérüléseket, azt túlütésnek nevezzük. Túlütésről akkor beszélünk, ha a támadás értéke legalább kétszerese a védekezés értékének – a védekezés módjától függetlenül. Ha a védekező nem reagál, vagy Beleállással védekezik, a támadás értékét a sebhatáraihoz kell mérni: túlütés, ha legalább a könnyű és a súlyos sebhatárának összege.
+Amikor egy támadás olyan jól sikerül, hogy a védekezőnek esélye sincs elkerülni a súlyos sérüléseket, azt túlütésnek nevezzük. Túlütésről akkor beszélünk, ha a támadás értéke legalább kétszerese a védekezés értékének – a védekezés módjától függetlenül. Ha a védekező nem reagál, vagy Beleállással védekezik, a támadás értékét a sebhatáraihoz kell mérni (lásd: Sebesülés és halálozás › Seb): túlütés, ha legalább a könnyű és a súlyos sebhatárának összege.
 
 Amikor valakit túlütnek, a találat Sebén felül egy Súlyos sebet is elszenved, és a találatot nem negálhatja kegy elköltésével.
 
