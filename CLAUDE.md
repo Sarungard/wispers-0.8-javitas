@@ -114,6 +114,8 @@ Keep replies short and in Hungarian. Put the proposal and the question at the en
   Varázserő uses the jártasság of the spell's Mágiaosztály (seven jártasságok), spells are learned separately (V-20).
 - Combat time (V-20): the heading is „Kör és forduló”; the combat „szegmens” stays (1 AP, about 3 s), beside the
   travel szegmens.
+- Eszközök (tools, kits) are planned but not in the rules yet (V-20); Zoz wants no pool bloat, so no growing list of
+  jártasságok. The Jártasságok list says „Képzettségpróbákra,”.
 - Diszciplína, Fegyelem, Áhítat (V-19, DÖNTÉSRE VÁR 2026-11-21): Zoz is rethinking the whole system. His principle: no
   crit-fishing, no fiddly systems whose tracking takes attention away from the table (fine in a video game, not here).
 

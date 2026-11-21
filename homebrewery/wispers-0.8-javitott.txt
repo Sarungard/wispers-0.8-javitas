@@ -178,7 +178,7 @@ A kasztod leírásánál található táblázat mutatja majd, milyen jártasság
 
 - Fegyverhasználatra és pusztakezes harcra,
 - Varázslásra,
-- Tulajdonságpróbákra készségek és eszközök használatával
+- Képzettségpróbákra,
 - Mentődobásokra
 
 ## Tulajdonságok meghatározása

@@ -2637,13 +2637,18 @@ Döntés: {R}: a jelölést semmi nem használja (saját reakciólista van), a
   akciópont költhető el. Vérzés: már csak „kör”, nincs teendő.
   Varázserő: a jártasság mágiaosztályonként jár (hét jártasság), a
   varázslatokat külön tanulod (H-62, varázslattanulás).
+  Jártasságok listája: „Tulajdonságpróbákra készségek és eszközök
+  használatával” → „Képzettségpróbákra,”. Az eszközök (tool, kit) csak
+  terv, szabályba még nem kerülnek; Zoz nem akar „pool bloat”-ot (ne
+  szaporodjanak a jártasságok).
   Nyitott: a többi pont.
 Javítás: Reakciók: „Ha egy cselekvés reakcióból (is) használható, a neve
   mellett {R} jelölés lesz.” törölve; 12 helyen „1AP” → „1 AP” (a
   kapcsos zárójelen kívül); harc: „#### Szegmensek” → „#### Kör és
   forduló”, új mondat: „Egy szegmens alatt egy akciópont költhető el.”
   Varázserő: „a varázsolni kívánt varázslatban szerzett” → „a varázslat
-  mágiaosztályában szerzett” jártasságkocka.
+  mágiaosztályában szerzett” jártasságkocka. Jártasságok: „Tulajdonság-
+  próbákra készségek és eszközök használatával” → „Képzettségpróbákra,”.
 
 ----------------------------------------------------------------
 [V-21] Szerkezet és érthetőség
@@ -2998,3 +3003,4 @@ NAPLÓ – mi történt, mikor
 2026.11.21.  V-20 FOLYAMATBAN – {R} mondat törölve, „1 AP” írásmód.
 2026.11.21.  V-20 FOLYAMATBAN – „Kör és forduló” cím, egy szegmens egy akciópont.
 2026.11.21.  V-20 FOLYAMATBAN – a Varázserő jártassága mágiaosztályonként.
+2026.11.21.  V-20 FOLYAMATBAN – „Képzettségpróbákra,”; az eszközök csak terv.
