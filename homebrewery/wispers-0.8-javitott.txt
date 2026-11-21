@@ -312,7 +312,7 @@ A fénynek és a sötétségnek hat fokozata van: erős fény, gyenge fény, vak
 
 ## Jártassági szintek
 
-A karakterek rendelkeznek mentődobásokban, különféle Képzettségekben, mágiaosztályokban, páncélokkal és fegyverekkel, valamint pusztakezes harcban szerzett jártassággal. Ezeket eltérő jártassági szintek jelölik. Az egyes jártassági szintek befolyásolják, hogy mekkora bónuszt kap az érintett dobáshoz, valamint, hogy egy adott szituációban mire tudja a karakter a tudását felhasználni. A jártasságok szintje a következő táblázatban látható.
+A karakterek rendelkeznek mentődobásokban, különféle Képzettségekben, mágiaosztályokban, páncélokkal és fegyverekkel, valamint pusztakezes harcban szerzett jártassággal. Ezeket eltérő jártassági szintek jelölik. Az egyes jártassági szintek befolyásolják, hogy mekkora bónuszt kap az érintett dobáshoz, valamint, hogy egy adott szituációban mire tudja a karakter a tudását felhasználni. A jártasságok szintje a következő táblázatban látható. Próbadobás minden dobás, amelyhez jártasság tartozik, Képzetlen szinten is: a képzettségpróba, a mentődobás, a támadás, a Hárítás és a Varázserő.
 
 | Jártassági szintek | Bónuszok |
 |:--|:--|
@@ -966,7 +966,7 @@ A tolvajok, zsebesek, bűvészek és csalók képessége: kézügyesség, észre
 
 ## Képzettségpróbák
 
-Képzettségpróbára akkor kerül sor, amikor a karakternek olyan szituációban kell helytállnia, ahol hasznosíthatja a tudását. Minden képzettségpróba két kockát használ. A felhasznált képességed jártasságkockáját és a tulajdonságkockáját annak a tulajdonságodnak, amellyel a próbát szeretnéd teljesíteni. A két kockával egyszerre dobsz, és két dolgot nézel meg. A dobott értékek összege dönti el, hogy eléred-e a célértéket. A két kocka egymáshoz mérve pedig azt, hogyan: ha a jártasságkockád legalább annyit dob, mint a tulajdonságkockád, a próbát szakértelemmel teszed, ha kevesebbet, erőltetéssel. A kettőből négyféle kimenetel adódik.
+Képzettségpróbára akkor kerül sor, amikor a karakternek olyan szituációban kell helytállnia, ahol hasznosíthatja a tudását. Minden képzettségpróba két kockát használ (Képzetlen szinten csak a tulajdonságkockát). A felhasznált képességed jártasságkockáját és a tulajdonságkockáját annak a tulajdonságodnak, amellyel a próbát szeretnéd teljesíteni. A két kockával egyszerre dobsz, és két dolgot nézel meg. A dobott értékek összege dönti el, hogy eléred-e a célértéket. A két kocka egymáshoz mérve pedig azt, hogyan: ha a jártasságkockád legalább annyit dob, mint a tulajdonságkockád, a próbát szakértelemmel teszed, ha kevesebbet, erőltetéssel. A kettőből négyféle kimenetel adódik.
 
 A két kocka viszonya a karakter stílusát mutatja. Akinek a jártassága nagyobb a tulajdonságánál, az többnyire szakértelemmel dob: tisztán sikerül vagy tisztán bukik. Akinek a tulajdonsága nagyobb, az gyakran erőltet: sokszor sikerül neki, de a sikernek ára van, és a bukása is súlyosabb.
 

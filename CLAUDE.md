@@ -52,6 +52,7 @@ Keep replies short and in Hungarian. Put the proposal and the question at the en
   never „hátrány”, and every racial penalty is −1 (the mnemór −2 was a typo, fixed under H-08; at Világstandard 3
   the mnemór Erő is 2). Világstandard is at least 2 (V-13); the attribute-die bands stay. Wound tables: Könnyű seb never gives hátrány; Mély seb a narrow one until rest; Súlyos seb a broad
   one. V-07 is JAVÍTVA (2026-11-02).
+- No negative examples in rules text (what something is not): they confuse the reader (H-68).
 - Core rules state rules, not situational GM advice: do not write into them what only happens in some cases or what a
   GM can deduce (e.g. rizikós próba under hátrány). Such notes may go into a later chapter for GMs.
 - Attacks: weapon die + proficiency die, no attribute. Unarmed: 1d2 (1d4/2) with the Pusztakezes harc proficiency.

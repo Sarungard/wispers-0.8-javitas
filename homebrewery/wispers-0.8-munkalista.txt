@@ -24,7 +24,7 @@ Jelölések: BLOKKOLÓ – enélkül nem játszható; ELLENTMONDÁS – két sza
 hivatkozik; KISEBB – szerkesztési hiba, elnevezés.
 
 ÖSSZESÍTŐ (frissítsd menet közben)
-  NYITOTT: 5   FOLYAMATBAN: 15   DÖNTÉSRE VÁR: 5   JAVÍTVA: 66   ELVETVE: 2
+  NYITOTT: 4   FOLYAMATBAN: 16   DÖNTÉSRE VÁR: 5   JAVÍTVA: 66   ELVETVE: 2
 
 
 ================================================================
@@ -1897,7 +1897,16 @@ Probléma: A V-08 óta a Kimerültség a próbadobásokra hat, de a szöveg nem
   „Csak a tulajdonságkockájával dob, a próbát mindig erőltetéssel teszi.”
   Így a Kimerültség a Képzetlen próbára nem hatna.
 Teendő: A próbadobás meghatározása, és az alábbi esetek rendezése.
-Állapot: NYITOTT
+Állapot: FOLYAMATBAN (2026.11.21.)
+Döntés: A próbadobás a jártassághoz kötött, Képzetlen szinten is. Negatív
+  példa (mi nem próbadobás) nem kerül a szövegbe, mert összezavarja az
+  olvasót. A Hárítás kockái a V-11 óta le vannak írva.
+  Nyitott: a Képzetlen pusztakezes támadás.
+Javítás: Jártassági szintek: új mondat: „Próbadobás minden dobás, amelyhez
+  jártasság tartozik, Képzetlen szinten is: a képzettségpróba, a
+  mentődobás, a támadás, a Hárítás és a Varázserő.” Képzettségpróba:
+  „…két kockát használ.” → „…két kockát használ (Képzetlen szinten csak a
+  tulajdonságkockát).”
 Megjegyzés: Javaslat (2026.11.09.): a próbadobást a jártassághoz kötni, ne
   a kockájához: minden dobás, amelyhez jártasság tartozik, Képzetlen
   szinten is. Így a Képzetlen próba is próbadobás, a sebdobás, a vérzés és
@@ -3071,3 +3080,4 @@ NAPLÓ – mi történt, mikor
 2026.11.21.  V-21 FOLYAMATBAN – egységes számozás, a 0.7.0c-s fejezetcímkék törölve.
 2026.11.21.  V-21 FOLYAMATBAN – sorrend marad, a Túlütés hivatkozást kap.
 2026.11.21.  V-21 JAVÍTVA – a mesélői fejezet a H-71-be került (új, NYITOTT).
+2026.11.21.  H-68 FOLYAMATBAN – a próbadobás meghatározása, negatív példa nélkül.
