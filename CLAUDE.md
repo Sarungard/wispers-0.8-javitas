@@ -109,6 +109,8 @@ Keep replies short and in Hungarian. Put the proposal and the question at the en
 - Utazás (V-17, JAVÍTVA 2026-11-21): an utazási szegmens is at most 4 hours; the teljes táv is the race's mérföld/óra
   × the segment hours; the party moves at its slowest member's speed. Ember 4, allúr 5 mérföld/óra (the CRPG still has
   5 and 4). Gyűjtögetés yield stays the Ügyesség value; Porciózás unchanged.
+- Mágia (V-18, JAVÍTVA 2026-11-21): erőltetés while casting keeps its Kimerültség. Mentődobás varázslat ellen {1AP}:
+  on your own turn while the effect lasts, célérték the Varázserő. Components wait for the Varázslatok chapter.
 
 ## State (2026-10-25)
 
