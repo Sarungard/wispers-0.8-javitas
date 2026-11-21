@@ -1,0 +1,10 @@
+páncél 4/4; játékos: licit 20→20, Féktelen, roham; ellenfél: a régi egyensúly Rövidkard-keveréke; 2000 párbaj/párosítás
+változat                                 Rövidkard    Hosszúkard     Csatabárd  Nagykalapács
+régi táblák                                  0.661         0.498         0.324         0.550
+új táblák                                    0.669         0.492         0.406         0.575
+csak az új Könnyű                            0.678         0.492         0.329         0.545
+csak az új Mély                              0.656         0.501         0.338         0.537
+csak az új Súlyos                            0.657         0.501         0.399         0.581
+új, de Ájulás → belső vérzés                 0.662         0.503         0.386         0.549
+új, de Csonkolás → súlyos vérzés             0.659         0.500         0.408         0.579
+új, de Sokk → eltört láb                     0.669         0.492         0.370         0.575

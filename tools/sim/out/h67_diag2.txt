@@ -1,0 +1,8 @@
+Hosszúkard sima 20→20      régi keverék  régi 0.568  új 0.553
+Hosszúkard sima 20→20      új keverék    régi 0.530  új 0.501
+Hosszúkard F+R 20→20       régi keverék  régi 0.506  új 0.511
+Hosszúkard F+R 20→20       új keverék    régi 0.490  új 0.499
+Nagykalapács F+R 20→20     régi keverék  régi 0.552  új 0.589
+Nagykalapács F+R 20→20     új keverék    régi 0.536  új 0.569
+Rövidkard F 20→20          régi keverék  régi 0.685  új 0.668
+Rövidkard F 20→20          új keverék    régi 0.695  új 0.673

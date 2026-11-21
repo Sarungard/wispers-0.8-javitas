@@ -172,8 +172,10 @@ amputation row; Sokk is a new term: the next turn is skipped but you may react; 
 rollable again (rows 9–10). Re-run with the new tables (2026-11-21; `tables67.py`, `SIM=duel_h67 python study11.py
 40 pancel 5-6-4 20`, round-robin `rr_h67.py`, outputs `out/h67_*`): equilibrium in armour Tőr/Rövidkard 0.63,
 Hosszúkard 0.54, Csatabárd 0.45, Nagykalapács 0.54 (before 0.62/0.62/0.61/0.39/0.60); unarmoured all 0.55–0.57.
-Csatabárd improved, Hosszúkard and Nagykalapács fell back in armour (open for H-66). Older simulator: `tsim.py`,
-`duel_turn.py`, `rr_turn.py`.
+The equilibrium drop is not the tables: against the same opponent mix with 2000–3000 duels (`h67_diag.py`,
+`h67_diag2.py`) Nagykalapács improves (0.55 → 0.59), Csatabárd improves (0.32 → 0.41), Hosszúkard without Féktelen
+dips slightly (0.57 → 0.55). The 40-duel equilibrium overstates best responses (noise + max over many strategies);
+use more duels before trusting per-weapon numbers. Older simulator: `tsim.py`, `duel_turn.py`, `rr_turn.py`.
 
 V-08 is JAVÍTVA (2026-11-09): Kimerültség affects próbadobások only. H-68 (new, NYITOTT): define próbadobás; the
 suggestion is to tie it to the jártasság, not its die, so the Képzetlen próba counts too.

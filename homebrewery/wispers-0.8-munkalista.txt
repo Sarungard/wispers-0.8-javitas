@@ -1884,6 +1884,18 @@ Megjegyzés: A szimulációhoz néhány sebsort értelmezni kellett: a
     0,62 / 0,69 / 0,46 / 0,25 / 0,48), 17 támadás/párbaj (előtte 19).
   Az egyensúlyi vizsgálat párosításonként csak 40 párbajt futtat, a kis
   különbségek zajból is adódhatnak.
+  Utánanézés (h67_diag.py, h67_diag2.py; páncél 4/4, 2000–3000 párbaj
+  párosításonként, ugyanazon ellenfélkeverék ellen):
+  – a táblák nem rontanak a nehéz fegyvereken: Nagykalapács (Féktelen,
+    roham) 0,552 → 0,589 a régi és 0,536 → 0,569 az új keverék ellen;
+    Csatabárd 0,324 → 0,406, főleg az új Súlyos tábla (Ájulás, Sokk);
+  – a Hosszúkard Féktelen és roham nélkül kicsit gyengül (0,568 → 0,553,
+    illetve 0,530 → 0,501), Féktelennel és rohammal nem változik
+    (0,506 → 0,511); a Rövidkard kicsit gyengül (0,685 → 0,668);
+  – az egyensúlyi vizsgálat 0,61 → 0,54 esése tehát nem a táblákból jön,
+    hanem az ellenfél keverékének eltolódásából és a 40 párbajos zajból:
+    a sok stratégia közül a legjobb zajos becslése felfelé torzít (a régi
+    0,61 és 0,60 a pontosabb mérésben 0,57 és 0,55).
 
 ----------------------------------------------------------------
 [H-67] A sebtáblák szűkítése 2–11-re (új tétel, a PDF-ben nincs)
@@ -3132,3 +3144,4 @@ NAPLÓ – mi történt, mikor
 2026.11.21.  H-67 FOLYAMATBAN – a Mély seb táblája tíz sorra.
 2026.11.21.  H-67 JAVÍTVA – a Súlyos seb táblája tíz sorra; új kifejezés: Sokk.
 2026.11.21.  H-66 FOLYAMATBAN – szimuláció az új sebtáblákkal (H-67): páncélban Csatabárd 0,45, Hosszúkard és Nagykalapács 0,54.
+2026.11.21.  H-66 FOLYAMATBAN – az új sebtáblák nem rontanak a nehéz fegyvereken; az egyensúlyi esés zaj és keverékváltás.
