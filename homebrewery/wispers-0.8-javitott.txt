@@ -1640,7 +1640,7 @@ A martalóc holtan esik össze.
 
 ### Varázserő
 
-A karakter által használt varázslatok erejét a Jelenlétkockájával és a varázsolni kívánt varázslatban szerzett jártasságkockájával dobja: a két kocka összege a Varázserő. Ezt az értéket kell megdobnia a varázslat célpontjának a megfelelő mentődobás segítségével, ha szabadulni akar a varázslat hatása alól.
+A karakter által használt varázslatok erejét a Jelenlétkockájával és a varázslat mágiaosztályában szerzett jártasságkockájával dobja: a két kocka összege a Varázserő. Ezt az értéket kell megdobnia a varázslat célpontjának a megfelelő mentődobás segítségével, ha szabadulni akar a varázslat hatása alól.
 
 Varázserő = Jelenlétkocka + Jártasságkocka.
 

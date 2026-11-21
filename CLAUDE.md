@@ -111,6 +111,9 @@ Keep replies short and in Hungarian. Put the proposal and the question at the en
   5 and 4). Gyűjtögetés yield stays the Ügyesség value; Porciózás unchanged.
 - Mágia (V-18, JAVÍTVA 2026-11-21): erőltetés while casting keeps its Kimerültség. Mentődobás varázslat ellen {1AP}:
   on your own turn while the effect lasts, célérték the Varázserő. Components wait for the Varázslatok chapter.
+  Varázserő uses the jártasság of the spell's Mágiaosztály (seven jártasságok), spells are learned separately (V-20).
+- Combat time (V-20): the heading is „Kör és forduló”; the combat „szegmens” stays (1 AP, about 3 s), beside the
+  travel szegmens.
 - Diszciplína, Fegyelem, Áhítat (V-19, DÖNTÉSRE VÁR 2026-11-21): Zoz is rethinking the whole system. His principle: no
   crit-fishing, no fiddly systems whose tracking takes attention away from the table (fine in a video game, not here).
 
