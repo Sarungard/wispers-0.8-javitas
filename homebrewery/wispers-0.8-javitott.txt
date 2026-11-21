@@ -283,7 +283,7 @@ A karakter mentális fittségét jelenti, az Eltökéltség mentődobás kiszám
 
 #### Kimerültség
 
-A karakter a kalandozás során kimerülhet. A Kimerültség minden szintje −1 módosítót ad a próbadobásai eredményéhez. Ha a Kimerültség meghaladja a karakter Állóképességének kétszeresét, a karakter meghal. Sebből nem származik Kimerültség.
+A karakter a kalandozás során kimerülhet. A Kimerültség minden szintje −1 módosítót ad a próbadobásai eredményéhez. Ha a Kimerültség meghaladja a karakter Állóképességének kétszeresét, a karakter meghal. Sebből nem származik Kimerültség. Egy legalább 8 órás, zavartalan alvás pihentető, és 1 szinttel csökkenti a Kimerültséget.
 
 ### Előny és hátrány
 
@@ -1187,9 +1187,9 @@ Táborozási szegmens során választható cselekvések: Porciózás, főzés, �
 
 A táborozási szegmens megszakad, hogyha a karakterek harcba keverednek, vagy valami az egész csapatot felébreszti.
 
-Pihentető táborozási szegmens csökkenti a kimerültséget 1 szinttel.
+A pihentető táborozási szegmens pihentető alvásnak számít.
 
-A táborozási szegmens kihagyásával a csapat minden tagja 2 szintnyi kimerültséget kap.
+A táborozási szegmens kihagyásával a csapat minden tagja 2 szintnyi Kimerültséget kap.
 
 ### Cselekvések
 
@@ -1215,7 +1215,7 @@ Gyűjtögetés vagy Vadászat és Ügyesség próbával élelmet keresel. Sikere
 
 Porciózás: Logisztika és Tudás próba. Siker esetén aznap este minden fejadag két embert etet.
 
-Főzés: Főzés és Tudás próba. Siker esetén aki evett, meleg ételt kap, és a pihentető táborozás neki 1 helyett 2 szint Kimerültséget csökkent.
+Főzés: Főzés és Tudás próba. Siker esetén aki evett, meleg ételt kap, és a következő pihentető alvás neki 1 helyett 2 szint Kimerültséget csökkent.
 
 #### Felderítés
 
@@ -1584,7 +1584,7 @@ A sorrend: Vendel, Ilka, a martalóc.
 - Hosszúkarddal támad (3 AP): 3 + 4 = 7.
   - A martalóc nem térhet ki, és eltört páncélban nem állhat bele, ezért nem reagál.
   - A 7 eléri a könnyű sebhatárát (4): Mély seb.
-  - Sebdobás a Mély seb táblázatán: 3 + 1 + 2 = 6, Átszúrt izom. A következő pihentető táborozási szegmensig minden támadását hátránnyal teszi.
+  - Sebdobás a Mély seb táblázatán: 3 + 1 + 2 = 6, Átszúrt izom. A következő pihentető alvásig minden támadását hátránnyal teszi.
 - Újra támad (3 AP): 1 + 2 = 3. Ez a martalóc harmadik Könnyű sebe: 1 + 3 + 2 = 6, Zúzódás.
 - A maradék 2 AP-ről lemond, és 12-t mond: a következő fordulóban később lép, de több AP-je lesz.
 
@@ -1776,12 +1776,12 @@ Mindig, amikor sebet szerzel, dobj a seb súlyosságának megfelelő táblázato
 | Mély seb | Hatás |
 |:--:|:--|
 | 2-3 | Mély vágás: komoly esztétikai sérülés. |
-| 4-5 | Bordazúzódás: a következő pihentető táborozási szegmensig az Állóképességgel tett próbáid hátránnyal teszed. |
-| 6 | Átszúrt izom: a következő pihentető táborozási szegmensig minden támadásod hátránnyal teszed. |
-| 7 | Agyrázkódás: a következő köröd végéig nem reagálhatsz, és a következő pihentető táborozási szegmensig a Tudással tett próbáid hátránnyal teszed. |
+| 4-5 | Bordazúzódás: a következő pihentető alvásig az Állóképességgel tett próbáid hátránnyal teszed. |
+| 6 | Átszúrt izom: a következő pihentető alvásig minden támadásod hátránnyal teszed. |
+| 7 | Agyrázkódás: a következő köröd végéig nem reagálhatsz, és a következő pihentető alvásig a Tudással tett próbáid hátránnyal teszed. |
 | 8 | Kificamodott váll: fegyvertelenné válsz. |
-| 9 | Térdsérülés: a következő pihentető táborozási szegmensig nem hajthatsz végre Rohamozást. |
-| 10 | Repedt borda: a következő pihentető táborozási szegmensig az Erővel tett próbáid hátránnyal teszed. |
+| 9 | Térdsérülés: a következő pihentető alvásig nem hajthatsz végre Rohamozást. |
+| 10 | Repedt borda: a következő pihentető alvásig az Erővel tett próbáid hátránnyal teszed. |
 | 11 | Kéztörés: csonttörés. |
 | 12 | Bordatörés: csonttörés. |
 | 13 | Lábtörés: csonttörés; a gyógyulásig nem hajthatsz végre Rohamozást. |
@@ -2012,7 +2012,7 @@ Emellett -1-es módosítót kapnak Jelenlétre.
 
 #### Győzelmi lakoma
 
-Pihenés végén a Kimerültségük eggyel jobban csökken, hogyha képesek voltak kielégítő vacsorát elkölteni.
+Pihentető alvás után a Kimerültségük eggyel jobban csökken, hogyha képesek voltak kielégítő vacsorát elkölteni.
 
 ### Napszítták
 

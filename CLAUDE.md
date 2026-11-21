@@ -116,6 +116,8 @@ Keep replies short and in Hungarian. Put the proposal and the question at the en
   travel szegmens.
 - Eszközök (tools, kits) are planned but not in the rules yet (V-20); Zoz wants no pool bloat, so no growing list of
   jártasságok. The Jártasságok list says „Képzettségpróbákra,”.
+- Pihenés (V-20): the base term is „pihentető alvás” (at least 8 hours, undisturbed, −1 Kimerültség), because people
+  also rest in towns; a pihentető táborozási szegmens counts as one. Wound effects last „a következő pihentető alvásig”.
 - Diszciplína, Fegyelem, Áhítat (V-19, DÖNTÉSRE VÁR 2026-11-21): Zoz is rethinking the whole system. His principle: no
   crit-fishing, no fiddly systems whose tracking takes attention away from the table (fine in a video game, not here).
 

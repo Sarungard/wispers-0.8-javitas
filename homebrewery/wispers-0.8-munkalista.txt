@@ -2641,6 +2641,9 @@ Döntés: {R}: a jelölést semmi nem használja (saját reakciólista van), a
   használatával” → „Képzettségpróbákra,”. Az eszközök (tool, kit) csak
   terv, szabályba még nem kerülnek; Zoz nem akar „pool bloat”-ot (ne
   szaporodjanak a jártasságok).
+  Pihenés: az alapfogalom a „pihentető alvás” (legalább 8 órás, zavartalan;
+  −1 Kimerültség), mert városban is pihennek; a pihentető táborozási
+  szegmens ennek az utazás közbeni esete. „Kimerültség” mindenhol nagybetűvel.
   Nyitott: a többi pont.
 Javítás: Reakciók: „Ha egy cselekvés reakcióból (is) használható, a neve
   mellett {R} jelölés lesz.” törölve; 12 helyen „1AP” → „1 AP” (a
@@ -2649,6 +2652,12 @@ Javítás: Reakciók: „Ha egy cselekvés reakcióból (is) használható, a ne
   Varázserő: „a varázsolni kívánt varázslatban szerzett” → „a varázslat
   mágiaosztályában szerzett” jártasságkocka. Jártasságok: „Tulajdonság-
   próbákra készségek és eszközök használatával” → „Képzettségpróbákra,”.
+  Kimerültség (Tulajdonságok): új mondat: „Egy legalább 8 órás, zavartalan
+  alvás pihentető, és 1 szinttel csökkenti a Kimerültséget.” Táborozás:
+  „A pihentető táborozási szegmens pihentető alvásnak számít.”; Főzés,
+  5 sebtáblasor és a harci példa: „pihentető táborozás(i szegmens)” →
+  „pihentető alvás”; Győzelmi lakoma: „Pihenés végén” → „Pihentető alvás
+  után”; 2 helyen „kimerültség” → „Kimerültség”.
 
 ----------------------------------------------------------------
 [V-21] Szerkezet és érthetőség
@@ -3004,3 +3013,4 @@ NAPLÓ – mi történt, mikor
 2026.11.21.  V-20 FOLYAMATBAN – „Kör és forduló” cím, egy szegmens egy akciópont.
 2026.11.21.  V-20 FOLYAMATBAN – a Varázserő jártassága mágiaosztályonként.
 2026.11.21.  V-20 FOLYAMATBAN – „Képzettségpróbákra,”; az eszközök csak terv.
+2026.11.21.  V-20 FOLYAMATBAN – „pihentető alvás” az alapfogalom, Kimerültség nagybetűvel.
