@@ -66,9 +66,10 @@ Keep replies short and in Hungarian. Put the proposal and the question at the en
 - Képzetlen (V-04): may try Képzetlen-level checks only, rolls the attribute die alone, always erőltetés. The 42-skill
   list stays; do not propose trimming it.
 - Kimerültség: −1 per level to the result of every próbadobás (V-08), so it never changes the die comparison; death
-  when it exceeds 2× Állóképesség; wounds never give Kimerültség (V-01). Próbadobás is not yet defined (H-68): Zoz's
-  working definition is every roll that uses a jártasságkocka; the Képzetlen próba is the exception (no jártasságkocka).
-  Sebdobás, vérzés, Vérszomj, Rettegés and the 1d100 tables are not próbadobások.
+  when it exceeds 2× Állóképesség; wounds never give Kimerültség (V-01). Próbadobás (H-68, JAVÍTVA 2026-11-21): every
+  roll that has a jártasság, Képzetlen too (képzettségpróba, mentődobás, támadás, Hárítás, Varázserő); the book lists
+  no negative examples. Sebdobás, vérzés, Vérszomj, Rettegés and the 1d100 tables are not próbadobások. A Képzetlen
+  unarmed attack rolls the 1d2 alone.
 - Wounds: Könnyű / Mély / Súlyos seb by sebhatár (reaching it counts). Sebdobás: 1d8 + the number
   of Sebek of the same severity (not all Sebek) + the weapon's találati mátrix; 12+ is one fok worse (V-22, was 21+;
   the CRPG still uses 21), on the Súlyos table death. Wounds must be
