@@ -1119,7 +1119,7 @@ Előfordul, hogy egy nyílt megközelítés nem vezet sehova, de az is lehet, ho
 
 Ilyenkor segíthet a résztvevő felek elemzése.
 
-Ahogy beszélgetsz a résztvevővel, a következő kérdések egyikére választ kaphatsz:
+Az elemzés egy próbálkozásodba kerül, de nem kell hozzá próbát tenned: a mesélő megválaszolja a következő kérdések egyikét:
 
 - Melyik megközelítés a leghatékonyabb?
 - Melyik megközelítésre a legkevésbé fogékony?
