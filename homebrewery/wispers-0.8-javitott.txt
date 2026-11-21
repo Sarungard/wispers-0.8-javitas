@@ -1625,7 +1625,7 @@ A sorrend: a martalóc (6), Vendel (8), Ilka (12).
   - Ezen felül még egy Súlyos sebet is.
   - Ha nem reagált volna, a túlütéshez a két sebhatára összege (4 + 9 = 13) kellett volna, és csak egy Súlyos sebet kap.
 - Sebdobások a Súlyos seb táblázatán:
-  - 2 + 1 + 3 (a Hosszúkard Súlyos mátrixa) = 6, Eltört láb.
+  - 2 + 1 + 3 (a Hosszúkard Súlyos mátrixa) = 6, Átszúrt tüdő.
   - 7 + 2 + 3 = 12, ami Súlyos sebnél halál.
 
 A martalóc holtan esik össze.
@@ -1748,7 +1748,7 @@ A mentális könnyű sebhatár a fajod leírásában megadott mentális alap, a 
 
 Mindig, amikor sebet szerzel, dobj a seb súlyosságának megfelelő táblázaton: 1d8 + az azonos súlyosságú sebeid száma (a mostanit is beleértve: Könnyű sebnél a Könnyű sebeid, Mély sebnél a Mély sebeid, Súlyos sebnél a Súlyos sebeid száma) + a támadó fegyver találati mátrixának értéke az adott súlyosságra (lásd a fegyverek táblázatát; fegyver nélkül 0). A 12 vagy annál nagyobb eredmény egy fokkal súlyosabb sebet jelent, Súlyos sebnél halált.
 
-[Szerkesztői megjegyzés: a három táblázat tartalma javaslat (2026.10.22.), átdolgozásra vár (D-2). A fordulópont 12 (V-22), ezért a 12–20 sorok nem dobhatók; a táblázatok 2–11-re szűkítése és a megmaradó sorok kiválasztása a H-67.]
+[Szerkesztői megjegyzés: a három táblázat tartalma javaslat (2026.10.22.), átdolgozásra vár (D-2).]
 
 | Könnyű seb | Hatás |
 |:--:|:--|
@@ -1780,21 +1780,16 @@ Mindig, amikor sebet szerzel, dobj a seb súlyosságának megfelelő táblázato
 
 | Súlyos seb | Hatás |
 |:--:|:--|
-| 2-3 | Vérző vágás: komoly esztétikai sérülés. |
-| 4-5 | Eltört kar: csonttörés. |
-| 6 | Eltört láb: csonttörés; a gyógyulásig nem hajthatsz végre Rohamozást. |
-| 7 | Betört koponya: csonttörés, és a következő köröd végéig öntudatlan vagy. |
-| 8 | Átszúrt tüdő: a gyógyulásig minden támadásodat és próbádat hátránnyal teszed. |
-| 9 | Elvesztett kéz: csonkolás. |
-| 10 | Kiszúrt szem: maradandó károsodás. |
-| 11 | Elvesztett láb: csonkolás. |
-| 12 | Súlyos vérzés. |
-| 13 | Súlyos vérzés és csonttörés. |
-| 14 | Belső vérzés. |
-| 15 | Csonkolás és súlyos vérzés. |
-| 16-17 | Belső vérzés és csonttörés. |
-| 18-19 | Belső vérzés és maradandó károsodás. |
-| 20 | Bénulás. |
+| 2 | Vérző vágás: komoly esztétikai sérülés. |
+| 3 | Csonttörés. |
+| 4 | Sokk: a következő köröd kimarad, de reagálhatsz. |
+| 5 | Kiszúrt szem: maradandó károsodás. |
+| 6 | Átszúrt tüdő: a gyógyulásig minden támadásodat és próbádat hátránnyal teszed. |
+| 7 | Csonkolás. |
+| 8 | Ájulás: a következő köröd végéig öntudatlan vagy. |
+| 9 | Súlyos vérzés. |
+| 10 | Belső vérzés. |
+| 11 | Bénulás. |
 | 12+ | Halál. |
 
 #### Enyhe esztétikai jellegű

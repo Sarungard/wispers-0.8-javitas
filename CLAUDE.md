@@ -166,9 +166,12 @@ Keep the first-mover fix while solving this.
 V-22 is JAVÍTVA (2026-11-08): the sebdobás turning point is 12 instead of 21; the bid cap stays 20. Duels are about a
 quarter as long (armour 19 attacks instead of 64), the loser falls with about 2 Súlyos sebek, and in armour Hosszúkard
 0.61 and Nagykalapács 0.60 now match the light weapons (0.62). Left for H-66: Csatabárd (0.39, Súlyos mátrix 2).
-H-67 (new, NYITOTT): the three wound tables must shrink to rows 2–11; Zoz picks which 10 of the 15 rows stay. The
-simulation used the current even rows; re-run V-22 and H-66 after the pick. Simulator: `tools/sim/tsim.py` and
-`duel_turn.py` (`SIM=duel_turn TURN=12 python study11.py …`), round-robin `rr_turn.py`.
+H-67 is JAVÍTVA (2026-11-21): each wound table has one row per result 2–11 plus 12+. Súlyos: Vérző vágás, Csonttörés,
+Sokk, Kiszúrt szem, Átszúrt tüdő, Csonkolás, Ájulás, Súlyos vérzés, Belső vérzés, Bénulás (one fracture row, one
+amputation row; Sokk is a new term: the next turn is skipped but you may react; Ájulás is worse). Bleeding is
+rollable again (rows 9–10). The simulation used the old even rows; re-run V-22 and H-66 with the new tables.
+Simulator: `tools/sim/tsim.py` and `duel_turn.py` (`SIM=duel_turn TURN=12 python study11.py …`), round-robin
+`rr_turn.py`.
 
 V-08 is JAVÍTVA (2026-11-09): Kimerültség affects próbadobások only. H-68 (new, NYITOTT): define próbadobás; the
 suggestion is to tie it to the jártasság, not its die, so the Képzetlen próba counts too.
