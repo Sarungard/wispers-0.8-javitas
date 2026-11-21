@@ -23,7 +23,7 @@ Formátum:  egyszerű szöveg Markdown-jelölésekkel (#, **, *, |), hogy vissza
 
 # Bevezetés
 
-# I. fejezet: Bevezető
+# Bevezető
 
 Placeholder text egy kis kedvcsinálóról magához a szerepjátszáshoz. Milyen jó, hogy az lehetsz, aki akarsz, fantasztikus élményeket élhetsz át és monologizálok egy jót arról, hogy mennyire örülök, hogy egyáltalán veszed a fáradtságot, hogy elolvasd ezt, mert túlnyomó részt egyedül dolgoztam ki itt mindent, fogalmam sincs, már hány századik órám lehet az egészben és tényleg, nagyon hálás vagyok érte, szóval köszi.
 
@@ -90,7 +90,7 @@ Előfordulhat, hogy a játék során valamilyen történeti vagy szabálybéli b
 # I. rész
 ## Karakteralkotás
 
-# II. fejezet: Karakterek lépésről lépésre
+# 1. Karakterek lépésről lépésre
 
 ## Koncepció megfogalmazása
 
@@ -240,8 +240,6 @@ A varázslatokat fóliánsokból vagy mesterektől lehet megtanulni. Hogy egy ka
 ## Szabályok
 
 # 1. A rendszer alapjai
-
-(VIII. fejezet: Jártasságokról és tulajdonságokról)
 
 ## Tulajdonságok
 
@@ -965,8 +963,6 @@ A tolvajok, zsebesek, bűvészek és csalók képessége: kézügyesség, észre
 **Mester:** a keze gyorsabb a szemnél: leveszi az őr övéről a kulcsot, és vissza is akasztja, mire az megfordul.
 
 # 2. Próbák és konfliktusok
-
-(IX. fejezet: A kalandozás velejáróiról)
 
 ## Képzettségpróbák
 
@@ -1894,8 +1890,6 @@ Lásd: Tulajdonságok › Kimerültség.
 
 # 1. Fajok
 
-(III. fejezet: A fajokról)
-
 „Ha még nem jártál Saris Medien kereskedővárosában, akkor nem is tudod igazán, mennyi élet él ezen a világon. Mennyi kultúra, mennyi lélek, mennyi egyéniség, mennyi faj. Emberek, törpök és tündék a legtöbb faluban megfordulnak, félszerzetek is akadnak bőven, bár őket könnyű összetéveszteni mással. Amikor viszont először látsz meg egy allúr lovagot, ahogy a tömeg fölé tornyosodva, dicsfényben ragyogva utat tör magának a fegyverkovácshoz, vagy egy mnemórt, aki a kocsma sarkában ülve, italát kortyolgatva vadmadarakra hasonlító éles, szinte átütő szemével pásztázza a tömeget és nem tudod – hogyan is tudhatnád? – mi jár a fejében, akkor jössz csak rá igazán, hogy Allúvyan síkján jóval több titok rejtezik, mint te azt sejteni merted.
 
 Egyesek gyakoribbak bizonyos vidékeken, például a Korona vagy Ashaxtan lakosságának nagyja ember, a hegyi pajzsokban főként törpök élnek, de a Szabad Városok városállamaiban mindenféle szerzet megfordul. Még a messzi puszták gyermekei, az orkok is fel-felbukkannak és próbálnak a fülükben dübörgő vérszomj ellen küzdve civilizált, társadalmi életet élni.”
@@ -2597,8 +2591,6 @@ Ameddig vérszomjuk nem magasabb, mint a mentális könnyű sebhatáruk, minden 
 
 # 2. Személyiség és háttér
 
-(IV. fejezet: Személyiségről és háttérről)
-
 Placeholder
 
 ## Alapadatok
@@ -2928,8 +2920,6 @@ A nyelvek és a nyelvcsaládok a következőek:
 
 # 3. Kegy és égiszek
 
-(V. fejezet: Kegyről és égiszekről)
-
 „Bla bla bla bla bla bla bla bla bla LORE”
 
 ## Alacsony égiszek
@@ -3033,8 +3023,6 @@ Az Áhítat a Suttogó égiszt választó karakterek erőforrása; egyes talente
 
 # 4. Kasztok
 
-(VI. fejezet: Kasztokról)
-
 WIP
 
 - 1 kaszt, aki fegyverekkel operál
@@ -3048,8 +3036,6 @@ WIP
 - 1 kaszt, aki a környezettel operál
 
 # 5. Felszerelés és vagyontárgyak
-
-(VII. fejezet: Felszerelésről és vagyontárgyakról)
 
 ## Pénz
 
@@ -3345,19 +3331,13 @@ A pajzs a páncélcsoportja jártasságát használja: Hárításnál a pajzs ko
 
 # 6. Varázslatok
 
-(X. fejezet: Varázslatokról)
-
 [Szerkesztői megjegyzés: A jelenlegi PDF-ben ehhez a fejezethez külön tartalmi szöveg még nem szerepel.]
 
 # 7. Létsíkok
 
-(XI. fejezet: Létsíkokról)
-
 [Szerkesztői megjegyzés: A jelenlegi PDF-ben ehhez a fejezethez külön tartalmi szöveg még nem szerepel.]
 
 # 8. Varázstárgyak
-
-(XII. fejezet: Varázstárgyakról)
 
 #### Éterlámpás
 

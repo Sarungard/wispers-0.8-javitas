@@ -24,7 +24,7 @@ Jelölések: BLOKKOLÓ – enélkül nem játszható; ELLENTMONDÁS – két sza
 hivatkozik; KISEBB – szerkesztési hiba, elnevezés.
 
 ÖSSZESÍTŐ (frissítsd menet közben)
-  NYITOTT: 5   FOLYAMATBAN: 15   DÖNTÉSRE VÁR: 5   JAVÍTVA: 65   ELVETVE: 2
+  NYITOTT: 4   FOLYAMATBAN: 16   DÖNTÉSRE VÁR: 5   JAVÍTVA: 65   ELVETVE: 2
 
 
 ================================================================
@@ -2696,7 +2696,14 @@ Probléma: (§7) Hármas számozás (rész, sorszámozott fejezet, római
   mesélői fejezet és NPC-adatlap (sebhatár, megközelítés-értékek,
   Eltökéltség); nincs biztonsági eszköz és session zero útmutató.
 Teendő: Pontonként dönteni.
-Állapot: NYITOTT
+Állapot: FOLYAMATBAN (2026.11.21.)
+Döntés: Számozás: rész + sorszámozott fejezet marad; a római fejezetcímek
+  és a tíz zárójeles 0.7.0c-s fejezetcímke kikerül.
+  Nyitott: a sorrend, a mesélői fejezet és az NPC-adatlap, a biztonsági
+  eszközök.
+Javítás: „# I. fejezet: Bevezető” → „# Bevezető”; „# II. fejezet: Karakterek
+  lépésről lépésre” → „# 1. Karakterek lépésről lépésre”; a tíz „(… fejezet:
+  …)” címke törölve.
 Megjegyzés: A helyőrzők a FÜGGELÉK-ben vannak; a célérték-táblázat a
   V-03.
 
@@ -3047,3 +3054,4 @@ NAPLÓ – mi történt, mikor
 2026.11.21.  V-20 FOLYAMATBAN – a 0.7.0c-s alcím marad, „x. oldalon” → H-60.
 2026.11.21.  V-20 FOLYAMATBAN – Arkhón egységes, Kilenc trón marad; csak a jellemzők nyitottak.
 2026.11.21.  V-20 JAVÍTVA – a fegyverjellemzők elosztása a H-70-be került (új, NYITOTT).
+2026.11.21.  V-21 FOLYAMATBAN – egységes számozás, a 0.7.0c-s fejezetcímkék törölve.
