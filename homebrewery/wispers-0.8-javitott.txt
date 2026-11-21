@@ -1167,7 +1167,7 @@ Utazáshoz a csapat megválasztja a tempót és annak vonzatait. Például alapv
 | Normál tempó | teljes | – |
 | Gyors tempó | 1½ | hátrány |
 
-A teljes táv annyi mérföld, amennyit a fajod óránként megtesz, szorozva a szegmens óráinak számával. Például egy törp normál tempóban, 4 órás szegmens alatt 12 mérföldet tesz meg.
+A teljes táv annyi mérföld, amennyit a fajod óránként megtesz, szorozva a szegmens óráinak számával. Például egy törp normál tempóban, 4 órás szegmens alatt 12 mérföldet tesz meg. A csapat a leglassabb tagja sebességével halad.
 
 Utazási szegmens során választható cselekvések: Tájékozódás, nyomkövetés, nyomok elrejtése, gyűjtögetés, vadászat, felderítés, csapdakeresés.
 

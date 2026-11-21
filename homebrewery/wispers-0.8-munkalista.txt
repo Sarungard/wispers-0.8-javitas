@@ -2555,10 +2555,12 @@ Teendő: Pontonként dönteni.
 Döntés: Táv: a teljes táv a faj óránkénti mérföldje × a szegmens órái; az
   utazási szegmens legfeljebb 4 óra (volt 6); ember 4 (volt 5), allúr 5
   (volt 4) mérföld/óra. Törp normál tempóban: 3 × 4 = 12 mérföld.
-  Nyitott: vegyes sebességű csapat, Gyűjtögetés hozama, Porciózás.
+  Vegyes csapat: a leglassabb tag sebességével halad.
+  Nyitott: Gyűjtögetés hozama, Porciózás.
 Javítás: Utazási szegmensek: „maximum 6 óráig” → „maximum 4 óráig”; új
   mondat a tempótáblázat után a teljes távról; Emberek és Allúrok: az
-  óránkénti mérföld cseréje.
+  óránkénti mérföld cseréje; új mondat: „A csapat a leglassabb tagja
+  sebességével halad.”
 Megjegyzés: A Probléma „½”-et ír, a táblázatban ¾ áll. A CRPG nem számol
   mérföldet (TempoShare: elvont haladás szegmensenként), és a races.json
   még ember 5, allúr 4 mérföld/órát tart.
@@ -2950,3 +2952,4 @@ NAPLÓ – mi történt, mikor
 2026.11.21.  V-16 FOLYAMATBAN – az Elemzés egy próbálkozás, próba nélkül.
 2026.11.21.  V-16 JAVÍTVA – a példa végigvezetve, a Megfélemlítés után.
 2026.11.21.  V-17 FOLYAMATBAN – teljes táv, 4 órás szegmens, ember 4, allúr 5.
+2026.11.21.  V-17 FOLYAMATBAN – a csapat a leglassabb tag sebességével halad.
