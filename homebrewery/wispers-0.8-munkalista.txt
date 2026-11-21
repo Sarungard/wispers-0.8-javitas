@@ -2652,7 +2652,9 @@ Döntés: {R}: a jelölést semmi nem használja (saját reakciólista van), a
   A „0.7.0c - Átrendezett forrásszöveg” alcím és két bekezdése marad; az
   „x. oldalon” a H-60-hoz tartozik; az Előny és hátrány első előfordulása
   rövid összefoglaló hivatkozással, marad.
-  Nyitott: a többi pont.
+  Arkhón: az „archon” alak már nincs a szövegben. Fényvarázs: H-19. Kilenc
+  trón: szándékos, narratív (Zoz, 2026.10.22., DIVERGENCIA.md), marad.
+  Nyitott: a fegyverjellemzők elosztása.
 Javítás: Reakciók: „Ha egy cselekvés reakcióból (is) használható, a neve
   mellett {R} jelölés lesz.” törölve; 12 helyen „1AP” → „1 AP” (a
   kapcsos zárójelen kívül); harc: „#### Szegmensek” → „#### Kör és
@@ -3026,3 +3028,4 @@ NAPLÓ – mi történt, mikor
 2026.11.21.  V-20 FOLYAMATBAN – a Sebgyógyítás „20 fölé is mehet” törölve.
 2026.11.21.  V-20 FOLYAMATBAN – a fegyverjellemzők elosztása nyitva marad.
 2026.11.21.  V-20 FOLYAMATBAN – a 0.7.0c-s alcím marad, „x. oldalon” → H-60.
+2026.11.21.  V-20 FOLYAMATBAN – Arkhón egységes, Kilenc trón marad; csak a jellemzők nyitottak.
