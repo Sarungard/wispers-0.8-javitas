@@ -1766,21 +1766,16 @@ Mindig, amikor sebet szerzel, dobj a seb súlyosságának megfelelő táblázato
 
 | Mély seb | Hatás |
 |:--:|:--|
-| 2-3 | Mély vágás: komoly esztétikai sérülés. |
-| 4-5 | Bordazúzódás: a következő pihentető alvásig az Állóképességgel tett próbáid hátránnyal teszed. |
+| 2 | Mély vágás: komoly esztétikai sérülés. |
+| 3 | Bordazúzódás: a következő pihentető alvásig az Állóképességgel tett próbáid hátránnyal teszed. |
+| 4 | Repedt borda: a következő pihentető alvásig az Erővel tett próbáid hátránnyal teszed. |
+| 5 | Agyrázkódás: a következő köröd végéig nem reagálhatsz, és a következő pihentető alvásig a Tudással tett próbáid hátránnyal teszed. |
 | 6 | Átszúrt izom: a következő pihentető alvásig minden támadásod hátránnyal teszed. |
-| 7 | Agyrázkódás: a következő köröd végéig nem reagálhatsz, és a következő pihentető alvásig a Tudással tett próbáid hátránnyal teszed. |
+| 7 | Térdsérülés: a következő pihentető alvásig nem hajthatsz végre Rohamozást. |
 | 8 | Kificamodott váll: fegyvertelenné válsz. |
-| 9 | Térdsérülés: a következő pihentető alvásig nem hajthatsz végre Rohamozást. |
-| 10 | Repedt borda: a következő pihentető alvásig az Erővel tett próbáid hátránnyal teszed. |
-| 11 | Kéztörés: csonttörés. |
-| 12 | Bordatörés: csonttörés. |
-| 13 | Lábtörés: csonttörés; a gyógyulásig nem hajthatsz végre Rohamozást. |
-| 14 | Elvesztett ujj vagy fül: csonkolás, de a hátránya csak az érintett kézzel vagy a hallással kapcsolatos dobásokra vonatkozik. |
-| 15 | Sérült szem: maradandó károsodás; a távolsági támadásaid és a látást igénylő próbáid hátránnyal teszed. |
-| 16-17 | Maradandó károsodás. |
-| 18-19 | Nyílt törés: csonttörés, és amíg nem látják el, a hátránya minden támadásodra és próbádra vonatkozik. |
-| 20 | Csonkolás. |
+| 9 | Kéztörés: csonttörés. |
+| 10 | Lábtörés: csonttörés; a gyógyulásig nem hajthatsz végre Rohamozást. |
+| 11 | Elvesztett ujj vagy fül: csonkolás, de a hátránya csak az érintett kézzel vagy a hallással kapcsolatos dobásokra vonatkozik. |
 | 12+ | A seb Súlyos sebbé válik: dobj a Súlyos seb táblázatán. |
 
 | Súlyos seb | Hatás |

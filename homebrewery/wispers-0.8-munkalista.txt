@@ -1887,10 +1887,15 @@ Döntés: Eredményenként egy sor (2–11), a 12+ sor marad. Könnyű seb: 2
   11 Ütés a fejre; kimarad: Felrepedt bőr, Mély karcolás, Csúnya vágás,
   Kificamodott ujj, Rossz esés. Gyakoriság (mátrix 1–3, 1. seb): 3: 4%,
   4: 8%, 5–10: 12%, 11: 8%, 12+: 4%; a 3. sebnél 12+: 25%.
-  Nyitott: a Mély és a Súlyos seb táblája.
+  Mély seb: 2 Mély vágás, 3 Bordazúzódás, 4 Repedt borda, 5 Agyrázkódás,
+  6 Átszúrt izom, 7 Térdsérülés, 8 Kificamodott váll, 9 Kéztörés,
+  10 Lábtörés, 11 Elvesztett ujj vagy fül; kimarad: Bordatörés,
+  Maradandó károsodás, Sérült szem, Nyílt törés, Csonkolás.
+  Nyitott: a Súlyos seb táblája.
 Javítás: Könnyű seb táblázat: tíz sor, eredményenként egy; harci példa:
   „1d8 (4) … = 7, Kizökkent egyensúly” → „1d8 (2) … = 5, Kizökkent
-  egyensúly” (a példa a Kitérés tilalmára épül).
+  egyensúly” (a példa a Kitérés tilalmára épül). Mély seb táblázat: tíz
+  sor; a harci példa 6-os Átszúrt izma változatlan.
 Megjegyzés: A V-22 szimulációja a mostani páros sorokat tartotta meg (2, 4,
   6, … 20). A 2-es eredmény csak fegyver nélkül dobható (1d8 + 1 + mátrix).
   A kiválasztás után a V-22 és a H-66 szimulációját újra kell futtatni.
@@ -3095,3 +3100,4 @@ NAPLÓ – mi történt, mikor
 2026.11.21.  H-68 FOLYAMATBAN – a próbadobás meghatározása, negatív példa nélkül.
 2026.11.21.  H-68 JAVÍTVA – Képzetlen pusztakezes támadás csak 1d2-vel.
 2026.11.21.  H-67 FOLYAMATBAN – a Könnyű seb táblája tíz sorra, a harci példa igazítva.
+2026.11.21.  H-67 FOLYAMATBAN – a Mély seb táblája tíz sorra.
