@@ -1359,7 +1359,7 @@ Lásd a varázslás résznél.
 
 #### Mentődobás varázslat ellen {1AP}
 
-Dobj Szívósság vagy Eltökéltség próbát a varázslatot rádhelyező karakterrel szemben.
+Amíg egy varázslat hatása tart rajtad, a saját körödben megpróbálhatsz szabadulni tőle: tégy Szívósság vagy Eltökéltség mentődobást, amelynek célértéke a varázslat Varázserője.
 
 **Siker:** a varázslat hatása azonnal megszűnik rajtad.
 

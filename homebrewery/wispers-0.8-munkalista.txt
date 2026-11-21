@@ -2580,7 +2580,15 @@ Teendő: Pontonként dönteni (a varázslat fejezettel együtt, H-17, H-19).
 Döntés: Erőltetés: marad a Kimerültség (a képzettségpróbával azonos logika,
   a jártasság csökkenti). Erőltetés esélye P(jártasság < Jelenlét): d12/d4
   79%, d12/d12 46%, d8/d8 44%, d4/d4 38%.
-  Nyitott: a mentődobás időzítése, a komponensek.
+  Mentődobás varázslat ellen: a saját körödben, amíg a hatás tart;
+  mentődobás (nem próba), célérték a Varázserő. Az azonnali hatású
+  varázslatok mentődobását a varázslat fejezete (H-17) rendezi.
+  Nyitott: a komponensek.
+Javítás: Mentődobás varázslat ellen: „Dobj Szívósság vagy Eltökéltség
+  próbát a varázslatot rádhelyező karakterrel szemben.” → „Amíg egy
+  varázslat hatása tart rajtad, a saját körödben megpróbálhatsz szabadulni
+  tőle: tégy Szívósság vagy Eltökéltség mentődobást, amelynek célértéke a
+  varázslat Varázserője.”
 
 ----------------------------------------------------------------
 [V-19] Égisz, Diszciplína, Fegyelem, Áhítat
@@ -2963,3 +2971,4 @@ NAPLÓ – mi történt, mikor
 2026.11.21.  V-17 FOLYAMATBAN – a Gyűjtögetés hozama marad az Ügyesség.
 2026.11.21.  V-17 JAVÍTVA – a Porciózás marad.
 2026.11.21.  V-18 FOLYAMATBAN – erőltetésnél marad a Kimerültség.
+2026.11.21.  V-18 FOLYAMATBAN – a Mentődobás varázslat ellen időzítése és célértéke.
