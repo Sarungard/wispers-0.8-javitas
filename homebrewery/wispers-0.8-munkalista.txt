@@ -24,7 +24,7 @@ Jelölések: BLOKKOLÓ – enélkül nem játszható; ELLENTMONDÁS – két sza
 hivatkozik; KISEBB – szerkesztési hiba, elnevezés.
 
 ÖSSZESÍTŐ (frissítsd menet közben)
-  NYITOTT: 8   FOLYAMATBAN: 15   DÖNTÉSRE VÁR: 4   JAVÍTVA: 62   ELVETVE: 2
+  NYITOTT: 7   FOLYAMATBAN: 16   DÖNTÉSRE VÁR: 4   JAVÍTVA: 62   ELVETVE: 2
 
 
 ================================================================
@@ -2551,7 +2551,17 @@ Probléma: (§5) A tempótábla („¾”, „teljes”, „1½” megtett táv
   Ügyességtől függ; a Porciózás pihenő szegmensben is választható, de
   esti hatású.
 Teendő: Pontonként dönteni.
-Állapot: NYITOTT
+Állapot: FOLYAMATBAN (2026.11.21.)
+Döntés: Táv: a teljes táv a faj óránkénti mérföldje × a szegmens órái; az
+  utazási szegmens legfeljebb 4 óra (volt 6); ember 4 (volt 5), allúr 5
+  (volt 4) mérföld/óra. Törp normál tempóban: 3 × 4 = 12 mérföld.
+  Nyitott: vegyes sebességű csapat, Gyűjtögetés hozama, Porciózás.
+Javítás: Utazási szegmensek: „maximum 6 óráig” → „maximum 4 óráig”; új
+  mondat a tempótáblázat után a teljes távról; Emberek és Allúrok: az
+  óránkénti mérföld cseréje.
+Megjegyzés: A Probléma „½”-et ír, a táblázatban ¾ áll. A CRPG nem számol
+  mérföldet (TempoShare: elvont haladás szegmensenként), és a races.json
+  még ember 5, allúr 4 mérföld/órát tart.
 
 ----------------------------------------------------------------
 [V-18] Mágia
@@ -2939,3 +2949,4 @@ NAPLÓ – mi történt, mikor
 2026.11.21.  V-16 FOLYAMATBAN – az NPC nem tesz próbát (kimondva).
 2026.11.21.  V-16 FOLYAMATBAN – az Elemzés egy próbálkozás, próba nélkül.
 2026.11.21.  V-16 JAVÍTVA – a példa végigvezetve, a Megfélemlítés után.
+2026.11.21.  V-17 FOLYAMATBAN – teljes táv, 4 órás szegmens, ember 4, allúr 5.

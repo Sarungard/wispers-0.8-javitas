@@ -1157,7 +1157,7 @@ A szegmensek a következők: első utazási szegmens, pihenő szegmens, második
 
 Az utazási szegmensek között nincs különbség. Egy vadonban kalandozó, utazással töltött nap során azért beszélünk két utazási szegmensről, mert általában a kettőt meg kell szakítani egy rövidebb pihenővel.
 
-Egy utazási szegmens maximum 6 óráig tart és a csapat haladását hivatott bemutatni.
+Egy utazási szegmens maximum 4 óráig tart és a csapat haladását hivatott bemutatni.
 
 Utazáshoz a csapat megválasztja a tempót és annak vonzatait. Például alapvetően egy gyorsabban haladó csapat nehezebben tud bármi másra koncentrálni, míg ehhez képest egy komótosabb tempót megütve jóval könnyebb dolguk van.
 
@@ -1166,6 +1166,8 @@ Utazáshoz a csapat megválasztja a tempót és annak vonzatait. Például alapv
 | Komótos tempó | ¾ | előny |
 | Normál tempó | teljes | – |
 | Gyors tempó | 1½ | hátrány |
+
+A teljes táv annyi mérföld, amennyit a fajod óránként megtesz, szorozva a szegmens óráinak számával. Például egy törp normál tempóban, 4 órás szegmens alatt 12 mérföldet tesz meg.
 
 Utazási szegmens során választható cselekvések: Tájékozódás, nyomkövetés, nyomok elrejtése, gyűjtögetés, vadászat, felderítés, csapdakeresés.
 
@@ -1968,7 +1970,7 @@ Magasságuk 5 lábtól 6 láb 3 hüvelykig terjedhet.
 
 #### Sebesség
 
-Utazás során óránként 5 mérföldet képesek megtenni.
+Utazás során óránként 4 mérföldet képesek megtenni.
 
 #### Sebhatár
 
@@ -2459,7 +2461,7 @@ Magasságuk 5 láb 9 hüvelyktől 6 láb 6 hüvelykig terjedhet.
 
 #### Sebesség
 
-Utazás során óránként 4 mérföldet képesek megtenni.
+Utazás során óránként 5 mérföldet képesek megtenni.
 
 #### Sebhatár
 
