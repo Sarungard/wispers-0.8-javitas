@@ -1277,8 +1277,6 @@ Miután az első fordulóban minden karakter cselekedett, előáll a második fo
 
 Előfordulhat, hogy egy karaktert belekényszerítenek valamilyen szituációba és erre reagálnia kell. Ezt általában valamilyen rajta kívülálló helyzet idézi elő. Az ily módon kínálkozó lehetőséget pedig reakciónak nevezzük.
 
-Ha egy cselekvés reakcióból (is) használható, a neve mellett {R} jelölés lesz.
-
 A reakcióról azután döntesz, hogy a támadó dobott, vagyis a támadás értékének ismeretében.
 
 Ha egy karakter úgy dönt, hogy reakciót hajt végre, a reakció AP-ját a soron következő körére bemondott számból fizeti: abban a körében ennyivel kevesebb AP-t költhet el, a kezdeményezése viszont nem változik. Legfeljebb annyi AP-nyi reakciót vállalhat, amennyit ez a szám fedez.
@@ -1413,7 +1411,7 @@ Tégy egy pusztakezes támadást a megragadott célpont irányába. A célpont d
 
 Tégy egy támadást a célpont irányába. A célpont dönthet úgy, hogy nem próbál ellenállni.
 
-Ha olyat próbálsz feldönteni, akit korábban megragadtál, ez a cselekvés csak 1AP költségű.
+Ha olyat próbálsz feldönteni, akit korábban megragadtál, ez a cselekvés csak 1 AP költségű.
 
 **Siker:** sebzés okozása helyett az ellenfelet a földre kényszeríted.
 
@@ -1469,7 +1467,7 @@ Amikor megtámadnak, a páncélod Keménységére hagyatkozol: a páncél a tal�
 
 A testi erődet és a lendületeted összehangolva, minden erődet latba vetve megrohamozol egy olyan ellenfelet, akit maximum két mozgással elérnél a körödben. Közelharci távon lévő ellenfelet nem rohamozhatsz meg.
 
-A rohamozás AP költsége függ a távolságtól: 2AP, ha az ellenfél a zónádon belül van (egy mozgás), és 3AP, ha szomszédos zónában van (két mozgás). Ehhez jön a fegyvered támadásának AP költsége.
+A rohamozás AP költsége függ a távolságtól: 2 AP, ha az ellenfél a zónádon belül van (egy mozgás), és 3 AP, ha szomszédos zónában van (két mozgás). Ehhez jön a fegyvered támadásának AP költsége.
 
 A támadást előnnyel teszed, és találat esetén a támadás sebdobásaihoz hozzáadod a Rohamozás AP-költségét (2 vagy 3).
 
@@ -1491,7 +1489,7 @@ A célpont bizonyos testrészét támadod hátránnyal.
 
 Tégy egy távolsági támadást hátránnyal a célpont irányába.
 
-**Siker:** a célpont következő körében az Elmozdulás 4AP-be kerül.
+**Siker:** a célpont következő körében az Elmozdulás 4 AP-be kerül.
 
 #### Manőverezés {2-3AP}
 
@@ -1499,7 +1497,7 @@ Fegyverenként eltérő, általában egyszer használható, használat után id�
 
 ### Harcmodorok
 
-A harcmodort a köröd elején választod 0AP-ért, és a következő köröd kezdetéig tart. Egyszerre csak egy harcmodorban harcolhatsz.
+A harcmodort a köröd elején választod 0 AP-ért, és a következő köröd kezdetéig tart. Egyszerre csak egy harcmodorban harcolhatsz.
 
 #### Terelő harcmodor
 
@@ -1507,7 +1505,7 @@ Terelő harcmodor során minden támadásod hátránnyal teszed és túlütés e
 
 #### Kétfegyveres harcmodor
 
-Kétfegyveres harcmodor során a második fegyvered hárítófegyverként használható, és a forduló során az első Hárításod 0AP-be kerül. Cserébe minden támadásod hátránnyal teszed.
+Kétfegyveres harcmodor során a második fegyvered hárítófegyverként használható, és a forduló során az első Hárításod 0 AP-be kerül. Cserébe minden támadásod hátránnyal teszed.
 
 #### Védekező harcmodor
 
@@ -2084,9 +2082,9 @@ A tündék 90 láb távolságnyi sötétlátással rendelkeznek.
 
 Ezen a távon belül képesek teljes sötétségben is megkülönböztetni az alakokat és esetenként az árnyalatokat, de nem a színeket.
 
-A Sötétlátás (1AP) akció használata után 1 kör, amíg a használó szeme teljesen hozzászokik a környezethez.
+A Sötétlátás (1 AP) akció használata után 1 kör, amíg a használó szeme teljesen hozzászokik a környezethez.
 
-Megszüntetni szintén 1AP, de 10 perc, amíg a tündék szeme visszaáll.
+Megszüntetni szintén 1 AP, de 10 perc, amíg a tündék szeme visszaáll.
 
 #### Pokoli örökség
 
@@ -2186,7 +2184,7 @@ Minden törp testi sebhatárának alapja 2-vel magasabb.
 
 #### Rövid távú harcosok
 
-A törpök csak rövidtávon veszélyesek! Harc közben az első Elmozdulás cselekvésükön kívül minden további Elmozdulás 3AP költségű (2AP helyett).
+A törpök csak rövidtávon veszélyesek! Harc közben az első Elmozdulás cselekvésükön kívül minden további Elmozdulás 3 AP költségű (2 AP helyett).
 
 #### Infralátás
 
@@ -2194,9 +2192,9 @@ A törpök 90 láb távolságnyi infralátással rendelkeznek.
 
 Ezen a távon belül képesek teljes sötétségben is érzékelni a hőforrásokat, így például élőlényeket, vagy épp magmától forró falakat.
 
-Az Infralátás (1AP) akció használata után 1 kör, amíg a használó szeme teljesen hozzászokik a környezethez.
+Az Infralátás (1 AP) akció használata után 1 kör, amíg a használó szeme teljesen hozzászokik a környezethez.
 
-Megszüntetni szintén 1AP, de 10 perc, amíg a törpök szeme visszaáll.
+Megszüntetni szintén 1 AP, de 10 perc, amíg a törpök szeme visszaáll.
 
 #### Bányamérnökök
 

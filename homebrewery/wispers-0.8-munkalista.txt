@@ -24,7 +24,7 @@ Jelölések: BLOKKOLÓ – enélkül nem játszható; ELLENTMONDÁS – két sza
 hivatkozik; KISEBB – szerkesztési hiba, elnevezés.
 
 ÖSSZESÍTŐ (frissítsd menet közben)
-  NYITOTT: 5   FOLYAMATBAN: 15   DÖNTÉSRE VÁR: 5   JAVÍTVA: 64   ELVETVE: 2
+  NYITOTT: 4   FOLYAMATBAN: 16   DÖNTÉSRE VÁR: 5   JAVÍTVA: 64   ELVETVE: 2
 
 
 ================================================================
@@ -2629,7 +2629,14 @@ Probléma: (§6)
   – Arkhónok / archonok; a Fényvarázs nincs definiálva; Kilenc trón a
     Nyolcak mellett.
 Teendő: Pontonként javítani.
-Állapot: NYITOTT
+Állapot: FOLYAMATBAN (2026.11.21.)
+Döntés: {R}: a jelölést semmi nem használja (saját reakciólista van), a
+  mondat törölve. AP: a folyó szövegben „1 AP” szóközzel, a címekben
+  marad a {1AP}.
+  Nyitott: a többi pont.
+Javítás: Reakciók: „Ha egy cselekvés reakcióból (is) használható, a neve
+  mellett {R} jelölés lesz.” törölve; 12 helyen „1AP” → „1 AP” (a
+  kapcsos zárójelen kívül).
 
 ----------------------------------------------------------------
 [V-21] Szerkezet és érthetőség
@@ -2981,3 +2988,4 @@ NAPLÓ – mi történt, mikor
 2026.11.21.  V-18 FOLYAMATBAN – a Mentődobás varázslat ellen időzítése és célértéke.
 2026.11.21.  V-18 JAVÍTVA – a komponensek a Varázslatok fejezetre várnak.
 2026.11.21.  V-19 DÖNTÉSRE VÁR – Zoz átgondolja a Diszciplína, Fegyelem, Áhítat rendszert.
+2026.11.21.  V-20 FOLYAMATBAN – {R} mondat törölve, „1 AP” írásmód.
