@@ -1087,12 +1087,6 @@ Tégy próbát a szituációban felhasználható képzettség segítségével.
 
 **Kritikus bukás:** a számláló a másik irányba mozdul, és ez a megközelítés erre a konfliktusra bezárul.
 
-**Példa:** Bernard, a fagymarta harcos két őrrel kerül szembe, akik nem akarják beengedni Zador belső várába, pedig figyelmeztetnie kell a gnoll hordákról a város vezetését.
-
-Az óra ketyeg, a kijelölt érték 7.
-
-Bernard először fenyegetéssel próbál hatni az őrökre, az eredménye 4 lesz, az őr Megfélemlítés értéke 7, ezért a számláló az őrök javára tolódik 3-mal.
-
 #### Megfélemlítés
 
 A meggyőzni kívánt karakter figyelmét arra próbálod felhívni, hogy esélyesen elveszíthet valamit, ha nem áll kötélnek. Ilyen megfélemlítés lehet a zsarolás, fizikai aggresszió, valós fenyegetésre figyelmeztetés, vagy akár a demoralizálás is.
@@ -1108,6 +1102,18 @@ Tégy próbát a szituációban felhasználható képzettség segítségével.
 **Bukás:** mozdítsd a számlálót a másik irányba a bukás mértékével.
 
 **Kritikus bukás:** a számláló a másik irányba mozdul, és ez a megközelítés erre a konfliktusra bezárul.
+
+**Példa:** Bernard, a fagymarta harcos két őrrel kerül szembe, akik nem akarják beengedni Zador belső várába, pedig figyelmeztetnie kell a gnoll hordákról a város vezetését. Bernard Jelenléte 3, így legfeljebb négyszer próbálkozhat. Az őrök értékei: Empátia 6, Érvelés 5, Megfélemlítés 7.
+
+Az óra ketyeg, a kijelölt érték 7.
+
+Bernard először fenyegetéssel próbál hatni az őrökre (Megfélemlítés). A tulajdonságkockája 1-et, a jártasságkockája 3-at mutat: az eredménye 4, szakértelemmel. Ez Bukás, a számláló az őrök javára tolódik 3-mal, és −3-on áll.
+
+Ezután arra hivatkozik, hogy a gnollok az őröket is elsöprik (Érvelés, Diplomácia): 3 + 6 = 9, szakértelemmel. Ez Abszolút siker, a számláló 4-gyel mozdul Bernard javára, és +1-en áll.
+
+Harmadszorra a városban élő családjukra hivatkozik (Empátia, Szereplés): 6 + 4 = 10, erőltetéssel. Ez Részleges siker: az őrök gyanakodni kezdenek, a számláló a siker mértékének csak a felével, 2-vel mozdul, és +3-on áll.
+
+Végül újra az érveihez nyúl (Érvelés, Diplomácia): 4 + 5 = 9, szakértelemmel. Ez Abszolút siker, a számláló +7-re ér. Bernard a negyedik, utolsó próbálkozásával eléri a kijelölt értéket, és az őrök beengedik.
 
 #### Hazugság
 

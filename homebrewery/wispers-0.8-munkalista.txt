@@ -24,7 +24,7 @@ Jelölések: BLOKKOLÓ – enélkül nem játszható; ELLENTMONDÁS – két sza
 hivatkozik; KISEBB – szerkesztési hiba, elnevezés.
 
 ÖSSZESÍTŐ (frissítsd menet közben)
-  NYITOTT: 8   FOLYAMATBAN: 16   DÖNTÉSRE VÁR: 4   JAVÍTVA: 61   ELVETVE: 2
+  NYITOTT: 8   FOLYAMATBAN: 15   DÖNTÉSRE VÁR: 4   JAVÍTVA: 62   ELVETVE: 2
 
 
 ================================================================
@@ -2518,7 +2518,7 @@ Probléma: (§5) A „siker mértékével” mozgó számláló 2–24-es össze
   az Elemzésnek nincs eljárása; a „célérték” két dolgot jelent; a példa
   az első dobás után megszakad.
 Teendő: Pontonként dönteni.
-Állapot: FOLYAMATBAN (2026.11.21.)
+Állapot: JAVÍTVA (2026.11.21.)
 Döntés: Célérték: a mesélő értéke „kijelölt érték”, a „célérték” csak a
   célpont megközelítési értéke (a „fordulópont” és a „nehézség” foglalt).
   Tulajdonság: nem változik; a felhasznált képzettségtől függ, nincs előre
@@ -2530,13 +2530,17 @@ Döntés: Célérték: a mesélő értéke „kijelölt érték”, a „célér
   számláló a karakterek bukásaival mozdul felé; ez egy mondatban kimondva.
   Elemzés: egy próbálkozásba kerül, próba nélkül; a mesélő megválaszol
   egy kérdést a listából.
-  Nyitott: a példa.
+  Példa: végigvezetve, a Megfélemlítés után; Bernard négy próbálkozása
+  (Jelenlét 3) Bukás, Abszolút siker, Részleges siker, Abszolút siker,
+  −3 → +1 → +3 → +7.
 Javítás: Konfliktus: „meghatároz egy célértéket” → „kijelöl egy
   értéket”; példa: „a konfrontáció nehézsége 7” → „a kijelölt érték 7”;
   Konfliktus: új mondat a passzív NPC-ről.
   Elemzés: „Ahogy beszélgetsz…” → „Az elemzés egy próbálkozásodba kerül,
   de nem kell hozzá próbát tenned: a mesélő megválaszolja a következő
   kérdések egyikét:”.
+  Példa: az Érvelés alól a Megfélemlítés után került; megkapta Bernard
+  Jelenlétét, az őrök három értékét és a további három próbálkozást.
 
 ----------------------------------------------------------------
 [V-17] Utazás
@@ -2934,3 +2938,4 @@ NAPLÓ – mi történt, mikor
 2026.11.21.  V-16 FOLYAMATBAN – a számláló marad a mértékkel.
 2026.11.21.  V-16 FOLYAMATBAN – az NPC nem tesz próbát (kimondva).
 2026.11.21.  V-16 FOLYAMATBAN – az Elemzés egy próbálkozás, próba nélkül.
+2026.11.21.  V-16 JAVÍTVA – a példa végigvezetve, a Megfélemlítés után.

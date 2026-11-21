@@ -102,6 +102,10 @@ Keep replies short and in Hungarian. Put the proposal and the question at the en
   V-14 is JAVÍTVA (2026-11-21): Fürkésző tekintet got {1AP} (text unchanged, no daily limit), the mnemór „kezdő
   pszionika” stays a placeholder until the Pszionika chapter exists, the törp is unchanged, the Kimerültség death
   limit stays 2× Állóképesség.
+- Szociális konfrontáció (V-16, JAVÍTVA 2026-11-21): the GM's goal is the „kijelölt érték”; „célérték” is only the
+  NPC's approach value. The attribute follows the skill used (not fixed per approach). The counter moves by the siker /
+  bukás mértéke (0 moves nothing). NPCs roll nothing. Elemzés costs one attempt, no roll. The worked example (Bernard)
+  sits after Megfélemlítés.
 
 ## State (2026-10-25)
 
