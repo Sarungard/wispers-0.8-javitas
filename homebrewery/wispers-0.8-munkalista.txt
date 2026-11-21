@@ -2582,7 +2582,7 @@ Döntés: Erőltetés: marad a Kimerültség (a képzettségpróbával azonos lo
   79%, d12/d12 46%, d8/d8 44%, d4/d4 38%.
   Mentődobás varázslat ellen: a saját körödben, amíg a hatás tart;
   mentődobás (nem próba), célérték a Varázserő. Az azonnali hatású
-  varázslatok mentődobását a varázslat fejezete (H-17) rendezi.
+  varázslatok mentődobását a Varázslatok fejezet (III. rész › 6.) rendezi.
   Nyitott: a komponensek.
 Javítás: Mentődobás varázslat ellen: „Dobj Szívósság vagy Eltökéltség
   próbát a varázslatot rádhelyező karakterrel szemben.” → „Amíg egy
