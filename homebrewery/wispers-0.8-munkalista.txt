@@ -24,7 +24,7 @@ Jelölések: BLOKKOLÓ – enélkül nem játszható; ELLENTMONDÁS – két sza
 hivatkozik; KISEBB – szerkesztési hiba, elnevezés.
 
 ÖSSZESÍTŐ (frissítsd menet közben)
-  NYITOTT: 6   FOLYAMATBAN: 15   DÖNTÉSRE VÁR: 4   JAVÍTVA: 64   ELVETVE: 2
+  NYITOTT: 5   FOLYAMATBAN: 15   DÖNTÉSRE VÁR: 5   JAVÍTVA: 64   ELVETVE: 2
 
 
 ================================================================
@@ -2600,7 +2600,13 @@ Probléma: (§5) Az Áhítatnak nincs elsődleges felhasználása; a Fegyelem
   állapot játékosok közti konfliktust szülhet; a Suttogó szint
   erősebbnek tűnik a többinél.
 Teendő: Pontonként dönteni (H-63).
-Állapot: NYITOTT
+Állapot: DÖNTÉSRE VÁR (2026.11.21.)
+Döntés: Zoz az egész Diszciplína, Fegyelem, Áhítat rendszert átgondolja
+  (H-63 is). Indoklás: nem akar kritikus sikerre vadászó („critfishing”),
+  nyűgös rendszert, amelynek a követése túl sok figyelmet kér, és bár egy
+  videojátékban jól hangzik, elvonja a figyelmet az asztaltól. Az Áhítat
+  alapvető felhasználására felvetett lehetőségek (Kritikus bukás → Bukás,
+  egy kocka újradobása, −1 Kimerültség, csak kasztok) addig függőben.
 
 ----------------------------------------------------------------
 [V-20] KISEBB – Belső konzisztencia
@@ -2974,3 +2980,4 @@ NAPLÓ – mi történt, mikor
 2026.11.21.  V-18 FOLYAMATBAN – erőltetésnél marad a Kimerültség.
 2026.11.21.  V-18 FOLYAMATBAN – a Mentődobás varázslat ellen időzítése és célértéke.
 2026.11.21.  V-18 JAVÍTVA – a komponensek a Varázslatok fejezetre várnak.
+2026.11.21.  V-19 DÖNTÉSRE VÁR – Zoz átgondolja a Diszciplína, Fegyelem, Áhítat rendszert.

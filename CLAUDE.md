@@ -111,6 +111,8 @@ Keep replies short and in Hungarian. Put the proposal and the question at the en
   5 and 4). Gyűjtögetés yield stays the Ügyesség value; Porciózás unchanged.
 - Mágia (V-18, JAVÍTVA 2026-11-21): erőltetés while casting keeps its Kimerültség. Mentődobás varázslat ellen {1AP}:
   on your own turn while the effect lasts, célérték the Varázserő. Components wait for the Varázslatok chapter.
+- Diszciplína, Fegyelem, Áhítat (V-19, DÖNTÉSRE VÁR 2026-11-21): Zoz is rethinking the whole system. His principle: no
+  crit-fishing, no fiddly systems whose tracking takes attention away from the table (fine in a video game, not here).
 
 ## State (2026-10-25)
 
