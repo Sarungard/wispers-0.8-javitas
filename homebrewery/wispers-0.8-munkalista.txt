@@ -1514,7 +1514,7 @@ Megjegyzés: Hátravan: a gyógyulás üteme (mennyi idő egy fok). Eltérés
   a CRPG-től: a WoundTrack.cs az összes sebet adja a sebdobáshoz. A D-3 óta a
   tünde Állóképessége a Világstandard (ajánlottan 3), így az első seb már nem
   gyógyíthatatlan. A „Blood on the water” név nem kell, a szabály a
-  sebdobásban van.
+  sebdobásban van. A „20 fölé is mehet” a V-20-ban törölve (2026.11.21.).
 
 ----------------------------------------------------------------
 [H-59] HIÁNY – Állapotok és sebzéstípusok
@@ -2644,6 +2644,8 @@ Döntés: {R}: a jelölést semmi nem használja (saját reakciólista van), a
   Pihenés: az alapfogalom a „pihentető alvás” (legalább 8 órás, zavartalan;
   −1 Kimerültség), mert városban is pihennek; a pihentető táborozási
   szegmens ennek az utazás közbeni esete. „Kimerültség” mindenhol nagybetűvel.
+  Stamina (Szusztörő): a H-13-ban marad. Sebgyógyítás: a „20 fölé is mehet”
+  törölve (húszas korlát nincs; a régi 21-es fordulópont maradványa).
   Nyitott: a többi pont.
 Javítás: Reakciók: „Ha egy cselekvés reakcióból (is) használható, a neve
   mellett {R} jelölés lesz.” törölve; 12 helyen „1AP” → „1 AP” (a
@@ -2657,7 +2659,8 @@ Javítás: Reakciók: „Ha egy cselekvés reakcióból (is) használható, a ne
   „A pihentető táborozási szegmens pihentető alvásnak számít.”; Főzés,
   5 sebtáblasor és a harci példa: „pihentető táborozás(i szegmens)” →
   „pihentető alvás”; Győzelmi lakoma: „Pihenés végén” → „Pihentető alvás
-  után”; 2 helyen „kimerültség” → „Kimerültség”.
+  után”; 2 helyen „kimerültség” → „Kimerültség”. Sebgyógyítás: „, és az
+  adott súlyosságú sebek száma ilyenkor 20 fölé is mehet” törölve.
 
 ----------------------------------------------------------------
 [V-21] Szerkezet és érthetőség
@@ -3014,3 +3017,4 @@ NAPLÓ – mi történt, mikor
 2026.11.21.  V-20 FOLYAMATBAN – a Varázserő jártassága mágiaosztályonként.
 2026.11.21.  V-20 FOLYAMATBAN – „Képzettségpróbákra,”; az eszközök csak terv.
 2026.11.21.  V-20 FOLYAMATBAN – „pihentető alvás” az alapfogalom, Kimerültség nagybetűvel.
+2026.11.21.  V-20 FOLYAMATBAN – a Sebgyógyítás „20 fölé is mehet” törölve.

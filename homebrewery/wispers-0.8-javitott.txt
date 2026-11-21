@@ -1861,7 +1861,7 @@ A karakter halott. Ez egy viszonylag permanens, ritkán visszafordítható álla
 
 A sebek gyógyíthatóak akár Orvoslás próba, vagy varázslatok segítségével.
 
-A megszerzett sebek lassan, fokonként gyógyulnak: a Súlyos sebből Mély seb lesz, a Mélyből Könnyű, a Könnyű seb pedig meggyógyul. Amikor egy seb súlyossága így változik, nem kell sebdobást tenni, és az adott súlyosságú sebek száma ilyenkor 20 fölé is mehet. Amikor egy seb meggyógyul, heget hagy maga után; a hegnek játékbeli hatása nincs.
+A megszerzett sebek lassan, fokonként gyógyulnak: a Súlyos sebből Mély seb lesz, a Mélyből Könnyű, a Könnyű seb pedig meggyógyul. Amikor egy seb súlyossága így változik, nem kell sebdobást tenni. Amikor egy seb meggyógyul, heget hagy maga után; a hegnek játékbeli hatása nincs.
 
 ## Állapotok
 
