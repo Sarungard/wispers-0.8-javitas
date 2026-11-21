@@ -120,6 +120,8 @@ Keep replies short and in Hungarian. Put the proposal and the question at the en
   also rest in towns; a pihentető táborozási szegmens counts as one. Wound effects last „a következő pihentető alvásig”.
 - V-20 is JAVÍTVA (2026-11-21). H-70 (new, NYITOTT): weapon jellemzők (Halálos, Átütő X, the empty Kezdő–Mester
   columns); Zoz plans a larger jellemző set, so do not propose a two-jellemző split again.
+- V-21 is JAVÍTVA (2026-11-21): numbering is rész + numbered chapter (the roman chapter titles and the 0.7.0c labels
+  are gone); no sections moved. H-71 (new, NYITOTT): the GM chapter (NPC sheet, safety tools, session zero, GM advice).
 - Diszciplína, Fegyelem, Áhítat (V-19, DÖNTÉSRE VÁR 2026-11-21): Zoz is rethinking the whole system. His principle: no
   crit-fishing, no fiddly systems whose tracking takes attention away from the table (fine in a video game, not here).
 
