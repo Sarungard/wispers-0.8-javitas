@@ -1568,7 +1568,7 @@ A sorrend: Vendel, Ilka, a martalóc.
 - Elmozdulással (2 AP) közelharcba kerül a martalóccal.
 - Rövidkarddal támad (2 AP): 3 + 4 = 7.
   - A martalóc a dobás ismeretében dönt a reakcióról, és beleáll (0 AP). A bőrvért Keménysége 2-t fog fel, 5 marad, ez a könnyű sebhatára (6) alatt van: Könnyű seb. A bőrvért Keménysége 1 lesz. Beleállás nélkül a 7 Mély seb lett volna.
-  - Sebdobás a Könnyű seb táblázatán: 1d8 (4) + 1 (az első Könnyű sebe) + 2 (a Rövidkard Könnyű mátrixa) = 7, Kizökkent egyensúly. A következő köre végéig nem térhet ki.
+  - Sebdobás a Könnyű seb táblázatán: 1d8 (2) + 1 (az első Könnyű sebe) + 2 (a Rövidkard Könnyű mátrixa) = 5, Kizökkent egyensúly. A következő köre végéig nem térhet ki.
 - Újra támad (2 AP): 4 + 2 = 6.
   - A martalóc nem térhet ki, ezért ismét beleáll. A bőrvért 1-et fog fel, 5 marad: újabb Könnyű seb.
   - A Keménység 0-ra csökken, a bőrvért eltörik. A martalóc sebhatára ettől kezdve 4 és 9.
@@ -1752,21 +1752,16 @@ Mindig, amikor sebet szerzel, dobj a seb súlyosságának megfelelő táblázato
 
 | Könnyű seb | Hatás |
 |:--:|:--|
-| 2-3 | Karcolás: enyhe esztétikai sérülés. |
-| 4-5 | Horzsolás: enyhe esztétikai sérülés. |
-| 6 | Zúzódás: enyhe esztétikai sérülés. |
-| 7 | Kizökkent egyensúly: a következő köröd végéig nem hajthatsz végre Kitérést. |
-| 8 | Vér a szemben: a következő köröd végéig nem tehetsz távolsági támadást. |
-| 9 | Elzsibbadt kéz: a következő támadásod 1 AP-vel többe kerül. |
-| 10 | Elakadt lélegzet: a következő körödben 2 AP-vel kevesebbet költhetsz. |
-| 11 | Felrepedt bőr: komoly esztétikai sérülés. |
-| 12 | Megrándult izom: a következő köröd végéig nem hajthatsz végre Rohamozást. |
-| 13 | Ütés a fejre: a következő köröd végéig nem reagálhatsz. |
-| 14 | Mély karcolás: komoly esztétikai sérülés. |
-| 15 | Megtántorodás: a földre kerülsz. |
-| 16-17 | Kificamodott ujj: fegyvertelenné válsz. |
-| 18-19 | Csúnya vágás: komoly esztétikai sérülés. |
-| 20 | Rossz esés: a földre kerülsz, és a következő köröd végéig nem reagálhatsz. |
+| 2 | Karcolás: enyhe esztétikai sérülés. |
+| 3 | Horzsolás: enyhe esztétikai sérülés. |
+| 4 | Zúzódás: enyhe esztétikai sérülés. |
+| 5 | Kizökkent egyensúly: a következő köröd végéig nem hajthatsz végre Kitérést. |
+| 6 | Vér a szemben: a következő köröd végéig nem tehetsz távolsági támadást. |
+| 7 | Elzsibbadt kéz: a következő támadásod 1 AP-vel többe kerül. |
+| 8 | Elakadt lélegzet: a következő körödben 2 AP-vel kevesebbet költhetsz. |
+| 9 | Megrándult izom: a következő köröd végéig nem hajthatsz végre Rohamozást. |
+| 10 | Megtántorodás: a földre kerülsz. |
+| 11 | Ütés a fejre: a következő köröd végéig nem reagálhatsz. |
 | 12+ | A seb Mély sebbé válik: dobj a Mély seb táblázatán. |
 
 | Mély seb | Hatás |

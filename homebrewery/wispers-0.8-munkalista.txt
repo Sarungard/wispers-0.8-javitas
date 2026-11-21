@@ -24,7 +24,7 @@ Jelölések: BLOKKOLÓ – enélkül nem játszható; ELLENTMONDÁS – két sza
 hivatkozik; KISEBB – szerkesztési hiba, elnevezés.
 
 ÖSSZESÍTŐ (frissítsd menet közben)
-  NYITOTT: 4   FOLYAMATBAN: 15   DÖNTÉSRE VÁR: 5   JAVÍTVA: 67   ELVETVE: 2
+  NYITOTT: 3   FOLYAMATBAN: 16   DÖNTÉSRE VÁR: 5   JAVÍTVA: 67   ELVETVE: 2
 
 
 ================================================================
@@ -1880,7 +1880,17 @@ Probléma: A V-22 óta a sebdobás 12 vagy annál nagyobb eredménye egy fokkal
   súlyosabb seb, Súlyos sebnél halál. A három táblázat 12–20 sora így nem
   dobható: táblázatonként 10 hely marad (2–11) a mostani 15 sorra.
 Teendő: Táblázatonként kiválasztani a megmaradó sorokat (Zoz választ).
-Állapot: NYITOTT
+Állapot: FOLYAMATBAN (2026.11.21.)
+Döntés: Eredményenként egy sor (2–11), a 12+ sor marad. Könnyű seb: 2
+  Karcolás, 3 Horzsolás, 4 Zúzódás, 5 Kizökkent egyensúly, 6 Vér a szemben,
+  7 Elzsibbadt kéz, 8 Elakadt lélegzet, 9 Megrándult izom, 10 Megtántorodás,
+  11 Ütés a fejre; kimarad: Felrepedt bőr, Mély karcolás, Csúnya vágás,
+  Kificamodott ujj, Rossz esés. Gyakoriság (mátrix 1–3, 1. seb): 3: 4%,
+  4: 8%, 5–10: 12%, 11: 8%, 12+: 4%; a 3. sebnél 12+: 25%.
+  Nyitott: a Mély és a Súlyos seb táblája.
+Javítás: Könnyű seb táblázat: tíz sor, eredményenként egy; harci példa:
+  „1d8 (4) … = 7, Kizökkent egyensúly” → „1d8 (2) … = 5, Kizökkent
+  egyensúly” (a példa a Kitérés tilalmára épül).
 Megjegyzés: A V-22 szimulációja a mostani páros sorokat tartotta meg (2, 4,
   6, … 20). A 2-es eredmény csak fegyver nélkül dobható (1d8 + 1 + mátrix).
   A kiválasztás után a V-22 és a H-66 szimulációját újra kell futtatni.
@@ -3084,3 +3094,4 @@ NAPLÓ – mi történt, mikor
 2026.11.21.  V-21 JAVÍTVA – a mesélői fejezet a H-71-be került (új, NYITOTT).
 2026.11.21.  H-68 FOLYAMATBAN – a próbadobás meghatározása, negatív példa nélkül.
 2026.11.21.  H-68 JAVÍTVA – Képzetlen pusztakezes támadás csak 1d2-vel.
+2026.11.21.  H-67 FOLYAMATBAN – a Könnyű seb táblája tíz sorra, a harci példa igazítva.
