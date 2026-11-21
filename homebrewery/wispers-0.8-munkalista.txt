@@ -24,7 +24,7 @@ Jelölések: BLOKKOLÓ – enélkül nem játszható; ELLENTMONDÁS – két sza
 hivatkozik; KISEBB – szerkesztési hiba, elnevezés.
 
 ÖSSZESÍTŐ (frissítsd menet közben)
-  NYITOTT: 4   FOLYAMATBAN: 16   DÖNTÉSRE VÁR: 5   JAVÍTVA: 64   ELVETVE: 2
+  NYITOTT: 5   FOLYAMATBAN: 15   DÖNTÉSRE VÁR: 5   JAVÍTVA: 65   ELVETVE: 2
 
 
 ================================================================
@@ -1924,6 +1924,23 @@ Megjegyzés: A hely könyvbeli neve még nincs eldöntve; a „slot” angol sz�
   jegyzete (ruleset_ideas.txt): „Strength: … Inventory sizes”.
   Kapcsolódik: V-10.
 
+----------------------------------------------------------------
+[H-70] A fegyverjellemzők elosztása (új tétel, a PDF-ben nincs)
+Hol: III. rész › 5. Felszerelés és vagyontárgyak › Fegyverek (fegyver- és
+  fegyvercsoport-táblázat, Jellemzők)
+Probléma: A Halálos és az Átütő X jellemzőt egyik fegyver sem kapja meg; a
+  fegyver- és a fegyvercsoport-táblázat Kezdő–Mester oszlopai üresek (a
+  páncéltáblában az AP és a szintoszlopok is) (V-20).
+Teendő: A jellemzőkészlet bővítése és elosztása; Zoz nem két jellemzőben
+  gondolkodik.
+Állapot: NYITOTT
+Megjegyzés: Elvetett vázlat (2026.11.21.): Halálos a Csatabárdra és a
+  Kétkezes-csatabárdra, Átütő 1–2 a Csatacsákányra, Tollasbuzogányra,
+  Párbajtőrre és a két nagyobb nyílpuskára. A Halálos esélye P(jártasság-
+  kocka > fegyverkocka): d4 fegyver 38–79%, d8 19–62%, d10 15–54% (d4–d12
+  jártasságkockával); a jártassággal magától is nő. A Csatabárd lemaradása
+  (H-66) ezzel is összefügg.
+
 
 ================================================================
 VAK ÁTNÉZÉS (2026.10.26.) – V-TÉTELEK
@@ -2629,7 +2646,7 @@ Probléma: (§6)
   – Arkhónok / archonok; a Fényvarázs nincs definiálva; Kilenc trón a
     Nyolcak mellett.
 Teendő: Pontonként javítani.
-Állapot: FOLYAMATBAN (2026.11.21.)
+Állapot: JAVÍTVA (2026.11.21.)
 Döntés: {R}: a jelölést semmi nem használja (saját reakciólista van), a
   mondat törölve. AP: a folyó szövegben „1 AP” szóközzel, a címekben
   marad a {1AP}. Szegmens: a harci szegmens marad (1 AP); a cím
@@ -2654,7 +2671,7 @@ Döntés: {R}: a jelölést semmi nem használja (saját reakciólista van), a
   rövid összefoglaló hivatkozással, marad.
   Arkhón: az „archon” alak már nincs a szövegben. Fényvarázs: H-19. Kilenc
   trón: szándékos, narratív (Zoz, 2026.10.22., DIVERGENCIA.md), marad.
-  Nyitott: a fegyverjellemzők elosztása.
+  A fegyverjellemzők elosztása külön tételbe került: H-70.
 Javítás: Reakciók: „Ha egy cselekvés reakcióból (is) használható, a neve
   mellett {R} jelölés lesz.” törölve; 12 helyen „1AP” → „1 AP” (a
   kapcsos zárójelen kívül); harc: „#### Szegmensek” → „#### Kör és
@@ -3029,3 +3046,4 @@ NAPLÓ – mi történt, mikor
 2026.11.21.  V-20 FOLYAMATBAN – a fegyverjellemzők elosztása nyitva marad.
 2026.11.21.  V-20 FOLYAMATBAN – a 0.7.0c-s alcím marad, „x. oldalon” → H-60.
 2026.11.21.  V-20 FOLYAMATBAN – Arkhón egységes, Kilenc trón marad; csak a jellemzők nyitottak.
+2026.11.21.  V-20 JAVÍTVA – a fegyverjellemzők elosztása a H-70-be került (új, NYITOTT).
