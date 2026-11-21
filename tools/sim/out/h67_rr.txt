@@ -1,0 +1,7 @@
+=== régi páros sorok (fordulópont 12+, licitplafon 20)
+  páncél 4/4: 0.62 / 0.69 / 0.46 / 0.25 / 0.48  | támadás/párbaj medián 19, átlag 19 | sebdobás/párbaj medián 27, átlag 27 | tükörben az első 0.69
+  páncél nélkül: 0.48 / 0.49 / 0.49 / 0.46 / 0.58  | támadás/párbaj medián 8, átlag 9 | sebdobás/párbaj medián 8, átlag 9 | tükörben az első 0.75
+=== H-67 táblák (fordulópont 12+, licitplafon 20)
+  páncél 4/4: 0.56 / 0.66 / 0.45 / 0.32 / 0.50  | támadás/párbaj medián 17, átlag 17 | sebdobás/párbaj medián 23, átlag 23 | tükörben az első 0.69
+  páncél nélkül: 0.46 / 0.46 / 0.48 / 0.52 / 0.58  | támadás/párbaj medián 6, átlag 7 | sebdobás/párbaj medián 6, átlag 7 | tükörben az első 0.77
+(fegyverek: Tőr / Rövidkard / Hosszúkard / Csatabárd / Nagykalapács; Féktelen, reakció nélkül, mindkét sorrend átlaga)

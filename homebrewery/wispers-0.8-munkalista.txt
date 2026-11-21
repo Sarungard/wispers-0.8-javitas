@@ -1872,6 +1872,18 @@ Megjegyzés: A szimulációhoz néhány sebsort értelmezni kellett: a
   Hátravan a Csatabárd (0,39; a Súlyos találati mátrixa 2). Az eredmény
   függ attól, melyik sorok maradnak a sebtáblákban: a H-67 után újra kell
   futtatni.
+  H-67 utáni futtatás (2026.11.21., SIM=duel_h67 study11.py 40 … 20,
+  körmérkőzés rr_h67.py, 1000 párbaj/párosítás, seed 17):
+  – egyensúly páncél nélkül: játékérték 0,59 → 0,57; fegyverenként
+    0,56 / 0,57 / 0,55 / 0,57 / 0,57 (Tőr / Rövidkard / Hosszúkard /
+    Csatabárd / Nagykalapács; előtte 0,58 / 0,59 / 0,55 / 0,57 / 0,59);
+  – egyensúly páncélban: játékérték 0,62 → 0,63; fegyverenként
+    0,63 / 0,63 / 0,54 / 0,45 / 0,54 (előtte 0,62 / 0,62 / 0,61 / 0,39 /
+    0,60): a Csatabárd javul, a Hosszúkard és a Nagykalapács visszaesik;
+  – körmérkőzés páncélban: 0,56 / 0,66 / 0,45 / 0,32 / 0,50 (előtte
+    0,62 / 0,69 / 0,46 / 0,25 / 0,48), 17 támadás/párbaj (előtte 19).
+  Az egyensúlyi vizsgálat párosításonként csak 40 párbajt futtat, a kis
+  különbségek zajból is adódhatnak.
 
 ----------------------------------------------------------------
 [H-67] A sebtáblák szűkítése 2–11-re (új tétel, a PDF-ben nincs)
@@ -1911,6 +1923,11 @@ Megjegyzés: A V-22 szimulációja a mostani páros sorokat tartotta meg (2, 4,
   és 10-es sora. Az alapszövegben és a CRPG-ben ájulás és sokk nincs; a
   CRPG a régi táblát használja (Injuries.cs). A Sokk az RTFC SZOJEGYZEK-be
   még nem került be (nem ebben a repóban).
+  A 0.7.0b és a 0.6.0b sebtáblájában is csak a bénulás van; ájulás csak a
+  Halált nem okozó harcmodornál, sokk sehol.
+  Szimuláció (2026.11.21., tools/sim/tables67.py): az új táblák a régi
+  páros sorok helyett; az Ájulás és a Bénulás kiejt, a Sokk egy kört
+  kihagyat, a Kiszúrt szem közelharcban nem hat. Eredmény a H-66-nál.
   Kapcsolódik: D-2, V-22, H-66.
 
 ----------------------------------------------------------------
@@ -3114,3 +3131,4 @@ NAPLÓ – mi történt, mikor
 2026.11.21.  H-67 FOLYAMATBAN – a Könnyű seb táblája tíz sorra, a harci példa igazítva.
 2026.11.21.  H-67 FOLYAMATBAN – a Mély seb táblája tíz sorra.
 2026.11.21.  H-67 JAVÍTVA – a Súlyos seb táblája tíz sorra; új kifejezés: Sokk.
+2026.11.21.  H-66 FOLYAMATBAN – szimuláció az új sebtáblákkal (H-67): páncélban Csatabárd 0,45, Hosszúkard és Nagykalapács 0,54.

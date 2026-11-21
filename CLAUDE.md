@@ -169,9 +169,11 @@ quarter as long (armour 19 attacks instead of 64), the loser falls with about 2 
 H-67 is JAVÍTVA (2026-11-21): each wound table has one row per result 2–11 plus 12+. Súlyos: Vérző vágás, Csonttörés,
 Sokk, Kiszúrt szem, Átszúrt tüdő, Csonkolás, Ájulás, Súlyos vérzés, Belső vérzés, Bénulás (one fracture row, one
 amputation row; Sokk is a new term: the next turn is skipped but you may react; Ájulás is worse). Bleeding is
-rollable again (rows 9–10). The simulation used the old even rows; re-run V-22 and H-66 with the new tables.
-Simulator: `tools/sim/tsim.py` and `duel_turn.py` (`SIM=duel_turn TURN=12 python study11.py …`), round-robin
-`rr_turn.py`.
+rollable again (rows 9–10). Re-run with the new tables (2026-11-21; `tables67.py`, `SIM=duel_h67 python study11.py
+40 pancel 5-6-4 20`, round-robin `rr_h67.py`, outputs `out/h67_*`): equilibrium in armour Tőr/Rövidkard 0.63,
+Hosszúkard 0.54, Csatabárd 0.45, Nagykalapács 0.54 (before 0.62/0.62/0.61/0.39/0.60); unarmoured all 0.55–0.57.
+Csatabárd improved, Hosszúkard and Nagykalapács fell back in armour (open for H-66). Older simulator: `tsim.py`,
+`duel_turn.py`, `rr_turn.py`.
 
 V-08 is JAVÍTVA (2026-11-09): Kimerültség affects próbadobások only. H-68 (new, NYITOTT): define próbadobás; the
 suggestion is to tie it to the jártasság, not its die, so the Képzetlen próba counts too.
