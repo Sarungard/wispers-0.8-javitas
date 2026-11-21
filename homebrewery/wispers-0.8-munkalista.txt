@@ -2632,11 +2632,14 @@ Teendő: Pontonként javítani.
 Állapot: FOLYAMATBAN (2026.11.21.)
 Döntés: {R}: a jelölést semmi nem használja (saját reakciólista van), a
   mondat törölve. AP: a folyó szövegben „1 AP” szóközzel, a címekben
-  marad a {1AP}.
+  marad a {1AP}. Szegmens: a harci szegmens marad (1 AP); a cím
+  „Szegmensek” → „Kör és forduló”, és kiegészül: egy szegmens alatt egy
+  akciópont költhető el. Vérzés: már csak „kör”, nincs teendő.
   Nyitott: a többi pont.
 Javítás: Reakciók: „Ha egy cselekvés reakcióból (is) használható, a neve
   mellett {R} jelölés lesz.” törölve; 12 helyen „1AP” → „1 AP” (a
-  kapcsos zárójelen kívül).
+  kapcsos zárójelen kívül); harc: „#### Szegmensek” → „#### Kör és
+  forduló”, új mondat: „Egy szegmens alatt egy akciópont költhető el.”
 
 ----------------------------------------------------------------
 [V-21] Szerkezet és érthetőség
@@ -2989,3 +2992,4 @@ NAPLÓ – mi történt, mikor
 2026.11.21.  V-18 JAVÍTVA – a komponensek a Varázslatok fejezetre várnak.
 2026.11.21.  V-19 DÖNTÉSRE VÁR – Zoz átgondolja a Diszciplína, Fegyelem, Áhítat rendszert.
 2026.11.21.  V-20 FOLYAMATBAN – {R} mondat törölve, „1 AP” írásmód.
+2026.11.21.  V-20 FOLYAMATBAN – „Kör és forduló” cím, egy szegmens egy akciópont.

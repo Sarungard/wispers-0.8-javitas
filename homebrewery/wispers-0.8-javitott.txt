@@ -1251,11 +1251,11 @@ Korábban már szó esett néhány olyan tényezőről, ami jelentősen befolyá
 
 Egyes fegyverek támadásra, mások védekezésre alkalmasak; némelyekkel gyors egymásutánban lehet támadni, addig másikokkal komolyabb sérülést lehet okozni. Hasonlóképp a páncélok és vértek között is létezik nehéz, de kiváló védelmet biztosító vért és olyan is, amelyikben könnyű a mozgás, ellenben kevésbé óv az ellenfél fegyverétől.
 
-#### Szegmensek
+#### Kör és forduló
 
 A harc során a karakterek felváltva cselekszenek, az időintervallumot, amikor a karakternek lehetősége van cselekedni, a karakter körének hívjuk, az összes, a harcban résztvevő karakter körét pedig egy forduló fogja össze.
 
-Egy kört kisebb időegységekre osztunk, amelyeket szegmenseknek hívunk. Egy szegmens hozzávetőlegesen 3 eltelt másodpercnek felel meg.
+Egy kört kisebb időegységekre osztunk, amelyeket szegmenseknek hívunk. Egy szegmens hozzávetőlegesen 3 eltelt másodpercnek felel meg. Egy szegmens alatt egy akciópont költhető el.
 
 #### Kezdeményezés
 
