@@ -1989,8 +1989,9 @@ Teendő: Helyekre bontott (slot alapú) felszerelés a karakterlapon; az Erő
 Döntés: ÚJ KIFEJEZÉS, elfogadva (2026.11.22.): málhahely – a karakterlap
   egy helye, amely egy tárgyat tart; az Erő újabb málhahelyeket nyit (a
   „tárgyhely” és a „rekesz” elvetve).
-  Nyitott: hány málhahely jár alapból, melyik Erő-érték nyit újat, mennyi
-  helyet foglal egy tárgy.
+  Málhahelyek száma: Erő + 6 (Erő 2: 8, 3: 9, 5: 11; a kockasávonkénti
+  változatot – alap 8, +2 a 5-ös, 7-es, 9-es és 11-es Erőnél – Zoz elvetette).
+  Nyitott: mennyi málhahelyet foglal egy tárgy.
 Megjegyzés: A hely könyvbeli neve még nincs eldöntve; a „slot” angol szó,
   a magyar kifejezést ÚJ KIFEJEZÉS-ként kell javasolni. Zoz korábbi
   jegyzete (ruleset_ideas.txt): „Strength: … Inventory sizes”.
@@ -3151,3 +3152,4 @@ NAPLÓ – mi történt, mikor
 2026.11.21.  H-66 FOLYAMATBAN – szimuláció az új sebtáblákkal (H-67): páncélban Csatabárd 0,45, Hosszúkard és Nagykalapács 0,54.
 2026.11.21.  H-66 FOLYAMATBAN – az új sebtáblák nem rontanak a nehéz fegyvereken; az egyensúlyi esés zaj és keverékváltás.
 2026.11.22.  H-69 FOLYAMATBAN – új kifejezés: málhahely.
+2026.11.22.  H-69 FOLYAMATBAN – a málhahelyek száma Erő + 6.
