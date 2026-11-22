@@ -59,8 +59,9 @@ Keep replies short and in Hungarian. Put the proposal and the question at the en
   Unarmed Ellökés, Megragadás, Elrángatás, Feldöntés and Lefegyverzés roll the Erőkocka instead of 1d2 (V-10).
   Minimum Erő (V-10, JAVÍTVA): an Erő column in the weapon and armour tables; weapons d4 none, d6 3, d8 4, d10 5,
   Íjpuskák none; armour Könnyű none, Közepes 4, Nehéz 5. Each missing point costs +1 AP on actions and reactions
-  with that weapon, and in armour +1 AP on every action (not reactions); never a ban. H-69 (NYITOTT): slot-based inventory on the
-  character sheet, Erő unlocks new slots; the Hungarian word for the slot still needs an ÚJ KIFEJEZÉS proposal.
+  with that weapon, and in armour +1 AP on every action (not reactions); never a ban. H-69 (FOLYAMATBAN): slot-based inventory on the
+  character sheet, Erő unlocks new slots; the slot is a „málhahely” (ÚJ KIFEJEZÉS, approved 2026-11-22). Open: base
+  count, which Erő values unlock more, how many málhahely an item takes.
 - Célérték (V-03): the GM sets the check's level, which gates who may try and suggests the célérték: Képzetlen 3, Kezdő 5,
   Képzett 7, Haladó 9, Tapasztalt 11, Mester 13. Only a recommendation; the GM may and should adjust it.
 - Képzetlen (V-04): may try Képzetlen-level checks only, rolls the attribute die alone, always erőltetés. The 42-skill
