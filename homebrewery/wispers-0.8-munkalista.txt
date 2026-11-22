@@ -24,7 +24,7 @@ Jelölések: BLOKKOLÓ – enélkül nem játszható; ELLENTMONDÁS – két sza
 hivatkozik; KISEBB – szerkesztési hiba, elnevezés.
 
 ÖSSZESÍTŐ (frissítsd menet közben)
-  NYITOTT: 2   FOLYAMATBAN: 16   DÖNTÉSRE VÁR: 5   JAVÍTVA: 68   ELVETVE: 2
+  NYITOTT: 2   FOLYAMATBAN: 15   DÖNTÉSRE VÁR: 5   JAVÍTVA: 69   ELVETVE: 2
 
 
 ================================================================
@@ -1985,13 +1985,19 @@ Probléma: Nincs teherbírás: a könyvben se súly, se tárgyhely nincs, az Er�
 Teendő: Helyekre bontott (slot alapú) felszerelés a karakterlapon; az Erő
   új helyeket nyit (Zoz döntése, 2026.11.09.). Kidolgozandó: hány hely jár
   alapból, melyik Erő-érték nyit újat, mennyi helyet foglal egy tárgy.
-Állapot: FOLYAMATBAN (2026.11.22.)
+Állapot: JAVÍTVA (2026.11.22.)
 Döntés: ÚJ KIFEJEZÉS, elfogadva (2026.11.22.): málhahely – a karakterlap
   egy helye, amely egy tárgyat tart; az Erő újabb málhahelyeket nyit (a
   „tárgyhely” és a „rekesz” elvetve).
   Málhahelyek száma: Erő + 6 (Erő 2: 8, 3: 9, 5: 11; a kockasávonkénti
   változatot – alap 8, +2 a 5-ös, 7-es, 9-es és 11-es Erőnél – Zoz elvetette).
-  Nyitott: mennyi málhahelyet foglal egy tárgy.
+  Méret: 1 málhahely minden tárgy, ha a leírása mást nem mond; 2 a
+  kétkezes fegyver, a Pajzs, a Nagy pajzs és a Közepes páncél; 3 a Nehéz
+  páncél. A viselt páncél és a kézben tartott fegyver is foglal helyet.
+  Példa: Erő 3 → 9 hely; Hosszúkard 1 + Pajzs 2 + Láncing 2 + élelem 1 +
+  kötél 1 + fáklya 1 = 8.
+Javítás: Felszerelés és vagyontárgyak: új „Málhahelyek” szakasz a
+  Fegyverek előtt (szabály és méret-táblázat).
 Megjegyzés: A hely könyvbeli neve még nincs eldöntve; a „slot” angol szó,
   a magyar kifejezést ÚJ KIFEJEZÉS-ként kell javasolni. Zoz korábbi
   jegyzete (ruleset_ideas.txt): „Strength: … Inventory sizes”.
@@ -3153,3 +3159,4 @@ NAPLÓ – mi történt, mikor
 2026.11.21.  H-66 FOLYAMATBAN – az új sebtáblák nem rontanak a nehéz fegyvereken; az egyensúlyi esés zaj és keverékváltás.
 2026.11.22.  H-69 FOLYAMATBAN – új kifejezés: málhahely.
 2026.11.22.  H-69 FOLYAMATBAN – a málhahelyek száma Erő + 6.
+2026.11.22.  H-69 JAVÍTVA – Málhahelyek szakasz: Erő + 6 hely, tárgyméretek.

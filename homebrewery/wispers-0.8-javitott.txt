@@ -3149,6 +3149,16 @@ Az árak egy napszámos napi béréhez igazodnak, ez 20 Réz. Az alapeszközök 
 | Ló | 2 Ezüst |
 | Kocsi | 1 Ezüst |
 
+## Málhahelyek
+
+A karakterlapodon annyi málhahely van, amennyi az Erőd értéke + 6, és annyi tárgyat tarthatsz magadnál, amennyi ezekre elfér. Minden tárgy málhahelyet foglal, a viselt páncél és a kézben tartott fegyver is.
+
+| Málhahely | Tárgy |
+|:--:|:--|
+| 1 | minden tárgy, ha a leírása mást nem mond |
+| 2 | kétkezes fegyver, Pajzs, Nagy pajzs, Közepes páncél |
+| 3 | Nehéz páncél |
+
 ## Fegyverek
 
 ### Jártasságok fegyverekkel
