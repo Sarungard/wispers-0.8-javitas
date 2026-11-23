@@ -117,7 +117,8 @@ Keep replies short and in Hungarian. Put the proposal and the question at the en
   5 and 4). Gyűjtögetés yield stays the Ügyesség value; Porciózás unchanged.
 - Mágia (V-18, JAVÍTVA 2026-11-21): erőltetés while casting keeps its Kimerültség. Mentődobás varázslat ellen {1AP}:
   on your own turn while the effect lasts, célérték the Varázserő. Components wait for the Varázslatok chapter.
-  Varázserő uses the jártasság of the spell's Mágiaosztály (seven jártasságok), spells are learned separately (V-20).
+  Varázserő uses the jártasság of the spell's Mágiaosztály, spells are learned separately (V-20). The 0.8 text lists
+  eight mágiaosztályok (Misztika … Rúnamágia), while H-55 speaks of seven: open question for Zoz.
 - Combat time (V-20): the heading is „Kör és forduló”; the combat „szegmens” stays (1 AP, about 3 s), beside the
   travel szegmens.
 - Eszközök (tools, kits) are planned but not in the rules yet (V-20); Zoz wants no pool bloat, so no growing list of
@@ -192,7 +193,6 @@ Szusztörő gives the Elakadt lélegzet effect (−2 AP next turn), no save; no 
 
 H-53 is FOLYAMATBAN: Fegyvert nem igénylő cselekvések stays a placeholder for now.
 H-55 is FOLYAMATBAN: Zoz gives the seven Mágiaosztály descriptions; Entrópia stays „Rend- és rendbontó mágia.”
-H-59 is FOLYAMATBAN: Sebzéstípusok stays a placeholder for now.
 H-60 is FOLYAMATBAN: the származási helyek reference waits for a chapter.
 H-62 is FOLYAMATBAN: Karakterfejlődés table and tulajdonság cost are in; 0. szint math, jártasság costs, talent/kaszt cost, varázslattanulás are open (Zoz's OneNote note).
 See the worklist for FOLYAMATBAN and DÖNTÉSRE VÁR items.
