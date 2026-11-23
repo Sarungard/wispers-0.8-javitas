@@ -1329,7 +1329,7 @@ Olyan akciók és reakciók, amiket különösebb előképzettség nélkül bár
 
 A legtöbb itt felsorolt cselekvés alapértelmezetten a támadó félnél nem nagyobb célpontokra értendő.
 
-Harc nagyobb méretű lények ellen részt lásd a fejezet végén.
+A nagyobb ellenfelek elleni harcot lásd: Harc nagyobb méretű ellenféllel szemben, a fejezet végén.
 
 #### Támadás {a fegyver AP-ja}
 

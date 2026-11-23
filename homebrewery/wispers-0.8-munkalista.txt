@@ -1585,6 +1585,10 @@ Javítás: wispers-0.8-javitott.txt
     3. Kegy és égiszek › Nyolcak; Kaszt kiválasztása → III. rész › 4.
     Kasztok; Kezdőfelszerelés → III. rész › 5. Felszerelés és
     vagyontárgyak.
+  – II. rész › 4. Harc › Általános cselekvéslista (2026.11.23.): „Harc
+    nagyobb méretű lények ellen részt lásd a fejezet végén.” → „A nagyobb
+    ellenfelek elleni harcot lásd: Harc nagyobb méretű ellenféllel szemben,
+    a fejezet végén.”
 Megjegyzés: Hátravan: a származási helyek hivatkozása, ha lesz ilyen fejezet.
   A hét „Utazásaim Allúvyanon … oldal” sor világon belüli idézet, nem
   hivatkozás.
@@ -3180,3 +3184,4 @@ NAPLÓ – mi történt, mikor
 2026.11.23.  H-58 JAVÍTVA – gyógyulási ütem: Könnyű egy alvás, Mély egy hét, Súlyos egy hónap, ellátással.
 2026.11.23.  H-13 JAVÍTVA – Szusztörő: elakadt lélegzet, −2 AP a következő körben.
 2026.11.23.  H-30 JAVÍTVA – a maradék (jártassági oszlopok, manőverek) a H-70-be került.
+2026.11.23.  H-60 FOLYAMATBAN – a nagyobb ellenfelek elleni harc hivatkozása javítva; „x. oldalon” marad.
