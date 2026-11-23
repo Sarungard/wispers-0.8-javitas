@@ -24,7 +24,7 @@ Jelölések: BLOKKOLÓ – enélkül nem játszható; ELLENTMONDÁS – két sza
 hivatkozik; KISEBB – szerkesztési hiba, elnevezés.
 
 ÖSSZESÍTŐ (frissítsd menet közben)
-  NYITOTT: 2   FOLYAMATBAN: 13   DÖNTÉSRE VÁR: 5   JAVÍTVA: 71   ELVETVE: 2
+  NYITOTT: 2   FOLYAMATBAN: 12   DÖNTÉSRE VÁR: 5   JAVÍTVA: 72   ELVETVE: 2
 
 
 ================================================================
@@ -791,7 +791,7 @@ Probléma: Az SZ oszlop üres, pedig „Egy támadás AP költsége a támadásh
   fegyvernek sincs manővere. A Különleges fegyverek közt egy sor van
   (Emberfogó), a jártassági oszlopok üresek.
 Teendő: Az oszlopok kitöltése D-1 után.
-Állapot: FOLYAMATBAN (2026.10.22.)
+Állapot: JAVÍTVA (2026.11.23.)
 Döntés: SZ (a támadás AP-ja) fegyverenként, egyedi elbírálással, balansz
   szerint – nem a kocka alapján. Lőfegyverek hatótávja a CRPG szerint;
   Kétkezes-csatabárd és Nagykalapács is 2h. Reach: Lándzsa, Glaive, Szigony;
@@ -837,6 +837,8 @@ Megjegyzés: Hátravan: az SZ oszlop, a manőverek, a jártassági oszlopok. A
   változatlan. Elv a manőverekhez (Zoz): vagy hátránnyal kell őket
   végrehajtani, vagy több AP-be kerüljenek, mint a fegyver alaptámadása. A „Mid Range /
   Far Range” angol címke a H-48-cal együtt cserélhető.
+  A maradék (a jártassági oszlopok jellemzői, a fegyvermanőverek) a
+  H-70-be került (2026.11.23.).
 
 ----------------------------------------------------------------
 [H-31] ELLENTMONDÁS – A jártassági szintek nevei a táblákban
@@ -2024,7 +2026,9 @@ Probléma: A Halálos és az Átütő X jellemzőt egyik fegyver sem kapja meg; 
   fegyver- és a fegyvercsoport-táblázat Kezdő–Mester oszlopai üresek (a
   páncéltáblában az AP és a szintoszlopok is) (V-20).
 Teendő: A jellemzőkészlet bővítése és elosztása; Zoz nem két jellemzőben
-  gondolkodik.
+  gondolkodik. A H-30-ból átvéve (2026.11.23.): a fegyvermanőverek; elv
+  (Zoz): hátránnyal hajthatók végre, vagy több AP-be kerülnek, mint a
+  fegyver alaptámadása.
 Állapot: NYITOTT
 Megjegyzés: Elvetett vázlat (2026.11.21.): Halálos a Csatabárdra és a
   Kétkezes-csatabárdra, Átütő 1–2 a Csatacsákányra, Tollasbuzogányra,
@@ -3175,3 +3179,4 @@ NAPLÓ – mi történt, mikor
 2026.11.22.  H-69 JAVÍTVA – Málhahelyek szakasz: Erő + 6 hely, tárgyméretek.
 2026.11.23.  H-58 JAVÍTVA – gyógyulási ütem: Könnyű egy alvás, Mély egy hét, Súlyos egy hónap, ellátással.
 2026.11.23.  H-13 JAVÍTVA – Szusztörő: elakadt lélegzet, −2 AP a következő körben.
+2026.11.23.  H-30 JAVÍTVA – a maradék (jártassági oszlopok, manőverek) a H-70-be került.
