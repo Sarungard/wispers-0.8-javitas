@@ -99,6 +99,8 @@ Keep replies short and in Hungarian. Put the proposal and the question at the en
 - Kasztok are feat-like one-time picks at set levels with prerequisites (follow-up kaszt or a new direction), built on
   exception-based design (H-03).
 - Harci távok are abstract: Közelharci táv, Rövid táv, Közepes táv (same zone), Nagy táv (another zone), Értelmezhetetlen. „reach” and (for now) „Glaive” stay English.
+  Feet (láb) may stay where a number only helps the player's imagination and does not matter in combat (Dicsfény
+  aura, 90 láb sötétlátás/infralátás, heights); Zoz, 2026-11-23. Combat rules use the távok (H-49).
 - Vérszomj (V-14, 2026-11-20, Zoz's framework; no caps, Zoz finds them too much to track): morning +2d4 (Hadviselő
   3d4), evening −Eltökéltség mentődobás; above the mentális könnyű sebhatár the night is restless (+1 Kimerültség),
   at or below it restful. No „first wound of the day” valve; each subrace vents its own way. Hadviselő: above the
