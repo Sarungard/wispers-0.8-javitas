@@ -52,8 +52,11 @@ Keep replies short and in Hungarian. Put the proposal and the question at the en
   player chooses (harcmodor, roham, tempó, position); cut or narrow the lasting, broad, minor ones; express grades
   by scope, duration or „nem kísérelhető meg”, never by extra dice. Racial attribute penalties are „−1-es módosító”,
   never „hátrány”, and every racial penalty is −1 (the mnemór −2 was a typo, fixed under H-08; at Világstandard 3
-  the mnemór Erő is 2). Világstandard is at least 2 (V-13); the attribute-die bands stay. Wound tables: Könnyű seb never gives hátrány; Mély seb a narrow one until rest; Súlyos seb a broad
-  one. V-07 is JAVÍTVA (2026-11-02).
+  the mnemór Erő is 2). Világstandard is at least 2 (V-13); the attribute-die bands stay. Wound tables: Könnyű seb never gives hátrány; Mély seb a narrow one (scope: one limb, one
+  attribute's checks, one sense); Súlyos seb a broad one. V-07 is JAVÍTVA (2026-11-02). Durations (Zoz, 2026-11-23):
+  a wound's effect lasts at least until the wound heals (Könnyű: one pihentető alvás, Mély: a week, Súlyos: a month),
+  longer only where the row says so; every row states its own duration and never points to another rule; all three
+  tables (Mély rewritten; Könnyű and Súlyos pending, H-67).
 - No negative examples in rules text (what something is not): they confuse the reader (H-68).
 - Core rules state rules, not situational GM advice: do not write into them what only happens in some cases or what a
   GM can deduce (e.g. rizikós próba under hátrány). Such notes may go into a later chapter for GMs.

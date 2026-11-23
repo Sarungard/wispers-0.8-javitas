@@ -1580,7 +1580,7 @@ A sorrend: Vendel, Ilka, a martalóc.
 - Hosszúkarddal támad (3 AP): 3 + 4 = 7.
   - A martalóc nem térhet ki, és eltört páncélban nem állhat bele, ezért nem reagál.
   - A 7 eléri a könnyű sebhatárát (4): Mély seb.
-  - Sebdobás a Mély seb táblázatán: 3 + 1 + 2 = 6, Átszúrt izom. A következő pihentető alvásig minden támadását hátránnyal teszi.
+  - Sebdobás a Mély seb táblázatán: 3 + 1 + 2 = 6, Átszúrt izom. Egy hétig minden támadását hátránnyal teszi.
 - Újra támad (3 AP): 1 + 2 = 3. Ez a martalóc harmadik Könnyű sebe: 1 + 3 + 2 = 6, Zúzódás.
 - A maradék 2 AP-ről lemond, és 12-t mond: a következő fordulóban később lép, de több AP-je lesz.
 
@@ -1767,15 +1767,15 @@ Mindig, amikor sebet szerzel, dobj a seb súlyosságának megfelelő táblázato
 | Mély seb | Hatás |
 |:--:|:--|
 | 2 | Mély vágás: komoly esztétikai sérülés. |
-| 3 | Bordazúzódás: a következő pihentető alvásig az Állóképességgel tett próbáid hátránnyal teszed. |
-| 4 | Repedt borda: a következő pihentető alvásig az Erővel tett próbáid hátránnyal teszed. |
-| 5 | Agyrázkódás: a következő köröd végéig nem reagálhatsz, és a következő pihentető alvásig a Tudással tett próbáid hátránnyal teszed. |
-| 6 | Átszúrt izom: a következő pihentető alvásig minden támadásod hátránnyal teszed. |
-| 7 | Térdsérülés: a következő pihentető alvásig nem hajthatsz végre Rohamozást. |
+| 3 | Bordazúzódás: egy hétig az Állóképességgel tett próbáidat hátránnyal teszed. |
+| 4 | Repedt borda: egy hétig az Erővel tett próbáidat hátránnyal teszed. |
+| 5 | Agyrázkódás: a következő köröd végéig nem reagálhatsz, és egy hétig a Tudással tett próbáidat hátránnyal teszed. |
+| 6 | Átszúrt izom: egy hétig minden támadásodat hátránnyal teszed. |
+| 7 | Térdsérülés: egy hétig nem hajthatsz végre Rohamozást. |
 | 8 | Kificamodott váll: fegyvertelenné válsz. |
-| 9 | Kéztörés: csonttörés. |
-| 10 | Lábtörés: csonttörés; a gyógyulásig nem hajthatsz végre Rohamozást. |
-| 11 | Elvesztett ujj vagy fül: csonkolás, de a hátránya csak az érintett kézzel vagy a hallással kapcsolatos dobásokra vonatkozik. |
+| 9 | Kéztörés: megfelelő ellátás mellett több hétig az érintett kézzel tett támadásaidat és próbáidat hátránnyal teszed. |
+| 10 | Lábtörés: megfelelő ellátás mellett több hétig az érintett lábat igénylő próbáidat hátránnyal teszed, és nem hajthatsz végre Rohamozást. |
+| 11 | Elvesztett ujj vagy fül: az érintett kézzel vagy a hallással kapcsolatos dobásaidat végleg hátránnyal teszed; ha 1d4 körön belül nem látják el, súlyos vérzés lesz belőle. |
 | 12+ | A seb Súlyos sebbé válik: dobj a Súlyos seb táblázatán. |
 
 | Súlyos seb | Hatás |

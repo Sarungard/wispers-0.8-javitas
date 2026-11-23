@@ -1966,6 +1966,12 @@ Megjegyzés: A V-22 szimulációja a mostani páros sorokat tartotta meg (2, 4,
   Szimuláció (2026.11.21., tools/sim/tables67.py): az új táblák a régi
   páros sorok helyett; az Ájulás és a Bénulás kiejt, a Sokk egy kört
   kihagyat, a Kiszúrt szem közelharcban nem hat. Eredmény a H-66-nál.
+  Időtartam (Zoz, 2026.11.23.): egy seb hatása legalább addig tart, amíg a
+  seb meg nem gyógyul (Mély: egy hét), hosszabb csak ott, ahol a sor kiírja; az
+  időt minden sor maga mondja ki, másik szabályra nem utal; mindhárom táblára
+  vonatkozik. Mély tábla átírva („egy hétig”; Kéztörés, Lábtörés, Elvesztett
+  ujj vagy fül önálló szöveggel), a harci példa Átszúrt izma is. A Könnyű és a
+  Súlyos tábla javaslatra vár.
   Kapcsolódik: D-2, V-22, H-66.
 
 ----------------------------------------------------------------
@@ -3203,3 +3209,4 @@ NAPLÓ – mi történt, mikor
 2026.11.23.  V-20 – javítva a jegyzet: az „archon” alak a Sújtásnál megmaradt, döntésre vár.
 2026.11.23.  V-20 – Sújtás: „archonokhoz” → „Arkhónokhoz”.
 2026.11.23.  H-59 – új jellemzők: Fény és Tűz (a Sújtás miatt).
+2026.11.23.  H-67 – a Mély seb sorai „egy hétig”, önálló időtartammal.
