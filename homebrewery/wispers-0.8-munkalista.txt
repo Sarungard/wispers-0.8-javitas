@@ -1561,6 +1561,11 @@ Megjegyzés: Hátravan: a Sebzéstípusok. A „Fight or flight” név nem ker�
   külön sebzésmennyiség értelmetlen; a hatást a jellemző írja le.
   Eldöntve (2026.10.26.): külön Sebzéstípusok szakasz nem kell, az üres
   címsor kikerült; a Jellemzők szakasz sem kap erről külön mondatot.
+  Fény és Tűz jellemző (2026.11.23.): az allúr Sújtás „Jellemzők: fény, tűz”
+  sora miatt két új bejegyzés a Fegyverek › Jellemzők közé, narratív hatással:
+  „A fény jellemzőjű hatás megvilágítja a célpontot: a következő köre végéig
+  nem rejtőzhet el.” és „A tűz jellemzőjű hatás lángra lobbantja a célpontnál
+  lévő gyúlékony tárgyakat.” A bővebb jellemzőkészlet a H-70.
 
 ----------------------------------------------------------------
 [H-60] KISEBB – Hivatkozások
@@ -3197,3 +3202,4 @@ NAPLÓ – mi történt, mikor
 2026.11.23.  H-29 FOLYAMATBAN – újranyitva: az acél árai és a készletezés még nyitott.
 2026.11.23.  V-20 – javítva a jegyzet: az „archon” alak a Sújtásnál megmaradt, döntésre vár.
 2026.11.23.  V-20 – Sújtás: „archonokhoz” → „Arkhónokhoz”.
+2026.11.23.  H-59 – új jellemzők: Fény és Tűz (a Sújtás miatt).

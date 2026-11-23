@@ -3243,6 +3243,10 @@ A fegyver ellen a páncél Keménysége X-szel kevesebbnek számít.
 
 Megtartja a mágiát.
 
+#### Fény
+
+A fény jellemzőjű hatás megvilágítja a célpontot: a következő köre végéig nem rejtőzhet el.
+
 #### Halálos
 
 Ha támadáskor a jártasságkockád többet dob, mint a fegyverkockád, a támadás eggyel súlyosabb sebet okoz.
@@ -3274,6 +3278,10 @@ A fegyverrel Rövid távon is eléred az ellenfeled (lásd: Zónák és hatótá
 #### Réz
 
 Enyhe mágikus vezetőként működik.
+
+#### Tűz
+
+A tűz jellemzőjű hatás lángra lobbantja a célpontnál lévő gyúlékony tárgyakat.
 
 #### Vas
 
