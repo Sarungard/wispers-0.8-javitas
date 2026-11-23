@@ -29,7 +29,9 @@ Keep replies short and in Hungarian. Put the proposal and the question at the en
 - No frontmatter, no tags.
 - If something touches the narrative canon (the Obsidian vault, not in this repo), flag it with ⚠ DIVERGENCIA and do
   not pick a side.
-- Not in this repo: the CRPG (`C:/dev/wispers/wispers-crpg`), `RTFC/`, and the HEAD rulebook `wispers-0.7.0b.docx`.
+- Not in this repo: the CRPG (`C:/dev/wispers/wispers-crpg`), `RTFC/`, and the last published rulebook
+  `wispers-0.7.0b.docx`. Since 2026-11-23 the 0.8 working text is the mechanical canon project-wide (root CLAUDE.md,
+  RTFC); the 0.7.0b-based RTFC files are archived in `RTFC/_archiv-0.7.0b/`.
   Where a fix differs from the CRPG, note it in the item's Megjegyzés; do not change the CRPG.
 
 ## Decisions to keep in mind
