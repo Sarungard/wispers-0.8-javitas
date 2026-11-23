@@ -75,7 +75,9 @@ Keep replies short and in Hungarian. Put the proposal and the question at the en
 - Wounds: Könnyű / Mély / Súlyos seb by sebhatár (reaching it counts). Sebdobás: 1d8 + the number
   of Sebek of the same severity (not all Sebek) + the weapon's találati mátrix; 12+ is one fok worse (V-22, was 21+;
   the CRPG still uses 21), on the Súlyos table death. Wounds must be
-  hard to heal: Súlyos → Mély → Könnyű → healed, no roll on each step, a healed wound leaves a heg (scar).
+  hard to heal: Súlyos → Mély → Könnyű → healed, no roll on each step, a healed wound leaves a heg (scar). Pace
+  (H-58, JAVÍTVA 2026-11-23): Könnyű heals after one pihentető alvás; Mély steps down after a week, Súlyos after a
+  month, if treated meanwhile (Mély: Képzett, Súlyos: Haladó Orvoslás próba).
 - Weapon properties are called „jellemző” (never „tulajdonság”, that is the six attributes). The Jellemzők column holds
   base jellemzők; the weapon table's Képzetlen–Mester columns hold jellemzők unlocked at that proficiency level. Each
   jellemző has a description and an effect (Fegyverek › Jellemzők). Damage types should be jellemzők too, and magic
@@ -188,7 +190,6 @@ Kegy rework. Open decisions: the D-1 bid cap or repeat cost (H-45, H-14, H-30), 
 
 H-53 is FOLYAMATBAN: Fegyvert nem igénylő cselekvések stays a placeholder for now.
 H-55 is FOLYAMATBAN: Zoz gives the seven Mágiaosztály descriptions; Entrópia stays „Rend- és rendbontó mágia.”
-H-58 is FOLYAMATBAN: the Sebgyógyítás rule (cap, above the cap) comes later.
 H-59 is FOLYAMATBAN: Sebzéstípusok stays a placeholder for now.
 H-60 is FOLYAMATBAN: the származási helyek reference waits for a chapter.
 H-62 is FOLYAMATBAN: Karakterfejlődés table and tulajdonság cost are in; 0. szint math, jártasság costs, talent/kaszt cost, varázslattanulás are open (Zoz's OneNote note).

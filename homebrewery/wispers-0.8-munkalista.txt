@@ -24,7 +24,7 @@ Jelölések: BLOKKOLÓ – enélkül nem játszható; ELLENTMONDÁS – két sza
 hivatkozik; KISEBB – szerkesztési hiba, elnevezés.
 
 ÖSSZESÍTŐ (frissítsd menet közben)
-  NYITOTT: 2   FOLYAMATBAN: 15   DÖNTÉSRE VÁR: 5   JAVÍTVA: 69   ELVETVE: 2
+  NYITOTT: 2   FOLYAMATBAN: 14   DÖNTÉSRE VÁR: 5   JAVÍTVA: 70   ELVETVE: 2
 
 
 ================================================================
@@ -1490,7 +1490,7 @@ Probléma: „Ameddig egy karakter sebeinek száma nem éri el Állóképesség
   fölött, nincs leírva. Az allúr Sújtás sikertelen Szívósság-próba esetén
   szintnyi sebet okoz, naponta Jelenlétnyi alkalommal.
 Teendő: Mi történik a plafon fölött; a plafon a D-3 skálájához igazítva.
-Állapot: FOLYAMATBAN (2026.10.23.)
+Állapot: JAVÍTVA (2026.11.23.)
 Döntés: A sebek nehezen gyógyuljanak; a gyógyítás szabálya később. A
   sebdobásnál nem az összes seb, csak az azonos súlyosságú sebek száma adódik
   hozzá (Könnyű a Könnyűhöz, Mély a Mélyhez, Súlyos a Súlyoshoz), így a sok
@@ -1510,7 +1510,14 @@ Gyógyulás (Zoz, 2026.10.26.): a megszerzett sebek lassan, fokonként
   Sebgyógyítás első mondatából a plafon kikerült („A sebek gyógyíthatóak
   akár Orvoslás próba, vagy varázslatok segítségével.”), a heg mondata
   kiegészült („a hegnek játékbeli hatása nincs”).
-Megjegyzés: Hátravan: a gyógyulás üteme (mennyi idő egy fok). Eltérés
+Ütem (Zoz, 2026.11.23., az „A” változat): a Könnyű seb egy pihentető
+  alvás után meggyógyul; a Mély seb egy hét, a Súlyos seb egy hónap után
+  enyhül egy fokot, ha közben ellátják (Mély: Képzett, Súlyos: Haladó
+  Orvoslás próba). Beírva a Sebgyógyítás szakaszba. Elvetve: „B”, hetente
+  egy fok (ellátással kettő). Példa: 1 Súlyos, 2 Mély, 1 Könnyű seb teljes
+  gyógyulása kb. 5 hét.
+Megjegyzés: A CRPG-ben nincs gyógyulási ütem (WoundTrack.cs csak a vérzés
+  ellátását ismeri). Eltérés
   a CRPG-től: a WoundTrack.cs az összes sebet adja a sebdobáshoz. A D-3 óta a
   tünde Állóképessége a Világstandard (ajánlottan 3), így az első seb már nem
   gyógyíthatatlan. A „Blood on the water” név nem kell, a szabály a
@@ -3160,3 +3167,4 @@ NAPLÓ – mi történt, mikor
 2026.11.22.  H-69 FOLYAMATBAN – új kifejezés: málhahely.
 2026.11.22.  H-69 FOLYAMATBAN – a málhahelyek száma Erő + 6.
 2026.11.22.  H-69 JAVÍTVA – Málhahelyek szakasz: Erő + 6 hely, tárgyméretek.
+2026.11.23.  H-58 JAVÍTVA – gyógyulási ütem: Könnyű egy alvás, Mély egy hét, Súlyos egy hónap, ellátással.
