@@ -2783,8 +2783,9 @@ Döntés: {R}: a jelölést semmi nem használja (saját reakciólista van), a
   A „0.7.0c - Átrendezett forrásszöveg” alcím és két bekezdése marad; az
   „x. oldalon” a H-60-hoz tartozik; az Előny és hátrány első előfordulása
   rövid összefoglaló hivatkozással, marad.
-  Arkhón: az „archon” alak egy helyen maradt (Allúrok › Sújtás: „Az
-  archonokhoz köthető…”); a korábbi „már nincs” téves volt (2026.11.23.). Fényvarázs: H-19. Kilenc
+  Arkhón: az „archon” alak egy helyen maradt (Allúrok › Sújtás); a korábbi
+  „már nincs” téves volt. Javítva (2026.11.23.): „Az archonokhoz” → „Az
+  Arkhónokhoz”. Fényvarázs: H-19. Kilenc
   trón: szándékos, narratív (Zoz, 2026.10.22., DIVERGENCIA.md), marad.
   A fegyverjellemzők elosztása külön tételbe került: H-70.
 Javítás: Reakciók: „Ha egy cselekvés reakcióból (is) használható, a neve
@@ -3195,3 +3196,4 @@ NAPLÓ – mi történt, mikor
 2026.11.23.  V-20 – a faji „-1-es” kötőjelek mínuszjelre cserélve (17 hely).
 2026.11.23.  H-29 FOLYAMATBAN – újranyitva: az acél árai és a készletezés még nyitott.
 2026.11.23.  V-20 – javítva a jegyzet: az „archon” alak a Sújtásnál megmaradt, döntésre vár.
+2026.11.23.  V-20 – Sújtás: „archonokhoz” → „Arkhónokhoz”.

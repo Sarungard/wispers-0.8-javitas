@@ -2460,7 +2460,7 @@ Az allúrok enyhe sötétségben és vakító fényben is a normál látási vis
 
 #### Sújtás {2AP}
 
-Az archonokhoz köthető származásuk hozadéka.
+Az Arkhónokhoz köthető származásuk hozadéka.
 
 Naponta Jelenlét értéküknek megfelelő alkalommal megsújthatnak egy általuk megragadott halandót. A Sújtás értéke dobás nélkül az allúr szintje. A célpont Szívósság mentődobással védekezhet, amelynek célértéke a Sújtás értéke. Bukás esetén Sebet szenved, amelynek súlyosságát a Sújtás értéke adja.
 
