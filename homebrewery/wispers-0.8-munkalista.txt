@@ -2798,6 +2798,8 @@ Javítás: Reakciók: „Ha egy cselekvés reakcióból (is) használható, a ne
   „pihentető alvás”; Győzelmi lakoma: „Pihenés végén” → „Pihentető alvás
   után”; 2 helyen „kimerültség” → „Kimerültség”. Sebgyógyítás: „, és az
   adott súlyosságú sebek száma ilyenkor 20 fölé is mehet” törölve.
+  Mínuszjel (2026.11.23.): a faji leírások 17 „-1-es módosítót” alakja
+  „−1-es módosítót” lett (U+2212), ahogy a szabály írja.
 
 ----------------------------------------------------------------
 [V-21] Szerkezet és érthetőség
@@ -3187,3 +3189,4 @@ NAPLÓ – mi történt, mikor
 2026.11.23.  H-30 JAVÍTVA – a maradék (jártassági oszlopok, manőverek) a H-70-be került.
 2026.11.23.  H-60 FOLYAMATBAN – a nagyobb ellenfelek elleni harc hivatkozása javítva; „x. oldalon” marad.
 2026.11.23.  V-20 – javítva a jegyzet: a 0.8 szöveg nyolc mágiaosztályt sorol fel, nem hetet.
+2026.11.23.  V-20 – a faji „-1-es” kötőjelek mínuszjelre cserélve (17 hely).

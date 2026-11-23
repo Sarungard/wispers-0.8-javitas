@@ -1971,7 +1971,7 @@ Az emberek faji jellemzőiket három kategóriából választhatnak kettő helye
 
 A városorzók választható +1 bónuszt kapnak Tudásra vagy Jelenlétre.
 
-Emellett -1-es módosítót kapnak Ügyességre.
+Emellett −1-es módosítót kapnak Ügyességre.
 
 #### Diplomaták
 
@@ -1987,7 +1987,7 @@ Konfrontációnként egyszer a választott módszerhez hozzáadhatja a Tudását
 
 A fagymarták választható +1 bónuszt kapnak Erőre vagy Állóképességre.
 
-Emellett -1-es módosítót kapnak Jelenlétre.
+Emellett −1-es módosítót kapnak Jelenlétre.
 
 #### Győzelmi lakoma
 
@@ -2001,7 +2001,7 @@ Pihentető alvás után a Kimerültségük eggyel jobban csökken, hogyha képes
 
 A napszítták választható +1 bónuszt kapnak Erőre vagy Szellemre.
 
-Emellett -1-es módosítót kapnak Tudásra.
+Emellett −1-es módosítót kapnak Tudásra.
 
 #### Kitartó harcosok
 
@@ -2015,7 +2015,7 @@ Naponta Állóképesség tulajdonságuknak megfelelő alkalommal választhatják
 
 A vadszívélyűek választható +1 bónuszt kapnak Ügyességre vagy Állóképességre.
 
-Emellett -1-es módosítót kapnak Tudásra.
+Emellett −1-es módosítót kapnak Tudásra.
 
 #### Vadonlakók
 
@@ -2077,7 +2077,7 @@ A Velarnok vérvonala ott csörgedezik az ereikben. Ha vért isznak, képesek á
 
 A nemestündék választható +1 bónuszt kapnak Tudásra vagy Jelenlétre.
 
-Emellett -1-es módosítót kapnak Erőre.
+Emellett −1-es módosítót kapnak Erőre.
 
 #### Megtagadott örökség
 
@@ -2093,7 +2093,7 @@ Ez a hatás nem halmozható.
 
 Az óelfek választható +1 bónuszt kapnak Ügyességre vagy Jelenlétre.
 
-Emellett -1-es módosítót kapnak Tudásra.
+Emellett −1-es módosítót kapnak Tudásra.
 
 #### Elfogadott örökség
 
@@ -2195,7 +2195,7 @@ Kőfalakban elrejtett csapda és/vagy rejtekajtó keresésére próbát előnnye
 
 A magmavérű törpök választható +1 bónuszt kapnak Állóképességre vagy Jelenlétre.
 
-Emellett -1-es módosítót kapnak Ügyességre.
+Emellett −1-es módosítót kapnak Ügyességre.
 
 #### Magmavér
 
@@ -2215,7 +2215,7 @@ A magmavérű törpökre jótékony hatással vannak a nemesfémek, ékkövek.
 
 A vasvérű törpök választható +1 bónuszt kapnak Erőre vagy Állóképességre.
 
-Emellett -1-es módosítót kapnak Tudásra.
+Emellett −1-es módosítót kapnak Tudásra.
 
 #### Vasvér
 
@@ -2233,7 +2233,7 @@ Ha egy vasvérű törpöt mágikus hatások mentődobásra kényszerítenek, ál
 
 A hígvérű törpök választható +1 bónuszt kapnak Állóképességre vagy Tudásra.
 
-Emellett -1-es módosítót kapnak Jelenlétre.
+Emellett −1-es módosítót kapnak Jelenlétre.
 
 #### Mérnökök népe
 
@@ -2299,7 +2299,7 @@ Minden pihentető alvás alkalmával a társaid Kimerültsége eggyel jobban cs�
 
 A könnyűléptű félszerzetek választható +1 bónuszt kapnak Ügyességre vagy Jelenlétre.
 
-Emellett -1-es módosítót kapnak Tudásra.
+Emellett −1-es módosítót kapnak Tudásra.
 
 #### Fürgeléptűek
 
@@ -2315,7 +2315,7 @@ Naponta Jelenlét tulajdonságuknak megfelelő alkalommal választhatják, hogy 
 
 A parázsszívű félszerzetek választható +1 bónuszt kapnak Erőre vagy Állóképességre.
 
-Emellett -1-es módosítót kapnak Ügyességre.
+Emellett −1-es módosítót kapnak Ügyességre.
 
 #### Rettenthetetlenek
 
@@ -2331,7 +2331,7 @@ Naponta Jelenlét tulajdonságuknak megfelelő alkalommal választhatják, hogy 
 
 A rejtélylelkű félszerzetek választható +1 bónuszt kapnak Jelenlétre vagy Szellemre.
 
-Emellett -1-es módosítót kapnak Erőre.
+Emellett −1-es módosítót kapnak Erőre.
 
 #### Kifürkészhetetlenek
 
@@ -2355,7 +2355,7 @@ Ugyanis amikor egy mnemór nagykorúvá érik, vagy ahogy ők mondják először
 
 A mnemórok +2 bónuszt kapnak Tudásra és +1 bónuszt Szellemre.
 
-Emellett választható +1 bónuszt kapnak Ügyességre vagy Tudásra és -1-es módosítót Erőre.
+Emellett választható +1 bónuszt kapnak Ügyességre vagy Tudásra és −1-es módosítót Erőre.
 
 #### Életkor
 
@@ -2424,7 +2424,7 @@ Az allúrok azóta lovagrendekbe szerveződve keresik az útjukat a fénybe, aho
 
 Az allúrok +2 bónuszt kapnak Erőre és +1 bónuszt Jelenlétre.
 
-Emellett választható +1 bónuszt kapnak Erőre vagy Jelenlétre és -1-es módosítót Ügyességre.
+Emellett választható +1 bónuszt kapnak Erőre vagy Jelenlétre és −1-es módosítót Ügyességre.
 
 #### Életkor
 
@@ -2526,7 +2526,7 @@ Minden este tégy egy Eltökéltség mentődobást, és az eredményét vond le 
 
 A hadviselő orkok választható +1 bónuszt kapnak Erőre vagy Állóképességre.
 
-Emellett -1-es módosítót kapnak Ügyességre.
+Emellett −1-es módosítót kapnak Ügyességre.
 
 #### Vérláz
 
@@ -2544,7 +2544,7 @@ Minden támadásuk után vérszomjuk a támadás kockáinak összegével csökke
 
 A fosztogató orkok választható +1 bónuszt kapnak Ügyességre vagy Állóképességre.
 
-Emellett -1-es módosítót kapnak Jelenlétre.
+Emellett −1-es módosítót kapnak Jelenlétre.
 
 #### Kényes egyensúly
 
@@ -2562,7 +2562,7 @@ Ameddig vérszomjuk nem magasabb, mint a mentális könnyű sebhatáruk, minden 
 
 A nomád orkok választható +1 bónuszt kapnak Jelenlétre vagy Szellemre.
 
-Emellett -1-es módosítót kapnak Tudásra.
+Emellett −1-es módosítót kapnak Tudásra.
 
 #### Lélekszinkron
 
