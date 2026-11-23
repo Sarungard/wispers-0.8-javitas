@@ -193,6 +193,7 @@ Szusztörő gives the Elakadt lélegzet effect (−2 AP next turn), no save; no 
 
 H-53 is FOLYAMATBAN: Fegyvert nem igénylő cselekvések stays a placeholder for now.
 H-55 is FOLYAMATBAN: Zoz gives the seven Mágiaosztály descriptions; Entrópia stays „Rend- és rendbontó mágia.”
+H-29 is FOLYAMATBAN again (reopened 2026-11-23): steel prices, stockpiling (készletezés), exotic and race metals.
 H-60 is FOLYAMATBAN: the származási helyek reference waits for a chapter.
 H-62 is FOLYAMATBAN: Karakterfejlődés table and tulajdonság cost are in; 0. szint math, jártasság costs, talent/kaszt cost, varázslattanulás are open (Zoz's OneNote note).
 See the worklist for FOLYAMATBAN and DÖNTÉSRE VÁR items.

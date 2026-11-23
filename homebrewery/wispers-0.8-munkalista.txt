@@ -24,7 +24,7 @@ Jelölések: BLOKKOLÓ – enélkül nem játszható; ELLENTMONDÁS – két sza
 hivatkozik; KISEBB – szerkesztési hiba, elnevezés.
 
 ÖSSZESÍTŐ (frissítsd menet közben)
-  NYITOTT: 2   FOLYAMATBAN: 12   DÖNTÉSRE VÁR: 5   JAVÍTVA: 72   ELVETVE: 2
+  NYITOTT: 2   FOLYAMATBAN: 13   DÖNTÉSRE VÁR: 5   JAVÍTVA: 71   ELVETVE: 2
 
 
 ================================================================
@@ -758,7 +758,7 @@ Hol: III. rész › 5. Felszerelés és vagyontárgyak › Pénz; III. rész ›
 Probléma: Négy fém (Vas, Réz, Ezüst, Arany), de váltási arány és ár nincs. A
   Nemesek vérvonala „aranyban mért értékével” számol, ami így nem számolható.
 Teendő: Váltási arányok és egy alap árlista.
-Állapot: JAVÍTVA (2026.10.26.)
+Állapot: FOLYAMATBAN (2026.11.23., újranyitva)
 Döntés: Az Open Legend-féle arányok (2020-as házi szabály) kiegészítve:
   20 Vas = 1 Réz, 800 Réz = 1 Ezüst, 25 Ezüst = 1 Arany. A vault
   Peták-rendszere (1 : 100 : 10 000 : 100 000) a szabálykönyvbe nem kerül.
@@ -777,7 +777,9 @@ Javítás: wispers-0.8-javitott.txt › III. rész › 5. Felszerelés › Pénz
   Adamantium, Elektrum; EmbeRéz, TörPlatina, TündEzüst, OrKobalt) – Zoz
   OneDrive-jegyzete alapján, később. (A Nemesek vérvonala már nem számol
   aranyértékkel.)
-Megjegyzés:
+Megjegyzés: Újranyitva (2026.11.23.): a 2026.10.26-i JAVÍTVA téves volt, mert
+  a „Hátravan” (acél árak, készletezés, egzotikus és fajspecifikus fémek)
+  nyitott; az Árlista szerkesztői megjegyzése erre mutat, marad.
 
 ----------------------------------------------------------------
 [H-30] HIÁNY – Fegyvertábla
@@ -3190,3 +3192,4 @@ NAPLÓ – mi történt, mikor
 2026.11.23.  H-60 FOLYAMATBAN – a nagyobb ellenfelek elleni harc hivatkozása javítva; „x. oldalon” marad.
 2026.11.23.  V-20 – javítva a jegyzet: a 0.8 szöveg nyolc mágiaosztályt sorol fel, nem hetet.
 2026.11.23.  V-20 – a faji „-1-es” kötőjelek mínuszjelre cserélve (17 hely).
+2026.11.23.  H-29 FOLYAMATBAN – újranyitva: az acél árai és a készletezés még nyitott.
