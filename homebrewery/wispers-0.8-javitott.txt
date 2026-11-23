@@ -1568,7 +1568,7 @@ A sorrend: Vendel, Ilka, a martalóc.
 - Elmozdulással (2 AP) közelharcba kerül a martalóccal.
 - Rövidkarddal támad (2 AP): 3 + 4 = 7.
   - A martalóc a dobás ismeretében dönt a reakcióról, és beleáll (0 AP). A bőrvért Keménysége 2-t fog fel, 5 marad, ez a könnyű sebhatára (6) alatt van: Könnyű seb. A bőrvért Keménysége 1 lesz. Beleállás nélkül a 7 Mély seb lett volna.
-  - Sebdobás a Könnyű seb táblázatán: 1d8 (2) + 1 (az első Könnyű sebe) + 2 (a Rövidkard Könnyű mátrixa) = 5, Kizökkent egyensúly. A következő köre végéig nem térhet ki.
+  - Sebdobás a Könnyű seb táblázatán: 1d8 (2) + 1 (az első Könnyű sebe) + 2 (a Rövidkard Könnyű mátrixa) = 5, Kizökkent egyensúly. A következő pihentető alvásig nem térhet ki.
 - Újra támad (2 AP): 4 + 2 = 6.
   - A martalóc nem térhet ki, ezért ismét beleáll. A bőrvért 1-et fog fel, 5 marad: újabb Könnyű seb.
   - A Keménység 0-ra csökken, a bőrvért eltörik. A martalóc sebhatára ettől kezdve 4 és 9.
@@ -1611,22 +1611,20 @@ A sorrend: a martalóc (6), Vendel (8), Ilka (12).
 
 - A köre elején Színlelt harcmodort választ (0 AP).
 - Elmozdulással (2 AP) visszalép a közelharcba, és támad (2 AP): 3 + 3 = 6.
-  - A martalóc már kitérhet, mert a Kizökkent egyensúly az előző köre végén lejárt. Reflex mentődobás: 2 + 1 = 3, bukás. A 2 AP-t a 3. fordulóra mondott 10-ből fizeti.
+  - A martalóc a Kizökkent egyensúly miatt most sem térhet ki, és eltört páncélban nem állhat bele, ezért nem reagál.
   - Színlelt harcmodorban Vendel nem sebez. Mivel eltalálta a martalócot, rajta kívül mindenki előnnyel támadja a martalócot a saját következő köre végéig.
 - A maradék 2 AP-ről lemond, és 6-ot mond.
 
 *Ilka köre (11 AP).*
 
-- Előnnyel támad: a két d6 mellé dob egy harmadik d6-ot, amely bármelyiket helyettesítheti.
+- Előnnyel támad (3 AP): a két d6 mellé dob egy harmadik d6-ot, amely bármelyiket helyettesítheti.
   - A fegyverkockán 2, a jártasságkockán 5, a harmadikon 6 jön. A 2 helyére a 6 kerül, a támadás 11.
-- A martalóc kitér (2 AP; a 10-ből így csak 6 marad): 3 + 2 = 5, bukás.
-- A támadás a kitérés kétszeresét is eléri (11 ≥ 10), ez túlütés.
-  - A martalóc a találat Sebét elszenvedi: a 11 eléri a súlyos sebhatárát (9), ez Súlyos seb.
-  - Ezen felül még egy Súlyos sebet is.
-  - Ha nem reagált volna, a túlütéshez a két sebhatára összege (4 + 9 = 13) kellett volna, és csak egy Súlyos sebet kap.
-- Sebdobások a Súlyos seb táblázatán:
-  - 2 + 1 + 3 (a Hosszúkard Súlyos mátrixa) = 6, Átszúrt tüdő.
-  - 7 + 2 + 3 = 12, ami Súlyos sebnél halál.
+- A martalóc nem reagálhat: a Kizökkent egyensúly miatt nem térhet ki, eltört páncélban nem állhat bele.
+  - A 11 eléri a súlyos sebhatárát (9), ez Súlyos seb. Túlütéshez a két sebhatára összege (4 + 9 = 13) kellett volna.
+  - Sebdobás a Súlyos seb táblázatán: 2 + 1 + 3 (a Hosszúkard Súlyos mátrixa) = 6, Átszúrt tüdő.
+- Újra támad (3 AP), még mindig előnnyel: a fegyverkockán 3, a jártasságkockán 4, a harmadikon 6 jön. A 3 helyére a 6 kerül, a támadás 10.
+  - Ez is eléri a súlyos sebhatárát: újabb Súlyos seb.
+  - Sebdobás: 7 + 2 + 3 = 12, ami Súlyos sebnél halál.
 
 A martalóc holtan esik össze.
 
@@ -1755,11 +1753,11 @@ Mindig, amikor sebet szerzel, dobj a seb súlyosságának megfelelő táblázato
 | 2 | Karcolás: enyhe esztétikai sérülés. |
 | 3 | Horzsolás: enyhe esztétikai sérülés. |
 | 4 | Zúzódás: enyhe esztétikai sérülés. |
-| 5 | Kizökkent egyensúly: a következő köröd végéig nem hajthatsz végre Kitérést. |
-| 6 | Vér a szemben: a következő köröd végéig nem tehetsz távolsági támadást. |
-| 7 | Elzsibbadt kéz: a következő támadásod 1 AP-vel többe kerül. |
-| 8 | Elakadt lélegzet: a következő körödben 2 AP-vel kevesebbet költhetsz. |
-| 9 | Megrándult izom: a következő köröd végéig nem hajthatsz végre Rohamozást. |
+| 5 | Kizökkent egyensúly: a következő pihentető alvásig nem hajthatsz végre Kitérést. |
+| 6 | Vér a szemben: a következő pihentető alvásig nem tehetsz távolsági támadást. |
+| 7 | Elzsibbadt kéz: a következő pihentető alvásig minden támadásod 1 AP-vel többe kerül. |
+| 8 | Elakadt lélegzet: a következő pihentető alvásig minden körödben 2 AP-vel kevesebbet költhetsz. |
+| 9 | Megrándult izom: a következő pihentető alvásig nem hajthatsz végre Rohamozást. |
 | 10 | Megtántorodás: a földre kerülsz. |
 | 11 | Ütés a fejre: a következő köröd végéig nem reagálhatsz. |
 | 12+ | A seb Mély sebbé válik: dobj a Mély seb táblázatán. |
@@ -1781,11 +1779,11 @@ Mindig, amikor sebet szerzel, dobj a seb súlyosságának megfelelő táblázato
 | Súlyos seb | Hatás |
 |:--:|:--|
 | 2 | Vérző vágás: komoly esztétikai sérülés. |
-| 3 | Csonttörés. |
+| 3 | Csonttörés: egy hónapig az érintett végtagot igénylő támadásaidat és próbáidat hátránnyal teszed. |
 | 4 | Sokk: a következő köröd kimarad, de reagálhatsz. |
-| 5 | Kiszúrt szem: maradandó károsodás. |
-| 6 | Átszúrt tüdő: a gyógyulásig minden támadásodat és próbádat hátránnyal teszed. |
-| 7 | Csonkolás. |
+| 5 | Kiszúrt szem: a távolsági támadásaidat és a látást igénylő próbáidat végleg hátránnyal teszed. |
+| 6 | Átszúrt tüdő: egy hónapig minden támadásodat és próbádat hátránnyal teszed. |
+| 7 | Csonkolás: minden támadásodat és próbádat végleg hátránnyal teszed, pótolt végtaggal csak a végtagot igénylőket; ha 1d4 körön belül nem látják el, súlyos vérzés lesz belőle. |
 | 8 | Ájulás: a következő köröd végéig öntudatlan vagy. |
 | 9 | Súlyos vérzés. |
 | 10 | Belső vérzés. |

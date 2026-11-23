@@ -56,7 +56,8 @@ Keep replies short and in Hungarian. Put the proposal and the question at the en
   attribute's checks, one sense); Súlyos seb a broad one. V-07 is JAVÍTVA (2026-11-02). Durations (Zoz, 2026-11-23):
   a wound's effect lasts at least until the wound heals (Könnyű: one pihentető alvás, Mély: a week, Súlyos: a month),
   longer only where the row says so; every row states its own duration and never points to another rule; all three
-  tables (Mély rewritten; Könnyű and Súlyos pending, H-67).
+  tables are rewritten (H-67). Exceptions stay one-turn events: Sokk, Ájulás, Ütés a fejre; instant effects (prone,
+  disarmed) and the vérzés/Bénulás states keep their own rules. The duel sim still models one-turn Könnyű effects.
 - No negative examples in rules text (what something is not): they confuse the reader (H-68).
 - Core rules state rules, not situational GM advice: do not write into them what only happens in some cases or what a
   GM can deduce (e.g. rizikós próba under hátrány). Such notes may go into a later chapter for GMs.

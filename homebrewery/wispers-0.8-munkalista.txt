@@ -1970,8 +1970,16 @@ Megjegyzés: A V-22 szimulációja a mostani páros sorokat tartotta meg (2, 4,
   seb meg nem gyógyul (Mély: egy hét), hosszabb csak ott, ahol a sor kiírja; az
   időt minden sor maga mondja ki, másik szabályra nem utal; mindhárom táblára
   vonatkozik. Mély tábla átírva („egy hétig”; Kéztörés, Lábtörés, Elvesztett
-  ujj vagy fül önálló szöveggel), a harci példa Átszúrt izma is. A Könnyű és a
-  Súlyos tábla javaslatra vár.
+  ujj vagy fül önálló szöveggel), a harci példa Átszúrt izma is. Könnyű tábla:
+  Kizökkent egyensúly, Vér a szemben, Elzsibbadt kéz, Elakadt lélegzet és
+  Megrándult izom „a következő pihentető alvásig”. Súlyos tábla: Csonttörés és
+  Átszúrt tüdő „egy hónapig”, Kiszúrt szem és Csonkolás „végleg”, önálló
+  szöveggel. Kivétel (Zoz): a Sokk, az Ájulás és az Ütés a fejre környi esemény
+  marad; az azonnali hatások (földre kerülés, fegyvertelenség) és a saját
+  állapotszabállyal bíró vérzések és Bénulás nem változnak. A harci példa a
+  tartós Kizökkent egyensúlyhoz igazítva (a martalóc nem térhet ki, Ilka két
+  támadással végez vele). A szimuláció még a környi Könnyű hatásokkal számol:
+  a H-66-hoz újra kell futtatni.
   Kapcsolódik: D-2, V-22, H-66.
 
 ----------------------------------------------------------------
@@ -3210,3 +3218,4 @@ NAPLÓ – mi történt, mikor
 2026.11.23.  V-20 – Sújtás: „archonokhoz” → „Arkhónokhoz”.
 2026.11.23.  H-59 – új jellemzők: Fény és Tűz (a Sújtás miatt).
 2026.11.23.  H-67 – a Mély seb sorai „egy hétig”, önálló időtartammal.
+2026.11.23.  H-67 – a Könnyű és a Súlyos sorok is a seb gyógyulásáig tartanak (Sokk, Ájulás, Ütés a fejre kivétel).
