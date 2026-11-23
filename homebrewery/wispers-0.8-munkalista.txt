@@ -24,7 +24,7 @@ Jelölések: BLOKKOLÓ – enélkül nem játszható; ELLENTMONDÁS – két sza
 hivatkozik; KISEBB – szerkesztési hiba, elnevezés.
 
 ÖSSZESÍTŐ (frissítsd menet közben)
-  NYITOTT: 2   FOLYAMATBAN: 14   DÖNTÉSRE VÁR: 5   JAVÍTVA: 70   ELVETVE: 2
+  NYITOTT: 2   FOLYAMATBAN: 13   DÖNTÉSRE VÁR: 5   JAVÍTVA: 71   ELVETVE: 2
 
 
 ================================================================
@@ -487,16 +487,22 @@ Probléma: Három mondat maradt belőle: „Staminát vagy MP-t visszanyerhet”
   „csak abban az esetben történik Stamina veszteség”, „lenullázza a
   Stamináját”. A Stamina 2025.10.22-én váltotta az EP-t, 2026.01.18-ra kikerült.
 Teendő: D-2.
-Állapot: FOLYAMATBAN (2026.10.22.)
+Állapot: JAVÍTVA (2026.11.23.)
 Döntés: Nemesek vérvonala – a visszanyerés törlődik, a képesség hatásköre
   szűkül. Szívósság – a Stamina-mondat törlődik (a sebhatár kezeli).
   Szusztörő – később; a Kimerültséget ne lehessen ilyen könnyen halmozni.
 Javítás: wispers-0.8-javitott.txt
   – III. rész › 1. Fajok › Magmavérűek › Nemesek vérvonala: a második mondat
     törölve, csak a „jótékony hatással vannak” mondat maradt;
-  – II. rész › 6. › Mentődobások › Szívósság: a Stamina-mondat törölve.
+  – II. rész › 6. › Mentődobások › Szívósság: a Stamina-mondat törölve;
+  – III. rész › 8. Varázstárgyak › Szusztörő: „…lenullázza a Stamináját…”
+    → „Aki a robbanáson belül tartózkodik, annak elakad a lélegzete: a
+    következő körében 2 AP-vel kevesebbet költhet.”
 Megjegyzés: A Nemesek vérvonalának így most nincs gépi hatása, csak a
-  leírása; ha kap egy kisebb hatást, az később jön. Hátravan: Szusztörő.
+  leírása; ha kap egy kisebb hatást, az később jön.
+  Szusztörő (2026.11.23.): a Könnyű seb Elakadt lélegzet hatása,
+  mentődobás nélkül; a Sokk (H-67) elvetve, mert a „szusz” a lélegzethez
+  illik, és Kimerültséget sem ad.
 
 ----------------------------------------------------------------
 [H-14] MARADVÁNY – Magmavér: szegmens és számszerű sebzés
@@ -3168,3 +3174,4 @@ NAPLÓ – mi történt, mikor
 2026.11.22.  H-69 FOLYAMATBAN – a málhahelyek száma Erő + 6.
 2026.11.22.  H-69 JAVÍTVA – Málhahelyek szakasz: Erő + 6 hely, tárgyméretek.
 2026.11.23.  H-58 JAVÍTVA – gyógyulási ütem: Könnyű egy alvás, Mély egy hét, Súlyos egy hónap, ellátással.
+2026.11.23.  H-13 JAVÍTVA – Szusztörő: elakadt lélegzet, −2 AP a következő körben.

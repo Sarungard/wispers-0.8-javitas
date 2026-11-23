@@ -185,7 +185,8 @@ V-08 is JAVÍTVA (2026-11-09): Kimerültség affects próbadobások only. H-68 (
 suggestion is to tie it to the jártasság, not its die, so the Képzetlen próba counts too.
 
 The four remaining DÖNTÉSRE VÁR items (H-03, H-17, H-19, H-47) all wait on content: kasztok, the varázslat chapter, the
-Kegy rework. Open decisions: the D-1 bid cap or repeat cost (H-45, H-14, H-30), Sebgyógyítás (H-58), Szusztörő (H-13).
+Kegy rework. Open decisions: the D-1 bid cap or repeat cost (H-45, H-14, H-30). H-13 is JAVÍTVA (2026-11-23): the
+Szusztörő gives the Elakadt lélegzet effect (−2 AP next turn), no save; no Stamina is left in the text.
 `wispers-0.8-nyitott-tetelek.pdf` (2026-10-25, local only) lists every unfinished item.
 
 H-53 is FOLYAMATBAN: Fegyvert nem igénylő cselekvések stays a placeholder for now.

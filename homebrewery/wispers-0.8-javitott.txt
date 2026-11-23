@@ -3340,7 +3340,7 @@ Az éterlámpás egy olyan tárgy, ami képes összekötni a teret és időt ké
 
 #### Szusztörő
 
-Egy alkímiával előállított gránát, ami lenullázza a Stamináját a robbanáson belül tartózkodóknak.
+Egy alkímiával előállított gránát. Aki a robbanáson belül tartózkodik, annak elakad a lélegzete: a következő körében 2 AP-vel kevesebbet költhet.
 
 ##### Szerkesztési megjegyzés
 Az új struktúrában a karakteralkotási instrukciók az I. részben maradnak, a részletes választható anyagok a III. részbe kerülnek, a működési szabályok pedig a II. rész referenciakönyvébe. Ez egy szerkezeti átrendezés; nem végleges nyelvi szerkesztés.
