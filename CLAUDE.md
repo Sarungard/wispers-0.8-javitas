@@ -9,6 +9,16 @@ Item-by-item fix of the Wispers 0.8 rulebook (Hungarian TTRPG by Sorbán Zoltán
 - `homebrewery/wispers-0.8-javitott.txt`: the working text. All fixes go here.
 - `homebrewery/wispers-0.8.md`: the base text. Never edit it.
 - `wispers-DDD.txt`: draft of the DDD subsystem (Discipline, Devotion, Divinity).
+- `tools/layout/`: builds the Affinity Publisher layout of the working text: `python tools/layout/build.py` writes
+  `layout/wispers-0.8.idml` (local only; open it with File › Open). A4, two columns, Cambria + Monotype Corsiva as
+  in 0.7.0c, one text story per chapter, wide tables in a full-width story. Affinity ignores column-spanning
+  paragraphs and does not split tables, so the tool lays out the pages itself; its page counts come from a
+  simulation checked against Affinity (column tops drop space before; a chapter that spills under 5 % of a page
+  is cut one page shorter); after a text change, check chapter ends in Affinity (Preflight shows any overflow).
+  Affinity also fills table cells in file order (so cells are written row by row), ignores cell insets (the padding
+  is a paragraph indent) and keeps imported row heights (every row gets its computed height).
+  Status (2026-11-24): a test layout only; the text still needs work. Zoz prefers justified body text (keep the
+  „Alap” style LeftJustified). The final look needs a UX/style pass (skill) later.
 
 ## Workflow
 
