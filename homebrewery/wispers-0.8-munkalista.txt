@@ -8,7 +8,7 @@ Munkaszöveg:  homebrewery/wispers-0.8-javitott.txt – ebbe kerülnek a javít�
 Sorszámok:    H-01–H-61 azonos a wispers-0.7.0b-hibalista.pdf sorszámaival;
               a H-62-től kezdődő tételek menet közben kerültek be;
               a V-tételek a vak átnézésből (2026.10.26.) jönnek
-Frissítve:    2026.11.23.
+Frissítve:    2026.11.24.
 
 HOGYAN HASZNÁLJUK
 Sorban végigmegyünk a tételeken. Minden tételnél négy sort töltünk ki:
@@ -77,7 +77,7 @@ ALAPDÖNTÉSEK – ezeken sok tétel múlik
       szabály; a rizikós próba „pontértéke” is ezekből jött. Mi váltja ki
       őket: Seb, Kimerültség, Kegy, vagy egy visszahozott pontkészlet?
       Függ tőle: H-11, H-12, H-13, H-14, H-20, H-34, H-39, H-40, H-47, H-50, H-57.
-      Állapot: FOLYAMATBAN (2026.10.22.)
+      Állapot: JAVÍTVA (2026.11.24.)
       Döntés: Az MP-t, a Staminát és az EP-t a Seb és a Kimerültség váltja ki.
         A Sebnek három súlyossága lesz: Könnyű seb, Mély seb, Súlyos seb
         (új kifejezések, 2026.10.22.). A súlyosságot a sebhatár dönti el
@@ -116,6 +116,12 @@ ALAPDÖNTÉSEK – ezeken sok tétel múlik
       Hiányzik még: a Kimerültség definíciója (H-34), a függő tételek
         átírása egyenként, a páncél keménysége a páncéltáblában (ott
         Védőérték az oszlop neve, H-32).
+      Lezárva (2026.11.24.): a H-34 és a H-32 JAVÍTVA (a páncéltáblában van
+        Keménység oszlop); a függő tételek közül csak a H-47 (Kegy) nyitott,
+        az külön tételként halad; az MP, az EP és a Stamina sehol nem
+        szerepel a munkaszövegben. A Sebdobás utáni szerkesztői megjegyzés
+        („a három táblázat tartalma javaslat … átdolgozásra vár (D-2)”)
+        törölve, mert a táblákat a H-67 átdolgozta.
 
 [D-3] Tulajdonságskála
       1. szinten szinte minden tulajdonságkocka d4, és nincs növekedési szabály.
@@ -2785,7 +2791,7 @@ Döntés: {R}: a jelölést semmi nem használja (saját reakciólista van), a
   „Szegmensek” → „Kör és forduló”, és kiegészül: egy szegmens alatt egy
   akciópont költhető el. Vérzés: már csak „kör”, nincs teendő.
   Varázserő: a jártasság mágiaosztályonként jár (a 0.8 szöveg nyolc
-  mágiaosztályt sorol fel, a H-55 hetet említ: tisztázandó), a
+  mágiaosztályt sorol fel; a H-55 hete a hiányzó hét leírás), a
   varázslatokat külön tanulod (H-62, varázslattanulás).
   Jártasságok listája: „Tulajdonságpróbákra készségek és eszközök
   használatával” → „Képzettségpróbákra,”. Az eszközök (tool, kit) csak
@@ -3219,3 +3225,5 @@ NAPLÓ – mi történt, mikor
 2026.11.23.  H-59 – új jellemzők: Fény és Tűz (a Sújtás miatt).
 2026.11.23.  H-67 – a Mély seb sorai „egy hétig”, önálló időtartammal.
 2026.11.23.  H-67 – a Könnyű és a Súlyos sorok is a seb gyógyulásáig tartanak (Sokk, Ájulás, Ütés a fejre kivétel).
+2026.11.24.  D-2 JAVÍTVA – minden hiányzó pont kész; a Sebdobás utáni elavult szerkesztői megjegyzés törölve.
+2026.11.24.  V-20 – javítva a jegyzet: a H-55 „hét” leírása a nyolc mágiaosztályból hiányzó hét leírás, nincs ellentmondás.

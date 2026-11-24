@@ -136,7 +136,10 @@ Keep replies short and in Hungarian. Put the proposal and the question at the en
 - Mágia (V-18, JAVÍTVA 2026-11-21): erőltetés while casting keeps its Kimerültség. Mentődobás varázslat ellen {1AP}:
   on your own turn while the effect lasts, célérték the Varázserő. Components wait for the Varázslatok chapter.
   Varázserő uses the jártasság of the spell's Mágiaosztály, spells are learned separately (V-20). The 0.8 text lists
-  eight mágiaosztályok (Misztika … Rúnamágia), while H-55 speaks of seven: open question for Zoz.
+  eight mágiaosztályok (Misztika … Rúnamágia), so eight jártasságok; Misztika has its description, the other seven
+  wait for Zoz (H-55's „seven”, no conflict).
+- D-2 (erőforrás-modell) is JAVÍTVA (2026-11-24): Seb and Kimerültség replaced MP, Stamina and EP; none of them is
+  left in the text. The worklist ÖSSZESÍTŐ counts H- and V-items only, not the D-items.
 - Combat time (V-20): the heading is „Kör és forduló”; the combat „szegmens” stays (1 AP, about 3 s), beside the
   travel szegmens.
 - Eszközök (tools, kits) are planned but not in the rules yet (V-20); Zoz wants no pool bloat, so no growing list of
