@@ -138,6 +138,8 @@ Keep replies short and in Hungarian. Put the proposal and the question at the en
   Varázserő uses the jártasság of the spell's Mágiaosztály, spells are learned separately (V-20). The 0.8 text lists
   eight mágiaosztályok (Misztika … Rúnamágia), so eight jártasságok; Misztika has its description, the other seven
   wait for Zoz (H-55's „seven”, no conflict).
+- Égisz tiers (H-05, Zoz 2026-11-24): „Alacsony égisz” stays, the pair of „Magas égisz”; the vault's „Kisebb Égisz”
+  differs (⚠ DIVERGENCIA, RTFC/DIVERGENCIA.md); Zoz changes the vault himself.
 - D-2 (erőforrás-modell) is JAVÍTVA (2026-11-24): Seb and Kimerültség replaced MP, Stamina and EP; none of them is
   left in the text. The worklist ÖSSZESÍTŐ counts H- and V-items only, not the D-items.
 - Combat time (V-20): the heading is „Kör és forduló”; the combat „szegmens” stays (1 AP, about 3 s), beside the

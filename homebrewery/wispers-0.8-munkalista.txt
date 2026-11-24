@@ -261,6 +261,9 @@ Döntés: A játékos egyet választ a háromból:
   Az égiszhez a DDD alrendszer (Discipline, Devotion, Divinity) jár (H-63).
   Pontosítva (H-63, 2026.10.24.): a DDD csak a Suttogó égiszhez tartozik,
   az alacsony és a magas égisz ennél egyszerűbb.
+  Fokozatnév (2026.11.24.): az „Alacsony égisz” marad, a „Magas égisz”
+  párjaként; a szöveg nem változik. A vault (Suttogók/Égisz/Égiszek.md)
+  „Kisebb Égisz”-t ír: ⚠ DIVERGENCIA, a vaultot Zoz igazítja.
 Javítás: wispers-0.8-javitott.txt › I. rész › II. fejezet › Előtörténet és
   személyiség kialakítása › Égisz: a választás szabálya, a három lehetőség,
   utalás a DDD-re és szerkesztői megjegyzés a hiányzó tartalomról. A „skill
@@ -3227,3 +3230,4 @@ NAPLÓ – mi történt, mikor
 2026.11.23.  H-67 – a Könnyű és a Súlyos sorok is a seb gyógyulásáig tartanak (Sokk, Ájulás, Ütés a fejre kivétel).
 2026.11.24.  D-2 JAVÍTVA – minden hiányzó pont kész; a Sebdobás utáni elavult szerkesztői megjegyzés törölve.
 2026.11.24.  V-20 – javítva a jegyzet: a H-55 „hét” leírása a nyolc mágiaosztályból hiányzó hét leírás, nincs ellentmondás.
+2026.11.24.  H-05 – fokozatnév: az „Alacsony égisz” marad (a vault „Kisebb Égisz”-e eltér, a vaultot Zoz igazítja).
